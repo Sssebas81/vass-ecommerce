@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function HeroPage() {
+function HeroPage() {
   const [image, setImage] = useState("https://source.unsplash.com/600x400/?technology,website");
 
   const changeImage = () => {
@@ -60,3 +60,5 @@ export default function HeroPage() {
     </div>
   );
 }
+
+export default HeroPage
