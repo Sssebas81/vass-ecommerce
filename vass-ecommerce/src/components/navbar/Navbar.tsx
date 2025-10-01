@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="text-2xl font-bold">MyApp</div>
-
+            <h1>lo dañe</h1>
           {/* Links (desktop) */}
           <div className="hidden md:flex space-x-6">
             <a href="#" className="hover:text-gray-400">Home</a>
