@@ -2,21 +2,51 @@ import React from "react";
 
 function Categories() { 
 
-    return(
-        <div style={{
-            display:"flex",
-            justifyContent:"center",
-            alignItems:"center",
-            flexDirection:"column",
-            fontSize:"30px",
-            marginTop:"50px",
-        }}>
-            <h2> <b>Explore By Category</b></h2>
-            <h2 style={{
-                fontSize:"20px"
-            }}>Find what you need for your space</h2>
+     const categories = [
+    {
+      id: 1,
+      image: "/img/GamingMouse.jpg",
+      alt: "Gaming mouse",
+    },
+    {
+      id: 2,
+      image: "/img/Setup.jpg",
+      alt: "RGB setup",
+    },
+    {
+      id: 3,
+      image: "/img/PS5Futu.jpg",
+      alt: "PlayStation console",
+    },
+  ];
+      return (
+    <section className="bg-gray-50 py-16">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
+         Explore By Category
+        </h2>
+        <br />
+        <h2 className="text-3xl text-gray-900 mb-10 text-center">
+        Find what you need for your space
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {categories.map((product) => (
+            <div
+              key={product.id}
+              className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 bg-white"
+            >
+              <img
+                src={product.image}
+                alt={product.alt}
+                className="w-full h-120 object-cover"
+              />
+            </div>
+          ))}
         </div>
-    )
+      </div>
+    </section>
+  );
 }
 
 export default Categories;
