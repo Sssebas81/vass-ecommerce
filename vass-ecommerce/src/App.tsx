@@ -1,10 +1,12 @@
-import HeroPage from "./components/hero/hero";
+import Categories from "./components/categories/Categories";
+import Heropage from "./components/hero/Heropage";
 import Navbar from "./components/navbar/Navbar";
 function App() {
   return (
     <div>
       <Navbar />
-      <HeroPage></HeroPage>
+      <Heropage/>
+      <Categories/>
     </div>
   );
 }
