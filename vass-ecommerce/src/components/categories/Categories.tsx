@@ -1,5 +1,5 @@
 import React, { use } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Categories() {
   
@@ -38,11 +38,15 @@ function Categories() {
           {categories.map((product) => (
             <div key={product.id} >
               <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1">
-                <img
+                
+                <NavLink to ="/Categories">
+                  <img
                   src={product.image}
                   alt={product.alt}
                   className="w-full h-120 object-cover"
                 />
+                </NavLink>
+
               </div>
               <h3 className="mt-4 text-lg font-semibold text-gray-900">
                 {product.title}

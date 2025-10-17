@@ -30,6 +30,9 @@ path : '/',
 },{
   path:"/Blog",
   element:<h2>Blog Page</h2> 
+},{
+  path:"/Categories",
+  element:<h2>Categories Page</h2> 
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
