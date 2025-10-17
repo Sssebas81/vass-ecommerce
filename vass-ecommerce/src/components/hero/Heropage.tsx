@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Heropage() {
   return (
@@ -22,10 +23,10 @@ function Heropage() {
           backlighting. Explore the next generation of gaming experience with
           precision and comfort.
         </p>
-
-        <button className="bg-white text-black font-bold px-10 py-4 rounded-md hover:bg-gray-200 transition">
+      <NavLink to="/Shop"><button className="bg-white text-black font-bold px-10 py-4 rounded-md hover:bg-gray-200 transition">
           BUY NOW
-        </button>
+        </button></NavLink>
+  
       </div>
     </div>
   );
