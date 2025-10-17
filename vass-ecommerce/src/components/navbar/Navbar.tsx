@@ -18,8 +18,13 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-8 font-medium text-gray-700">
             <a href="#" className="hover:text-black">Home</a>
             <Link to="/Shop">Shop</Link>
-            <a href="#" className="hover:text-black">Blog</a>
-            <a href="#" className="hover:text-black">Contact</a>
+            <NavLink to="/Blog">
+              <a href="#" className="hover:text-black">Blog</a>
+              </NavLink>
+              <NavLink to="/Contact">
+                <a href="#" className="hover:text-black">Contact</a>
+              </NavLink>
+            
           </div>
 
          {/* Icons (desktop) */}
