@@ -1,4 +1,4 @@
-import {motion}from "framer-motion";
+import {motion} from "framer-motion";
 
 const setups = [
   { id: 1, src: "/img/Collage1.jpg", ratio: "aspect-[3/4]" },

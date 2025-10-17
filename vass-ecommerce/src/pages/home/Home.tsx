@@ -1,4 +1,5 @@
 import Categories from "../../components/categories/Categories";
+import Collage from "../../components/collagesection/CollageSection";
 import Footer from "../../components/footer/Footer";
 import Heropage from "../../components/hero/Heropage";
 import Navbar from "../../components/navbar/Navbar";
@@ -13,6 +14,7 @@ function Home() {
       <Categories/>
       <OurProducts/>
       <SetupIdeas/>
+      <Collage />
       <Footer/>
     </div>
   );
