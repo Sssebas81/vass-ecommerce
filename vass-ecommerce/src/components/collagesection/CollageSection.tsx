@@ -12,3 +12,5 @@ const setups = [
   { id: 9, src: "/img/Collage9.jpg", ratio: "aspect-[3/4]" },
 ];
 
+
+

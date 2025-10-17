@@ -1,5 +1,3 @@
-import React from "react";
-
 function OurProducts() {
   const products = [
     {
@@ -36,7 +34,7 @@ function OurProducts() {
       price: "309.900 COP",
       oldPrice: "",
       discount: "",
-      image: "/img/ControlSwitch.png",
+      image: "/img/ControlNintendo.png",
     },
     {
       id: 5,
@@ -126,7 +124,7 @@ function OurProducts() {
 
         {/* Botón See More */}
         <div className="flex justify-center mt-12">
-          <button className="border border-gray-800 px-6 py-2 rounded-md text-gray-800 hover:bg-gray-800 hover:text-white transition-all">
+          <button className="border border-black px-6 py-2 rounded-md text-black hover:bg-black hover:text-white transition-all">
             See more
           </button>
         </div>
