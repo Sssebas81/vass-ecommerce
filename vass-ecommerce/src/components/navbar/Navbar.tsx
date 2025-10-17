@@ -69,9 +69,14 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white px-6 pb-4 space-y-3 font-medium text-gray-700">
           <a href="#" className="block hover:text-black">Home</a>
-          <a href="#" className="block hover:text-black">Shop</a>
+          <NavLink to="/Shop">
+            <a href="#" className="block hover:text-black">Shop</a>
+            </NavLink>
           <a href="#" className="block hover:text-black">Blog</a>
-          <a href="#" className="block hover:text-black">Contact</a>
+          
+          <NavLink to="/Contact">
+            <a href="#" className="block hover:text-black">Contact</a>
+            </NavLink>
 
           {/* Mobile icons */}
           <div className="flex space-x-6 pt-4 border-t border-gray-200">

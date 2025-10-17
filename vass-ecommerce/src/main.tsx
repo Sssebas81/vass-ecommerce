@@ -23,6 +23,9 @@ path : '/',
 },{
   path:"/Cart",
   element:<h2>Cart Page</h2>
+},{
+  path:"/Contact",
+  element:<h2>Contact Page</h2>
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
