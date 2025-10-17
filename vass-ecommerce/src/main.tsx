@@ -8,9 +8,12 @@ const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>
 
+},{
+  path:"/Categories",
+  element:<h2>Categories Page</h2>
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <RouterProvider router={Routes} />
-  </StrictMode>,
+  </StrictMode>
 )

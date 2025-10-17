@@ -1,6 +1,11 @@
-import React from "react";
+import React, { use } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Categories() {
+  const navegate=useNavigate()
+  function handleClick(){
+    navegate("/Categories")
+    }
   const categories = [
     {
       id: 1,
@@ -34,7 +39,7 @@ function Categories() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
           {categories.map((product) => (
-            <div key={product.id}>
+            <div key={product.id} onClick={()=>handleClick()}>
               <div className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1">
                 <img
                   src={product.image}

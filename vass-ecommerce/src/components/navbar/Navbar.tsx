@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
           {/* Links (desktop) */}
           <div className="hidden md:flex space-x-8 font-medium text-gray-700">
             <a href="#" className="hover:text-black">Home</a>
-            <a href="#" className="hover:text-black">Shop</a>
+            <Link to="/Shop">Shop</Link>
             <a href="#" className="hover:text-black">Blog</a>
             <a href="#" className="hover:text-black">Contact</a>
           </div>
@@ -26,7 +27,9 @@ const Navbar = () => {
             <img src="/img/Lupa.svg" alt="Search" className="w-6 h-6 cursor-pointer" />
             <img src="/img/Corazon.png" alt="Heart" className="w-6 h-6 cursor-pointer" />
             <img src="/img/Carrito.png" alt="Cart" className="w-6 h-6 cursor-pointer" />
-            <img src="/img/Persona.svg" alt="User" className="w-6 h-6 cursor-pointer" />
+            <NavLink to="/Profile">
+              <img src="/img/Persona.svg" alt="User" className="w-6 h-6 cursor-pointer" />
+            </NavLink>
           </div>
 
           {/* Mobile Menu Button */}
