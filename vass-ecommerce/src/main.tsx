@@ -11,6 +11,12 @@ path : '/',
 },{
   path:"/Categories",
   element:<h2>Categories Page</h2>
+},{
+  path:"/Shop",
+  element:<h2>Shop Page</h2>
+},{
+  path:"/Profile",
+  element:<h2>Profile Page</h2>
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
