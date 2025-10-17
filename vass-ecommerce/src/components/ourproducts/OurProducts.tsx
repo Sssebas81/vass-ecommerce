@@ -36,7 +36,7 @@ function OurProducts() {
       price: "309.900 COP",
       oldPrice: "",
       discount: "",
-      image: "/img/ControlSwitch.png",
+      image: "/img/ControlNintendo.png",
     },
     {
       id: 5,
