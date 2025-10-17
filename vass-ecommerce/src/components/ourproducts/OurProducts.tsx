@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import products from "../../data/product.json"
 function OurProducts() {
   
@@ -52,9 +53,10 @@ function OurProducts() {
 
         {/* Botón See More */}
         <div className="flex justify-center mt-12">
-          <button className="border border-black px-6 py-2 rounded-md text-black hover:bg-black hover:text-white transition-all">
+        <NavLink to="/Shop"><button className="border border-black px-6 py-2 rounded-md text-black hover:bg-black hover:text-white transition-all">
             See more
-          </button>
+          </button></NavLink>
+
         </div>
       </div>
     </section>

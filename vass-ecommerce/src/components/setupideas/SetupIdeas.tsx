@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const images = [
   "/img/Setup1.jpg",
@@ -26,9 +27,10 @@ function SetupIdeas() {
           <p className="text-gray-300 mb-6">
             Explore combinations of products and styles to customize your setup.
           </p>
-          <button className="bg-white text-black px-6 py-2 rounded-md font-medium hover:bg-gray-200 transition">
+          <NavLink to="/Blog"><button className="bg-white text-black px-6 py-2 rounded-md font-medium hover:bg-gray-200 transition">
             See more
-          </button>
+          </button></NavLink>
+  
         </div>
 
         {/* RIGHT CAROUSEL CON SOLO FLECHA A LA DERECHA */}
