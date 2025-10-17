@@ -3,6 +3,7 @@ import Heropage from "./components/hero/Heropage";
 import Navbar from "./components/navbar/Navbar";
 import OurProducts from "./components/ourproducts/OurProducts";
 import SetupIdeas from "./components/setupideas/SetupIdeas";
+import CollageSection from "./components/collagesection/CollageSection";
 import Footer from "./components/footer/Footer";
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Categories/>
       <OurProducts/>
       <SetupIdeas/>
+      <CollageSection/>
       <Footer/>
     </div>
   );
