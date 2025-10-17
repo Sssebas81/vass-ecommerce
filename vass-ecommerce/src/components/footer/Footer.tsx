@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="bg-white border-t border-gray-200">
@@ -5,7 +7,7 @@ function Footer() {
         {/* Columna 1: Logo e información */}
         <div>
           <img
-            src="/img/LogoVass.svg" 
+            src="/img/LogoVass.svg"
             alt="VASS Logo"
             className="w-28 mb-3"
           />
@@ -20,10 +22,19 @@ function Footer() {
             Links
           </h3>
           <ul className="space-y-2 text-gray-800 text-sm">
+
             <li className="hover:text-gray-600 cursor-pointer">Home</li>
-            <li className="hover:text-gray-600 cursor-pointer">Shop</li>
-            <li className="hover:text-gray-600 cursor-pointer">About</li>
+            <NavLink to="/Shop">
+              <li className="hover:text-gray-600 cursor-pointer">Shop</li>
+            </NavLink>
+            <NavLink to ="/Blog">
+              <li className="hover:text-gray-600 cursor-pointer">Blog</li>
+            </NavLink>
+
+            <NavLink to="/Contact">
             <li className="hover:text-gray-600 cursor-pointer">Contact</li>
+
+            </NavLink>
           </ul>
         </div>
 
