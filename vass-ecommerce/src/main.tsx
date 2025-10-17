@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.tsx'
+import { h2 } from 'framer-motion/client'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>
@@ -26,6 +27,9 @@ path : '/',
 },{
   path:"/Contact",
   element:<h2>Contact Page</h2>
+},{
+  path:"/Blog",
+  element:<h2>Blog Page</h2> 
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
