@@ -17,6 +17,12 @@ path : '/',
 },{
   path:"/Profile",
   element:<h2>Profile Page</h2>
+},{
+  path:"/Favorites",
+  element:<h2>Favorites Page</h2>
+},{
+  path:"/Cart",
+  element:<h2>Cart Page</h2>
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
