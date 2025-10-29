@@ -13,7 +13,7 @@ function OurProducts() {
 
           {/* ---------- PRODUCTO 1 ---------- */}
           <NavLink to="/Product1">
-            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all hover:scale-105 duration-300">
+            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all">
               <span className="absolute top-2 right-2 bg-red-500 text-white text-sm font-semibold px-2 py-1 rounded-full">
                 -30%
               </span>
@@ -35,7 +35,7 @@ function OurProducts() {
 
           {/* ---------- PRODUCTO 2 ---------- */}
           <NavLink to="/Product2">
-            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all hover:scale-105 duration-300">
+            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all">
               <img
                 src="/img/Logitech1.png"
                 alt="Logitech K380 Pebble"
@@ -51,7 +51,7 @@ function OurProducts() {
 
           {/* ---------- PRODUCTO 3 ---------- */}
           <NavLink to="/Product3">
-            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all hover:scale-105 duration-300">
+            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all">
               <img
                 src="/img/ControlXbox.png"
                 alt="Xbox Controller Carbon Black"
@@ -67,7 +67,7 @@ function OurProducts() {
 
           {/* ---------- PRODUCTO 4 ---------- */}
           <NavLink to="/Product4">
-            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all hover:scale-105 duration-300">
+            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all">
               <img
                 src="/img/ControlNintendo.png"
                 alt="Pro Controller original"
@@ -83,7 +83,7 @@ function OurProducts() {
 
           {/* ---------- PRODUCTO 5 ---------- */}
           <NavLink to="/Product5">
-            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all hover:scale-105 duration-300">
+            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all">
               <img
                 src="/img/AudifonosJBL.png"
                 alt="JBL Headphones TUNE500"
@@ -99,7 +99,7 @@ function OurProducts() {
 
           {/* ---------- PRODUCTO 6 ---------- */}
           <NavLink to="/Product6">
-            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all hover:scale-105 duration-300">
+            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all">
               <span className="absolute top-2 right-2 bg-red-500 text-white text-sm font-semibold px-2 py-1 rounded-full">
                 -50%
               </span>
@@ -121,7 +121,7 @@ function OurProducts() {
 
           {/* ---------- PRODUCTO 7 ---------- */}
           <NavLink to="/Product7">
-            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all hover:scale-105 duration-300">
+            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all">
               <img
                 src="/img/NintendoSwitch2.png"
                 alt="Nintendo Switch 2"
@@ -137,7 +137,7 @@ function OurProducts() {
 
           {/* ---------- PRODUCTO 8 ---------- */}
           <NavLink to="/Product8">
-            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all hover:scale-105 duration-300">
+            <div className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all">
               <img
                 src="/img/GTA5.png"
                 alt="Grand Theft Auto V"
