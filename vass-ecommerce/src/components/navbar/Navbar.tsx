@@ -21,14 +21,17 @@ const Navbar = () => {
             <a href="#" className="hover:text-black">Home</a>
             </NavLink>
 
-            <Link to="/Shop">Shop</Link>
+            <NavLink to="/Shop">
+            <a href="#" className="hover:text-black">Shop</a>
+            </NavLink>
 
             <NavLink to="/Blog">
               <a href="#" className="hover:text-black">Blog</a>
               </NavLink>
-              <NavLink to="/Contact">
+
+            <NavLink to="/Contact">
                 <a href="#" className="hover:text-black">Contact</a>
-              </NavLink>
+            </NavLink>
             
           </div>
 
