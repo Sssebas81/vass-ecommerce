@@ -16,8 +16,13 @@ const Navbar = () => {
 
           {/* Links (desktop) */}
           <div className="hidden md:flex space-x-8 font-medium text-gray-700">
+
+            <NavLink to="/">
             <a href="#" className="hover:text-black">Home</a>
+            </NavLink>
+
             <Link to="/Shop">Shop</Link>
+
             <NavLink to="/Blog">
               <a href="#" className="hover:text-black">Blog</a>
               </NavLink>
