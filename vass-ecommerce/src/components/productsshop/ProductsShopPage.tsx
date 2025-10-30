@@ -59,7 +59,7 @@ function AllProducts() {
           {/* Product 5 */}
           <NavLink to="/product5">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/corsair.jpg" alt="Corsair" className="w-full h-56 object-contain p-4" />
+              <img src="/img/CorsairTeclado.png" alt="Corsair" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Corsair</h3>
                 <p className="text-sm text-gray-500">Teclado mecánico K60 RGB</p>
@@ -71,7 +71,7 @@ function AllProducts() {
           {/* Product 6 */}
           <NavLink to="/product6">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/xbox-headset.jpg" alt="Microsoft" className="w-full h-56 object-contain p-4" />
+              <img src="/img/AudifonosXbox.jpg" alt="Microsoft" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Microsoft</h3>
                 <p className="text-sm text-gray-500">Headset Xbox Stereo</p>
@@ -83,7 +83,7 @@ function AllProducts() {
           {/* Product 7 */}
           <NavLink to="/product7">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/gt7.jpg" alt="PlayStation" className="w-full h-56 object-contain p-4" />
+              <img src="/img/GT7.png" alt="PlayStation" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">PlayStation</h3>
                 <p className="text-sm text-gray-500">Gran Turismo 7 PS5</p>
@@ -95,7 +95,7 @@ function AllProducts() {
           {/* Product 8 */}
           <NavLink to="/product8">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/nintendo-case.jpg" alt="Nintendo" className="w-full h-56 object-contain p-4" />
+              <img src="/img/NintendoFunda.png" alt="Nintendo" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Nintendo</h3>
                 <p className="text-sm text-gray-500">Funda rígida para Switch</p>
@@ -107,7 +107,7 @@ function AllProducts() {
           {/* Product 9 */}
           <NavLink to="/product9">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/seagate.jpg" alt="Seagate" className="w-full h-56 object-contain p-4" />
+              <img src="/img/SeagateDD.png" alt="Seagate" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Seagate</h3>
                 <p className="text-sm text-gray-500">Disco duro externo 2TB</p>
@@ -119,7 +119,7 @@ function AllProducts() {
           {/* Product 10 */}
           <NavLink to="/product10">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/hyperx-mic.jpg" alt="HyperX Mic" className="w-full h-56 object-contain p-4" />
+              <img src="/img/HyperxQuadcast.png" alt="HyperX Mic" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">HyperX</h3>
                 <p className="text-sm text-gray-500">Micrófono QuadCast S</p>
@@ -131,7 +131,7 @@ function AllProducts() {
           {/* Product 11 */}
           <NavLink to="/product11">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/hp-printer.jpg" alt="HP Impresora" className="w-full h-56 object-contain p-4" />
+              <img src="/img/hpImpresora.png" alt="HP Impresora" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">HP</h3>
                 <p className="text-sm text-gray-500">Impresora DeskJet 2775</p>
@@ -143,7 +143,7 @@ function AllProducts() {
           {/* Product 12 */}
           <NavLink to="/product12">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/steelseries.jpg" alt="SteelSeries" className="w-full h-56 object-contain p-4" />
+              <img src="/img/MousePadSS.png" alt="SteelSeries" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">SteelSeries</h3>
                 <p className="text-sm text-gray-500">Mousepad Qck+</p>
@@ -155,7 +155,7 @@ function AllProducts() {
           {/* Product 13 */}
           <NavLink to="/product13">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/spiderman2.jpg" alt="PlayStation" className="w-full h-56 object-contain p-4" />
+              <img src="/img/Spiderman2.png" alt="PlayStation" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">PlayStation</h3>
                 <p className="text-sm text-gray-500">Spider-Man 2 PS5</p>
@@ -167,7 +167,7 @@ function AllProducts() {
           {/* Product 14 */}
           <NavLink to="/product14">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/samsung-ssd.jpg" alt="Samsung SSD" className="w-full h-56 object-contain p-4" />
+              <img src="/img/SamsungSSD.png" alt="Samsung SSD" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Samsung</h3>
                 <p className="text-sm text-gray-500">SSD portátil T7 500GB</p>
@@ -179,7 +179,7 @@ function AllProducts() {
           {/* Product 15 */}
           <NavLink to="/product15">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/canon-scanner.jpg" alt="Canon" className="w-full h-56 object-contain p-4" />
+              <img src="/img/ScanerCanon.jpg" alt="Canon" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Canon</h3>
                 <p className="text-sm text-gray-500">Escáner Lide 300</p>
@@ -191,7 +191,7 @@ function AllProducts() {
           {/* Product 16 */}
           <NavLink to="/product16">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-md transition-all cursor-pointer">
-              <img src="/img/nintendo-classic.jpg" alt="Nintendo Classic" className="w-full h-56 object-contain p-4" />
+              <img src="/img/SuperNes.png" alt="Nintendo Classic" className="w-full h-56 object-contain p-4" />
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Nintendo</h3>
                 <p className="text-sm text-gray-500">Super NES Classic Edition</p>
