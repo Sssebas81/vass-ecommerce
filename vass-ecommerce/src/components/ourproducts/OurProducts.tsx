@@ -1,83 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import products from "../../data/product.json"
 function OurProducts() {
   const navigate = useNavigate()
-  const products = [
-    {
-      id: 1,
-      brand: "Nintendo",
-      name: "Super Smash Bros",
-      price: "138.538 COP",
-      oldPrice: "197.900 COP",
-      discount: "-30%",
-      image: "/img/smashbros.jpg",
-    },
-    {
-      id: 2,
-      brand: "Logitech",
-      name: "K380 Pebble",
-      price: "189.900 COP",
-      oldPrice: "",
-      discount: "",
-      image: "/img/Logitech1.png",
-    },
-    {
-      id: 3,
-      brand: "Xbox",
-      name: "Inalámbrico Carbon Black",
-      price: "279.900 COP",
-      oldPrice: "",
-      discount: "",
-      image: "/img/ControlXbox.png",
-    },
-    {
-      id: 4,
-      brand: "Nintendo",
-      name: "Pro Controller original",
-      price: "309.900 COP",
-      oldPrice: "",
-      discount: "",
-      image: "/img/ControlSwitch.png",
-    },
-    {
-      id: 5,
-      brand: "JBL",
-      name: "TUNE500",
-      price: "120.400 COP",
-      oldPrice: "",
-      discount: "",
-      image: "/img/AudifonosJBL.png",
-    },
-    {
-      id: 6,
-      brand: "Nintendo",
-      name: "Nintendo Switch 2",
-      price: "2.859.900 COP",
-      oldPrice: "",
-      discount: "",
-      image: "/img/NintendoSwitch2.png",
-    },
-    {
-      id: 7,
-      brand: "Sony",
-      name: "PlayStation 5",
-      price: "1.749.950 COP",
-      oldPrice: "3.799.900 COP",
-      discount: "-50%",
-      image: "/img/Play5Products.png",
-    },
-    {
-      id: 8,
-      brand: "Rockstar Games",
-      name: "Grand Theft Auto V",
-      price: "140.406 COP",
-      oldPrice: "",
-      discount: "",
-      image: "/img/GTA5.png",
-    },
-  ];
-
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
@@ -102,7 +27,7 @@ function OurProducts() {
 
               {/* Imagen */}
               <img
-                src={product.image}
+                src={product.images[0]}
                 alt={product.name}
                 className="w-full h-56 object-contain p-4"
               />

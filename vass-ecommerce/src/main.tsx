@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.tsx'
-import ShopPage from './pages/ShopPage.tsx'
+import ShopPage from './pages/home/ShopPage.tsx'
+import DetailProduct from './pages/home/DetailProduct.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>
@@ -40,7 +41,7 @@ path : '/',
   element:<h2>Gaming Page</h2> 
 },{
   path:"/Product/:id",
-  element:<h2>Product Page</h2> 
+  element:<DetailProduct />
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

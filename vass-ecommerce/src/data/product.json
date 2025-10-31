@@ -1,74 +1,149 @@
 [
-    {
-      "id": 1,
-      "brand": "Nintendo",
-      "name": "Super Smash Bros",
-      "price": "138.538 COP",
-      "oldPrice": "197.900 COP",
-      "discount": "-30%",
-      "image": "/img/smashbros.jpg"
-    },
-    {
-      "id": 2,
-      "brand": "Logitech",
-      "name": "K380 Pebble",
-      "price": "189.900 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/Logitech1.png"
-    },
-    {
-      "id": 3,
-      "brand": "Xbox",
-      "name": "Inalámbrico Carbon Black",
-      "price": "279.900 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/ControlXbox.png"
-    },
-    {
-      "id": 4,
-      "brand": "Nintendo",
-      "name": "Pro Controller original",
-      "price": "309.900 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/ControlNintendo.png"
-    },
-    {
-      "id": 5,
-      "brand": "JBL",
-      "name": "TUNE500",
-      "price": "120.400 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/AudifonosJBL.png"
-    },
-    {
-      "id": 6,
-      "brand": "Nintendo",
-      "name": "Nintendo Switch 2",
-      "price": "2.859.900 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/NintendoSwitch2.png"
-    },
-    {
-      "id": 7,
-      "brand": "Sony",
-      "name": "PlayStation 5",
-      "price": "1.749.950 COP",
-      "oldPrice": "3.799.900 COP",
-      "discount": "-50%",
-      "image": "/img/Play5Products.png"
-    },
-    {
-      "id": 8,
-      "brand": "Rockstar Games",
-      "name": "Grand Theft Auto V",
-      "price": "140.406 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/GTA5.png"
-    }
-  ]
+  {
+    "id": 1,
+    "brand": "Nintendo",
+    "name": "Super Smash Bros",
+    "price": "138.538 COP",
+    "oldPrice": "197.900 COP",
+    "discount": "-30%",
+    "description": "Únete a la batalla definitiva con todos tus personajes favoritos de Nintendo en intensos combates multijugador. Compatible con Nintendo Switch.",
+    "sku": "NTD-SSB-001",
+    "category": "Games",
+    "tags": ["Nintendo", "Super Smash Bros", "Fighting"],
+    "colors": ["red", "blue", "yellow"],
+    "images": [
+      "/img/smashbros.jpg",
+      "/img/smashbros2.jpg",
+      "/img/smashbros3.jpg",
+      "/img/smashbros4.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Logitech",
+    "name": "K380 Pebble",
+    "price": "189.900 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Teclado inalámbrico compacto y silencioso con diseño minimalista. Ideal para usar con laptops, tablets o teléfonos.",
+    "sku": "LGT-K380-002",
+    "category": "Accessories",
+    "tags": ["Logitech", "Keyboard", "Wireless"],
+    "colors": ["white", "pink", "blue"],
+    "images": [
+      "/img/Logitech1.png",
+      "/img/Logitech2.png",
+      "/img/Logitech3.png",
+      "/img/Logitech4.png"
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Xbox",
+    "name": "Inalámbrico Carbon Black",
+    "price": "279.900 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Control oficial de Xbox con textura mejorada y conectividad inalámbrica. Compatible con Xbox Series X|S, One y PC.",
+    "sku": "XBX-CBLK-003",
+    "category": "Gaming",
+    "tags": ["Xbox", "Controller", "Wireless"],
+    "colors": ["black", "gray"],
+    "images": [
+      "/img/ControlXbox.png",
+      "/img/ControlXbox2.png",
+      "/img/ControlXbox3.png"
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Nintendo",
+    "name": "Pro Controller original",
+    "price": "309.900 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Control Pro oficial de Nintendo Switch con ergonomía superior, batería de larga duración y soporte NFC para Amiibo.",
+    "sku": "NTD-PRO-004",
+    "category": "Gaming",
+    "tags": ["Nintendo", "Controller", "Switch"],
+    "colors": ["black", "white"],
+    "images": [
+      "/img/ControlNintendo.png",
+      "/img/ControlNintendo2.png",
+      "/img/ControlNintendo3.png"
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "JBL",
+    "name": "TUNE500",
+    "price": "120.400 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Auriculares ligeros y cómodos con sonido JBL Pure Bass. Plegables y disponibles en varios colores.",
+    "sku": "JBL-T500-005",
+    "category": "Audio",
+    "tags": ["JBL", "Headphones", "Wired"],
+    "colors": ["blue", "black", "white"],
+    "images": [
+      "/img/AudifonosJBL.png",
+      "/img/AudifonosJBL2.png",
+      "/img/AudifonosJBL3.png"
+    ]
+  },
+  {
+    "id": 6,
+    "brand": "Nintendo",
+    "name": "Nintendo Switch 2",
+    "price": "2.859.900 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "La nueva generación de la consola híbrida de Nintendo. Potencia mejorada, pantalla OLED y compatibilidad con juegos clásicos.",
+    "sku": "NTD-SW2-006",
+    "category": "Consoles",
+    "tags": ["Nintendo", "Switch", "Gaming"],
+    "colors": ["red", "black", "white"],
+    "images": [
+      "/img/NintendoSwitch2.png",
+      "/img/NintendoSwitch2_2.png",
+      "/img/NintendoSwitch2_3.png"
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "Sony",
+    "name": "PlayStation 5",
+    "price": "1.749.950 COP",
+    "oldPrice": "3.799.900 COP",
+    "discount": "-50%",
+    "description": "Consola de nueva generación con SSD ultrarrápido, gráficos 4K y mando DualSense con retroalimentación háptica.",
+    "sku": "PS5-STD-007",
+    "category": "Consoles",
+    "tags": ["Sony", "PlayStation", "Gaming"],
+    "colors": ["gray", "black", "white"],
+    "images": [
+      "/img/Play5Products.png",
+      "/img/ps5-side.png",
+      "/img/ps5-angle.png",
+      "/img/ps5-controller.png"
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "Rockstar Games",
+    "name": "Grand Theft Auto V",
+    "price": "140.406 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Juego de acción y mundo abierto desarrollado por Rockstar Games. Vive la experiencia de Los Santos con tres protagonistas.",
+    "sku": "RCK-GTA5-008",
+    "category": "Games",
+    "tags": ["Rockstar", "GTA", "Action"],
+    "colors": ["black", "gray", "white"],
+    "images": [
+      "/img/GTA5.png",
+      "/img/GTA5_2.png",
+      "/img/GTA5_3.png"
+    ]
+  }
+]
