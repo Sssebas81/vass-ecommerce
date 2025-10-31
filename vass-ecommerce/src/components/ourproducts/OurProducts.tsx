@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function OurProducts() {
+  const navigate = useNavigate()
   const products = [
     {
       id: 1,
@@ -88,8 +90,9 @@ function OurProducts() {
           {products.map((product) => (
             <div
               key={product.id}
-              className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all"
-            >
+              className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all cursor-pointer"
+              onClick={()=> navigate("/product/" + product.id, {state: product.id} )}
+              >
               {/* Etiqueta de descuento */}
               {product.discount && (
                 <span className="absolute top-2 right-2 bg-red-500 text-white text-sm font-semibold px-2 py-1 rounded-full">

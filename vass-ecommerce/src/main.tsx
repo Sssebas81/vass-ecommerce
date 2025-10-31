@@ -38,6 +38,9 @@ path : '/',
 },{
   path:"/Gaming",
   element:<h2>Gaming Page</h2> 
+},{
+  path:"/Product/:id",
+  element:<h2>Product Page</h2> 
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
