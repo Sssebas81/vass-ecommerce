@@ -158,7 +158,7 @@
     "category": "Audio",
     "tags": ["audífonos", "gaming", "HyperX"],
     "colors": ["Negro"],
-    "images": ["/img/HyperxAudifonos.png"]
+    "images": ["/img/HyperxAudifonos1.png", "/img/HyperxAudifonos2.png", "/img/HyperxAudifonos3.png"]
   },
   {
     "id": 10,
@@ -172,7 +172,7 @@
     "category": "Almacenamiento",
     "tags": ["USB", "memoria", "SanDisk"],
     "colors": ["Plateado"],
-    "images": ["/img/SanDisk.jpg"]
+    "images": ["/img/SanDisk1.jpg", "/img/SanDisk2.jpg", "/img/SanDisk3.jpg"]
   },
   {
     "id": 11,
@@ -186,7 +186,7 @@
     "category": "Accesorios",
     "tags": ["funda", "portátil", "HP"],
     "colors": ["Negro"],
-    "images": ["/img/HPForroPortatil.png"]
+    "images": ["/img/HPForroPortatil1.png", "/img/HPForroPortatil2.png", "/img/HPForroPortatil3.png"]
   },
   {
     "id": 12,
@@ -200,7 +200,7 @@
     "category": "Accesorios",
     "tags": ["cooler", "laptop", "ventilador"],
     "colors": ["Negro"],
-    "images": ["/img/CoolerMasterBase.png"]
+    "images": ["/img/CoolerMasterBase1.png", "/img/CoolerMasterBase2.png", "/img/CoolerMasterBase3.png"]
   },
   {
     "id": 13,
@@ -214,7 +214,7 @@
     "category": "Periféricos",
     "tags": ["teclado", "gaming", "Corsair"],
     "colors": ["Negro"],
-    "images": ["/img/CorsairTeclado.png"]
+    "images": ["/img/CorsairTeclado1.png", "/img/CorsairTeclado2.png", "/img/CorsairTeclado3.png"]
   },
   {
     "id": 14,
@@ -228,7 +228,7 @@
     "category": "Audio",
     "tags": ["Xbox", "headset", "gaming"],
     "colors": ["Negro"],
-    "images": ["/img/AudifonosXbox.jpg"]
+    "images": ["/img/AudifonosXbox1.jpg", "/img/AudifonosXbox2.jpg", "/img/AudifonosXbox3.jpg"]
   },
   {
     "id": 15,
@@ -242,7 +242,7 @@
     "category": "Videojuegos",
     "tags": ["PS5", "Gran Turismo", "carreras"],
     "colors": [],
-    "images": ["/img/GT7.png"]
+    "images": ["/img/GT7_1.png", "/img/GT7_2.png", "/img/GT7_3.png"]
   },
   {
     "id": 16,
@@ -256,7 +256,7 @@
     "category": "Accesorios",
     "tags": ["Nintendo", "funda", "Switch"],
     "colors": ["Negro"],
-    "images": ["/img/NintendoFunda.png"]
+    "images": ["/img/NintendoFunda1.png", "/img/NintendoFunda2.png", "/img/NintendoFunda3.png"]
   },
   {
     "id": 17,
@@ -270,7 +270,7 @@
     "category": "Almacenamiento",
     "tags": ["Seagate", "disco duro", "2TB"],
     "colors": ["Negro"],
-    "images": ["/img/SeagateDD.png"]
+    "images": ["/img/SeagateDD1.png", "/img/SeagateDD2.png", "/img/SeagateDD3.png"]
   },
   {
     "id": 18,
@@ -284,7 +284,7 @@
     "category": "Audio",
     "tags": ["micrófono", "streaming", "HyperX"],
     "colors": ["Negro"],
-    "images": ["/img/HyperxQuadcast.png"]
+    "images": ["/img/HyperxQuadcast1.png", "/img/HyperxQuadcast2.png", "/img/HyperxQuadcast3.png"]
   },
   {
     "id": 19,
@@ -298,7 +298,7 @@
     "category": "Impresoras",
     "tags": ["impresora", "HP", "wifi"],
     "colors": ["Blanco"],
-    "images": ["/img/hpImpresora.png"]
+    "images": ["/img/hpImpresora1.png", "/img/hpImpresora2.png", "/img/hpImpresora3.png"]
   },
   {
     "id": 20,
@@ -312,7 +312,7 @@
     "category": "Periféricos",
     "tags": ["mousepad", "SteelSeries", "gaming"],
     "colors": ["Negro"],
-    "images": ["/img/MousePadSS.png"]
+    "images": ["/img/MousePadSS1.png", "/img/MousePadSS2.png", "/img/MousePadSS3.png"]
   },
   {
     "id": 21,
@@ -326,7 +326,7 @@
     "category": "Videojuegos",
     "tags": ["PS5", "Spider-Man", "acción"],
     "colors": [],
-    "images": ["/img/Spiderman2.png"]
+    "images": ["/img/Spiderman2_1.png", "/img/Spiderman2_2.png", "/img/Spiderman2_3.png"]
   },
   {
     "id": 22,
@@ -340,7 +340,7 @@
     "category": "Almacenamiento",
     "tags": ["SSD", "Samsung", "portátil"],
     "colors": ["Negro", "Rojo"],
-    "images": ["/img/SamsungSSD.png"]
+    "images": ["/img/SamsungSSD1.png", "/img/SamsungSSD2.png", "/img/SamsungSSD3.png"]
   },
   {
     "id": 23,
@@ -354,7 +354,7 @@
     "category": "Escáneres",
     "tags": ["Canon", "escáner", "documentos"],
     "colors": ["Negro"],
-    "images": ["/img/ScanerCanon.jpg"]
+    "images": ["/img/ScanerCanon1.jpg", "/img/ScanerCanon2.jpg", "/img/ScanerCanon3.jpg"]
   },
   {
     "id": 24,
@@ -368,7 +368,7 @@
     "category": "Consolas",
     "tags": ["Nintendo", "retro", "consola"],
     "colors": ["Gris"],
-    "images": ["/img/SuperNes.png"]
+    "images": ["/img/SuperNes1.png", "/img/SuperNes2.png", "/img/SuperNes3.png"]
   }
 ]
 
