@@ -5,6 +5,8 @@ import Navbar from "../../components/navbar/Navbar";
 import products from "../../data/product.json"
 import { useEffect, useState } from "react";
 import type { Product } from "../../type/type";
+import FeaturesBar from "../../components/featuresbar/FeaturesBar";
+import Footer from "../../components/footer/Footer";
 
 function DetailProduct() {
 
@@ -28,7 +30,8 @@ function DetailProduct() {
       <Navbar />
       <BarBlack />
       <ProductDetail name={item?.name || ""} images={item?.images || []} description={item?.description || ""} price={item?.price || ""}  sku={item?.sku || ""} category={item?.category || ""} tags={item?.tags || []} colors={item?.colors || []}/>
-    
+      <FeaturesBar />
+      <Footer />
     </div>
   );
 }
