@@ -573,102 +573,211 @@
   },
    {
     "id": 20,
-    "brand": "Logitech",
-    "name": "Mouse Gamer G502 HERO",
-    "price": "340.000 COP",
+    "brand": "SteelSeries",
+    "name": "Mousepad Qck+",
+    "price": "95.000 COP",
     "oldPrice": "",
     "discount": "",
-    "description": "The Logitech G502 HERO gaming mouse combines precision, comfort, and customization for serious gamers. Equipped with the HERO 25K sensor, it delivers exceptional tracking accuracy and speed across all surfaces. Its adjustable weights allow personalized balance and feel for every playstyle. With 11 programmable buttons and onboard memory, it adapts perfectly to any game setup. Built with premium materials, it offers durability, control, and performance at a professional level.",
-    "detail": "Logitech G502 HERO high-performance gaming mouse with HERO 25K sensor, 11 programmable buttons, and adjustable weights.",
-    "sku": "LOG-G502",
+    "description": "The SteelSeries QcK+ mousepad provides a large, micro-textured surface engineered for precise mouse control and consistent glide. Its cloth surface ensures accurate sensor tracking across gaming mice while the anti-slip rubber base keeps it firmly in place during intense sessions. Built with durable stitching and materials to resist fraying, it maintains shape and performance over time. The generous size is ideal for low-DPI gamers who need wide movement space without lifting the mouse. A reliable, pro-grade mat for both competitive gaming and comfortable desktop use.",
+    "detail": "SteelSeries QcK+ large cloth gaming mousepad with micro-textured surface and anti-slip rubber base for precision and stability.",
+    "sku": "SS-QCKP",
     "category": "Periféricos",
-    "tags": ["Logitech", "mouse", "gaming"],
-    "colors": ["Negro"],
-    "images": ["/img/MouseLogitechG502.png", "/img/MouseLogitechG5022.png", "/img/MouseLogitechG5023.png"],
+    "tags": [
+      "mousepad",
+      "SteelSeries",
+      "gaming"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/MousePadSS.png",
+      "/img/MousePadSS2.png",
+      "/img/MousePadSS3.png"
+    ],
     "reviews": [
-      { "user": "Carlos A.", "comment": "Increíble precisión, el mejor mouse que he tenido.", "rating": 5 },
-      { "user": "Santiago R.", "comment": "Muy ergonómico, aunque algo pesado al principio.", "rating": 4 },
-      { "user": "Laura Z.", "comment": "Excelente calidad y personalización total.", "rating": 5 }
+      {
+        "user": "Andrés Z.",
+        "comment": "Superficie suave, el mouse se desliza perfecto.",
+        "rating": 5
+      },
+      {
+        "user": "Lorena D.",
+        "comment": "Tamaño ideal y se adhiere muy bien a la mesa.",
+        "rating": 5
+      },
+      {
+        "user": "Iván F.",
+        "comment": "Cumple con su función, buen producto.",
+        "rating": 4
+      }
     ]
   },
   {
     "id": 21,
-    "brand": "Razer",
-    "name": "Teclado Mecánico BlackWidow V3",
-    "price": "560.000 COP",
+    "brand": "PlayStation",
+    "name": "Spider-Man 2 PS5",
+    "price": "280.000 COP",
     "oldPrice": "",
     "discount": "",
-    "description": "The Razer BlackWidow V3 mechanical keyboard offers tactile precision and lightning-fast response for competitive gamers. Featuring durable mechanical switches rated for 80 million keystrokes, it ensures long-lasting performance. Its customizable Chroma RGB lighting adds personality and style to any setup. With dedicated media controls and an ergonomic wrist rest, it combines comfort and functionality. Designed for both gaming intensity and everyday productivity, it’s a must-have for any serious setup.",
-    "detail": "Razer BlackWidow V3 mechanical keyboard with Chroma RGB lighting, Razer Green switches, and detachable wrist rest.",
-    "sku": "RAZ-BW-V3",
-    "category": "Periféricos",
-    "tags": ["Razer", "teclado", "gaming"],
-    "colors": ["Negro"],
-    "images": ["/img/RazerBlackWidow.png", "/img/RazerBlackWidow2.png", "/img/RazerBlackWidow3.png"],
+    "description": "Spider-Man 2 for PS5 delivers an expansive superhero adventure with cinematic storytelling and fast-paced web-swinging across a richly detailed open world. The title introduces new abilities and narrative developments that deepen the relationship between the characters and the city they protect. Enhanced performance on PS5 ensures smooth animations, faster loading, and immersive audio to elevate every mission and encounter. A wide variety of side content, challenges, and collectibles extend gameplay far beyond the main storyline. Ideal for fans of action-adventure games seeking both spectacle and substance.",
+    "detail": "Spider-Man 2 PS5 — next-gen superhero action with enhanced visuals, expanded story content, and improved performance on PlayStation 5.",
+    "sku": "PS5-SPM2",
+    "category": "Videojuegos",
+    "tags": [
+      "PS5",
+      "Spider-Man",
+      "acción"
+    ],
+    "colors": [],
+    "images": [
+      "/img/Spiderman2.png",
+      "/img/Spiderman22.png",
+      "/img/Spiderman23.png"
+    ],
     "reviews": [
-      { "user": "Andrés G.", "comment": "Excelente respuesta, ideal para juegos de acción.", "rating": 5 },
-      { "user": "Daniela F.", "comment": "El RGB es precioso, aunque algo ruidoso.", "rating": 4 },
-      { "user": "Nicolás M.", "comment": "Perfecto para gaming competitivo, se siente premium.", "rating": 5 }
+      {
+        "user": "Felipe C.",
+        "comment": "Historia increíble, gráficos de otro nivel.",
+        "rating": 5
+      },
+      {
+        "user": "Laura M.",
+        "comment": "Muy entretenido, aunque algo corto.",
+        "rating": 4
+      },
+      {
+        "user": "Andrés E.",
+        "comment": "Uno de los mejores exclusivos de PS5.",
+        "rating": 5
+      }
     ]
   },
   {
     "id": 22,
     "brand": "Samsung",
-    "name": "Monitor Curvo 27'' 144Hz",
-    "price": "850.000 COP",
+    "name": "SSD portátil T7 500GB",
+    "price": "410.000 COP",
     "oldPrice": "",
     "discount": "",
-    "description": "The Samsung 27-inch curved monitor delivers stunning visuals and fluid motion with its 144Hz refresh rate. Its immersive 1500R curvature enhances depth and focus for gaming or multimedia use. With AMD FreeSync technology, it eliminates screen tearing for smooth gameplay. The Full HD resolution and vivid color reproduction ensure crisp, lifelike images. Sleek and modern, it combines performance and elegance for any setup, from gaming to professional work.",
-    "detail": "Samsung 27-inch curved gaming monitor with 144Hz refresh rate, AMD FreeSync, and Full HD resolution.",
-    "sku": "SAM-MON27C",
-    "category": "Monitores",
-    "tags": ["Samsung", "monitor", "curvo"],
-    "colors": ["Negro"],
-    "images": ["/img/SamsungMonitor.png", "/img/SamsungMonitor2.png", "/img/SamsungMonitor3.png"],
+    "description": "The Samsung T7 Portable SSD delivers lightning-fast transfer speeds in a compact and rugged form factor perfect for professionals and enthusiasts. With NVMe-based performance over USB-C, it reduces wait times for large file transfers and game installs. Its shock-resistant design and reliable thermal management provide consistent performance under heavy use. Password protection and AES 256-bit hardware encryption help keep stored data secure while on the go. A powerful, portable storage option that balances speed, security, and durability for modern workflows.",
+    "detail": "Samsung Portable SSD T7 500GB — NVMe performance in a compact USB-C enclosure with AES 256-bit encryption.",
+    "sku": "SAM-T7-500",
+    "category": "Almacenamiento",
+    "tags": [
+      "SSD",
+      "Samsung",
+      "portátil"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo"
+    ],
+    "images": [
+      "/img/SamsungSSD.png",
+      "/img/SamsungSSD2.png",
+      "/img/SamsungSSD3.png"
+    ],
     "reviews": [
-      { "user": "Felipe V.", "comment": "Colores vibrantes y gran fluidez para jugar.", "rating": 5 },
-      { "user": "Luisa D.", "comment": "La curvatura se siente muy cómoda para largas sesiones.", "rating": 5 },
-      { "user": "Miguel T.", "comment": "Excelente calidad, aunque sin altavoces integrados.", "rating": 4 }
+      {
+        "user": "Mónica J.",
+        "comment": "Velocidad de transferencia impresionante.",
+        "rating": 5
+      },
+      {
+        "user": "Carlos R.",
+        "comment": "Compacto y elegante, ideal para trabajo.",
+        "rating": 5
+      },
+      {
+        "user": "Tatiana G.",
+        "comment": "Excelente producto, recomendado 100%.",
+        "rating": 5
+      }
     ]
   },
   {
     "id": 23,
-    "brand": "Sony",
-    "name": "Control DualSense PS5 Azul",
-    "price": "340.000 COP",
+    "brand": "Canon",
+    "name": "Escáner Lide 300",
+    "price": "410.000 COP",
     "oldPrice": "",
     "discount": "",
-    "description": "The Sony DualSense Wireless Controller for PS5 brings next-generation immersion with adaptive triggers and haptic feedback. Its sleek blue design adds style while maintaining exceptional comfort and precision. Built-in microphone and motion sensors enhance interactivity across compatible games. The long-lasting rechargeable battery ensures extended playtime without interruption. Perfectly engineered for precision, connectivity, and aesthetics, it elevates the gaming experience to a whole new level.",
-    "detail": "Sony DualSense Wireless Controller for PlayStation 5, blue edition with adaptive triggers and haptic feedback technology.",
-    "sku": "PS5-DS-BLUE",
-    "category": "Accesorios",
-    "tags": ["PS5", "control", "Sony"],
-    "colors": ["Azul"],
-    "images": ["/img/PS5ControlAzul.png", "/img/PS5ControlAzul2.png", "/img/PS5ControlAzul3.png"],
+    "description": "The Canon CanoScan LiDE 300 is a slim, high-resolution flatbed scanner designed for crisp document and photo scanning in home and small office environments. Its EZ buttons and easy software integration simplify digitizing tasks, while the LED illumination delivers consistent color and detail. The compact footprint makes it simple to store or stack vertically when not in use, saving desk space. It produces clear, accurate scans ideal for archiving photos or converting paperwork into searchable files. A dependable scanner for users who need quality results without complex setup.",
+    "detail": "Canon CanoScan LiDE 300 flatbed scanner — compact design, high-resolution scans, and simple EZ-button operation for home and office use.",
+    "sku": "CAN-LIDE-300",
+    "category": "Escáneres",
+    "tags": [
+      "Canon",
+      "escáner",
+      "documentos"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/ScanerCanon.jpg",
+      "/img/ScanerCanon2.jpg",
+      "/img/ScanerCanon3.jpg"
+    ],
     "reviews": [
-      { "user": "Kevin R.", "comment": "Hermoso color y excelente respuesta táctil.", "rating": 5 },
-      { "user": "Valeria G.", "comment": "Muy cómodo, aunque la batería dura poco.", "rating": 4 },
-      { "user": "David M.", "comment": "Perfecto para jugar en PS5 o PC.", "rating": 5 }
+      {
+        "user": "Ricardo T.",
+        "comment": "Escanea rápido y con buena resolución.",
+        "rating": 5
+      },
+      {
+        "user": "Valeria H.",
+        "comment": "Fácil de usar, ideal para oficina.",
+        "rating": 4
+      },
+      {
+        "user": "Carlos P.",
+        "comment": "Cumple con lo prometido, resultados nítidos.",
+        "rating": 5
+      }
     ]
   },
   {
     "id": 24,
-    "brand": "Apple",
-    "name": "AirPods Pro 2ª generación",
-    "price": "1.090.000 COP",
+    "brand": "Nintendo",
+    "name": "Super NES Classic Edition",
+    "price": "550.000 COP",
     "oldPrice": "",
     "discount": "",
-    "description": "The Apple AirPods Pro (2nd generation) deliver industry-leading active noise cancellation and immersive spatial audio. Featuring a new H2 chip, they offer enhanced sound clarity, adaptive transparency, and extended battery life. The redesigned case includes Precision Finding with Find My for added convenience. With a perfect in-ear fit and improved microphones, every call and song sounds incredible. Premium performance and effortless connectivity define the next level of wireless audio.",
-    "detail": "Apple AirPods Pro (2nd generation) wireless earbuds with active noise cancellation, H2 chip, and MagSafe charging case.",
-    "sku": "APL-APPRO2",
-    "category": "Audio",
-    "tags": ["Apple", "AirPods", "Bluetooth"],
-    "colors": ["Blanco"],
-    "images": ["/img/AirpodsPro2.png", "/img/AirpodsPro22.png", "/img/AirpodsPro23.png"],
+    "description": "The Super NES Classic Edition is a nostalgic plug-and-play console loaded with iconic classic titles and built to deliver authentic retro gameplay. It includes restored graphics and accurate emulation to preserve the original look and feel while offering modern convenience. Compact and easy to set up, it connects directly to modern TVs for instant play without configuration hassles. Preinstalled games cover a wide range of genres and classics that defined a generation of gaming. A perfect collector’s item and accessible way for new players to experience timeless classics.",
+    "detail": "Super NES Classic Edition — plug-and-play retro console preloaded with classic titles and authentic emulation for modern TVs.",
+    "sku": "NSW-SNES-CLASSIC",
+    "category": "Consolas",
+    "tags": [
+      "Nintendo",
+      "retro",
+      "consola"
+    ],
+    "colors": [
+      "Gris"
+    ],
+    "images": [
+      "/img/SuperNes.png",
+      "/img/SuperNes2.png",
+      "/img/SuperNes3.png"
+    ],
     "reviews": [
-      { "user": "María J.", "comment": "El sonido es espectacular, cancelación top.", "rating": 5 },
-      { "user": "Ricardo P.", "comment": "Muy cómodos, pero algo costosos.", "rating": 4 },
-      { "user": "Esteban C.", "comment": "La mejor experiencia inalámbrica que he tenido.", "rating": 5 }
+      {
+        "user": "Andrés L.",
+        "comment": "Excelente nostalgia, los juegos corren perfecto.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Hermosa consola retro, muy fácil de usar.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Gran colección de juegos clásicos, recomendado.",
+        "rating": 5
+      }
     ]
   }
 ]
