@@ -43,7 +43,7 @@ function ProductDetail({name, price, detail, sku, category, tags, colors, images
         </div>
 
         {/* Imagen principal */}
-        <div className="flex-1 bg-gray-50 rounded-xl flex items-center justify-center p-6">
+        <div className="flex-1 bg-white rounded-lg flex items-center justify-center p-6">
           <img
             src={images[0]}
             alt={name}

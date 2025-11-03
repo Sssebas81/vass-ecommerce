@@ -63,7 +63,7 @@ function ProductTabs({ description, reviews = [], images = [] }: ProductTabsProp
             ) : (
               <ul className="space-y-4">
                 {reviews.map((review, idx) => (
-                  <li key={idx} className="border-b border-gray-200 pb-3">
+                  <li key={idx} className="border-b border-gray-200 pb-3 m-8">
                     <div className="flex items-center justify-between">
                       <span className="font-semibold">{review.user}</span>
                       <span className="text-yellow-500">
