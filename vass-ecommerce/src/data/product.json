@@ -352,7 +352,7 @@
       }
     ]
   },
-{
+  {
     "id": 9,
     "brand": "HyperX",
     "name": "Cloud Stinger 2 Audífonos",
@@ -363,13 +363,35 @@
     "detail": "HyperX Cloud Stinger 2 wired gaming headset with lightweight design, 50mm drivers, memory foam ear cushions, and adjustable steel sliders for comfort and durability.",
     "sku": "HX-CS2-BLK",
     "category": "Audio",
-    "tags": ["audífonos", "gaming", "HyperX"],
-    "colors": ["Negro"],
-    "images": ["/img/HyperxAudifonos.png", "/img/HyperxAudifonos2.png", "/img/HyperxAudifonos3.png"],
+    "tags": [
+      "audífonos",
+      "gaming",
+      "HyperX"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/HyperxAudifonos.png",
+      "/img/HyperxAudifonos2.png",
+      "/img/HyperxAudifonos3.png"
+    ],
     "reviews": [
-      { "user": "Carlos M.", "comment": "Excelente sonido y muy cómodos, ideales para largas sesiones de juego.", "rating": 5 },
-      { "user": "Laura G.", "comment": "Buen micrófono, aunque los materiales se sienten algo plásticos.", "rating": 4 },
-      { "user": "David P.", "comment": "Gran calidad por el precio, recomendados para gamers casuales.", "rating": 5 }
+      {
+        "user": "Carlos M.",
+        "comment": "Excellent sound and very comfortable, ideal for long gaming sessions.",
+        "rating": 5
+      },
+      {
+        "user": "Laura G.",
+        "comment": "Good microphone, though the materials feel a bit plastic.",
+        "rating": 4
+      },
+      {
+        "user": "David P.",
+        "comment": "Great quality for the price, recommended for casual gamers.",
+        "rating": 5
+      }
     ]
   },
   {
@@ -383,13 +405,35 @@
     "detail": "SanDisk Ultra Flair USB 3.0 flash drive 128GB with high-speed data transfer up to 150MB/s and durable metal casing for secure portability.",
     "sku": "SD-UF-128",
     "category": "Almacenamiento",
-    "tags": ["USB", "memoria", "SanDisk"],
-    "colors": ["Plateado"],
-    "images": ["/img/SanDisk.jpg", "/img/SanDisk2.jpg", "/img/SanDisk3.jpg"],
+    "tags": [
+      "USB",
+      "memoria",
+      "SanDisk"
+    ],
+    "colors": [
+      "Plateado"
+    ],
+    "images": [
+      "/img/SanDisk.jpg",
+      "/img/SanDisk2.jpg",
+      "/img/SanDisk3.jpg"
+    ],
     "reviews": [
-      { "user": "Ana P.", "comment": "Muy rápida para transferir archivos grandes, excelente calidad.", "rating": 5 },
-      { "user": "Julián T.", "comment": "Compacta y resistente, aunque se calienta un poco.", "rating": 4 },
-      { "user": "Felipe R.", "comment": "Cumple con lo prometido, buena compra.", "rating": 5 }
+      {
+        "user": "Ana P.",
+        "comment": "Very fast for transferring large files, excellent quality.",
+        "rating": 5
+      },
+      {
+        "user": "Julián T.",
+        "comment": "Compact and durable, although it gets a bit warm.",
+        "rating": 4
+      },
+      {
+        "user": "Felipe R.",
+        "comment": "Does what it promises, good purchase.",
+        "rating": 5
+      }
     ]
   },
   {
@@ -402,13 +446,35 @@
     "detail": "HP laptop sleeve designed for 15.6-inch notebooks, made of durable water-resistant material with soft interior padding and slim lightweight design for everyday protection.",
     "sku": "HP-SLEEVE-15",
     "category": "Accesorios",
-    "tags": ["funda", "portátil", "HP"],
-    "colors": ["Negro"],
-    "images": ["/img/HPForroPortatil.png", "/img/HPForroPortatil2.png", "/img/HPForroPortatil3.png"],
+    "tags": [
+      "funda",
+      "portátil",
+      "HP"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/HPForroPortatil.png",
+      "/img/HPForroPortatil2.png",
+      "/img/HPForroPortatil3.png"
+    ],
     "reviews": [
-      { "user": "Daniela M.", "comment": "Muy práctica, protege bien mi laptop y es liviana.", "rating": 5 },
-      { "user": "Andrés C.", "comment": "Buen diseño, pero esperaba un poco más de acolchado.", "rating": 4 },
-      { "user": "Luisa V.", "comment": "Perfecta para transportar el portátil a diario.", "rating": 5 }
+      {
+        "user": "Daniela M.",
+        "comment": "Very practical, protects my laptop well and is lightweight.",
+        "rating": 5
+      },
+      {
+        "user": "Andrés C.",
+        "comment": "Good design, but I expected a bit more padding.",
+        "rating": 4
+      },
+      {
+        "user": "Luisa V.",
+        "comment": "Perfect for carrying the laptop daily.",
+        "rating": 5
+      }
     ]
   },
   {
@@ -422,13 +488,35 @@
     "detail": "Cooler Master laptop cooling pad with dual fans, adjustable height, and ergonomic design to improve airflow and comfort during long sessions.",
     "sku": "CM-NB-COOL",
     "category": "Accesorios",
-    "tags": ["cooler", "laptop", "ventilador"],
-    "colors": ["Negro"],
-    "images": ["/img/CoolerMasterBase.png", "/img/CoolerMasterBase2.png", "/img/CoolerMasterBase3.png"],
+    "tags": [
+      "cooler",
+      "laptop",
+      "ventilador"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/CoolerMasterBase.png",
+      "/img/CoolerMasterBase2.png",
+      "/img/CoolerMasterBase3.png"
+    ],
     "reviews": [
-      { "user": "Santiago R.", "comment": "Baja la temperatura del portátil notablemente, silenciosa y eficaz.", "rating": 5 },
-      { "user": "María F.", "comment": "El soporte ajustable es muy útil, aunque algo grande.", "rating": 4 },
-      { "user": "Camilo H.", "comment": "Excelente relación calidad-precio.", "rating": 5 }
+      {
+        "user": "Santiago R.",
+        "comment": "Significantly lowers the laptop temperature, quiet and effective.",
+        "rating": 5
+      },
+      {
+        "user": "María F.",
+        "comment": "The adjustable stand is very useful, though a bit large.",
+        "rating": 4
+      },
+      {
+        "user": "Camilo H.",
+        "comment": "Excellent value for the price.",
+        "rating": 5
+      }
     ]
   },
   {
@@ -442,13 +530,35 @@
     "detail": "Corsair K60 RGB PRO mechanical gaming keyboard featuring CHERRY mechanical switches, dynamic RGB lighting, and full aluminum frame for stability.",
     "sku": "COR-K60-RGB",
     "category": "Periféricos",
-    "tags": ["teclado", "gaming", "Corsair"],
-    "colors": ["Negro"],
-    "images": ["/img/CorsairTeclado.png", "/img/CorsairTeclado2.png", "/img/CorsairTeclado3.png"],
+    "tags": [
+      "teclado",
+      "gaming",
+      "Corsair"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/CorsairTeclado.png",
+      "/img/CorsairTeclado2.png",
+      "/img/CorsairTeclado3.png"
+    ],
     "reviews": [
-      { "user": "José L.", "comment": "Teclas muy cómodas, el RGB se ve espectacular.", "rating": 5 },
-      { "user": "Manuela D.", "comment": "Excelente calidad, aunque algo ruidoso para oficina.", "rating": 4 },
-      { "user": "Esteban N.", "comment": "Rendimiento profesional, ideal para juegos.", "rating": 5 }
+      {
+        "user": "José L.",
+        "comment": "Very comfortable keys, the RGB looks amazing.",
+        "rating": 5
+      },
+      {
+        "user": "Manuela D.",
+        "comment": "Excellent quality, though a bit noisy for the office.",
+        "rating": 4
+      },
+      {
+        "user": "Esteban N.",
+        "comment": "Professional performance, ideal for gaming.",
+        "rating": 5
+      }
     ]
   },
   {
@@ -462,13 +572,35 @@
     "detail": "Microsoft Xbox Stereo Headset with wired connection, 40mm drivers, and adjustable boom microphone for gaming and chat.",
     "sku": "MIC-XBX-HS",
     "category": "Audio",
-    "tags": ["Xbox", "headset", "gaming"],
-    "colors": ["Negro"],
-    "images": ["/img/AudifonosXbox.jpg", "/img/AudifonosXbox2.jpg", "/img/AudifonosXbox3.jpg"],
+    "tags": [
+      "Xbox",
+      "headset",
+      "gaming"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/AudifonosXbox.jpg",
+      "/img/AudifonosXbox2.jpg",
+      "/img/AudifonosXbox3.jpg"
+    ],
     "reviews": [
-      { "user": "Juliana R.", "comment": "Audio claro y micrófono excelente, muy cómodos.", "rating": 5 },
-      { "user": "Cristian P.", "comment": "Se escucha muy bien, aunque el cable es algo corto.", "rating": 4 },
-      { "user": "Tatiana S.", "comment": "Perfectos para Xbox y PC, calidad garantizada.", "rating": 5 }
+      {
+        "user": "Juliana R.",
+        "comment": "Clear audio and excellent mic, very comfortable.",
+        "rating": 5
+      },
+      {
+        "user": "Cristian P.",
+        "comment": "Sounds great, though the cable is a bit short.",
+        "rating": 4
+      },
+      {
+        "user": "Tatiana S.",
+        "comment": "Perfect for Xbox and PC, guaranteed quality.",
+        "rating": 5
+      }
     ]
   },
   {
@@ -482,13 +614,33 @@
     "detail": "Gran Turismo 7 PlayStation 5 racing simulation game with enhanced graphics, physics engine, and adaptive trigger support.",
     "sku": "PS5-GT7",
     "category": "Videojuegos",
-    "tags": ["PS5", "Gran Turismo", "carreras"],
+    "tags": [
+      "PS5",
+      "Gran Turismo",
+      "carreras"
+    ],
     "colors": [],
-    "images": ["/img/GT7.png", "/img/GT72.png", "/img/GT73.png"],
+    "images": [
+      "/img/GT7.png",
+      "/img/GT72.png",
+      "/img/GT73.png"
+    ],
     "reviews": [
-      { "user": "Andrés J.", "comment": "Gráficos impresionantes y jugabilidad realista.", "rating": 5 },
-      { "user": "Diana C.", "comment": "Excelente simulador, aunque las actualizaciones pesan mucho.", "rating": 4 },
-      { "user": "Pablo A.", "comment": "Uno de los mejores juegos de autos que he probado.", "rating": 5 }
+      {
+        "user": "Andrés J.",
+        "comment": "Impressive graphics and realistic gameplay.",
+        "rating": 5
+      },
+      {
+        "user": "Diana C.",
+        "comment": "Excellent simulator, although the updates are quite heavy.",
+        "rating": 4
+      },
+      {
+        "user": "Pablo A.",
+        "comment": "One of the best racing games I’ve ever played.",
+        "rating": 5
+      }
     ]
   },
   {
@@ -502,13 +654,35 @@
     "detail": "Nintendo Switch hard protective carrying case with internal storage compartments and shock-resistant outer shell.",
     "sku": "NSW-CASE",
     "category": "Accesorios",
-    "tags": ["Nintendo", "funda", "Switch"],
-    "colors": ["Negro"],
-    "images": ["/img/NintendoFunda.png", "/img/NintendoFunda2.png", "/img/NintendoFunda3.png"],
+    "tags": [
+      "Nintendo",
+      "funda",
+      "Switch"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/NintendoFunda.png",
+      "/img/NintendoFunda2.png",
+      "/img/NintendoFunda3.png"
+    ],
     "reviews": [
-      { "user": "Camila V.", "comment": "Protege muy bien la consola, materiales de calidad.", "rating": 5 },
-      { "user": "Sebastián G.", "comment": "Compacta y práctica, cabe todo lo necesario.", "rating": 5 },
-      { "user": "Laura F.", "comment": "Buen producto, aunque los cierres podrían ser más suaves.", "rating": 4 }
+      {
+        "user": "Camila V.",
+        "comment": "Protects the console very well, high-quality materials.",
+        "rating": 5
+      },
+      {
+        "user": "Sebastián G.",
+        "comment": "Compact and practical, fits everything you need.",
+        "rating": 5
+      },
+      {
+        "user": "Laura F.",
+        "comment": "Good product, though the zippers could be smoother.",
+        "rating": 4
+      }
     ]
   },
   {
@@ -522,13 +696,35 @@
     "detail": "Seagate Expansion 2TB portable external hard drive with USB 3.0 interface and plug-and-play functionality for Windows and Mac.",
     "sku": "SEA-2TB-EXT",
     "category": "Almacenamiento",
-    "tags": ["Seagate", "disco duro", "2TB"],
-    "colors": ["Negro"],
-    "images": ["/img/SeagateDD.png", "/img/SeagateDD2.png", "/img/SeagateDD3.png"],
+    "tags": [
+      "Seagate",
+      "disco duro",
+      "2TB"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/SeagateDD.png",
+      "/img/SeagateDD2.png",
+      "/img/SeagateDD3.png"
+    ],
     "reviews": [
-      { "user": "Valentina M.", "comment": "Rápido y silencioso, ideal para guardar copias de seguridad.", "rating": 5 },
-      { "user": "Fernando L.", "comment": "Funciona bien, pero el cable podría ser más largo.", "rating": 4 },
-      { "user": "Martín Q.", "comment": "Gran capacidad a buen precio.", "rating": 5 }
+      {
+        "user": "Valentina M.",
+        "comment": "Fast and quiet, ideal for backups.",
+        "rating": 5
+      },
+      {
+        "user": "Fernando L.",
+        "comment": "Works well, but the cable could be longer.",
+        "rating": 4
+      },
+      {
+        "user": "Martín Q.",
+        "comment": "Great capacity at a good price.",
+        "rating": 5
+      }
     ]
   },
   {
@@ -542,13 +738,35 @@
     "detail": "HyperX QuadCast S USB condenser microphone with RGB lighting, tap-to-mute sensor, and anti-vibration shock mount.",
     "sku": "HX-QC-S",
     "category": "Audio",
-    "tags": ["micrófono", "streaming", "HyperX"],
-    "colors": ["Negro"],
-    "images": ["/img/HyperxQuadcast.png", "/img/HyperxQuadcast2.png", "/img/HyperxQuadcast3.png"],
+    "tags": [
+      "micrófono",
+      "streaming",
+      "HyperX"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/HyperxQuadcast.png",
+      "/img/HyperxQuadcast2.png",
+      "/img/HyperxQuadcast3.png"
+    ],
     "reviews": [
-      { "user": "Luis M.", "comment": "Excelente calidad de audio y el RGB es genial.", "rating": 5 },
-      { "user": "Sara R.", "comment": "Ideal para streaming, fácil de configurar.", "rating": 5 },
-      { "user": "Diego B.", "comment": "Un poco caro, pero vale cada peso.", "rating": 4 }
+      {
+        "user": "Luis M.",
+        "comment": "Excellent audio quality and the RGB looks amazing.",
+        "rating": 5
+      },
+      {
+        "user": "Sara R.",
+        "comment": "Perfect for streaming, easy to set up.",
+        "rating": 5
+      },
+      {
+        "user": "Diego B.",
+        "comment": "A bit expensive, but worth every penny.",
+        "rating": 4
+      }
     ]
   },
   {
@@ -562,16 +780,38 @@
     "detail": "HP DeskJet 2775 wireless all-in-one color printer with Wi-Fi and mobile printing support via HP Smart App.",
     "sku": "HP-DJ-2775",
     "category": "Impresoras",
-    "tags": ["impresora", "HP", "wifi"],
-    "colors": ["Blanco"],
-    "images": ["/img/hpImpresora.png", "/img/hpImpresora2.png", "/img/hpImpresora3.png"],
+    "tags": [
+      "impresora",
+      "HP",
+      "wifi"
+    ],
+    "colors": [
+      "Blanco"
+    ],
+    "images": [
+      "/img/hpImpresora.png",
+      "/img/hpImpresora2.png",
+      "/img/hpImpresora3.png"
+    ],
     "reviews": [
-      { "user": "Natalia O.", "comment": "Fácil de usar y de buena calidad para el hogar.", "rating": 5 },
-      { "user": "Jorge L.", "comment": "Conecta rápido al Wi-Fi, imprime bien aunque algo lenta.", "rating": 4 },
-      { "user": "Paola C.", "comment": "Muy práctica, buena opción para tareas y documentos.", "rating": 5 }
+      {
+        "user": "Natalia O.",
+        "comment": "Easy to use and great quality for home use.",
+        "rating": 5
+      },
+      {
+        "user": "Jorge L.",
+        "comment": "Connects quickly to Wi-Fi, prints well but a bit slow.",
+        "rating": 4
+      },
+      {
+        "user": "Paola C.",
+        "comment": "Very practical, great for homework and documents.",
+        "rating": 5
+      }
     ]
   },
-   {
+  {
     "id": 20,
     "brand": "SteelSeries",
     "name": "Mousepad Qck+",
@@ -598,17 +838,17 @@
     "reviews": [
       {
         "user": "Andrés Z.",
-        "comment": "Superficie suave, el mouse se desliza perfecto.",
+        "comment": "Smooth surface, the mouse glides perfectly.",
         "rating": 5
       },
       {
         "user": "Lorena D.",
-        "comment": "Tamaño ideal y se adhiere muy bien a la mesa.",
+        "comment": "Ideal size and sticks well to the desk.",
         "rating": 5
       },
       {
         "user": "Iván F.",
-        "comment": "Cumple con su función, buen producto.",
+        "comment": "Does its job well, good product overall.",
         "rating": 4
       }
     ]
@@ -638,17 +878,17 @@
     "reviews": [
       {
         "user": "Felipe C.",
-        "comment": "Historia increíble, gráficos de otro nivel.",
+        "comment": "Amazing story, next-level graphics.",
         "rating": 5
       },
       {
         "user": "Laura M.",
-        "comment": "Muy entretenido, aunque algo corto.",
+        "comment": "Very entertaining, though a bit short.",
         "rating": 4
       },
       {
         "user": "Andrés E.",
-        "comment": "Uno de los mejores exclusivos de PS5.",
+        "comment": "One of the best PS5 exclusives.",
         "rating": 5
       }
     ]
@@ -681,17 +921,17 @@
     "reviews": [
       {
         "user": "Mónica J.",
-        "comment": "Velocidad de transferencia impresionante.",
+        "comment": "Impressive transfer speed.",
         "rating": 5
       },
       {
         "user": "Carlos R.",
-        "comment": "Compacto y elegante, ideal para trabajo.",
+        "comment": "Compact and stylish, ideal for work.",
         "rating": 5
       },
       {
         "user": "Tatiana G.",
-        "comment": "Excelente producto, recomendado 100%.",
+        "comment": "Excellent product, highly recommended.",
         "rating": 5
       }
     ]
@@ -723,17 +963,17 @@
     "reviews": [
       {
         "user": "Ricardo T.",
-        "comment": "Escanea rápido y con buena resolución.",
+        "comment": "Scans quickly and with great resolution.",
         "rating": 5
       },
       {
         "user": "Valeria H.",
-        "comment": "Fácil de usar, ideal para oficina.",
+        "comment": "Easy to use, perfect for office use.",
         "rating": 4
       },
       {
         "user": "Carlos P.",
-        "comment": "Cumple con lo prometido, resultados nítidos.",
+        "comment": "Delivers as promised, sharp results.",
         "rating": 5
       }
     ]
@@ -765,17 +1005,17 @@
     "reviews": [
       {
         "user": "Andrés L.",
-        "comment": "Excelente nostalgia, los juegos corren perfecto.",
+        "comment": "Excellent nostalgia, games run perfectly.",
         "rating": 5
       },
       {
         "user": "Catalina Q.",
-        "comment": "Hermosa consola retro, muy fácil de usar.",
+        "comment": "Beautiful retro console, very easy to use.",
         "rating": 5
       },
       {
         "user": "Pedro G.",
-        "comment": "Gran colección de juegos clásicos, recomendado.",
+        "comment": "Great collection of classic games, highly recommended.",
         "rating": 5
       }
     ]
