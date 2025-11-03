@@ -18,7 +18,7 @@ function OurProducts() {
           {homeProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-gray-50 rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all cursor-pointer"
+              className="bg-white rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all cursor-pointer"
               onClick={() =>
                 navigate("/product/" + product.id, { state: product.id })
               }
