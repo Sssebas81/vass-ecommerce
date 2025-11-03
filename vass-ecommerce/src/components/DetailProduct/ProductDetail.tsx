@@ -1,35 +1,19 @@
-import React, { useState } from "react";
+import { useState } from "react";
 interface productDetailProps {
     name: string;
     price: string;
     description: string;
+    detail:string;
     sku: string;
     category: string;
     tags: string[];
     colors: string[];
     images: string[];
 }
-function ProductDetail({name, price, description, sku, category, tags, colors, images} : productDetailProps) {
+function ProductDetail({name, price, detail, sku, category, tags, colors, images} : productDetailProps) {
   const [quantity, setQuantity] = useState(1);
   const [selectedColor, setSelectedColor] = useState("gray");
   const [mainImage, setMainImage] = useState("/img/ps5-main.png");
-
-  const product = {
-    name: "PlayStation 5",
-    price: "2.899.900 COP",
-    description:
-      "PS5 Digital 1TB Slim Console Grey + Limited 30th Anniversary Edition Wireless Controller - Includes Pre-Installed Game ASTRO’S PLAYROOM.",
-    sku: "PS5-1TB-GRY-001",
-    category: "Gaming",
-    tags: ["Ps5", "PlayStation", "Videogames"],
-    colors: ["gray", "black", "white"],
-    images: [
-      "/img/ps5-main.png",
-      "/img/ps5-side.png",
-      "/img/ps5-angle.png",
-      "/img/ps5-controller.png",
-    ],
-  };
 
   const handleDecrease = () => {
     if (quantity > 1) setQuantity(quantity - 1);
@@ -74,7 +58,7 @@ function ProductDetail({name, price, description, sku, category, tags, colors, i
           {name}
         </h1>
         <p className="text-gray-500 text-xl mt-2">{price}</p>
-        <p className="text-gray-600 text-sm mt-4 max-w-lg">{description}</p>
+        <p className="text-gray-600 text-sm mt-4 max-w-lg">{detail}</p>
 
         {/* Selector de color */}
         <div className="mt-6">

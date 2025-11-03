@@ -7,29 +7,34 @@ import { useEffect, useState } from "react";
 import type { Product } from "../../type/type";
 import FeaturesBar from "../../components/featuresbar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
+import ProductTabs from "../../components/producttabs/ProductTabs";
 
 function DetailProduct() {
 
-     const location = useLocation()
-     const [item, setitem] = useState<Product>()
+  const location = useLocation()
+  const [item, setitem] = useState<Product>()
 
-     useEffect(() =>{
-    function getitem(){
-    const itemid = location.state
-    const itemfinded = products.find((jsonitem)=> Number(jsonitem.id) === Number(itemid))
-    
-    setitem(itemfinded)
-        
+  useEffect(() => {
+    function getitem() {
+      const itemid = location.state
+      const itemfinded:any = products.find((jsonitem) => Number(jsonitem.id) === Number(itemid))
+      setitem(itemfinded)
 
-     }
-     getitem()
-     })
-    
+
+    }
+    getitem()
+  })
+
   return (
     <div>
       <Navbar />
       <BarBlack />
-      <ProductDetail name={item?.name || ""} images={item?.images || []} description={item?.description || ""} price={item?.price || ""}  sku={item?.sku || ""} category={item?.category || ""} tags={item?.tags || []} colors={item?.colors || []}/>
+      <ProductDetail name={item?.name || ""} images={item?.images || []} description={item?.description || ""} detail={item?.detail || ""} price={item?.price || ""} sku={item?.sku || ""} category={item?.category || ""} tags={item?.tags || []} colors={item?.colors || []} />
+      <ProductTabs
+        description={item?.description || ""}
+        reviews={item?.reviews || []}
+        images={item?.images || []}
+      />
       <FeaturesBar />
       <Footer />
     </div>
@@ -37,4 +42,3 @@ function DetailProduct() {
 }
 
 export default DetailProduct;
- 

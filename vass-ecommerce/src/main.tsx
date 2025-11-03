@@ -7,7 +7,8 @@ import ShopPage from './pages/home/ShopPage.tsx'
 import DetailProduct from './pages/home/DetailProduct.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
-  element: <Home/>
+  element: <Home/>,
+  index:true
 
 },{
   path:"/Categories",
