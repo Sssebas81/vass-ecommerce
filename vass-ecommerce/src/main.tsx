@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.tsx'
-import ShopPage from './pages/home/ShopPage.tsx'
-import DetailProduct from './pages/home/DetailProduct.tsx'
+import ShopPage from './pages/shoppage/ShopPage.tsx'
+import DetailProduct from './pages/detailproducts/DetailProduct.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>,
