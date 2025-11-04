@@ -39,7 +39,7 @@ const Navbar = () => {
             <NavLink to="/Profile">
               <img src="/img/Persona.svg" alt="User" className="w-6 h-6 cursor-pointer" />
             </NavLink>
-          </div>
+          </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
