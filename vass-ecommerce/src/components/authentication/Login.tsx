@@ -36,7 +36,20 @@ const Login = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50">
-      <div className="bg-white p-8 rounded-2xl shadow-md w-full max-w-md">
+      <div className="bg-black p-8 rounded-2xl shadow-md w-full max-w-md">
+        <img src="/img/LogoVassBlanco.svg" alt="Logo Vass" className="h-10 w-auto m-6" />
+        <div className="h-1 w-full bg-cyan-500"></div>
+        <div className="h-1 w-full bg-[#E2F705]"></div>
+        <div className="h-1 w-full bg-pink-500"></div>
+        <div className="h-1 w-full bg-orange-500"></div>
+        <h2 className="text-white text-4xl mt-24">Hello,</h2>
+        <b>
+          <h2 className="text-white text-6xl ">Welcome!</h2>
+        </b>
+
+        <h2 className="text-white text-2xl mt-12">E-commerce that combines quality, trust, and the best prices in one place.</h2>
+      </div>
+      <div className="bg-white p-24  rounded-2xl shadow-md w-full max-w-md">
         <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
           Log in to your account
         </h2>
@@ -82,7 +95,7 @@ const Login = () => {
 
         <p className="text-center text-sm text-gray-500 mt-6">
           Don’t have an account?{" "}
-          <NavLink to ="/signup">
+          <NavLink to="/signup">
             <a href="#" className="text-gray-800 font-medium hover:underline">
               Sign up
             </a>

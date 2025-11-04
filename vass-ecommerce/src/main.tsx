@@ -7,6 +7,7 @@ import Home from './pages/home/Home.tsx'
 import { h2 } from 'framer-motion/client'
 import LoginPage from './pages/login/LoginPage.tsx'
 import SignUp from './components/authentication/SignUp.tsx'
+
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>
