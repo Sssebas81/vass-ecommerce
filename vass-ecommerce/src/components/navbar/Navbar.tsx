@@ -10,10 +10,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
-          </div>
-
+          <NavLink to="/">
+            <div className="flex-shrink-0">
+              <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
+            </div>
+          </NavLink>
+          
           {/* Links (desktop) */}
           <div className="hidden md:flex space-x-8 font-medium text-gray-700">
             <NavLink to="/" className="hover:text-black">Home</NavLink>
