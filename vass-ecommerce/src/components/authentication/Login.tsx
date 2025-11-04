@@ -1,3 +1,4 @@
+import { div } from "framer-motion/client";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 
@@ -35,8 +36,9 @@ const Login = () => {
   };
 
   return (
+    
     <div className="flex items-center justify-center min-h-screen bg-gray-50">
-      <div className="bg-black p-8 rounded-2xl shadow-md w-full max-w-md">
+      <div className="bg-black p-8 rounded-l-3xl shadow-md w-full max-w-md z-10 ">
         <img src="/img/LogoVassBlanco.svg" alt="Logo Vass" className="h-10 w-auto m-6" />
         <div className="h-1 w-full bg-cyan-500"></div>
         <div className="h-1 w-full bg-[#E2F705]"></div>
@@ -49,7 +51,7 @@ const Login = () => {
 
         <h2 className="text-white text-2xl mt-12">E-commerce that combines quality, trust, and the best prices in one place.</h2>
       </div>
-      <div className="bg-white p-24  rounded-2xl shadow-md w-full max-w-md">
+      <div className="bg-white p-24  rounded-r-3xl shadow-md w-full max-w-md z-0">
         <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
           Log in to your account
         </h2>
