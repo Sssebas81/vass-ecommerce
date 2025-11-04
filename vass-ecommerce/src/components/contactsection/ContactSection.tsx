@@ -75,7 +75,74 @@ const ContactSection: React.FC = () => {
             </div>
           </div>
 
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div>
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
+                Your name
+              </label>
+              <input
+                id="name"
+                type="text"
+                placeholder="Name"
+                className="w-full border rounded-md px-4 py-2 focus:ring-2 focus:ring-black focus:outline-none"
+              />
+            </div>
 
+            <div>
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
+                Email address
+              </label>
+              <input
+                id="email"
+                type="email"
+                placeholder="Abc@def.com"
+                className="w-full border rounded-md px-4 py-2 focus:ring-2 focus:ring-black focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="subject"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
+                Subject
+              </label>
+              <input
+                id="subject"
+                type="text"
+                placeholder="Optional"
+                className="w-full border rounded-md px-4 py-2 focus:ring-2 focus:ring-black focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
+                Message
+              </label>
+              <textarea
+                id="message"
+                placeholder="Hi! I'd like to ask about..."
+                rows={3}
+                className="w-full border rounded-md px-4 py-2 focus:ring-2 focus:ring-black focus:outline-none"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              className="bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800 transition w-full"
+            >
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </section>
