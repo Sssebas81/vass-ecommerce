@@ -4,7 +4,7 @@ import products from "../../data/product.json";
 function PeripheralsProducts() {
   const navigate = useNavigate();
 
-  const shopProducts = products.filter((p) => p.id >= 9 && p.id <= 24);
+  const shopProducts = products.filter((p) => p.id >= 25 && p.id <= 40);
 
   return (
     <section className="bg-white py-16">
@@ -27,7 +27,7 @@ function PeripheralsProducts() {
 
               {/* Imagen */}
               <img
-                src={product.image [0]}
+                src={product.images [0]}
                 alt={product.name}
                 className="w-full h-56 object-contain p-4"
               />
