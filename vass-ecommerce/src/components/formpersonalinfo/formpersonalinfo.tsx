@@ -32,7 +32,7 @@ const FormPersonalInfo: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log(formData);
-    alert("Información guardada correctamente ✅");
+    alert("Información guardada correctamente ");
   };
 
   return (
