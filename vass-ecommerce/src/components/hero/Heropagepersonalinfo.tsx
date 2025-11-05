@@ -20,9 +20,9 @@ function Heropagepersonalinfo() {
 
       {/* Contenido centrado */}
       <div className="relative text-center text-white z-10">
-        <h1 className="text-4xl font-bold mb-2">personalinfo</h1>
+        <h1 className="text-4xl font-bold mb-2">Personal information</h1>
         <p className="text-sm opacity-90">
-          Home <span className="mx-2">›</span> personalinfo
+          Home <span className="mx-2">›</span>User
         </p>
       </div>
     </div>

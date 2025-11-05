@@ -73,10 +73,10 @@ const FormPersonalInfo: React.FC = () => {
         />
       </div>
 
-      {/* Form */}
+      {/* Formulario */}
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded-lg max-w-4xl w-full p-8 grid grid-cols-1 md:grid-cols-2 gap-6"
+        className="bg-gray-200 shadow-md rounded-lg max-w-4xl w-full p-8 grid grid-cols-1 md:grid-cols-2 gap-6"
       >
         {/* Left column */}
         <div className="flex flex-col gap-4">
