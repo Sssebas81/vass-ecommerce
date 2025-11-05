@@ -34,7 +34,7 @@ path : '/',
   element:<h2>Blog Page</h2> 
 },{
   path:"/Peripherals",
-  element: <PeripheralsPage/>
+  element: <PeripheralsPage />
 },{
   path:"/Devices",
   element:<h2>Devices Page</h2> 

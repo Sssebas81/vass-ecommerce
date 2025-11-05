@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import products from "../../data/product.json";
 
-function Peripherals() {
+function PeripheralsProducts() {
   const navigate = useNavigate();
 
   const shopProducts = products.filter((p) => p.id >= 9 && p.id <= 24);
@@ -80,4 +80,4 @@ function Peripherals() {
   );
 }
 
-export default Peripherals;
+export default PeripheralsProducts;
