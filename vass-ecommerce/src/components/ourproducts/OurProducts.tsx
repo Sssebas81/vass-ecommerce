@@ -47,8 +47,8 @@ function OurProducts() {
               </div>
 
               {/* Hover Layer */}
-              <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-50 transition-opacity flex flex-col items-center justify-center gap-4">
-                <button className="bg-white text-black font-semibold px-6 py-2 rounded hover:bg-white transition z-20">
+              <div className="absolute inset-0 bg-[#000000aa] hidden transition-opacity group-hover:flex flex-col items-center justify-center gap-4">
+                <button className="bg-white text-black font-semibold px-6 py-2 rounded hover:bg-white-200 transition z-20">
                   Add to cart
                 </button>
                 <div className="flex items-center gap-2 text-white text-sm">
