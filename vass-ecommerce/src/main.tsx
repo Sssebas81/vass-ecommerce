@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.tsx'
+import Blog from './pages/home/blog/Blog.tsx'
 import { h2 } from 'framer-motion/client'
 const Routes=createBrowserRouter([{
 path : '/',
@@ -29,7 +30,7 @@ path : '/',
   element:<h2>Contact Page</h2>
 },{
   path:"/Blog",
-  element:<h2>Blog Page</h2> 
+  element:<Blog/>
 },{
   path:"/Peripherals",
   element:<h2>Peripherals Page</h2> 
