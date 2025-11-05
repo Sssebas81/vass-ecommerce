@@ -4,11 +4,17 @@ import products from "../../data/product.json";
 function ProductsRelated() {
   const navigate = useNavigate();
 
-  const shopProducts = products.filter((p) => p.id >= 9 && p.id <= 24);
+   const shopProducts = [...products]
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 4);
 
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
+        {/* Título */}
+        <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
+          Related Products
+        </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {shopProducts.map((product) => (
             <div
