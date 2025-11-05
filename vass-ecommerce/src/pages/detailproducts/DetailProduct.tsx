@@ -8,6 +8,7 @@ import type { Product } from "../../type/type";
 import FeaturesBar from "../../components/featuresbar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
 import ProductTabs from "../../components/producttabs/ProductTabs";
+import ProductsRelated from "../../components/relatedproducts/ProductsRelated";
 
 function DetailProduct() {
 
@@ -34,7 +35,8 @@ function DetailProduct() {
         description={item?.description || ""}
         reviews={item?.reviews || []}
         images={item?.images || []}
-      />
+      />  
+      <ProductsRelated />
       <FeaturesBar />
       <Footer />
     </div>
