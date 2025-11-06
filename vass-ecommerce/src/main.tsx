@@ -7,6 +7,8 @@ import Home from './pages/home/Home.tsx'
 import { h2 } from 'framer-motion/client'
 import Peripherals from './components/Peripheralsproducts/Peripherals.tsx'
 import PeripheralsPage from './pages/Categories/PeripheralsPage.tsx'
+import DevicesPage from './pages/Categories/DevicesPage.tsx'
+import GamingPage from './pages/Categories/GamingPage.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>
@@ -37,10 +39,10 @@ path : '/',
   element: <PeripheralsPage />
 },{
   path:"/Devices",
-  element:<h2>Devices Page</h2> 
+  element:<DevicesPage />
 },{
   path:"/Gaming",
-  element:<h2>Gaming Page</h2> 
+  element:<GamingPage />
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
