@@ -4,7 +4,7 @@ import products from "../../data/product.json";
 function DevicesProducts() {
   const navigate = useNavigate();
 
-  const shopProducts = products.filter((p) => p.id >= 25 && p.id <= 40);
+  const shopProducts = products.filter((p) => p.id >= 41 && p.id <= 56);
 
   return (
     <section className="bg-white py-16">

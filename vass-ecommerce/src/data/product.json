@@ -1691,5 +1691,388 @@
         "rating": 5
       }
     ]
+  },{
+    "id": 41,
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": "5.400.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Samsung Galaxy S24 Ultra combines cutting-edge design, a stunning AMOLED display, and powerful AI-driven performance. With an advanced camera system capable of capturing incredible detail, it redefines mobile photography. The device offers long-lasting battery life, fast charging, and seamless multitasking for demanding users. Its titanium frame and sleek aesthetics make it both durable and elegant for any lifestyle.",
+    "detail": "Galaxy S24 Ultra — high-end smartphone with AI features and professional-grade camera.",
+    "sku": "PHN-SAMSUNG-S24U",
+    "category": "PC & Smartphones",
+    "tags": ["Samsung", "smartphone", "Android"],
+    "colors": ["Gray", "Black"],
+    "images": [
+      "/img/PCSmartphones/SamsungS24.png",
+      "/img/PCSmartphones/SamsungS242.png",
+      "/img/PCSmartphones/SamsungS243.png"
+    ],
+    "reviews": [
+      { "user": "Laura P.", "comment": "Amazing screen and camera quality!", "rating": 5 },
+      { "user": "Carlos D.", "comment": "Battery lasts all day and performance is top-notch.", "rating": 5 },
+      { "user": "Marta V.", "comment": "Incredible device, worth every peso.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 42,
+    "brand": "Asus",
+    "name": "Asus ROG Phone 7 Ultimate",
+    "price": "4.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Asus ROG Phone 7 Ultimate is a flagship gaming smartphone built for maximum power and cooling efficiency. It features a high-refresh AMOLED display, Snapdragon 8 Gen 2 processor, and advanced cooling system. Designed for gamers, it includes AirTrigger controls and immersive audio for a console-like experience. Its aggressive design and durable build make it perfect for heavy users and gaming enthusiasts.",
+    "detail": "ROG Phone 7 Ultimate — gaming smartphone with extreme performance and cooling.",
+    "sku": "PHN-ASUS-ROG7U",
+    "category": "PC & Smartphones",
+    "tags": ["Asus", "smartphone", "gaming"],
+    "colors": ["Black", "Silver"],
+    "images": [
+      "/img/PCSmartphones/Asus7Ultimate.png",
+      "/img/PCSmartphones/Asus7Ultimate2.png",
+      "/img/PCSmartphones/Asus7Ultimate3.png"
+    ],
+    "reviews": [
+      { "user": "Nicolás H.", "comment": "Perfect for gaming, smooth and powerful.", "rating": 5 },
+      { "user": "Daniela T.", "comment": "Battery and cooling are incredible.", "rating": 5 },
+      { "user": "Andrés P.", "comment": "Best mobile gaming experience I’ve had.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 43,
+    "brand": "Xiaomi",
+    "name": "Xiaomi Redmi Note 13 Pro+",
+    "price": "2.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Redmi Note 13 Pro+ delivers premium design and flagship features at an accessible price. With its 200MP camera, fast charging, and vivid AMOLED display, it offers outstanding value for everyday users. Its smooth performance and long-lasting battery make it a reliable companion. The phone blends elegance and innovation in a lightweight, modern body ideal for all-day use.",
+    "detail": "Redmi Note 13 Pro+ — affordable premium smartphone with 200MP camera.",
+    "sku": "PHN-XIAOMI-RN13P",
+    "category": "PC & Smartphones",
+    "tags": ["Xiaomi", "smartphone", "Android"],
+    "colors": ["Blue", "White"],
+    "images": [
+      "/img/PCSmartphones/XiaomiRN13.png",
+      "/img/PCSmartphones/XiaomiRN132.jpg",
+      "/img/PCSmartphones/XiaomiRN133.jpg"
+    ],
+    "reviews": [
+      { "user": "Laura G.", "comment": "Excellent performance and camera for the price.", "rating": 5 },
+      { "user": "Santiago F.", "comment": "Beautiful display and fast charging.", "rating": 5 },
+      { "user": "Juliana R.", "comment": "Feels like a flagship phone.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 44,
+    "brand": "Lenovo",
+    "name": "Lenovo Legion 5 Pro Laptop",
+    "price": "6.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Lenovo Legion 5 Pro combines raw gaming power with professional design. Powered by the latest AMD Ryzen and RTX graphics, it delivers excellent frame rates and multitasking performance. The QHD display offers vivid colors and high refresh rates for immersive gameplay. Built with precision cooling, it ensures quiet operation during intense sessions. Ideal for gamers and creators alike.",
+    "detail": "Legion 5 Pro — gaming laptop with Ryzen processor and RTX graphics.",
+    "sku": "LPT-LENOVO-LEGION5P",
+    "category": "PC & Smartphones",
+    "tags": ["Lenovo", "laptop", "gaming"],
+    "colors": ["Gray", "Black"],
+    "images": [
+      "/img/PCSmartphones/Lenovo5Pro.jpg",
+      "/img/PCSmartphones/Lenovo5Pro2.jpg",
+      "/img/PCSmartphones/Lenovo5Pro3.jpg"
+    ],
+    "reviews": [
+      { "user": "David R.", "comment": "Great gaming laptop, runs everything smoothly.", "rating": 5 },
+      { "user": "Camila E.", "comment": "Keyboard and display are top quality.", "rating": 5 },
+      { "user": "Juan C.", "comment": "Excellent cooling and performance.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 45,
+    "brand": "Asus",
+    "name": "Asus ROG Strix G16 Laptop",
+    "price": "7.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Asus ROG Strix G16 is engineered for serious gamers seeking high performance and modern design. Featuring a powerful Intel Core i9 processor and RTX 4070 GPU, it handles demanding games and creative workloads effortlessly. The 165Hz display delivers smooth visuals, while the RGB keyboard and cooling system enhance comfort. Perfect for users who demand speed and style.",
+    "detail": "ROG Strix G16 — high-performance gaming laptop with RTX graphics.",
+    "sku": "LPT-ASUS-STRIXG16",
+    "category": "PC & Smartphones",
+    "tags": ["Asus", "laptop", "gaming"],
+    "colors": ["Black"],
+    "images": [
+      "/img/PCSmartphones/AsusG16.jpg",
+      "/img/PCSmartphones/AsusG162.jpg",
+      "/img/PCSmartphones/AsusG163.jpg"
+    ],
+    "reviews": [
+      { "user": "Paula N.", "comment": "Super fast and reliable laptop.", "rating": 5 },
+      { "user": "Felipe T.", "comment": "Amazing RGB and cooling system.", "rating": 5 },
+      { "user": "Diana R.", "comment": "Best gaming experience I’ve had on a laptop.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 46,
+    "brand": "MSI",
+    "name": "MSI Katana 15 Gaming Laptop",
+    "price": "5.400.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The MSI Katana 15 offers impressive gaming power at an affordable price. Equipped with Intel Core i7 and RTX 4060, it handles modern games with ease. Its display delivers crisp visuals, while the cooling system keeps performance consistent under load. A sleek, minimalist design complements its solid build quality, making it a reliable choice for gamers and students.",
+    "detail": "Katana 15 — gaming laptop with RTX 4060 and Intel Core i7.",
+    "sku": "LPT-MSI-KATANA15",
+    "category": "PC & Smartphones",
+    "tags": ["MSI", "laptop", "gaming"],
+    "colors": ["Black", "Gray"],
+    "images": [
+      "/img/PCSmartphones/MSI15.jpg",
+      "/img/PCSmartphones/MSI152.jpg",
+      "/img/PCSmartphones/MSI153.jpg"
+    ],
+    "reviews": [
+      { "user": "Jorge B.", "comment": "Very powerful for its price.", "rating": 5 },
+      { "user": "Andrea G.", "comment": "Runs games flawlessly.", "rating": 5 },
+      { "user": "Samuel E.", "comment": "Solid build and excellent cooling.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 47,
+    "brand": "Acer",
+    "name": "Acer Predator Helios Neo 16",
+    "price": "6.800.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Acer Predator Helios Neo 16 delivers a bold balance of speed, visuals, and performance. Featuring Intel’s latest CPUs and NVIDIA RTX graphics, it handles heavy gaming and design work effortlessly. The 16-inch QHD display with high refresh rates offers immersive gameplay. With an efficient cooling system, it stays cool under pressure and looks striking with its sleek design.",
+    "detail": "Predator Helios Neo 16 — performance gaming laptop with QHD display.",
+    "sku": "LPT-ACER-NEO16",
+    "category": "PC & Smartphones",
+    "tags": ["Acer", "laptop", "gaming"],
+    "colors": ["Black"],
+    "images": [
+      "/img/PCSmartphones/AcerNeo16.png",
+      "/img/PCSmartphones/AcerNeo162.png",
+      "/img/PCSmartphones/AcerNeo163.png"
+    ],
+    "reviews": [
+      { "user": "Valentina R.", "comment": "Smooth visuals and excellent power.", "rating": 5 },
+      { "user": "Cristian Z.", "comment": "Super fast, perfect for work and play.", "rating": 5 },
+      { "user": "Elena P.", "comment": "Amazing laptop with great cooling.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 48,
+    "brand": "Dell",
+    "name": "Dell XPS 15 Laptop",
+    "price": "7.600.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Dell XPS 15 offers exceptional craftsmanship, performance, and portability. Its stunning 4K display and aluminum chassis make it ideal for professionals and creators. Powered by Intel’s 13th Gen processors, it delivers speed and efficiency for productivity and entertainment. With impressive battery life and premium design, it’s one of the best all-around laptops available.",
+    "detail": "XPS 15 — professional ultrabook with 4K display and sleek design.",
+    "sku": "LPT-DELL-XPS15",
+    "category": "PC & Smartphones",
+    "tags": ["Dell", "laptop", "professional"],
+    "colors": ["Silver"],
+    "images": [
+      "/img/PCSmartphones/DellXPS15.jpg",
+      "/img/PCSmartphones/DellXPS152.jpg",
+      "/img/PCSmartphones/DellXPS153.jpg"
+    ],
+    "reviews": [
+      { "user": "Julián M.", "comment": "Gorgeous display and great performance.", "rating": 5 },
+      { "user": "Nathalia L.", "comment": "Sleek and professional build.", "rating": 5 },
+      { "user": "Sebastián C.", "comment": "Perfect for productivity and travel.", "rating": 5 }
+    ]
+  },{
+    "id": 49,
+    "brand": "HP",
+    "name": "HP Omen 16 Gaming Laptop",
+    "price": "6.000.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The HP Omen 16 offers outstanding gaming power and efficiency in a sleek chassis. Powered by the latest Intel and NVIDIA components, it ensures smooth gameplay and multitasking. Its QHD display and RGB keyboard create an immersive environment for gamers. With effective cooling and durable design, it’s built for those who seek consistent high performance in every session.",
+    "detail": "Omen 16 — high-performance gaming laptop with RTX graphics and RGB lighting.",
+    "sku": "LPT-HP-OMEN16",
+    "category": "PC & Smartphones",
+    "tags": ["HP", "laptop", "gaming"],
+    "colors": ["Black"],
+    "images": [
+      "/img/PCSmartphones/HPOmen16.png",
+      "/img/PCSmartphones/HPOmen162.png",
+      "/img/PCSmartphones/HPOmen163.png"
+    ],
+    "reviews": [
+      { "user": "Camilo T.", "comment": "Runs all my games flawlessly.", "rating": 5 },
+      { "user": "Valeria F.", "comment": "Fast, quiet, and very well built.", "rating": 5 },
+      { "user": "Nicolás A.", "comment": "Amazing laptop for both gaming and work.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 50,
+    "brand": "Intel",
+    "name": "Intel Core i9-14900K CPU",
+    "price": "3.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Intel Core i9-14900K delivers elite-level processing power for gaming and productivity. Built with advanced architecture and high clock speeds, it handles demanding workloads effortlessly. Ideal for creators and enthusiasts, it ensures faster rendering and smoother multitasking. Designed for maximum performance, it redefines the standard for modern desktop processors.",
+    "detail": "Intel Core i9-14900K — high-performance CPU for gaming and creative work.",
+    "sku": "CPU-INTEL-I9-14900K",
+    "category": "PC & Smartphones",
+    "tags": ["Intel", "CPU", "processor"],
+    "colors": ["Silver"],
+    "images": [
+      "/img/PCSmartphones/IntelCPU.jpg",
+      "/img/PCSmartphones/IntelCPU2.jpg",
+      "/img/PCSmartphones/IntelCPU3.jpg"
+    ],
+    "reviews": [
+      { "user": "Carlos P.", "comment": "Blazing fast performance for everything.", "rating": 5 },
+      { "user": "Mariana D.", "comment": "Perfect for gaming and rendering tasks.", "rating": 5 },
+      { "user": "José M.", "comment": "Incredible speed and efficiency.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 51,
+    "brand": "AMD",
+    "name": "AMD Ryzen 9 7950X CPU",
+    "price": "2.800.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The AMD Ryzen 9 7950X offers next-level multitasking and gaming power. With 16 cores and cutting-edge architecture, it delivers lightning-fast performance for intensive workloads. Perfect for professionals and gamers, it ensures excellent thermals and efficiency. Its power and speed redefine what’s possible in high-end desktop computing.",
+    "detail": "Ryzen 9 7950X — high-end desktop processor with 16 cores for extreme performance.",
+    "sku": "CPU-AMD-RYZEN9-7950X",
+    "category": "PC & Smartphones",
+    "tags": ["AMD", "CPU", "processor"],
+    "colors": ["Gray"],
+    "images": [
+      "/img/PCSmartphones/AMDRyzen9.jpg",
+      "/img/PCSmartphones/AMDRyzen92.jpg",
+      "/img/PCSmartphones/AMDRyzen93.jpg"
+    ],
+    "reviews": [
+      { "user": "Daniel C.", "comment": "Outstanding performance for editing and gaming.", "rating": 5 },
+      { "user": "Laura V.", "comment": "Handles heavy tasks with ease.", "rating": 5 },
+      { "user": "Andrés G.", "comment": "A beast of a processor, highly recommended.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 52,
+    "brand": "NZXT",
+    "name": "NZXT H7 Flow PC Case",
+    "price": "750.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The NZXT H7 Flow offers exceptional airflow and clean aesthetics for PC builders. Designed with optimized ventilation and a tool-free design, it makes assembly effortless. The tempered glass panel showcases components beautifully, while its minimal layout ensures efficient cooling. A perfect choice for enthusiasts who value both function and style.",
+    "detail": "H7 Flow — mid-tower case with optimized airflow and modern aesthetics.",
+    "sku": "CASE-NZXT-H7FLOW",
+    "category": "PC & Smartphones",
+    "tags": ["NZXT", "case", "PC"],
+    "colors": ["White", "Black"],
+    "images": [
+      "/img/PCSmartphones/NZXTTorre.jpg",
+      "/img/PCSmartphones/NZXTTorre2.jpg",
+      "/img/PCSmartphones/NZXTTorre3.jpg"
+    ],
+    "reviews": [
+      { "user": "Mateo F.", "comment": "Easy to build in and excellent airflow.", "rating": 5 },
+      { "user": "Luisa P.", "comment": "Very stylish and functional case.", "rating": 5 },
+      { "user": "Felipe S.", "comment": "Clean look with great cooling support.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 53,
+    "brand": "Cooler Master",
+    "name": "Cooler Master Cosmos C700P Tower",
+    "price": "1.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Cooler Master Cosmos C700P is a premium tower case designed for enthusiasts and professionals. It features curved tempered glass, modular components, and excellent airflow for top-tier builds. Its striking RGB lighting and aluminum handles add sophistication. Built for customization, it allows for both vertical and traditional motherboard layouts.",
+    "detail": "Cosmos C700P — full-tower case with modular design and RGB lighting.",
+    "sku": "CASE-COOLERMASTER-C700P",
+    "category": "PC & Smartphones",
+    "tags": ["Cooler Master", "case", "PC"],
+    "colors": ["Gray"],
+    "images": [
+      "/img/PCSmartphones/CoolerMaster.png",
+      "/img/PCSmartphones/CoolerMaster2.png",
+      "/img/PCSmartphones/CoolerMaster3.png"
+    ],
+    "reviews": [
+      { "user": "Ricardo J.", "comment": "Beautiful and massive case, great quality.", "rating": 5 },
+      { "user": "Natalia U.", "comment": "Premium materials and airflow.", "rating": 5 },
+      { "user": "Esteban C.", "comment": "Perfect for custom water cooling builds.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 54,
+    "brand": "Corsair",
+    "name": "Corsair iCUE 5000T RGB Tower",
+    "price": "1.500.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Corsair iCUE 5000T is a stunning mid-tower case with integrated RGB lighting and excellent cooling support. It accommodates high-end components and multiple radiators with ease. Its spacious interior and cable management make building simple and clean. Designed for enthusiasts, it combines elegance with top-tier performance.",
+    "detail": "iCUE 5000T — RGB tower case designed for premium cooling and style.",
+    "sku": "CASE-CORSAIR-5000T",
+    "category": "PC & Smartphones",
+    "tags": ["Corsair", "case", "PC"],
+    "colors": ["White", "Black"],
+    "images": [
+      "/img/PCSmartphones/CorsairTorre.jpg",
+      "/img/PCSmartphones/CorsairTorre2.jpg",
+      "/img/PCSmartphones/CorsairTorre3.jpg"
+    ],
+    "reviews": [
+      { "user": "Carolina P.", "comment": "Stunning lighting and airflow.", "rating": 5 },
+      { "user": "Iván G.", "comment": "Easy to build and manage cables.", "rating": 5 },
+      { "user": "Sofía R.", "comment": "Looks beautiful on my setup.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 55,
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Book3 Ultra Laptop",
+    "price": "7.800.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Samsung Galaxy Book3 Ultra delivers the perfect balance between performance and portability. Featuring Intel Core i7 processors, a stunning AMOLED display, and premium aluminum build, it’s crafted for professionals. Its lightweight design and long battery life make it ideal for productivity anywhere. A refined laptop built for those who demand style and power.",
+    "detail": "Galaxy Book3 Ultra — premium ultrabook with AMOLED display and i7 processor.",
+    "sku": "LPT-SAMSUNG-BOOK3U",
+    "category": "PC & Smartphones",
+    "tags": ["Samsung", "laptop", "ultrabook"],
+    "colors": ["Gray"],
+    "images": [
+      "/img/PCSmartphones/SamsungBook3.png",
+      "/img/PCSmartphones/SamsungBook32.png",
+      "/img/PCSmartphones/SamsungBook33.png"
+    ],
+    "reviews": [
+      { "user": "Camila S.", "comment": "Super light and elegant laptop.", "rating": 5 },
+      { "user": "Javier T.", "comment": "Beautiful display and fast performance.", "rating": 5 },
+      { "user": "Ana L.", "comment": "Perfect for design and everyday work.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 56,
+    "brand": "Apple",
+    "name": "Apple MacBook Pro 16'' M3 Pro",
+    "price": "12.000.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The MacBook Pro 16'' M3 Pro combines incredible power, battery efficiency, and premium craftsmanship. Equipped with Apple’s advanced M3 chip, it delivers unmatched speed for creative and professional workloads. The Liquid Retina XDR display provides breathtaking visuals, while the all-day battery ensures uninterrupted productivity. A true performance icon for creators and innovators.",
+    "detail": "MacBook Pro 16'' M3 Pro — professional laptop with Apple Silicon performance.",
+    "sku": "LPT-APPLE-MBP16M3",
+    "category": "PC & Smartphones",
+    "tags": ["Apple", "laptop", "MacBook"],
+    "colors": ["Silver", "Space Gray"],
+    "images": [
+      "/img/PCSmartphones/MacBookPro16.jpg",
+      "/img/PCSmartphones/MacBookPro162.jpg",
+      "/img/PCSmartphones/MacBookPro163.jpg"
+    ],
+    "reviews": [
+      { "user": "Santiago P.", "comment": "The best MacBook yet, super fast and silent.", "rating": 5 },
+      { "user": "Daniela R.", "comment": "Incredible screen and performance.", "rating": 5 },
+      { "user": "Felipe A.", "comment": "Perfect for video editing and creative work.", "rating": 5 }
+    ]
   }
 ]
+

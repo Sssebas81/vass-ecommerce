@@ -1,3 +1,4 @@
+import FeaturesBar from "../../components/FeaturesBar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
 import HeropagePeripherals from "../../components/hero/HeroPagePeripherals";
 import Navbar from "../../components/navbar/Navbar";
@@ -10,6 +11,7 @@ function PeripheralsPage() {
       <Navbar />
       <HeropagePeripherals />
       <PeripheralsProducts />    
+      <FeaturesBar/>
       <Footer/>
     </div>
   );
