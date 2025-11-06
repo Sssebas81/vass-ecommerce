@@ -1020,463 +1020,678 @@
     ]
   },
   [
-  {
-    "id": 25,
-    "brand": "Blue",
-    "name": "Blue Yeti Microphone",
-    "price": "620.000 COP",
-    "oldPrice": "700.000 COP",
-    "discount": "12% OFF",
-    "description": "The Blue Yeti microphone offers professional-grade audio recording for streamers, podcasters, and musicians. With multiple pickup patterns, crystal-clear sound, and an easy USB connection, it provides studio-quality performance in a sleek and reliable package. Its sturdy design and plug-and-play setup make it perfect for both beginners and professionals seeking rich, detailed audio. Whether recording vocals, instruments, or streaming, the Blue Yeti delivers consistency and versatility every time.",
-    "detail": "Blue Yeti — professional USB microphone ideal for streaming, podcasting, and studio-quality recording.",
-    "sku": "MIC-BLUE-YETI",
-    "category": "Peripherals",
-    "tags": ["Blue", "microphone", "audio"],
-    "colors": ["Silver"],
-    "images": [
-      "/img/PeripheralsAccessories/BlueMicro.png",
-      "/img/PeripheralsAccessories/BlueMicro2.png",
-      "/img/PeripheralsAccessories/BlueMicro3.png"
-    ],
-    "reviews": [
-      {
-        "user": "Andrés L.",
-        "comment": "Excellent sound quality and very easy to use.",
-        "rating": 5
-      },
-      {
-        "user": "Catalina Q.",
-        "comment": "Perfect for my streaming setup, works flawlessly.",
-        "rating": 5
-      },
-      {
-        "user": "Pedro G.",
-        "comment": "Great microphone, captures voice clearly.",
-        "rating": 5
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "brand": "Corsair",
-    "name": "Corsair Mechanical Keyboard K70 RGB",
-    "price": "720.000 COP",
-    "oldPrice": "800.000 COP",
-    "discount": "10% OFF",
-    "description": "The Corsair K70 RGB is a premium mechanical keyboard built for performance and durability. Featuring customizable per-key RGB lighting, ultra-responsive Cherry MX switches, and an aluminum frame, it delivers precision and comfort during long gaming sessions. Dedicated media controls and full N-key rollover ensure total control without compromise. Its design combines beauty and function, making it a top choice for gamers and professionals alike.",
-    "detail": "Corsair K70 RGB — mechanical keyboard with customizable lighting and durable aluminum design.",
-    "sku": "KEY-CORSAIR-K70",
-    "category": "Peripherals",
-    "tags": ["Corsair", "keyboard", "RGB"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/Corsair.png",
-      "/img/PeripheralsAccessories/Corsair2.png",
-      "/img/PeripheralsAccessories/Corsair3.png"
-    ],
-    "reviews": [
-      {
-        "user": "Andrés L.",
-        "comment": "Excellent response and lighting customization.",
-        "rating": 5
-      },
-      {
-        "user": "Catalina Q.",
-        "comment": "Comfortable to type and game on, worth the price.",
-        "rating": 5
-      },
-      {
-        "user": "Pedro G.",
-        "comment": "Great quality keyboard, feels premium.",
-        "rating": 5
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "brand": "Creative",
-    "name": "Creative Pebble 2.0 Speakers",
-    "price": "230.000 COP",
-    "oldPrice": "270.000 COP",
-    "discount": "15% OFF",
-    "description": "The Creative Pebble 2.0 speakers combine compact design and clear sound for any workspace. Powered by USB and equipped with enhanced bass, they deliver impressive performance without taking much space. Their modern spherical design fits perfectly into any setup. Ideal for watching videos, listening to music, or working, these speakers offer excellent value with a sleek, minimalistic appearance.",
-    "detail": "Creative Pebble 2.0 — compact USB-powered speakers with rich sound and modern design.",
-    "sku": "SPK-CREATIVE-PEBBLE",
-    "category": "Peripherals",
-    "tags": ["Creative", "speakers", "audio"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/CreativeParlantes.png",
-      "/img/PeripheralsAccessories/CreativeParlantes2.png",
-      "/img/PeripheralsAccessories/CreativeParlantes3.png"
-    ],
-    "reviews": [
-      {
-        "user": "Andrés L.",
-        "comment": "Impressive sound for their size, highly portable.",
-        "rating": 5
-      },
-      {
-        "user": "Catalina Q.",
-        "comment": "Perfect for my desk setup, small but powerful.",
-        "rating": 5
-      },
-      {
-        "user": "Pedro G.",
-        "comment": "Great clarity and bass, worth every penny.",
-        "rating": 5
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "brand": "Elgato",
-    "name": "Elgato Wave 3 Microphone",
-    "price": "850.000 COP",
-    "oldPrice": "920.000 COP",
-    "discount": "8% OFF",
-    "description": "The Elgato Wave 3 microphone delivers broadcast-quality sound with advanced digital mixing features for streamers and creators. It combines studio-grade clarity with intuitive controls and clipguard technology to prevent distortion. Designed for modern content production, it integrates seamlessly with popular streaming software. Sleek, durable, and powerful, it ensures your voice sounds professional in every recording or live session.",
-    "detail": "Elgato Wave 3 — USB microphone with digital mixing and professional clarity.",
-    "sku": "MIC-ELGATO-W3",
-    "category": "Peripherals",
-    "tags": ["Elgato", "microphone", "streaming"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/ElgatoMicro.png",
-      "/img/PeripheralsAccessories/ElgatoMicro2.png",
-      "/img/PeripheralsAccessories/ElgatoMicro3.png"
-    ],
-    "reviews": [
-      {
-        "user": "Andrés L.",
-        "comment": "Crystal-clear audio and amazing design.",
-        "rating": 5
-      },
-      {
-        "user": "Catalina Q.",
-        "comment": "Best mic I’ve used for streaming, worth it.",
-        "rating": 5
-      },
-      {
-        "user": "Pedro G.",
-        "comment": "Simple setup, great professional quality.",
-        "rating": 5
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "brand": "HyperX",
-    "name": "HyperX Cloud II Gaming Headset",
-    "price": "480.000 COP",
-    "oldPrice": "550.000 COP",
-    "discount": "13% OFF",
-    "description": "The HyperX Cloud II headset provides immersive audio and superior comfort for gamers. Featuring 7.1 virtual surround sound, a detachable noise-canceling mic, and durable aluminum construction, it ensures long-lasting quality and clarity. Its memory foam ear cushions make it ideal for extended sessions. Designed for performance and comfort, it’s the perfect choice for competitive and casual gaming alike.",
-    "detail": "HyperX Cloud II — 7.1 surround gaming headset with comfort and clarity.",
-    "sku": "HS-HYPERX-CLOUD2",
-    "category": "Peripherals",
-    "tags": ["HyperX", "headset", "gaming"],
-    "colors": ["Black", "Red"],
-    "images": [
-      "/img/PeripheralsAccessories/HyperX.png",
-      "/img/PeripheralsAccessories/HyperX2.png",
-      "/img/PeripheralsAccessories/HyperX3.png"
-    ],
-    "reviews": [
-      {
-        "user": "Andrés L.",
-        "comment": "Amazing sound and mic quality, very comfy.",
-        "rating": 5
-      },
-      {
-        "user": "Catalina Q.",
-        "comment": "Perfect for gaming, love the surround sound.",
-        "rating": 5
-      },
-      {
-        "user": "Pedro G.",
-        "comment": "Durable, comfortable, and clear audio.",
-        "rating": 5
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "brand": "Logitech",
-    "name": "Logitech G Pro X Headset",
-    "price": "590.000 COP",
-    "oldPrice": "640.000 COP",
-    "discount": "8% OFF",
-    "description": "The Logitech G Pro X headset brings esports-grade sound and comfort. Equipped with Blue VO!CE microphone technology, it delivers clear communication and customizable sound profiles. Its premium leatherette padding and sturdy steel frame offer durability and style. Designed for competitive play, it provides positional accuracy and high fidelity sound for serious gamers seeking professional performance.",
-    "detail": "Logitech G Pro X — gaming headset with Blue VO!CE microphone and premium sound.",
-    "sku": "HS-LOGI-GPROX",
-    "category": "Peripherals",
-    "tags": ["Logitech", "headset", "gaming"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/LogitechAudifonos.png",
-      "/img/PeripheralsAccessories/LogitechAudifonos2.png",
-      "/img/PeripheralsAccessories/LogitechAudifonos3.png"
-    ],
-    "reviews": [
-      {
-        "user": "Andrés L.",
-        "comment": "Crystal clear mic and deep sound quality.",
-        "rating": 5
-      },
-      {
-        "user": "Catalina Q.",
-        "comment": "Very comfortable and sounds professional.",
-        "rating": 5
-      },
-      {
-        "user": "Pedro G.",
-        "comment": "Excellent for streaming and gaming sessions.",
-        "rating": 5
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "brand": "Logitech",
-    "name": "Logitech C920 HD Pro Webcam",
-    "price": "420.000 COP",
-    "oldPrice": "470.000 COP",
-    "discount": "10% OFF",
-    "description": "The Logitech C920 HD Pro webcam delivers sharp 1080p video quality with clear stereo audio, making it ideal for video calls, streaming, and recording. Its automatic light correction ensures you always look your best, even in low-light environments. With plug-and-play simplicity and reliable performance, it’s a trusted choice for professionals and creators alike.",
-    "detail": "Logitech C920 HD Pro — full HD webcam for streaming and video conferencing.",
-    "sku": "CAM-LOGI-C920",
-    "category": "Peripherals",
-    "tags": ["Logitech", "webcam", "video"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/LogitechCam.png",
-      "/img/PeripheralsAccessories/LogitechCam2.png",
-      "/img/PeripheralsAccessories/LogitechCam3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Excellent image quality, very reliable.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Perfect for meetings and streaming.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Crisp video and easy to set up.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 32,
-    "brand": "Logitech",
-    "name": "Logitech G502 HERO Gaming Mouse",
-    "price": "360.000 COP",
-    "oldPrice": "410.000 COP",
-    "discount": "12% OFF",
-    "description": "The Logitech G502 HERO is a precision-engineered gaming mouse featuring a 25K DPI sensor, customizable weights, and programmable buttons for full control. With its ergonomic design and RGB lighting, it offers superior comfort and responsiveness. Built for performance and accuracy, it’s perfect for gamers who demand speed, precision, and reliability.",
-    "detail": "Logitech G502 HERO — high-performance gaming mouse with adjustable weight system.",
-    "sku": "MOU-LOGI-G502",
-    "category": "Peripherals",
-    "tags": ["Logitech", "mouse", "gaming"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/LogitechMouse.png",
-      "/img/PeripheralsAccessories/LogitechMouse2.png",
-      "/img/PeripheralsAccessories/LogitechMouse3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Fantastic precision and great grip.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Customizable buttons are a game changer.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Perfect balance and smooth motion.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 33,
-    "brand": "Logitech",
-    "name": "Logitech Z407 Bluetooth Speakers",
-    "price": "480.000 COP",
-    "oldPrice": "540.000 COP",
-    "discount": "11% OFF",
-    "description": "The Logitech Z407 speakers provide immersive sound with deep bass and clear highs. Featuring Bluetooth, USB, and AUX connectivity, they offer flexible setup options for your PC or entertainment system. The included wireless control dial allows for convenient volume adjustment. Modern, compact, and powerful, they deliver premium sound for every occasion.",
-    "detail": "Logitech Z407 — Bluetooth speakers with rich bass and multiple connectivity options.",
-    "sku": "SPK-LOGI-Z407",
-    "category": "Peripherals",
-    "tags": ["Logitech", "speakers", "audio"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/LogitechParlantes.png",
-      "/img/PeripheralsAccessories/LogitechParlantes2.png",
-      "/img/PeripheralsAccessories/LogitechParlantes3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Amazing sound, love the bass response.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Stylish and powerful for my setup.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Great Bluetooth connection and control.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 34,
-    "brand": "Razer",
-    "name": "Razer DeathAdder V2 Mouse",
-    "price": "340.000 COP",
-    "oldPrice": "390.000 COP",
-    "discount": "13% OFF",
-    "description": "The Razer DeathAdder V2 is an ergonomic gaming mouse featuring a high-precision 20K DPI optical sensor for ultimate accuracy. Designed for long sessions, it offers smooth, responsive tracking and customizable RGB lighting. Its durable switches and lightweight form factor make it a favorite among competitive gamers worldwide.",
-    "detail": "Razer DeathAdder V2 — ergonomic mouse with 20K DPI optical sensor and RGB lighting.",
-    "sku": "MOU-RAZER-DA2",
-    "category": "Peripherals",
-    "tags": ["Razer", "mouse", "gaming"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/RazerMouse.png",
-      "/img/PeripheralsAccessories/RazerMouse2.png",
-      "/img/PeripheralsAccessories/RazerMouse3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Super responsive and feels great.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Lightweight and very precise.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "My favorite mouse for FPS games.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 35,
-    "brand": "Razer",
-    "name": "Razer Kiyo Pro Webcam",
-    "price": "630.000 COP",
-    "oldPrice": "690.000 COP",
-    "discount": "9% OFF",
-    "description": "The Razer Kiyo Pro webcam delivers professional-grade image quality with adaptive light sensors and HDR support. Designed for streaming and content creation, it provides smooth, detailed video even in low-light conditions. Its wide-angle lens and customizable field of view ensure flexibility for any setup.",
-    "detail": "Razer Kiyo Pro — HDR webcam with adaptive light sensors and wide-angle lens.",
-    "sku": "CAM-RAZER-KIYO",
-    "category": "Peripherals",
-    "tags": ["Razer", "webcam", "video"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/RazerWebcam.png",
-      "/img/PeripheralsAccessories/RazerWebcam2.png",
-      "/img/PeripheralsAccessories/RazerWebcam3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Fantastic quality and easy setup.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Perfect for professional streams.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Crisp and clear video every time.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 36,
-    "brand": "Samsung",
-    "name": "Samsung Portable SSD T7 1TB",
-    "price": "590.000 COP",
-    "oldPrice": "650.000 COP",
-    "discount": "9% OFF",
-    "description": "The Samsung Portable SSD T7 offers fast transfer speeds, reliable storage, and a sleek, compact design. Built with NVMe technology, it ensures smooth performance for professionals on the go. Shock-resistant and secure, it’s perfect for storing large files safely and quickly accessing them anywhere.",
-    "detail": "Samsung T7 — portable 1TB SSD with high-speed NVMe performance.",
-    "sku": "SSD-SAMSUNG-T7",
-    "category": "Storage",
-    "tags": ["Samsung", "SSD", "storage"],
-    "colors": ["Gray"],
-    "images": [
-      "/img/PeripheralsAccessories/SamsungDisco.png",
-      "/img/PeripheralsAccessories/SamsungDisco2.png",
-      "/img/PeripheralsAccessories/SamsungDisco3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Super fast and compact, great build.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Transfers files instantly, love it.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Perfect external SSD for work.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 37,
-    "brand": "Seagate",
-    "name": "Seagate Expansion Portable 2TB HDD",
-    "price": "360.000 COP",
-    "oldPrice": "410.000 COP",
-    "discount": "12% OFF",
-    "description": "The Seagate Expansion Portable Drive offers reliable, plug-and-play storage for your files, photos, and games. With a spacious 2TB capacity and USB 3.0 connectivity, it delivers fast data transfer and easy use on any computer. Compact and durable, it’s ideal for users who need simple, portable backup solutions.",
-    "detail": "Seagate Expansion — 2TB portable hard drive with USB 3.0 connectivity.",
-    "sku": "HDD-SEAGATE-2TB",
-    "category": "Storage",
-    "tags": ["Seagate", "HDD", "storage"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/SegateDisco.png",
-      "/img/PeripheralsAccessories/SegateDisco2.png",
-      "/img/PeripheralsAccessories/SegateDisco3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Reliable storage, works perfectly.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Fast and easy to use.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Good capacity for backups.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 38,
-    "brand": "SteelSeries",
-    "name": "SteelSeries Apex Pro Keyboard",
-    "price": "890.000 COP",
-    "oldPrice": "980.000 COP",
-    "discount": "9% OFF",
-    "description": "The SteelSeries Apex Pro features adjustable mechanical switches for personalized sensitivity and performance. With per-key RGB lighting, aluminum alloy construction, and an OLED smart display, it’s built for competitive gamers and creators who demand precision and style. This keyboard redefines control and customization in every keystroke.",
-    "detail": "SteelSeries Apex Pro — adjustable mechanical keyboard with OLED display.",
-    "sku": "KEY-STEELSERIES-APEXPRO",
-    "category": "Peripherals",
-    "tags": ["SteelSeries", "keyboard", "gaming"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/SteelSeries.png",
-      "/img/PeripheralsAccessories/SteelSeries2.png",
-      "/img/PeripheralsAccessories/SteelSeries3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Incredible feel and customization.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Best keyboard I’ve owned, perfect lighting.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Smooth keys and beautiful design.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 39,
-    "brand": "Wacom",
-    "name": "Wacom Intuos Pro Tablet",
-    "price": "920.000 COP",
-    "oldPrice": "1.000.000 COP",
-    "discount": "8% OFF",
-    "description": "The Wacom Intuos Pro is a professional drawing tablet offering exceptional precision and pressure sensitivity. With customizable ExpressKeys and a slim, elegant design, it enhances creative workflows for artists and designers. Compatible with major software, it provides a natural, pen-on-paper experience for digital art and design.",
-    "detail": "Wacom Intuos Pro — professional graphic tablet with high pressure sensitivity.",
-    "sku": "TAB-WACOM-INTUOSPRO",
-    "category": "Peripherals",
-    "tags": ["Wacom", "tablet", "graphic"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/WacomTableta.png",
-      "/img/PeripheralsAccessories/WacomTableta2.png",
-      "/img/PeripheralsAccessories/WacomTableta3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Fantastic sensitivity and accuracy.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Feels natural, great for illustration.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Excellent for professional art work.", "rating": 5 }
-    ]
-  },
-  {
-    "id": 40,
-    "brand": "XP-Pen",
-    "name": "XP-Pen Deco 01 V2 Tablet",
-    "price": "380.000 COP",
-    "oldPrice": "430.000 COP",
-    "discount": "12% OFF",
-    "description": "The XP-Pen Deco 01 V2 is a large digital drawing tablet designed for smooth creativity and precision. It features a wide active area, customizable shortcut keys, and tilt support for realistic drawing. Compatible with all major art software, it’s an excellent option for beginners and professionals looking for value and performance.",
-    "detail": "XP-Pen Deco 01 V2 — digital drawing tablet with wide area and tilt function.",
-    "sku": "TAB-XPPEN-DECO01",
-    "category": "Peripherals",
-    "tags": ["XP-Pen", "tablet", "graphic"],
-    "colors": ["Black"],
-    "images": [
-      "/img/PeripheralsAccessories/XP-PenTableta.png",
-      "/img/PeripheralsAccessories/XP-PenTableta2.png",
-      "/img/PeripheralsAccessories/XP-PenTableta3.png"
-    ],
-    "reviews": [
-      { "user": "Andrés L.", "comment": "Excellent tablet, responsive and smooth.", "rating": 5 },
-      { "user": "Catalina Q.", "comment": "Easy to use and very accurate.", "rating": 5 },
-      { "user": "Pedro G.", "comment": "Great quality for its price.", "rating": 5 }
-    ]
-  }
+    {
+      "id": 25,
+      "brand": "Blue",
+      "name": "Blue Yeti Microphone",
+      "price": "620.000 COP",
+      "oldPrice": "700.000 COP",
+      "discount": "12% OFF",
+      "description": "The Blue Yeti microphone offers professional-grade audio recording for streamers, podcasters, and musicians. With multiple pickup patterns, crystal-clear sound, and an easy USB connection, it provides studio-quality performance in a sleek and reliable package. Its sturdy design and plug-and-play setup make it perfect for both beginners and professionals seeking rich, detailed audio. Whether recording vocals, instruments, or streaming, the Blue Yeti delivers consistency and versatility every time.",
+      "detail": "Blue Yeti — professional USB microphone ideal for streaming, podcasting, and studio-quality recording.",
+      "sku": "MIC-BLUE-YETI",
+      "category": "Peripherals",
+      "tags": [
+        "Blue",
+        "microphone",
+        "audio"
+      ],
+      "colors": [
+        "Silver"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/BlueMicro.png",
+        "/img/PeripheralsAccessories/BlueMicro2.png",
+        "/img/PeripheralsAccessories/BlueMicro3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Excellent sound quality and very easy to use.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Perfect for my streaming setup, works flawlessly.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Great microphone, captures voice clearly.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "brand": "Corsair",
+      "name": "Corsair Mechanical Keyboard K70 RGB",
+      "price": "720.000 COP",
+      "oldPrice": "800.000 COP",
+      "discount": "10% OFF",
+      "description": "The Corsair K70 RGB is a premium mechanical keyboard built for performance and durability. Featuring customizable per-key RGB lighting, ultra-responsive Cherry MX switches, and an aluminum frame, it delivers precision and comfort during long gaming sessions. Dedicated media controls and full N-key rollover ensure total control without compromise. Its design combines beauty and function, making it a top choice for gamers and professionals alike.",
+      "detail": "Corsair K70 RGB — mechanical keyboard with customizable lighting and durable aluminum design.",
+      "sku": "KEY-CORSAIR-K70",
+      "category": "Peripherals",
+      "tags": [
+        "Corsair",
+        "keyboard",
+        "RGB"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/Corsair.png",
+        "/img/PeripheralsAccessories/Corsair2.png",
+        "/img/PeripheralsAccessories/Corsair3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Excellent response and lighting customization.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Comfortable to type and game on, worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Great quality keyboard, feels premium.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "brand": "Creative",
+      "name": "Creative Pebble 2.0 Speakers",
+      "price": "230.000 COP",
+      "oldPrice": "270.000 COP",
+      "discount": "15% OFF",
+      "description": "The Creative Pebble 2.0 speakers combine compact design and clear sound for any workspace. Powered by USB and equipped with enhanced bass, they deliver impressive performance without taking much space. Their modern spherical design fits perfectly into any setup. Ideal for watching videos, listening to music, or working, these speakers offer excellent value with a sleek, minimalistic appearance.",
+      "detail": "Creative Pebble 2.0 — compact USB-powered speakers with rich sound and modern design.",
+      "sku": "SPK-CREATIVE-PEBBLE",
+      "category": "Peripherals",
+      "tags": [
+        "Creative",
+        "speakers",
+        "audio"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/CreativeParlantes.png",
+        "/img/PeripheralsAccessories/CreativeParlantes2.png",
+        "/img/PeripheralsAccessories/CreativeParlantes3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Impressive sound for their size, highly portable.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Perfect for my desk setup, small but powerful.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Great clarity and bass, worth every penny.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "brand": "Elgato",
+      "name": "Elgato Wave 3 Microphone",
+      "price": "850.000 COP",
+      "oldPrice": "920.000 COP",
+      "discount": "8% OFF",
+      "description": "The Elgato Wave 3 microphone delivers broadcast-quality sound with advanced digital mixing features for streamers and creators. It combines studio-grade clarity with intuitive controls and clipguard technology to prevent distortion. Designed for modern content production, it integrates seamlessly with popular streaming software. Sleek, durable, and powerful, it ensures your voice sounds professional in every recording or live session.",
+      "detail": "Elgato Wave 3 — USB microphone with digital mixing and professional clarity.",
+      "sku": "MIC-ELGATO-W3",
+      "category": "Peripherals",
+      "tags": [
+        "Elgato",
+        "microphone",
+        "streaming"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/ElgatoMicro.png",
+        "/img/PeripheralsAccessories/ElgatoMicro2.png",
+        "/img/PeripheralsAccessories/ElgatoMicro3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Crystal-clear audio and amazing design.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Best mic I’ve used for streaming, worth it.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Simple setup, great professional quality.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "brand": "HyperX",
+      "name": "HyperX Cloud II Gaming Headset",
+      "price": "480.000 COP",
+      "oldPrice": "550.000 COP",
+      "discount": "13% OFF",
+      "description": "The HyperX Cloud II headset provides immersive audio and superior comfort for gamers. Featuring 7.1 virtual surround sound, a detachable noise-canceling mic, and durable aluminum construction, it ensures long-lasting quality and clarity. Its memory foam ear cushions make it ideal for extended sessions. Designed for performance and comfort, it’s the perfect choice for competitive and casual gaming alike.",
+      "detail": "HyperX Cloud II — 7.1 surround gaming headset with comfort and clarity.",
+      "sku": "HS-HYPERX-CLOUD2",
+      "category": "Peripherals",
+      "tags": [
+        "HyperX",
+        "headset",
+        "gaming"
+      ],
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/HyperX.png",
+        "/img/PeripheralsAccessories/HyperX2.png",
+        "/img/PeripheralsAccessories/HyperX3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Amazing sound and mic quality, very comfy.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Perfect for gaming, love the surround sound.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Durable, comfortable, and clear audio.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "brand": "Logitech",
+      "name": "Logitech G Pro X Headset",
+      "price": "590.000 COP",
+      "oldPrice": "640.000 COP",
+      "discount": "8% OFF",
+      "description": "The Logitech G Pro X headset brings esports-grade sound and comfort. Equipped with Blue VO!CE microphone technology, it delivers clear communication and customizable sound profiles. Its premium leatherette padding and sturdy steel frame offer durability and style. Designed for competitive play, it provides positional accuracy and high fidelity sound for serious gamers seeking professional performance.",
+      "detail": "Logitech G Pro X — gaming headset with Blue VO!CE microphone and premium sound.",
+      "sku": "HS-LOGI-GPROX",
+      "category": "Peripherals",
+      "tags": [
+        "Logitech",
+        "headset",
+        "gaming"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/LogitechAudifonos.png",
+        "/img/PeripheralsAccessories/LogitechAudifonos2.png",
+        "/img/PeripheralsAccessories/LogitechAudifonos3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Crystal clear mic and deep sound quality.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Very comfortable and sounds professional.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Excellent for streaming and gaming sessions.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "brand": "Logitech",
+      "name": "Logitech C920 HD Pro Webcam",
+      "price": "420.000 COP",
+      "oldPrice": "470.000 COP",
+      "discount": "10% OFF",
+      "description": "The Logitech C920 HD Pro webcam delivers sharp 1080p video quality with clear stereo audio, making it ideal for video calls, streaming, and recording. Its automatic light correction ensures you always look your best, even in low-light environments. With plug-and-play simplicity and reliable performance, it’s a trusted choice for professionals and creators alike.",
+      "detail": "Logitech C920 HD Pro — full HD webcam for streaming and video conferencing.",
+      "sku": "CAM-LOGI-C920",
+      "category": "Peripherals",
+      "tags": [
+        "Logitech",
+        "webcam",
+        "video"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/LogitechCam.png",
+        "/img/PeripheralsAccessories/LogitechCam2.png",
+        "/img/PeripheralsAccessories/LogitechCam3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Excellent image quality, very reliable.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Perfect for meetings and streaming.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Crisp video and easy to set up.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "brand": "Logitech",
+      "name": "Logitech G502 HERO Gaming Mouse",
+      "price": "360.000 COP",
+      "oldPrice": "410.000 COP",
+      "discount": "12% OFF",
+      "description": "The Logitech G502 HERO is a precision-engineered gaming mouse featuring a 25K DPI sensor, customizable weights, and programmable buttons for full control. With its ergonomic design and RGB lighting, it offers superior comfort and responsiveness. Built for performance and accuracy, it’s perfect for gamers who demand speed, precision, and reliability.",
+      "detail": "Logitech G502 HERO — high-performance gaming mouse with adjustable weight system.",
+      "sku": "MOU-LOGI-G502",
+      "category": "Peripherals",
+      "tags": [
+        "Logitech",
+        "mouse",
+        "gaming"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/LogitechMouse.png",
+        "/img/PeripheralsAccessories/LogitechMouse2.png",
+        "/img/PeripheralsAccessories/LogitechMouse3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Fantastic precision and great grip.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Customizable buttons are a game changer.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Perfect balance and smooth motion.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "brand": "Logitech",
+      "name": "Logitech Z407 Bluetooth Speakers",
+      "price": "480.000 COP",
+      "oldPrice": "540.000 COP",
+      "discount": "11% OFF",
+      "description": "The Logitech Z407 speakers provide immersive sound with deep bass and clear highs. Featuring Bluetooth, USB, and AUX connectivity, they offer flexible setup options for your PC or entertainment system. The included wireless control dial allows for convenient volume adjustment. Modern, compact, and powerful, they deliver premium sound for every occasion.",
+      "detail": "Logitech Z407 — Bluetooth speakers with rich bass and multiple connectivity options.",
+      "sku": "SPK-LOGI-Z407",
+      "category": "Peripherals",
+      "tags": [
+        "Logitech",
+        "speakers",
+        "audio"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/LogitechParlantes.png",
+        "/img/PeripheralsAccessories/LogitechParlantes2.png",
+        "/img/PeripheralsAccessories/LogitechParlantes3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Amazing sound, love the bass response.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Stylish and powerful for my setup.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Great Bluetooth connection and control.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "brand": "Razer",
+      "name": "Razer DeathAdder V2 Mouse",
+      "price": "340.000 COP",
+      "oldPrice": "390.000 COP",
+      "discount": "13% OFF",
+      "description": "The Razer DeathAdder V2 is an ergonomic gaming mouse featuring a high-precision 20K DPI optical sensor for ultimate accuracy. Designed for long sessions, it offers smooth, responsive tracking and customizable RGB lighting. Its durable switches and lightweight form factor make it a favorite among competitive gamers worldwide.",
+      "detail": "Razer DeathAdder V2 — ergonomic mouse with 20K DPI optical sensor and RGB lighting.",
+      "sku": "MOU-RAZER-DA2",
+      "category": "Peripherals",
+      "tags": [
+        "Razer",
+        "mouse",
+        "gaming"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/RazerMouse.png",
+        "/img/PeripheralsAccessories/RazerMouse2.png",
+        "/img/PeripheralsAccessories/RazerMouse3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Super responsive and feels great.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Lightweight and very precise.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "My favorite mouse for FPS games.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "brand": "Razer",
+      "name": "Razer Kiyo Pro Webcam",
+      "price": "630.000 COP",
+      "oldPrice": "690.000 COP",
+      "discount": "9% OFF",
+      "description": "The Razer Kiyo Pro webcam delivers professional-grade image quality with adaptive light sensors and HDR support. Designed for streaming and content creation, it provides smooth, detailed video even in low-light conditions. Its wide-angle lens and customizable field of view ensure flexibility for any setup.",
+      "detail": "Razer Kiyo Pro — HDR webcam with adaptive light sensors and wide-angle lens.",
+      "sku": "CAM-RAZER-KIYO",
+      "category": "Peripherals",
+      "tags": [
+        "Razer",
+        "webcam",
+        "video"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/RazerWebcam.png",
+        "/img/PeripheralsAccessories/RazerWebcam2.png",
+        "/img/PeripheralsAccessories/RazerWebcam3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Fantastic quality and easy setup.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Perfect for professional streams.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Crisp and clear video every time.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "brand": "Samsung",
+      "name": "Samsung Portable SSD T7 1TB",
+      "price": "590.000 COP",
+      "oldPrice": "650.000 COP",
+      "discount": "9% OFF",
+      "description": "The Samsung Portable SSD T7 offers fast transfer speeds, reliable storage, and a sleek, compact design. Built with NVMe technology, it ensures smooth performance for professionals on the go. Shock-resistant and secure, it’s perfect for storing large files safely and quickly accessing them anywhere.",
+      "detail": "Samsung T7 — portable 1TB SSD with high-speed NVMe performance.",
+      "sku": "SSD-SAMSUNG-T7",
+      "category": "Storage",
+      "tags": [
+        "Samsung",
+        "SSD",
+        "storage"
+      ],
+      "colors": [
+        "Gray"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/SamsungDisco.png",
+        "/img/PeripheralsAccessories/SamsungDisco2.png",
+        "/img/PeripheralsAccessories/SamsungDisco3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Super fast and compact, great build.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Transfers files instantly, love it.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Perfect external SSD for work.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "brand": "Seagate",
+      "name": "Seagate Expansion Portable 2TB HDD",
+      "price": "360.000 COP",
+      "oldPrice": "410.000 COP",
+      "discount": "12% OFF",
+      "description": "The Seagate Expansion Portable Drive offers reliable, plug-and-play storage for your files, photos, and games. With a spacious 2TB capacity and USB 3.0 connectivity, it delivers fast data transfer and easy use on any computer. Compact and durable, it’s ideal for users who need simple, portable backup solutions.",
+      "detail": "Seagate Expansion — 2TB portable hard drive with USB 3.0 connectivity.",
+      "sku": "HDD-SEAGATE-2TB",
+      "category": "Storage",
+      "tags": [
+        "Seagate",
+        "HDD",
+        "storage"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/SegateDisco.png",
+        "/img/PeripheralsAccessories/SegateDisco2.png",
+        "/img/PeripheralsAccessories/SegateDisco3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Reliable storage, works perfectly.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Fast and easy to use.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Good capacity for backups.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "brand": "SteelSeries",
+      "name": "SteelSeries Apex Pro Keyboard",
+      "price": "890.000 COP",
+      "oldPrice": "980.000 COP",
+      "discount": "9% OFF",
+      "description": "The SteelSeries Apex Pro features adjustable mechanical switches for personalized sensitivity and performance. With per-key RGB lighting, aluminum alloy construction, and an OLED smart display, it’s built for competitive gamers and creators who demand precision and style. This keyboard redefines control and customization in every keystroke.",
+      "detail": "SteelSeries Apex Pro — adjustable mechanical keyboard with OLED display.",
+      "sku": "KEY-STEELSERIES-APEXPRO",
+      "category": "Peripherals",
+      "tags": [
+        "SteelSeries",
+        "keyboard",
+        "gaming"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/SteelSeries.png",
+        "/img/PeripheralsAccessories/SteelSeries2.png",
+        "/img/PeripheralsAccessories/SteelSeries3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Incredible feel and customization.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Best keyboard I’ve owned, perfect lighting.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Smooth keys and beautiful design.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "brand": "Wacom",
+      "name": "Wacom Intuos Pro Tablet",
+      "price": "920.000 COP",
+      "oldPrice": "1.000.000 COP",
+      "discount": "8% OFF",
+      "description": "The Wacom Intuos Pro is a professional drawing tablet offering exceptional precision and pressure sensitivity. With customizable ExpressKeys and a slim, elegant design, it enhances creative workflows for artists and designers. Compatible with major software, it provides a natural, pen-on-paper experience for digital art and design.",
+      "detail": "Wacom Intuos Pro — professional graphic tablet with high pressure sensitivity.",
+      "sku": "TAB-WACOM-INTUOSPRO",
+      "category": "Peripherals",
+      "tags": [
+        "Wacom",
+        "tablet",
+        "graphic"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/WacomTableta.png",
+        "/img/PeripheralsAccessories/WacomTableta2.png",
+        "/img/PeripheralsAccessories/WacomTableta3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Fantastic sensitivity and accuracy.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Feels natural, great for illustration.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Excellent for professional art work.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "brand": "XP-Pen",
+      "name": "XP-Pen Deco 01 V2 Tablet",
+      "price": "380.000 COP",
+      "oldPrice": "430.000 COP",
+      "discount": "12% OFF",
+      "description": "The XP-Pen Deco 01 V2 is a large digital drawing tablet designed for smooth creativity and precision. It features a wide active area, customizable shortcut keys, and tilt support for realistic drawing. Compatible with all major art software, it’s an excellent option for beginners and professionals looking for value and performance.",
+      "detail": "XP-Pen Deco 01 V2 — digital drawing tablet with wide area and tilt function.",
+      "sku": "TAB-XPPEN-DECO01",
+      "category": "Peripherals",
+      "tags": [
+        "XP-Pen",
+        "tablet",
+        "graphic"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "images": [
+        "/img/PeripheralsAccessories/XP-PenTableta.png",
+        "/img/PeripheralsAccessories/XP-PenTableta2.png",
+        "/img/PeripheralsAccessories/XP-PenTableta3.png"
+      ],
+      "reviews": [
+        {
+          "user": "Andrés L.",
+          "comment": "Excellent tablet, responsive and smooth.",
+          "rating": 5
+        },
+        {
+          "user": "Catalina Q.",
+          "comment": "Easy to use and very accurate.",
+          "rating": 5
+        },
+        {
+          "user": "Pedro G.",
+          "comment": "Great quality for its price.",
+          "rating": 5
+        }
+      ]
+    }
+  ]
 ]
-
-]
-

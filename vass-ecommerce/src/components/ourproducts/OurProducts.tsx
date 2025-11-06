@@ -3,6 +3,8 @@ import products from "../../data/product.json"
 
 function OurProducts() {
   
+  const homeProducts = products.filter((p) => p.id >= 1 && p.id <= 8);
+  
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
