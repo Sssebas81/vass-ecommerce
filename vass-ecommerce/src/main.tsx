@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.tsx'
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.tsx'
 import { h2 } from 'framer-motion/client'
@@ -12,14 +11,15 @@ import GamingPage from './pages/Categories/GamingPage.tsx'
 import DetailProduct from './pages/detailProduct/DetailProduct.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
-  element: <Home/>
+  element: <Home/>,
+  index:true
 
 },{
   path:"/Categories",
   element:<h2>Categories Page</h2>
 },{
   path:"/Shop",
-  element:<h2>Shop Page</h2>
+  element: <ShopPage />
 },{
   path:"/Profile",
   element:<h2>Profile Page</h2>
