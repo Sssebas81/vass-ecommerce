@@ -1,0 +1,109 @@
+import React, { useState } from "react";
+
+function AddPhotoBlog() {
+  const [images, setImages] = useState<string[]>([]);
+  const [title, setTitle] = useState("");
+  const [price, setPrice] = useState("");
+  const [category, setCategory] = useState("");
+  const [condition, setCondition] = useState("");
+
+
+  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files) {
+      const files = Array.from(e.target.files);
+      const newImages = files.map((file) => URL.createObjectURL(file));
+      setImages((prevImages) => [...prevImages, ...newImages]);
+    }
+  };
+
+  const handlePublish = () => {
+    console.log({
+      title,
+      price,
+      category,
+      condition,
+      images,
+    });
+  };
+
+  return (
+    <section className="bg-white py-16 flex flex-col items-center px-4">
+      {/* Subir fotos */}
+      <label className="flex flex-col items-center justify-center w-40 h-40 border-2 border-dashed border-gray-400 rounded-lg cursor-pointer hover:bg-gray-50 transition">
+        <input
+          type="file"
+          accept="image/*"
+          multiple
+          onChange={handleImageUpload}
+          className="hidden"
+        />
+        <div className="text-center">
+          <div className="text-gray-600 text-4xl">📷</div>
+          <p className="text-sm text-gray-600 mt-2">Add photos</p>
+        </div>
+      </label>
+
+      {/* Vista previa de imágenes */}
+      {images.length > 0 && (
+        <div className="grid grid-cols-3 gap-4 mt-6">
+          {images.map((img, index) => (
+            <img
+              key={index}
+              src={img}
+              alt={`Uploaded ${index + 1}`}
+              className="w-24 h-24 object-cover rounded-md border"
+            />
+          ))}
+        </div>
+      )}
+
+      {/* Formulario */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 w-full max-w-3xl">
+        <input
+          type="text"
+          placeholder="Title"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          className="border rounded-md p-3 w-full"
+        />
+        <input
+          type="text"
+          placeholder="Price"
+          value={price}
+          onChange={(e) => setPrice(e.target.value)}
+          className="border rounded-md p-3 w-full"
+        />
+        <input
+          type="text"
+          placeholder="Category"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          className="border rounded-md p-3 w-full"
+        />
+        <input
+          type="text"
+          placeholder="Condition"
+          value={condition}
+          onChange={(e) => setCondition(e.target.value)}
+          className="border rounded-md p-3 w-full"
+        />
+      </div>
+
+      {/* Ubicación */}
+      <div className="mt-8 text-left w-full max-w-3xl">
+        <p className="font-semibold">Location</p>
+        <p className="text-gray-600 text-sm mt-1">Cali, Colombia 760010</p>
+      </div>
+
+      {/* Botón */}
+      <button
+        onClick={handlePublish}
+        className="bg-black text-white px-6 py-2 rounded-md mt-8 hover:bg-gray-800 transition-all"
+      >
+        Publish
+      </button>
+    </section>
+  );
+}
+
+export default AddPhotoBlog;
