@@ -2,6 +2,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from  "../../components/footer/Footer";
 import ContactHero from "../../components/contacthero/ContactHero";
 import ContactSection from "../../components/contactsection/ContactSection";
+import FeaturesBar from "../../components/FeaturesBar/FeaturesBar";
 
 function Contact() {
     return (
@@ -9,6 +10,7 @@ function Contact() {
             <Navbar />
             <ContactHero/>
             <ContactSection/>
+            <FeaturesBar/>
             <Footer />
         </div>
     );
