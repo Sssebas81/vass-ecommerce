@@ -9,6 +9,7 @@ import PeripheralsPage from './pages/Categories/PeripheralsPage.tsx'
 import DevicesPage from './pages/Categories/DevicesPage.tsx'
 import GamingPage from './pages/Categories/GamingPage.tsx'
 import DetailProduct from './pages/detailProduct/DetailProduct.tsx'
+import ShopPage from './pages/shoppage/ShopPage.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>,
