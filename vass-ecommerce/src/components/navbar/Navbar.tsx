@@ -10,24 +10,21 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
-          </div>
-
+          <NavLink to="/">
+            <div className="flex-shrink-0">
+              <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
+            </div>
+          </NavLink>
+          
           {/* Links (desktop) */}
           <div className="hidden md:flex space-x-8 font-medium text-gray-700">
-            <a href="#" className="hover:text-black">Home</a>
-            <Link to="/Shop">Shop</Link>
-            <NavLink to="/Blog">
-              <a href="#" className="hover:text-black">Blog</a>
-              </NavLink>
-              <NavLink to="/Contact">
-                <a href="#" className="hover:text-black">Contact</a>
-              </NavLink>
-            
+            <NavLink to="/" className="hover:text-black">Home</NavLink>
+            <NavLink to="/Shop" className="hover:text-black">Shop</NavLink>
+            <NavLink to="/Blog" className="hover:text-black">Blog</NavLink>
+            <NavLink to="/Contact" className="hover:text-black">Contact</NavLink>
           </div>
 
-         {/* Icons (desktop) */}
+          {/* Icons + Login (desktop) */}
           <div className="hidden md:flex items-center space-x-6">
             <img src="/img/Lupa.svg" alt="Search" className="w-6 h-6 cursor-pointer" />
             <NavLink to="/Favorites">
@@ -38,6 +35,13 @@ const Navbar = () => {
             </NavLink>
             <NavLink to="/Profile">
               <img src="/img/Persona.svg" alt="User" className="w-6 h-6 cursor-pointer" />
+            </NavLink>
+
+            {/* Login Button */}
+            <NavLink to="/Login">
+              <button className="ml-2 px-4 py-2 border border-gray-800 rounded-2xl text-gray-800 font-medium hover:bg-gray-800 hover:text-white transition duration-200">
+                Log in
+              </button>
             </NavLink>
           </div>
 
@@ -73,22 +77,24 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white px-6 pb-4 space-y-3 font-medium text-gray-700">
-          <a href="#" className="block hover:text-black">Home</a>
-          <NavLink to="/Shop">
-            <a href="#" className="block hover:text-black">Shop</a>
-            </NavLink>
-          <a href="#" className="block hover:text-black">Blog</a>
-          
-          <NavLink to="/Contact">
-            <a href="#" className="block hover:text-black">Contact</a>
-            </NavLink>
+          <NavLink to="/" className="block hover:text-black">Home</NavLink>
+          <NavLink to="/Shop" className="block hover:text-black">Shop</NavLink>
+          <NavLink to="/Blog" className="block hover:text-black">Blog</NavLink>
+          <NavLink to="/Contact" className="block hover:text-black">Contact</NavLink>
 
           {/* Mobile icons */}
-          <div className="flex space-x-6 pt-4 border-t border-gray-200">
+          <div className="flex space-x-6 pt-4 border-t border-gray-200 items-center">
             <img src="/img/Persona.svg" alt="User" className="w-6 h-6 cursor-pointer" />
             <img src="/img/Lupa.svg" alt="Search" className="w-6 h-6 cursor-pointer" />
             <img src="/img/Corazon.png" alt="Heart" className="w-6 h-6 cursor-pointer" />
             <img src="/img/Carrito.png" alt="Cart" className="w-6 h-6 cursor-pointer" />
+
+            {/* Login button (mobile) */}
+            <NavLink to="/Login">
+              <button className="ml-2 px-3 py-1 border border-gray-800 rounded-md text-gray-800 font-medium hover:bg-gray-800 hover:text-white transition duration-200">
+                Log in
+              </button>
+            </NavLink>
           </div>
         </div>
       )}
