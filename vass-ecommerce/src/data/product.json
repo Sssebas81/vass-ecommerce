@@ -1,74 +1,1022 @@
 [
-    {
-      "id": 1,
-      "brand": "Nintendo",
-      "name": "Super Smash Bros",
-      "price": "138.538 COP",
-      "oldPrice": "197.900 COP",
-      "discount": "-30%",
-      "image": "/img/smashbros.jpg"
-    },
-    {
-      "id": 2,
-      "brand": "Logitech",
-      "name": "K380 Pebble",
-      "price": "189.900 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/Logitech1.png"
-    },
-    {
-      "id": 3,
-      "brand": "Xbox",
-      "name": "Inalámbrico Carbon Black",
-      "price": "279.900 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/ControlXbox.png"
-    },
-    {
-      "id": 4,
-      "brand": "Nintendo",
-      "name": "Pro Controller original",
-      "price": "309.900 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/ControlNintendo.png"
-    },
-    {
-      "id": 5,
-      "brand": "JBL",
-      "name": "TUNE500",
-      "price": "120.400 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/AudifonosJBL.png"
-    },
-    {
-      "id": 6,
-      "brand": "Nintendo",
-      "name": "Nintendo Switch 2",
-      "price": "2.859.900 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/NintendoSwitch2.png"
-    },
-    {
-      "id": 7,
-      "brand": "Sony",
-      "name": "PlayStation 5",
-      "price": "1.749.950 COP",
-      "oldPrice": "3.799.900 COP",
-      "discount": "-50%",
-      "image": "/img/Play5Products.png"
-    },
-    {
-      "id": 8,
-      "brand": "Rockstar Games",
-      "name": "Grand Theft Auto V",
-      "price": "140.406 COP",
-      "oldPrice": "",
-      "discount": "",
-      "image": "/img/GTA5.png"
-    }
-  ]
+  {
+    "id": 1,
+    "brand": "Nintendo",
+    "name": "Super Smash Bros",
+    "price": "138.538 COP",
+    "oldPrice": "197.900 COP",
+    "discount": "-30%",
+    "description": "Join the ultimate battle with all your favorite Nintendo characters in this intense multiplayer fighting experience. Super Smash Bros for Nintendo Switch offers a refined combat system, enhanced visuals, and countless arenas inspired by classic franchises. Its accessibility allows beginners to enjoy fun matches, while competitive players will appreciate its deep mechanics and precision. Whether you play locally or online, it guarantees hours of engaging entertainment and nostalgia. Perfect for gatherings and friendly tournaments among fans of all ages.",
+    "detail": "Super Smash Bros Ultimate for Nintendo Switch - Includes all fighters from previous editions, enhanced graphics, and multiplayer modes up to 8 players.",
+    "sku": "NTD-SSB-001",
+    "category": "Games",
+    "tags": [
+      "Nintendo",
+      "Super Smash Bros",
+      "Fighting"
+    ],
+    "colors": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "images": [
+      "/img/smashbros.jpg",
+      "/img/smashbros2.jpg",
+      "/img/smashbros3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Carlos",
+        "comment": "Excellent game, very fun in multiplayer mode.",
+        "rating": 5
+      },
+      {
+        "user": "María",
+        "comment": "Great title, though a bit pricey.",
+        "rating": 4
+      },
+      {
+        "user": "Pedro",
+        "comment": "Perfect for gatherings with friends.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Logitech",
+    "name": "K380 Pebble",
+    "price": "189.900 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Logitech K380 Pebble is a compact and silent wireless keyboard designed for modern lifestyles. With its slim profile and round keys, it provides a comfortable and responsive typing experience. Compatible with laptops, tablets, and smartphones, it allows easy switching between multiple devices via Bluetooth. Its long battery life ensures uninterrupted productivity, while its minimalist design complements any workspace. Ideal for users who value portability, aesthetics, and reliable performance.",
+    "detail": "Logitech K380 Pebble wireless keyboard and mouse combo with silent keys, dual connectivity (Bluetooth/USB), and compact design ideal for work or gaming setups.",
+    "sku": "LGT-K380-002",
+    "category": "Accessories",
+    "tags": [
+      "Logitech",
+      "Keyboard",
+      "Wireless"
+    ],
+    "colors": [
+      "White",
+      "Pink",
+      "Blue"
+    ],
+    "images": [
+      "/img/Logitech1.png",
+      "/img/Logitech2.png",
+      "/img/Logitech3.png",
+      "/img/Logitech4.png"
+    ],
+    "reviews": [
+      {
+        "user": "Sofía",
+        "comment": "Very comfortable and silent.",
+        "rating": 5
+      },
+      {
+        "user": "Daniel",
+        "comment": "Good quality but the keys are small.",
+        "rating": 4
+      },
+      {
+        "user": "Laura",
+        "comment": "Works perfectly with my iPad.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Xbox",
+    "name": "Wireless Controller Carbon Black",
+    "price": "279.900 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The official Xbox Wireless Controller in Carbon Black offers refined ergonomics, improved grip texture, and seamless wireless connectivity. Designed for Xbox Series X|S, Xbox One, and Windows PCs, it delivers precision and comfort for both casual and competitive gaming. The hybrid D-pad and responsive triggers enhance gameplay accuracy, while Bluetooth technology ensures stable performance across multiple devices. Built with premium materials, it is a durable and reliable choice for long gaming sessions.",
+    "detail": "Xbox Carbon Black wireless controller featuring hybrid D-pad, textured grip, and Bluetooth support for Xbox Series X|S, Xbox One, and Windows 10 devices.",
+    "sku": "XBX-CBLK-003",
+    "category": "Gaming",
+    "tags": [
+      "Xbox",
+      "Controller",
+      "Wireless"
+    ],
+    "colors": [
+      "Black",
+      "Gray"
+    ],
+    "images": [
+      "/img/ControlXbox.png",
+      "/img/ControlXbox2.png",
+      "/img/ControlXbox3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Julián",
+        "comment": "Excellent controller, feels very premium.",
+        "rating": 5
+      },
+      {
+        "user": "Natalia",
+        "comment": "Good battery life, though a bit heavy.",
+        "rating": 4
+      },
+      {
+        "user": "Andrés",
+        "comment": "Works perfectly on PC.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Nintendo",
+    "name": "Pro Controller Original",
+    "price": "309.900 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Nintendo Switch Pro Controller provides an ergonomic design, solid construction, and extended battery life for serious gamers. Offering precise motion control and NFC support for Amiibo figures, it enhances gameplay across a variety of titles. Its comfortable grip allows for hours of play without fatigue, and the USB-C charging ensures quick recharging. Built for performance and comfort, it is the ideal controller for both handheld and docked play sessions on the Switch.",
+    "detail": "Official Nintendo Switch Pro Controller with ergonomic design, motion controls, HD rumble, and built-in NFC for Amiibo compatibility.",
+    "sku": "NTD-PRO-004",
+    "category": "Gaming",
+    "tags": [
+      "Nintendo",
+      "Controller",
+      "Switch"
+    ],
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "images": [
+      "/img/ControlNintendo.png",
+      "/img/ControlNintendo2.png",
+      "/img/ControlNintendo3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Felipe",
+        "comment": "Extremely comfortable, worth every peso.",
+        "rating": 5
+      },
+      {
+        "user": "Carolina",
+        "comment": "I use it for everything, endless battery life.",
+        "rating": 5
+      },
+      {
+        "user": "Ricardo",
+        "comment": "Excellent response in games.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "JBL",
+    "name": "TUNE500",
+    "price": "120.400 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The JBL TUNE500 delivers powerful sound with the renowned JBL Pure Bass technology, ensuring deep and clear audio. Its lightweight, foldable design makes it perfect for everyday use, while the soft ear cushions provide lasting comfort. Compatible with most devices through its wired connection, it offers a straightforward plug-and-play experience. Ideal for music lovers who value simplicity and quality, these headphones combine practicality with elegant design. A reliable choice for daily commuting, study, or work environments.",
+    "detail": "JBL TUNE500 wired on-ear headphones with JBL Pure Bass sound, lightweight foldable design, and in-line microphone for calls and voice assistants.",
+    "sku": "JBL-T500-005",
+    "category": "Audio",
+    "tags": [
+      "JBL",
+      "Headphones",
+      "Wired"
+    ],
+    "colors": [
+      "Blue",
+      "Black",
+      "White"
+    ],
+    "images": [
+      "/img/AudifonosJBL.png",
+      "/img/AudifonosJBL2.png",
+      "/img/AudifonosJBL3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Camilo",
+        "comment": "Spectacular sound.",
+        "rating": 5
+      },
+      {
+        "user": "Valentina",
+        "comment": "Comfortable but the cable is short.",
+        "rating": 4
+      },
+      {
+        "user": "Juan",
+        "comment": "Great value for money.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "brand": "Nintendo",
+    "name": "Nintendo Switch 2",
+    "price": "2.859.900 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The new Nintendo Switch 2 represents the next evolution of the hybrid console, featuring a powerful processor and an OLED display for vibrant visuals. It supports both handheld and docked modes, maintaining full compatibility with previous Switch titles. The improved battery and performance make it ideal for long gaming sessions, while its sleek design ensures portability and durability. With an expanded library and enhanced connectivity, the Switch 2 redefines versatility in modern gaming experiences.",
+    "detail": "Nintendo Switch 2 hybrid console with upgraded processor, extended battery life, and 7-inch OLED display for immersive handheld or docked gaming.",
+    "sku": "NTD-SW2-006",
+    "category": "Consoles",
+    "tags": [
+      "Nintendo",
+      "Switch",
+      "Gaming"
+    ],
+    "colors": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "images": [
+      "/img/NintendoSwitch2.png",
+      "/img/NintendoSwitch2_2.png",
+      "/img/NintendoSwitch2_3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Mario",
+        "comment": "Incredible improvement over the previous version.",
+        "rating": 5
+      },
+      {
+        "user": "Elena",
+        "comment": "Beautiful screen and amazing performance.",
+        "rating": 5
+      },
+      {
+        "user": "Pablo",
+        "comment": "Totally worth it.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "Sony",
+    "name": "PlayStation 5",
+    "price": "1.749.950 COP",
+    "oldPrice": "3.799.900 COP",
+    "discount": "-50%",
+    "detail": "PS5 Digital 1TB Slim Console Grey + 1 Limited 30th Anniversary Edition Wireless Controller - Includes pre-installed game ASTRO's PLAYROOM.",
+    "description": "The PlayStation 5 is Sony’s next-generation console, offering cutting-edge performance through its ultra-fast SSD and 4K graphics capabilities. Its DualSense controller features adaptive triggers and haptic feedback for immersive gameplay. With a vast library of exclusive titles and multimedia functionality, it transforms entertainment at home. The sleek, futuristic design enhances any setup, while backward compatibility ensures access to previous-generation games. Ideal for both hardcore gamers and entertainment enthusiasts seeking top-tier performance.",
+    "sku": "PS5-STD-007",
+    "category": "Consoles",
+    "tags": [
+      "Sony",
+      "PlayStation",
+      "Gaming"
+    ],
+    "colors": [
+      "Gray",
+      "Black",
+      "White"
+    ],
+    "images": [
+      "/img/Play5Products.png",
+      "/img/ps5-side.png",
+      "/img/ps5-angle.png",
+      "/img/ps5-controller.png"
+    ],
+    "reviews": [
+      {
+        "user": "David",
+        "comment": "The best generational leap so far.",
+        "rating": 5
+      },
+      {
+        "user": "Isabella",
+        "comment": "Impressive graphics.",
+        "rating": 5
+      },
+      {
+        "user": "Lucas",
+        "comment": "A bit large but beautiful.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "Rockstar Games",
+    "name": "Grand Theft Auto V",
+    "price": "140.406 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Grand Theft Auto V is an action-adventure masterpiece from Rockstar Games, set in the vast open world of Los Santos. The game follows three protagonists, offering a dynamic narrative and seamless character switching. Its rich story, immersive gameplay, and detailed cityscapes create an experience that continues to captivate players worldwide. With constant updates to its online mode, it provides endless entertainment for both solo and multiplayer experiences. A timeless title that defines a generation of gaming.",
+    "detail": "Grand Theft Auto V for PlayStation 5 - Expanded and enhanced edition featuring faster loading, improved graphics, and access to GTA Online content.",
+    "sku": "RCK-GTA5-008",
+    "category": "Games",
+    "tags": [
+      "Rockstar",
+      "GTA",
+      "Action"
+    ],
+    "colors": [
+      "Black",
+      "Gray",
+      "White"
+    ],
+    "images": [
+      "/img/GTA5.png",
+      "/img/GTA5_2.png",
+      "/img/GTA5_3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Laura",
+        "comment": "A classic that never gets old.",
+        "rating": 5
+      },
+      {
+        "user": "Andrés",
+        "comment": "Amazing story mode.",
+        "rating": 5
+      },
+      {
+        "user": "Felipe",
+        "comment": "Very entertaining online mode.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "brand": "HyperX",
+    "name": "Cloud Stinger 2 Audífonos",
+    "price": "320.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The HyperX Cloud Stinger 2 delivers powerful sound and long-lasting comfort for gamers who demand performance. With precision 50mm drivers, you get crystal-clear audio that enhances every detail of your gameplay. The lightweight frame and soft memory foam ear cushions ensure extended gaming sessions without discomfort. Its adjustable steel sliders and detachable noise-canceling microphone make it both durable and practical. Designed for serious gamers, it’s your perfect companion for immersive audio experiences.",
+    "detail": "HyperX Cloud Stinger 2 wired gaming headset with lightweight design, 50mm drivers, memory foam ear cushions, and adjustable steel sliders for comfort and durability.",
+    "sku": "HX-CS2-BLK",
+    "category": "Audio",
+    "tags": [
+      "audífonos",
+      "gaming",
+      "HyperX"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/HyperxAudifonos.png",
+      "/img/HyperxAudifonos2.png",
+      "/img/HyperxAudifonos3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Carlos M.",
+        "comment": "Excellent sound and very comfortable, ideal for long gaming sessions.",
+        "rating": 5
+      },
+      {
+        "user": "Laura G.",
+        "comment": "Good microphone, though the materials feel a bit plastic.",
+        "rating": 4
+      },
+      {
+        "user": "David P.",
+        "comment": "Great quality for the price, recommended for casual gamers.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "brand": "SanDisk",
+    "name": "Ultra Flair 128GB USB",
+    "price": "90.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The SanDisk Ultra Flair 128GB USB 3.0 drive combines speed, durability, and style in one sleek metal design. With transfer speeds up to 150MB/s, it lets you move your files in seconds — perfect for large media, documents, and backups. Its sturdy metal housing offers reliable protection against daily wear and tear. Compact and portable, it easily fits in your pocket or bag for convenience on the go. Whether for work, school, or personal storage, it’s the ideal choice for fast, secure data handling.",
+    "detail": "SanDisk Ultra Flair USB 3.0 flash drive 128GB with high-speed data transfer up to 150MB/s and durable metal casing for secure portability.",
+    "sku": "SD-UF-128",
+    "category": "Almacenamiento",
+    "tags": [
+      "USB",
+      "memoria",
+      "SanDisk"
+    ],
+    "colors": [
+      "Plateado"
+    ],
+    "images": [
+      "/img/SanDisk.jpg",
+      "/img/SanDisk2.jpg",
+      "/img/SanDisk3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Ana P.",
+        "comment": "Very fast for transferring large files, excellent quality.",
+        "rating": 5
+      },
+      {
+        "user": "Julián T.",
+        "comment": "Compact and durable, although it gets a bit warm.",
+        "rating": 4
+      },
+      {
+        "user": "Felipe R.",
+        "comment": "Does what it promises, good purchase.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "brand": "HP",
+    "name": "Forro para portátil 15.6\"",
+    "price": "95.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "detail": "HP laptop sleeve designed for 15.6-inch notebooks, made of durable water-resistant material with soft interior padding and slim lightweight design for everyday protection.",
+    "sku": "HP-SLEEVE-15",
+    "category": "Accesorios",
+    "tags": [
+      "funda",
+      "portátil",
+      "HP"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/HPForroPortatil.png",
+      "/img/HPForroPortatil2.png",
+      "/img/HPForroPortatil3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Daniela M.",
+        "comment": "Very practical, protects my laptop well and is lightweight.",
+        "rating": 5
+      },
+      {
+        "user": "Andrés C.",
+        "comment": "Good design, but I expected a bit more padding.",
+        "rating": 4
+      },
+      {
+        "user": "Luisa V.",
+        "comment": "Perfect for carrying the laptop daily.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "brand": "Cooler Master",
+    "name": "Base refrigerante para laptop",
+    "price": "120.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Keep your laptop cool and performing at its best with the Cooler Master laptop cooling base. Designed with ultra-quiet fans, it prevents overheating during intense gaming or work sessions. The adjustable stand allows you to set the perfect angle for comfort and airflow. Built with a sturdy frame and mesh surface, it enhances cooling efficiency while maintaining stability. Perfect for gamers, designers, and professionals who demand optimal thermal performance from their devices.",
+    "detail": "Cooler Master laptop cooling pad with dual fans, adjustable height, and ergonomic design to improve airflow and comfort during long sessions.",
+    "sku": "CM-NB-COOL",
+    "category": "Accesorios",
+    "tags": [
+      "cooler",
+      "laptop",
+      "ventilador"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/CoolerMasterBase.png",
+      "/img/CoolerMasterBase2.png",
+      "/img/CoolerMasterBase3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Santiago R.",
+        "comment": "Significantly lowers the laptop temperature, quiet and effective.",
+        "rating": 5
+      },
+      {
+        "user": "María F.",
+        "comment": "The adjustable stand is very useful, though a bit large.",
+        "rating": 4
+      },
+      {
+        "user": "Camilo H.",
+        "comment": "Excellent value for the price.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "brand": "Corsair",
+    "name": "Teclado mecánico K60 RGB",
+    "price": "320.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Corsair K60 RGB mechanical keyboard combines precision, durability, and brilliant lighting for an exceptional gaming experience. Outfitted with premium mechanical switches, it offers a fast, tactile response ideal for competitive play. The customizable per-key RGB illumination adds a stunning touch to your setup. Its brushed aluminum frame provides long-term strength and elegance. Perfect for gamers and professionals seeking reliability, performance, and style in every keystroke.",
+    "detail": "Corsair K60 RGB PRO mechanical gaming keyboard featuring CHERRY mechanical switches, dynamic RGB lighting, and full aluminum frame for stability.",
+    "sku": "COR-K60-RGB",
+    "category": "Periféricos",
+    "tags": [
+      "teclado",
+      "gaming",
+      "Corsair"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/CorsairTeclado.png",
+      "/img/CorsairTeclado2.png",
+      "/img/CorsairTeclado3.png"
+    ],
+    "reviews": [
+      {
+        "user": "José L.",
+        "comment": "Very comfortable keys, the RGB looks amazing.",
+        "rating": 5
+      },
+      {
+        "user": "Manuela D.",
+        "comment": "Excellent quality, though a bit noisy for the office.",
+        "rating": 4
+      },
+      {
+        "user": "Esteban N.",
+        "comment": "Professional performance, ideal for gaming.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "brand": "Microsoft",
+    "name": "Headset Xbox Stereo",
+    "price": "285.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The official Xbox Stereo Headset delivers immersive gaming sound and crystal-clear voice quality through its high-sensitivity microphone. Designed for long gaming sessions, its plush ear cushions and lightweight frame provide exceptional comfort. The flexible boom mic can be easily adjusted or flipped up when not in use. With direct plug-and-play compatibility for Xbox consoles and PCs, it offers seamless setup and reliable audio performance. Perfect for gamers seeking a balance of quality, comfort, and simplicity.",
+    "detail": "Microsoft Xbox Stereo Headset with wired connection, 40mm drivers, and adjustable boom microphone for gaming and chat.",
+    "sku": "MIC-XBX-HS",
+    "category": "Audio",
+    "tags": [
+      "Xbox",
+      "headset",
+      "gaming"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/AudifonosXbox.jpg",
+      "/img/AudifonosXbox2.jpg",
+      "/img/AudifonosXbox3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Juliana R.",
+        "comment": "Clear audio and excellent mic, very comfortable.",
+        "rating": 5
+      },
+      {
+        "user": "Cristian P.",
+        "comment": "Sounds great, though the cable is a bit short.",
+        "rating": 4
+      },
+      {
+        "user": "Tatiana S.",
+        "comment": "Perfect for Xbox and PC, guaranteed quality.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "brand": "PlayStation",
+    "name": "Gran Turismo 7 PS5",
+    "price": "270.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Gran Turismo 7 for PlayStation 5 redefines racing simulation with stunning visuals and hyper-realistic driving physics. Featuring an expansive car collection, detailed tracks, and adaptive triggers, it delivers a deeply immersive experience. The DualSense controller enhances every turn, acceleration, and brake for lifelike feedback. With online multiplayer and robust single-player modes, it caters to both casual players and enthusiasts. It’s a celebration of speed, precision, and automotive culture at its best.",
+    "detail": "Gran Turismo 7 PlayStation 5 racing simulation game with enhanced graphics, physics engine, and adaptive trigger support.",
+    "sku": "PS5-GT7",
+    "category": "Videojuegos",
+    "tags": [
+      "PS5",
+      "Gran Turismo",
+      "carreras"
+    ],
+    "colors": [],
+    "images": [
+      "/img/GT7.png",
+      "/img/GT72.png",
+      "/img/GT73.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés J.",
+        "comment": "Impressive graphics and realistic gameplay.",
+        "rating": 5
+      },
+      {
+        "user": "Diana C.",
+        "comment": "Excellent simulator, although the updates are quite heavy.",
+        "rating": 4
+      },
+      {
+        "user": "Pablo A.",
+        "comment": "One of the best racing games I’ve ever played.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "brand": "Nintendo",
+    "name": "Funda rígida para Switch",
+    "price": "110.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Nintendo Switch hard protective case keeps your console safe from drops, scratches, and dust. Built with a rigid shell and soft interior lining, it ensures both durability and comfort. The interior features compartments for game cartridges, cables, and accessories, keeping everything neatly organized. Its compact design makes it ideal for travel, fitting easily into any backpack. A perfect balance between protection and practicality for Switch gamers on the go.",
+    "detail": "Nintendo Switch hard protective carrying case with internal storage compartments and shock-resistant outer shell.",
+    "sku": "NSW-CASE",
+    "category": "Accesorios",
+    "tags": [
+      "Nintendo",
+      "funda",
+      "Switch"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/NintendoFunda.png",
+      "/img/NintendoFunda2.png",
+      "/img/NintendoFunda3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Camila V.",
+        "comment": "Protects the console very well, high-quality materials.",
+        "rating": 5
+      },
+      {
+        "user": "Sebastián G.",
+        "comment": "Compact and practical, fits everything you need.",
+        "rating": 5
+      },
+      {
+        "user": "Laura F.",
+        "comment": "Good product, though the zippers could be smoother.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "brand": "Seagate",
+    "name": "Disco duro externo 2TB",
+    "price": "310.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Seagate Expansion 2TB external hard drive provides massive portable storage for your files, games, and multimedia. With USB 3.0 connectivity, it ensures fast data transfers and simple plug-and-play functionality. Its slim, lightweight design makes it perfect for carrying anywhere while maintaining durability. Compatible with Windows, macOS, and gaming consoles, it’s ideal for backups and daily use. Store more, move faster, and protect your data with trusted Seagate quality.",
+    "detail": "Seagate Expansion 2TB portable external hard drive with USB 3.0 interface and plug-and-play functionality for Windows and Mac.",
+    "sku": "SEA-2TB-EXT",
+    "category": "Almacenamiento",
+    "tags": [
+      "Seagate",
+      "disco duro",
+      "2TB"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/SeagateDD.png",
+      "/img/SeagateDD2.png",
+      "/img/SeagateDD3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Valentina M.",
+        "comment": "Fast and quiet, ideal for backups.",
+        "rating": 5
+      },
+      {
+        "user": "Fernando L.",
+        "comment": "Works well, but the cable could be longer.",
+        "rating": 4
+      },
+      {
+        "user": "Martín Q.",
+        "comment": "Great capacity at a good price.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "brand": "HyperX",
+    "name": "Micrófono QuadCast S",
+    "price": "680.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The HyperX QuadCast S is a premium USB condenser microphone designed for streaming, gaming, and professional voice recording. With four selectable polar patterns and a built-in anti-vibration shock mount, it captures crystal-clear audio with minimal background noise. The customizable RGB lighting adds personality to any setup. Its convenient tap-to-mute sensor and LED indicator ensure seamless control during live sessions. A top choice for creators demanding both style and studio-grade sound.",
+    "detail": "HyperX QuadCast S USB condenser microphone with RGB lighting, tap-to-mute sensor, and anti-vibration shock mount.",
+    "sku": "HX-QC-S",
+    "category": "Audio",
+    "tags": [
+      "micrófono",
+      "streaming",
+      "HyperX"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/HyperxQuadcast.png",
+      "/img/HyperxQuadcast2.png",
+      "/img/HyperxQuadcast3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Luis M.",
+        "comment": "Excellent audio quality and the RGB looks amazing.",
+        "rating": 5
+      },
+      {
+        "user": "Sara R.",
+        "comment": "Perfect for streaming, easy to set up.",
+        "rating": 5
+      },
+      {
+        "user": "Diego B.",
+        "comment": "A bit expensive, but worth every penny.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "brand": "HP",
+    "name": "Impresora DeskJet 2775",
+    "price": "430.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The HP DeskJet 2775 is a compact all-in-one wireless printer ideal for home and student use. It prints, scans, and copies efficiently while maintaining vivid color quality and sharp text. With built-in Wi-Fi, you can print from mobile devices easily through HP Smart App. Its intuitive setup and affordable ink cartridges make it cost-effective for daily tasks. Designed to be quiet and reliable, it’s the perfect solution for productivity at home.",
+    "detail": "HP DeskJet 2775 wireless all-in-one color printer with Wi-Fi and mobile printing support via HP Smart App.",
+    "sku": "HP-DJ-2775",
+    "category": "Impresoras",
+    "tags": [
+      "impresora",
+      "HP",
+      "wifi"
+    ],
+    "colors": [
+      "Blanco"
+    ],
+    "images": [
+      "/img/hpImpresora.png",
+      "/img/hpImpresora2.png",
+      "/img/hpImpresora3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Natalia O.",
+        "comment": "Easy to use and great quality for home use.",
+        "rating": 5
+      },
+      {
+        "user": "Jorge L.",
+        "comment": "Connects quickly to Wi-Fi, prints well but a bit slow.",
+        "rating": 4
+      },
+      {
+        "user": "Paola C.",
+        "comment": "Very practical, great for homework and documents.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "brand": "SteelSeries",
+    "name": "Mousepad Qck+",
+    "price": "95.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The SteelSeries QcK+ mousepad provides a large, micro-textured surface engineered for precise mouse control and consistent glide. Its cloth surface ensures accurate sensor tracking across gaming mice while the anti-slip rubber base keeps it firmly in place during intense sessions. Built with durable stitching and materials to resist fraying, it maintains shape and performance over time. The generous size is ideal for low-DPI gamers who need wide movement space without lifting the mouse. A reliable, pro-grade mat for both competitive gaming and comfortable desktop use.",
+    "detail": "SteelSeries QcK+ large cloth gaming mousepad with micro-textured surface and anti-slip rubber base for precision and stability.",
+    "sku": "SS-QCKP",
+    "category": "Periféricos",
+    "tags": [
+      "mousepad",
+      "SteelSeries",
+      "gaming"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/MousePadSS.png",
+      "/img/MousePadSS2.png",
+      "/img/MousePadSS3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés Z.",
+        "comment": "Smooth surface, the mouse glides perfectly.",
+        "rating": 5
+      },
+      {
+        "user": "Lorena D.",
+        "comment": "Ideal size and sticks well to the desk.",
+        "rating": 5
+      },
+      {
+        "user": "Iván F.",
+        "comment": "Does its job well, good product overall.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "brand": "PlayStation",
+    "name": "Spider-Man 2 PS5",
+    "price": "280.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Spider-Man 2 for PS5 delivers an expansive superhero adventure with cinematic storytelling and fast-paced web-swinging across a richly detailed open world. The title introduces new abilities and narrative developments that deepen the relationship between the characters and the city they protect. Enhanced performance on PS5 ensures smooth animations, faster loading, and immersive audio to elevate every mission and encounter. A wide variety of side content, challenges, and collectibles extend gameplay far beyond the main storyline. Ideal for fans of action-adventure games seeking both spectacle and substance.",
+    "detail": "Spider-Man 2 PS5 — next-gen superhero action with enhanced visuals, expanded story content, and improved performance on PlayStation 5.",
+    "sku": "PS5-SPM2",
+    "category": "Videojuegos",
+    "tags": [
+      "PS5",
+      "Spider-Man",
+      "acción"
+    ],
+    "colors": [],
+    "images": [
+      "/img/Spiderman2.png",
+      "/img/Spiderman22.png",
+      "/img/Spiderman23.png"
+    ],
+    "reviews": [
+      {
+        "user": "Felipe C.",
+        "comment": "Amazing story, next-level graphics.",
+        "rating": 5
+      },
+      {
+        "user": "Laura M.",
+        "comment": "Very entertaining, though a bit short.",
+        "rating": 4
+      },
+      {
+        "user": "Andrés E.",
+        "comment": "One of the best PS5 exclusives.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "brand": "Samsung",
+    "name": "SSD portátil T7 500GB",
+    "price": "410.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Samsung T7 Portable SSD delivers lightning-fast transfer speeds in a compact and rugged form factor perfect for professionals and enthusiasts. With NVMe-based performance over USB-C, it reduces wait times for large file transfers and game installs. Its shock-resistant design and reliable thermal management provide consistent performance under heavy use. Password protection and AES 256-bit hardware encryption help keep stored data secure while on the go. A powerful, portable storage option that balances speed, security, and durability for modern workflows.",
+    "detail": "Samsung Portable SSD T7 500GB — NVMe performance in a compact USB-C enclosure with AES 256-bit encryption.",
+    "sku": "SAM-T7-500",
+    "category": "Almacenamiento",
+    "tags": [
+      "SSD",
+      "Samsung",
+      "portátil"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo"
+    ],
+    "images": [
+      "/img/SamsungSSD.png",
+      "/img/SamsungSSD2.png",
+      "/img/SamsungSSD3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Mónica J.",
+        "comment": "Impressive transfer speed.",
+        "rating": 5
+      },
+      {
+        "user": "Carlos R.",
+        "comment": "Compact and stylish, ideal for work.",
+        "rating": 5
+      },
+      {
+        "user": "Tatiana G.",
+        "comment": "Excellent product, highly recommended.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "brand": "Canon",
+    "name": "Escáner Lide 300",
+    "price": "410.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Canon CanoScan LiDE 300 is a slim, high-resolution flatbed scanner designed for crisp document and photo scanning in home and small office environments. Its EZ buttons and easy software integration simplify digitizing tasks, while the LED illumination delivers consistent color and detail. The compact footprint makes it simple to store or stack vertically when not in use, saving desk space. It produces clear, accurate scans ideal for archiving photos or converting paperwork into searchable files. A dependable scanner for users who need quality results without complex setup.",
+    "detail": "Canon CanoScan LiDE 300 flatbed scanner — compact design, high-resolution scans, and simple EZ-button operation for home and office use.",
+    "sku": "CAN-LIDE-300",
+    "category": "Escáneres",
+    "tags": [
+      "Canon",
+      "escáner",
+      "documentos"
+    ],
+    "colors": [
+      "Negro"
+    ],
+    "images": [
+      "/img/ScanerCanon.jpg",
+      "/img/ScanerCanon2.jpg",
+      "/img/ScanerCanon3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Ricardo T.",
+        "comment": "Scans quickly and with great resolution.",
+        "rating": 5
+      },
+      {
+        "user": "Valeria H.",
+        "comment": "Easy to use, perfect for office use.",
+        "rating": 4
+      },
+      {
+        "user": "Carlos P.",
+        "comment": "Delivers as promised, sharp results.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "brand": "Nintendo",
+    "name": "Super NES Classic Edition",
+    "price": "550.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Super NES Classic Edition is a nostalgic plug-and-play console loaded with iconic classic titles and built to deliver authentic retro gameplay. It includes restored graphics and accurate emulation to preserve the original look and feel while offering modern convenience. Compact and easy to set up, it connects directly to modern TVs for instant play without configuration hassles. Preinstalled games cover a wide range of genres and classics that defined a generation of gaming. A perfect collector’s item and accessible way for new players to experience timeless classics.",
+    "detail": "Super NES Classic Edition — plug-and-play retro console preloaded with classic titles and authentic emulation for modern TVs.",
+    "sku": "NSW-SNES-CLASSIC",
+    "category": "Consolas",
+    "tags": [
+      "Nintendo",
+      "retro",
+      "consola"
+    ],
+    "colors": [
+      "Gris"
+    ],
+    "images": [
+      "/img/SuperNes.png",
+      "/img/SuperNes2.png",
+      "/img/SuperNes3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Excellent nostalgia, games run perfectly.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Beautiful retro console, very easy to use.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Great collection of classic games, highly recommended.",
+        "rating": 5
+      }
+    ]
+  }
+]
