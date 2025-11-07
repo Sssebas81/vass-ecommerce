@@ -9,6 +9,7 @@ import Peripherals from './components/Peripheralsproducts/Peripherals.tsx'
 import PeripheralsPage from './pages/Categories/PeripheralsPage.tsx'
 import DevicesPage from './pages/Categories/DevicesPage.tsx'
 import GamingPage from './pages/Categories/GamingPage.tsx'
+import DetailProduct from './pages/detailProduct/DetailProduct.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>
@@ -43,6 +44,9 @@ path : '/',
 },{
   path:"/Gaming",
   element:<GamingPage />
+},{
+  path:"/Product/:id",
+  element:<DetailProduct />
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
