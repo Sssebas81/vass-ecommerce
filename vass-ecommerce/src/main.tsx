@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.tsx'
+import Contact from './pages/contact/Contact.tsx'
 import { h2 } from 'framer-motion/client'
 import Peripherals from './components/Peripheralsproducts/Peripherals.tsx'
 import PeripheralsPage from './pages/Categories/PeripheralsPage.tsx'
@@ -32,7 +33,7 @@ path : '/',
   element:<h2>Cart Page</h2>
 },{
   path:"/Contact",
-  element:<h2>Contact Page</h2>
+  element:<Contact/>
 },{
   path:"/Blog",
   element:<h2>Blog Page</h2> 
