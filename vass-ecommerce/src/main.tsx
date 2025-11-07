@@ -5,6 +5,7 @@ import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router
 import Home from './pages/home/Home.tsx'
 import Contact from './pages/contact/Contact.tsx'
 import { h2 } from 'framer-motion/client'
+import PersonalInfo from './pages/personalinfo/PersonalInfo.tsx'
 import Peripherals from './components/Peripheralsproducts/Peripherals.tsx'
 import PeripheralsPage from './pages/Categories/PeripheralsPage.tsx'
 import DevicesPage from './pages/Categories/DevicesPage.tsx'
@@ -24,7 +25,7 @@ path : '/',
   element: <ShopPage />
 },{
   path:"/Profile",
-  element:<h2>Profile Page</h2>
+  element:< PersonalInfo/>,
 },{
   path:"/Favorites",
   element:<h2>Favorites Page</h2>
