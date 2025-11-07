@@ -66,7 +66,7 @@
     ],
     "images": [
       "/img/Logitech1.png",
-      "/img/Logitech2.png",
+      "/img/Logitech2.jpg",
       "/img/Logitech3.png",
       "/img/Logitech4.png"
     ],
@@ -110,8 +110,8 @@
     ],
     "images": [
       "/img/ControlXbox.png",
-      "/img/ControlXbox2.png",
-      "/img/ControlXbox3.png"
+      "/img/ControlXbox2.jpg",
+      "/img/ControlXbox3.jpg"
     ],
     "reviews": [
       {
@@ -153,8 +153,8 @@
     ],
     "images": [
       "/img/ControlNintendo.png",
-      "/img/ControlNintendo2.png",
-      "/img/ControlNintendo3.png"
+      "/img/ControlNintendo2.jpg",
+      "/img/ControlNintendo3.jpg"
     ],
     "reviews": [
       {
@@ -194,11 +194,11 @@
       "Blue",
       "Black",
       "White"
-    ],
+	],
     "images": [
       "/img/AudifonosJBL.png",
-      "/img/AudifonosJBL2.png",
-      "/img/AudifonosJBL3.png"
+      "/img/AudifonosJBL2.jpg",
+      "/img/AudifonosJBL3.jpg"
     ],
     "reviews": [
       {
@@ -241,8 +241,8 @@
     ],
     "images": [
       "/img/NintendoSwitch2.png",
-      "/img/NintendoSwitch2_2.png",
-      "/img/NintendoSwitch2_3.png"
+      "/img/NintendoSwitch2_2.jpg",
+      "/img/NintendoSwitch2_3.jpg"
     ],
     "reviews": [
       {
@@ -285,9 +285,9 @@
     ],
     "images": [
       "/img/Play5Products.png",
-      "/img/ps5-side.png",
-      "/img/ps5-angle.png",
-      "/img/ps5-controller.png"
+      "/img/ps5-side.jpg",
+      "/img/ps5-angle.jpg",
+      "/img/ps5-controller.jpg"
     ],
     "reviews": [
       {
@@ -330,8 +330,8 @@
     ],
     "images": [
       "/img/GTA5.png",
-      "/img/GTA5_2.png",
-      "/img/GTA5_3.png"
+      "/img/GTA5_2.jpg",
+      "/img/GTA5_3.jpg"
     ],
     "reviews": [
       {
@@ -372,8 +372,8 @@
     ],
     "images": [
       "/img/HyperxAudifonos.png",
-      "/img/HyperxAudifonos2.png",
-      "/img/HyperxAudifonos3.png"
+      "/img/HyperxAudifonos2.jpg",
+      "/img/HyperxAudifonos3.jpg"
     ],
     "reviews": [
       {
@@ -455,8 +455,8 @@
     ],
     "images": [
       "/img/HPForroPortatil.png",
-      "/img/HPForroPortatil2.png",
-      "/img/HPForroPortatil3.png"
+      "/img/HPForroPortatil2.jpg",
+      "/img/HPForroPortatil3.jpg"
     ],
     "reviews": [
       {
@@ -497,8 +497,8 @@
     ],
     "images": [
       "/img/CoolerMasterBase.png",
-      "/img/CoolerMasterBase2.png",
-      "/img/CoolerMasterBase3.png"
+      "/img/CoolerMasterBase2.jpg",
+      "/img/CoolerMasterBase3.jpg"
     ],
     "reviews": [
       {
@@ -539,8 +539,8 @@
     ],
     "images": [
       "/img/CorsairTeclado.png",
-      "/img/CorsairTeclado2.png",
-      "/img/CorsairTeclado3.png"
+      "/img/CorsairTeclado2.jpg",
+      "/img/CorsairTeclado3.jpg"
     ],
     "reviews": [
       {
@@ -663,8 +663,8 @@
     ],
     "images": [
       "/img/NintendoFunda.png",
-      "/img/NintendoFunda2.png",
-      "/img/NintendoFunda3.png"
+      "/img/NintendoFunda2.jpg",
+      "/img/NintendoFunda3.jpg"
     ],
     "reviews": [
       {
@@ -705,8 +705,8 @@
     ],
     "images": [
       "/img/SeagateDD.png",
-      "/img/SeagateDD2.png",
-      "/img/SeagateDD3.png"
+      "/img/SeagateDD2.jpg",
+      "/img/SeagateDD3.jpg"
     ],
     "reviews": [
       {
@@ -747,8 +747,8 @@
     ],
     "images": [
       "/img/HyperxQuadcast.png",
-      "/img/HyperxQuadcast2.png",
-      "/img/HyperxQuadcast3.png"
+      "/img/HyperxQuadcast2.jpg",
+      "/img/HyperxQuadcast3.jpg"
     ],
     "reviews": [
       {
@@ -789,8 +789,8 @@
     ],
     "images": [
       "/img/hpImpresora.png",
-      "/img/hpImpresora2.png",
-      "/img/hpImpresora3.png"
+      "/img/hpImpresora2.jpg",
+      "/img/hpImpresora3.jpg"
     ],
     "reviews": [
       {
@@ -832,7 +832,7 @@
     "images": [
       "/img/MousePadSS.png",
       "/img/MousePadSS2.png",
-      "/img/MousePadSS3.png"
+      "/img/MousePadSS3.jpg"
     ],
     "reviews": [
       {
@@ -871,8 +871,8 @@
     "colors": [],
     "images": [
       "/img/Spiderman2.png",
-      "/img/Spiderman22.png",
-      "/img/Spiderman23.png"
+      "/img/Spiderman22.jpg",
+      "/img/Spiderman23.jpg"
     ],
     "reviews": [
       {
@@ -914,8 +914,8 @@
     ],
     "images": [
       "/img/SamsungSSD.png",
-      "/img/SamsungSSD2.png",
-      "/img/SamsungSSD3.png"
+      "/img/SamsungSSD2.jpg",
+      "/img/SamsungSSD3.jpg"
     ],
     "reviews": [
       {
@@ -957,7 +957,7 @@
     "images": [
       "/img/ScanerCanon.jpg",
       "/img/ScanerCanon2.jpg",
-      "/img/ScanerCanon3.jpg"
+      "/img/ScanerCanon3.webp"
     ],
     "reviews": [
       {
@@ -998,8 +998,8 @@
     ],
     "images": [
       "/img/SuperNes.png",
-      "/img/SuperNes2.png",
-      "/img/SuperNes3.png"
+      "/img/SuperNes2.jpg",
+      "/img/SuperNes3.jpg"
     ],
     "reviews": [
       {
@@ -1018,5 +1018,1448 @@
         "rating": 5
       }
     ]
+  },
+  {
+    "id": 25,
+    "brand": "Blue",
+    "name": "Blue Yeti Microphone",
+    "price": "620.000 COP",
+    "oldPrice": "700.000 COP",
+    "discount": "",
+    "description": "The Blue Yeti microphone offers professional-grade audio recording for streamers, podcasters, and musicians. With multiple pickup patterns, crystal-clear sound, and an easy USB connection, it provides studio-quality performance in a sleek and reliable package. Its sturdy design and plug-and-play setup make it perfect for both beginners and professionals seeking rich, detailed audio. Whether recording vocals, instruments, or streaming, the Blue Yeti delivers consistency and versatility every time.",
+    "detail": "Blue Yeti — professional USB microphone ideal for streaming, podcasting, and studio-quality recording.",
+    "sku": "MIC-BLUE-YETI",
+    "category": "Peripherals",
+    "tags": [
+      "Blue",
+      "microphone",
+      "audio"
+    ],
+    "colors": [
+      "Silver"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/BlueMicro.png",
+      "/img/PeripheralsAccessories/BlueMicro2.png",
+      "/img/PeripheralsAccessories/BlueMicro3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Excellent sound quality and very easy to use.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Perfect for my streaming setup, works flawlessly.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Great microphone, captures voice clearly.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "brand": "Corsair",
+    "name": "Corsair Mechanical Keyboard K70 RGB",
+    "price": "720.000 COP",
+    "oldPrice": "800.000 COP",
+    "discount": "",
+    "description": "The Corsair K70 RGB is a premium mechanical keyboard built for performance and durability. Featuring customizable per-key RGB lighting, ultra-responsive Cherry MX switches, and an aluminum frame, it delivers precision and comfort during long gaming sessions. Dedicated media controls and full N-key rollover ensure total control without compromise. Its design combines beauty and function, making it a top choice for gamers and professionals alike.",
+    "detail": "Corsair K70 RGB — mechanical keyboard with customizable lighting and durable aluminum design.",
+    "sku": "KEY-CORSAIR-K70",
+    "category": "Peripherals",
+    "tags": [
+      "Corsair",
+      "keyboard",
+      "RGB"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/Corsair.png",
+      "/img/PeripheralsAccessories/Corsair2.png",
+      "/img/PeripheralsAccessories/Corsair3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Excellent response and lighting customization.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Comfortable to type and game on, worth the price.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Great quality keyboard, feels premium.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "brand": "Creative",
+    "name": "Creative Pebble 2.0 Speakers",
+    "price": "230.000 COP",
+    "oldPrice": "270.000 COP",
+    "discount": "-50%",
+    "description": "The Creative Pebble 2.0 speakers combine compact design and clear sound for any workspace. Powered by USB and equipped with enhanced bass, they deliver impressive performance without taking much space. Their modern spherical design fits perfectly into any setup. Ideal for watching videos, listening to music, or working, these speakers offer excellent value with a sleek, minimalistic appearance.",
+    "detail": "Creative Pebble 2.0 — compact USB-powered speakers with rich sound and modern design.",
+    "sku": "SPK-CREATIVE-PEBBLE",
+    "category": "Peripherals",
+    "tags": [
+      "Creative",
+      "speakers",
+      "audio"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/CreativeParlantes.png",
+      "/img/PeripheralsAccessories/CreativeParlantes2.png",
+      "/img/PeripheralsAccessories/CreativeParlantes3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Impressive sound for their size, highly portable.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Perfect for my desk setup, small but powerful.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Great clarity and bass, worth every penny.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "brand": "Elgato",
+    "name": "Elgato Wave 3 Microphone",
+    "price": "850.000 COP",
+    "oldPrice": "920.000 COP",
+    "discount": "",
+    "description": "The Elgato Wave 3 microphone delivers broadcast-quality sound with advanced digital mixing features for streamers and creators. It combines studio-grade clarity with intuitive controls and clipguard technology to prevent distortion. Designed for modern content production, it integrates seamlessly with popular streaming software. Sleek, durable, and powerful, it ensures your voice sounds professional in every recording or live session.",
+    "detail": "Elgato Wave 3 — USB microphone with digital mixing and professional clarity.",
+    "sku": "MIC-ELGATO-W3",
+    "category": "Peripherals",
+    "tags": [
+      "Elgato",
+      "microphone",
+      "streaming"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/ElgatoMicro.png",
+      "/img/PeripheralsAccessories/ElgatoMicro2.png",
+      "/img/PeripheralsAccessories/ElgatoMicro3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Crystal-clear audio and amazing design.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Best mic I’ve used for streaming, worth it.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Simple setup, great professional quality.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "brand": "HyperX",
+    "name": "HyperX Cloud II Gaming Headset",
+    "price": "480.000 COP",
+    "oldPrice": "550.000 COP",
+    "discount": "",
+    "description": "The HyperX Cloud II headset provides immersive audio and superior comfort for gamers. Featuring 7.1 virtual surround sound, a detachable noise-canceling mic, and durable aluminum construction, it ensures long-lasting quality and clarity. Its memory foam ear cushions make it ideal for extended sessions. Designed for performance and comfort, it’s the perfect choice for competitive and casual gaming alike.",
+    "detail": "HyperX Cloud II — 7.1 surround gaming headset with comfort and clarity.",
+    "sku": "HS-HYPERX-CLOUD2",
+    "category": "Peripherals",
+    "tags": [
+      "HyperX",
+      "headset",
+      "gaming"
+    ],
+    "colors": [
+      "Black",
+      "Red"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/HyperX.png",
+      "/img/PeripheralsAccessories/HyperX2.png",
+      "/img/PeripheralsAccessories/HyperX3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Amazing sound and mic quality, very comfy.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Perfect for gaming, love the surround sound.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Durable, comfortable, and clear audio.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "brand": "Logitech",
+    "name": "Logitech G Pro X Headset",
+    "price": "590.000 COP",
+    "oldPrice": "640.000 COP",
+    "discount": "",
+    "description": "The Logitech G Pro X headset brings esports-grade sound and comfort. Equipped with Blue VO!CE microphone technology, it delivers clear communication and customizable sound profiles. Its premium leatherette padding and sturdy steel frame offer durability and style. Designed for competitive play, it provides positional accuracy and high fidelity sound for serious gamers seeking professional performance.",
+    "detail": "Logitech G Pro X — gaming headset with Blue VO!CE microphone and premium sound.",
+    "sku": "HS-LOGI-GPROX",
+    "category": "Peripherals",
+    "tags": [
+      "Logitech",
+      "headset",
+      "gaming"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/LogitechAudifonos.png",
+      "/img/PeripheralsAccessories/LogitechAudifonos2.png",
+      "/img/PeripheralsAccessories/LogitechAudifonos3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Crystal clear mic and deep sound quality.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Very comfortable and sounds professional.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Excellent for streaming and gaming sessions.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "brand": "Logitech",
+    "name": "Logitech C920 HD Pro Webcam",
+    "price": "420.000 COP",
+    "oldPrice": "470.000 COP",
+    "discount": "",
+    "description": "The Logitech C920 HD Pro webcam delivers sharp 1080p video quality with clear stereo audio, making it ideal for video calls, streaming, and recording. Its automatic light correction ensures you always look your best, even in low-light environments. With plug-and-play simplicity and reliable performance, it’s a trusted choice for professionals and creators alike.",
+    "detail": "Logitech C920 HD Pro — full HD webcam for streaming and video conferencing.",
+    "sku": "CAM-LOGI-C920",
+    "category": "Peripherals",
+    "tags": [
+      "Logitech",
+      "webcam",
+      "video"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/LogitechCam.png",
+      "/img/PeripheralsAccessories/LogitechCam2.png",
+      "/img/PeripheralsAccessories/LogitechCam3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Excellent image quality, very reliable.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Perfect for meetings and streaming.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Crisp video and easy to set up.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "brand": "Logitech",
+    "name": "Logitech G502 HERO Gaming Mouse",
+    "price": "360.000 COP",
+    "oldPrice": "410.000 COP",
+    "discount": "",
+    "description": "The Logitech G502 HERO is a precision-engineered gaming mouse featuring a 25K DPI sensor, customizable weights, and programmable buttons for full control. With its ergonomic design and RGB lighting, it offers superior comfort and responsiveness. Built for performance and accuracy, it’s perfect for gamers who demand speed, precision, and reliability.",
+    "detail": "Logitech G502 HERO — high-performance gaming mouse with adjustable weight system.",
+    "sku": "MOU-LOGI-G502",
+    "category": "Peripherals",
+    "tags": [
+      "Logitech",
+      "mouse",
+      "gaming"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/LogitechMouse.jpg",
+      "/img/PeripheralsAccessories/LogitechMouse2.jpg",
+      "/img/PeripheralsAccessories/LogitechMouse3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Fantastic precision and great grip.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Customizable buttons are a game changer.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Perfect balance and smooth motion.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "brand": "Logitech",
+    "name": "Logitech Z407 Bluetooth Speakers",
+    "price": "480.000 COP",
+    "oldPrice": "540.000 COP",
+    "discount": "New",
+    "description": "The Logitech Z407 speakers provide immersive sound with deep bass and clear highs. Featuring Bluetooth, USB, and AUX connectivity, they offer flexible setup options for your PC or entertainment system. The included wireless control dial allows for convenient volume adjustment. Modern, compact, and powerful, they deliver premium sound for every occasion.",
+    "detail": "Logitech Z407 — Bluetooth speakers with rich bass and multiple connectivity options.",
+    "sku": "SPK-LOGI-Z407",
+    "category": "Peripherals",
+    "tags": [
+      "Logitech",
+      "speakers",
+      "audio"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/LogitechParlantes.jpg",
+      "/img/PeripheralsAccessories/LogitechParlantes2.jpg",
+      "/img/PeripheralsAccessories/LogitechParlantes3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Amazing sound, love the bass response.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Stylish and powerful for my setup.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Great Bluetooth connection and control.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "brand": "Razer",
+    "name": "Razer DeathAdder V2 Mouse",
+    "price": "340.000 COP",
+    "oldPrice": "390.000 COP",
+    "discount": "",
+    "description": "The Razer DeathAdder V2 is an ergonomic gaming mouse featuring a high-precision 20K DPI optical sensor for ultimate accuracy. Designed for long sessions, it offers smooth, responsive tracking and customizable RGB lighting. Its durable switches and lightweight form factor make it a favorite among competitive gamers worldwide.",
+    "detail": "Razer DeathAdder V2 — ergonomic mouse with 20K DPI optical sensor and RGB lighting.",
+    "sku": "MOU-RAZER-DA2",
+    "category": "Peripherals",
+    "tags": [
+      "Razer",
+      "mouse",
+      "gaming"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/RazerMouse.png",
+      "/img/PeripheralsAccessories/RazerMouse2.png",
+      "/img/PeripheralsAccessories/RazerMouse3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Super responsive and feels great.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Lightweight and very precise.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "My favorite mouse for FPS games.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "brand": "Razer",
+    "name": "Razer Kiyo Pro Webcam",
+    "price": "630.000 COP",
+    "oldPrice": "690.000 COP",
+    "discount": "",
+    "description": "The Razer Kiyo Pro webcam delivers professional-grade image quality with adaptive light sensors and HDR support. Designed for streaming and content creation, it provides smooth, detailed video even in low-light conditions. Its wide-angle lens and customizable field of view ensure flexibility for any setup.",
+    "detail": "Razer Kiyo Pro — HDR webcam with adaptive light sensors and wide-angle lens.",
+    "sku": "CAM-RAZER-KIYO",
+    "category": "Peripherals",
+    "tags": [
+      "Razer",
+      "webcam",
+      "video"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/RazerWebcam.jpg",
+      "/img/PeripheralsAccessories/RazerWebcam2.jpg",
+      "/img/PeripheralsAccessories/RazerWebcam3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Fantastic quality and easy setup.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Perfect for professional streams.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Crisp and clear video every time.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "brand": "Samsung",
+    "name": "Samsung Portable SSD T7 1TB",
+    "price": "590.000 COP",
+    "oldPrice": "650.000 COP",
+    "discount": "",
+    "description": "The Samsung Portable SSD T7 offers fast transfer speeds, reliable storage, and a sleek, compact design. Built with NVMe technology, it ensures smooth performance for professionals on the go. Shock-resistant and secure, it’s perfect for storing large files safely and quickly accessing them anywhere.",
+    "detail": "Samsung T7 — portable 1TB SSD with high-speed NVMe performance.",
+    "sku": "SSD-SAMSUNG-T7",
+    "category": "Storage",
+    "tags": [
+      "Samsung",
+      "SSD",
+      "storage"
+    ],
+    "colors": [
+      "Gray"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/SamsungDisco.png",
+      "/img/PeripheralsAccessories/SamsungDisco2.png",
+      "/img/PeripheralsAccessories/SamsungDisco3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Super fast and compact, great build.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Transfers files instantly, love it.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Perfect external SSD for work.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "brand": "Seagate",
+    "name": "Seagate Expansion Portable 2TB HDD",
+    "price": "360.000 COP",
+    "oldPrice": "410.000 COP",
+    "discount": "",
+    "description": "The Seagate Expansion Portable Drive offers reliable, plug-and-play storage for your files, photos, and games. With a spacious 2TB capacity and USB 3.0 connectivity, it delivers fast data transfer and easy use on any computer. Compact and durable, it’s ideal for users who need simple, portable backup solutions.",
+    "detail": "Seagate Expansion — 2TB portable hard drive with USB 3.0 connectivity.",
+    "sku": "HDD-SEAGATE-2TB",
+    "category": "Storage",
+    "tags": [
+      "Seagate",
+      "HDD",
+      "storage"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/SegateDisco.png",
+      "/img/PeripheralsAccessories/SegateDisco2.png",
+      "/img/PeripheralsAccessories/SegateDisco3.png"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Reliable storage, works perfectly.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Fast and easy to use.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Good capacity for backups.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "brand": "SteelSeries",
+    "name": "SteelSeries Apex Pro Keyboard",
+    "price": "890.000 COP",
+    "oldPrice": "980.000 COP",
+    "discount": "",
+    "description": "The SteelSeries Apex Pro features adjustable mechanical switches for personalized sensitivity and performance. With per-key RGB lighting, aluminum alloy construction, and an OLED smart display, it’s built for competitive gamers and creators who demand precision and style. This keyboard redefines control and customization in every keystroke.",
+    "detail": "SteelSeries Apex Pro — adjustable mechanical keyboard with OLED display.",
+    "sku": "KEY-STEELSERIES-APEXPRO",
+    "category": "Peripherals",
+    "tags": [
+      "SteelSeries",
+      "keyboard",
+      "gaming"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/SteelSeries.jpg",
+      "/img/PeripheralsAccessories/SteelSeries2.jpg",
+      "/img/PeripheralsAccessories/SteelSeries3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Incredible feel and customization.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Best keyboard I’ve owned, perfect lighting.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Smooth keys and beautiful design.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "brand": "Wacom",
+    "name": "Wacom Intuos Pro Tablet",
+    "price": "920.000 COP",
+    "oldPrice": "1.000.000 COP",
+    "discount": "",
+    "description": "The Wacom Intuos Pro is a professional drawing tablet offering exceptional precision and pressure sensitivity. With customizable ExpressKeys and a slim, elegant design, it enhances creative workflows for artists and designers. Compatible with major software, it provides a natural, pen-on-paper experience for digital art and design.",
+    "detail": "Wacom Intuos Pro — professional graphic tablet with high pressure sensitivity.",
+    "sku": "TAB-WACOM-INTUOSPRO",
+    "category": "Peripherals",
+    "tags": [
+      "Wacom",
+      "tablet",
+      "graphic"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/WacomTableta.jpg",
+      "/img/PeripheralsAccessories/WacomTableta2.jpg",
+      "/img/PeripheralsAccessories/WacomTableta3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Fantastic sensitivity and accuracy.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Feels natural, great for illustration.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Excellent for professional art work.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "brand": "XP-Pen",
+    "name": "XP-Pen Deco 01 V2 Tablet",
+    "price": "380.000 COP",
+    "oldPrice": "430.000 COP",
+    "discount": "New",
+    "description": "The XP-Pen Deco 01 V2 is a large digital drawing tablet designed for smooth creativity and precision. It features a wide active area, customizable shortcut keys, and tilt support for realistic drawing. Compatible with all major art software, it’s an excellent option for beginners and professionals looking for value and performance.",
+    "detail": "XP-Pen Deco 01 V2 — digital drawing tablet with wide area and tilt function.",
+    "sku": "TAB-XPPEN-DECO01",
+    "category": "Peripherals",
+    "tags": [
+      "XP-Pen",
+      "tablet",
+      "graphic"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "images": [
+      "/img/PeripheralsAccessories/XP-PenTableta.jpg",
+      "/img/PeripheralsAccessories/XP-PenTableta2.jpg",
+      "/img/PeripheralsAccessories/XP-PenTableta3.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Andrés L.",
+        "comment": "Excellent tablet, responsive and smooth.",
+        "rating": 5
+      },
+      {
+        "user": "Catalina Q.",
+        "comment": "Easy to use and very accurate.",
+        "rating": 5
+      },
+      {
+        "user": "Pedro G.",
+        "comment": "Great quality for its price.",
+        "rating": 5
+      }
+    ]
+  },{
+    "id": 41,
+    "brand": "Samsung",
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": "5.400.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Samsung Galaxy S24 Ultra combines cutting-edge design, a stunning AMOLED display, and powerful AI-driven performance. With an advanced camera system capable of capturing incredible detail, it redefines mobile photography. The device offers long-lasting battery life, fast charging, and seamless multitasking for demanding users. Its titanium frame and sleek aesthetics make it both durable and elegant for any lifestyle.",
+    "detail": "Galaxy S24 Ultra — high-end smartphone with AI features and professional-grade camera.",
+    "sku": "PHN-SAMSUNG-S24U",
+    "category": "PC & Smartphones",
+    "tags": ["Samsung", "smartphone", "Android"],
+    "colors": ["Gray", "Black"],
+    "images": [
+      "/img/PCSmartphones/SamsungS24.png",
+      "/img/PCSmartphones/SamsungS242.png",
+      "/img/PCSmartphones/SamsungS243.png"
+    ],
+    "reviews": [
+      { "user": "Laura P.", "comment": "Amazing screen and camera quality!", "rating": 5 },
+      { "user": "Carlos D.", "comment": "Battery lasts all day and performance is top-notch.", "rating": 5 },
+      { "user": "Marta V.", "comment": "Incredible device, worth every peso.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 42,
+    "brand": "Asus",
+    "name": "Asus ROG Phone 7 Ultimate",
+    "price": "4.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Asus ROG Phone 7 Ultimate is a flagship gaming smartphone built for maximum power and cooling efficiency. It features a high-refresh AMOLED display, Snapdragon 8 Gen 2 processor, and advanced cooling system. Designed for gamers, it includes AirTrigger controls and immersive audio for a console-like experience. Its aggressive design and durable build make it perfect for heavy users and gaming enthusiasts.",
+    "detail": "ROG Phone 7 Ultimate — gaming smartphone with extreme performance and cooling.",
+    "sku": "PHN-ASUS-ROG7U",
+    "category": "PC & Smartphones",
+    "tags": ["Asus", "smartphone", "gaming"],
+    "colors": ["Black", "Silver"],
+    "images": [
+      "/img/PCSmartphones/Asus7Ultimate.png",
+      "/img/PCSmartphones/Asus7Ultimate2.png",
+      "/img/PCSmartphones/Asus7Ultimate3.png"
+    ],
+    "reviews": [
+      { "user": "Nicolás H.", "comment": "Perfect for gaming, smooth and powerful.", "rating": 5 },
+      { "user": "Daniela T.", "comment": "Battery and cooling are incredible.", "rating": 5 },
+      { "user": "Andrés P.", "comment": "Best mobile gaming experience I’ve had.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 43,
+    "brand": "Xiaomi",
+    "name": "Xiaomi Redmi Note 13 Pro+",
+    "price": "2.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Redmi Note 13 Pro+ delivers premium design and flagship features at an accessible price. With its 200MP camera, fast charging, and vivid AMOLED display, it offers outstanding value for everyday users. Its smooth performance and long-lasting battery make it a reliable companion. The phone blends elegance and innovation in a lightweight, modern body ideal for all-day use.",
+    "detail": "Redmi Note 13 Pro+ — affordable premium smartphone with 200MP camera.",
+    "sku": "PHN-XIAOMI-RN13P",
+    "category": "PC & Smartphones",
+    "tags": ["Xiaomi", "smartphone", "Android"],
+    "colors": ["Blue", "White"],
+    "images": [
+      "/img/PCSmartphones/XiaomiRN13.png",
+      "/img/PCSmartphones/XiaomiRN132.jpg",
+      "/img/PCSmartphones/XiaomiRN133.jpg"
+    ],
+    "reviews": [
+      { "user": "Laura G.", "comment": "Excellent performance and camera for the price.", "rating": 5 },
+      { "user": "Santiago F.", "comment": "Beautiful display and fast charging.", "rating": 5 },
+      { "user": "Juliana R.", "comment": "Feels like a flagship phone.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 44,
+    "brand": "Lenovo",
+    "name": "Lenovo Legion 5 Pro Laptop",
+    "price": "6.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Lenovo Legion 5 Pro combines raw gaming power with professional design. Powered by the latest AMD Ryzen and RTX graphics, it delivers excellent frame rates and multitasking performance. The QHD display offers vivid colors and high refresh rates for immersive gameplay. Built with precision cooling, it ensures quiet operation during intense sessions. Ideal for gamers and creators alike.",
+    "detail": "Legion 5 Pro — gaming laptop with Ryzen processor and RTX graphics.",
+    "sku": "LPT-LENOVO-LEGION5P",
+    "category": "PC & Smartphones",
+    "tags": ["Lenovo", "laptop", "gaming"],
+    "colors": ["Gray", "Black"],
+    "images": [
+      "/img/PCSmartphones/Lenovo5Pro.jpg",
+      "/img/PCSmartphones/Lenovo5Pro2.jpg",
+      "/img/PCSmartphones/Lenovo5Pro3.jpg"
+    ],
+    "reviews": [
+      { "user": "David R.", "comment": "Great gaming laptop, runs everything smoothly.", "rating": 5 },
+      { "user": "Camila E.", "comment": "Keyboard and display are top quality.", "rating": 5 },
+      { "user": "Juan C.", "comment": "Excellent cooling and performance.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 45,
+    "brand": "Asus",
+    "name": "Asus ROG Strix G16 Laptop",
+    "price": "7.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Asus ROG Strix G16 is engineered for serious gamers seeking high performance and modern design. Featuring a powerful Intel Core i9 processor and RTX 4070 GPU, it handles demanding games and creative workloads effortlessly. The 165Hz display delivers smooth visuals, while the RGB keyboard and cooling system enhance comfort. Perfect for users who demand speed and style.",
+    "detail": "ROG Strix G16 — high-performance gaming laptop with RTX graphics.",
+    "sku": "LPT-ASUS-STRIXG16",
+    "category": "PC & Smartphones",
+    "tags": ["Asus", "laptop", "gaming"],
+    "colors": ["Black"],
+    "images": [
+      "/img/PCSmartphones/AsusG16.jpg",
+      "/img/PCSmartphones/AsusG162.jpg",
+      "/img/PCSmartphones/AsusG163.jpg"
+    ],
+    "reviews": [
+      { "user": "Paula N.", "comment": "Super fast and reliable laptop.", "rating": 5 },
+      { "user": "Felipe T.", "comment": "Amazing RGB and cooling system.", "rating": 5 },
+      { "user": "Diana R.", "comment": "Best gaming experience I’ve had on a laptop.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 46,
+    "brand": "MSI",
+    "name": "MSI Katana 15 Gaming Laptop",
+    "price": "5.400.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The MSI Katana 15 offers impressive gaming power at an affordable price. Equipped with Intel Core i7 and RTX 4060, it handles modern games with ease. Its display delivers crisp visuals, while the cooling system keeps performance consistent under load. A sleek, minimalist design complements its solid build quality, making it a reliable choice for gamers and students.",
+    "detail": "Katana 15 — gaming laptop with RTX 4060 and Intel Core i7.",
+    "sku": "LPT-MSI-KATANA15",
+    "category": "PC & Smartphones",
+    "tags": ["MSI", "laptop", "gaming"],
+    "colors": ["Black", "Gray"],
+    "images": [
+      "/img/PCSmartphones/MSI15.jpg",
+      "/img/PCSmartphones/MSI152.jpg",
+      "/img/PCSmartphones/MSI153.jpg"
+    ],
+    "reviews": [
+      { "user": "Jorge B.", "comment": "Very powerful for its price.", "rating": 5 },
+      { "user": "Andrea G.", "comment": "Runs games flawlessly.", "rating": 5 },
+      { "user": "Samuel E.", "comment": "Solid build and excellent cooling.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 47,
+    "brand": "Acer",
+    "name": "Acer Predator Helios Neo 16",
+    "price": "6.800.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Acer Predator Helios Neo 16 delivers a bold balance of speed, visuals, and performance. Featuring Intel’s latest CPUs and NVIDIA RTX graphics, it handles heavy gaming and design work effortlessly. The 16-inch QHD display with high refresh rates offers immersive gameplay. With an efficient cooling system, it stays cool under pressure and looks striking with its sleek design.",
+    "detail": "Predator Helios Neo 16 — performance gaming laptop with QHD display.",
+    "sku": "LPT-ACER-NEO16",
+    "category": "PC & Smartphones",
+    "tags": ["Acer", "laptop", "gaming"],
+    "colors": ["Black"],
+    "images": [
+      "/img/PCSmartphones/AcerNeo16.png",
+      "/img/PCSmartphones/AcerNeo162.png",
+      "/img/PCSmartphones/AcerNeo163.png"
+    ],
+    "reviews": [
+      { "user": "Valentina R.", "comment": "Smooth visuals and excellent power.", "rating": 5 },
+      { "user": "Cristian Z.", "comment": "Super fast, perfect for work and play.", "rating": 5 },
+      { "user": "Elena P.", "comment": "Amazing laptop with great cooling.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 48,
+    "brand": "Dell",
+    "name": "Dell XPS 15 Laptop",
+    "price": "7.600.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Dell XPS 15 offers exceptional craftsmanship, performance, and portability. Its stunning 4K display and aluminum chassis make it ideal for professionals and creators. Powered by Intel’s 13th Gen processors, it delivers speed and efficiency for productivity and entertainment. With impressive battery life and premium design, it’s one of the best all-around laptops available.",
+    "detail": "XPS 15 — professional ultrabook with 4K display and sleek design.",
+    "sku": "LPT-DELL-XPS15",
+    "category": "PC & Smartphones",
+    "tags": ["Dell", "laptop", "professional"],
+    "colors": ["Silver"],
+    "images": [
+      "/img/PCSmartphones/DellXPS15.jpg",
+      "/img/PCSmartphones/DellXPS152.jpg",
+      "/img/PCSmartphones/DellXPS153.jpg"
+    ],
+    "reviews": [
+      { "user": "Julián M.", "comment": "Gorgeous display and great performance.", "rating": 5 },
+      { "user": "Nathalia L.", "comment": "Sleek and professional build.", "rating": 5 },
+      { "user": "Sebastián C.", "comment": "Perfect for productivity and travel.", "rating": 5 }
+    ]
+  },{
+    "id": 49,
+    "brand": "HP",
+    "name": "HP Omen 16 Gaming Laptop",
+    "price": "6.000.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The HP Omen 16 offers outstanding gaming power and efficiency in a sleek chassis. Powered by the latest Intel and NVIDIA components, it ensures smooth gameplay and multitasking. Its QHD display and RGB keyboard create an immersive environment for gamers. With effective cooling and durable design, it’s built for those who seek consistent high performance in every session.",
+    "detail": "Omen 16 — high-performance gaming laptop with RTX graphics and RGB lighting.",
+    "sku": "LPT-HP-OMEN16",
+    "category": "PC & Smartphones",
+    "tags": ["HP", "laptop", "gaming"],
+    "colors": ["Black"],
+    "images": [
+      "/img/PCSmartphones/HPOmen16.png",
+      "/img/PCSmartphones/HPOmen162.png",
+      "/img/PCSmartphones/HPOmen163.png"
+    ],
+    "reviews": [
+      { "user": "Camilo T.", "comment": "Runs all my games flawlessly.", "rating": 5 },
+      { "user": "Valeria F.", "comment": "Fast, quiet, and very well built.", "rating": 5 },
+      { "user": "Nicolás A.", "comment": "Amazing laptop for both gaming and work.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 50,
+    "brand": "Intel",
+    "name": "Intel Core i9-14900K CPU",
+    "price": "3.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Intel Core i9-14900K delivers elite-level processing power for gaming and productivity. Built with advanced architecture and high clock speeds, it handles demanding workloads effortlessly. Ideal for creators and enthusiasts, it ensures faster rendering and smoother multitasking. Designed for maximum performance, it redefines the standard for modern desktop processors.",
+    "detail": "Intel Core i9-14900K — high-performance CPU for gaming and creative work.",
+    "sku": "CPU-INTEL-I9-14900K",
+    "category": "PC & Smartphones",
+    "tags": ["Intel", "CPU", "processor"],
+    "colors": ["Silver"],
+    "images": [
+      "/img/PCSmartphones/IntelCPU.jpg",
+      "/img/PCSmartphones/IntelCPU2.jpg",
+      "/img/PCSmartphones/IntelCPU3.jpg"
+    ],
+    "reviews": [
+      { "user": "Carlos P.", "comment": "Blazing fast performance for everything.", "rating": 5 },
+      { "user": "Mariana D.", "comment": "Perfect for gaming and rendering tasks.", "rating": 5 },
+      { "user": "José M.", "comment": "Incredible speed and efficiency.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 51,
+    "brand": "AMD",
+    "name": "AMD Ryzen 9 7950X CPU",
+    "price": "2.800.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The AMD Ryzen 9 7950X offers next-level multitasking and gaming power. With 16 cores and cutting-edge architecture, it delivers lightning-fast performance for intensive workloads. Perfect for professionals and gamers, it ensures excellent thermals and efficiency. Its power and speed redefine what’s possible in high-end desktop computing.",
+    "detail": "Ryzen 9 7950X — high-end desktop processor with 16 cores for extreme performance.",
+    "sku": "CPU-AMD-RYZEN9-7950X",
+    "category": "PC & Smartphones",
+    "tags": ["AMD", "CPU", "processor"],
+    "colors": ["Gray"],
+    "images": [
+      "/img/PCSmartphones/AMDRyzen9.jpg",
+      "/img/PCSmartphones/AMDRyzen92.jpg",
+      "/img/PCSmartphones/AMDRyzen93.jpg"
+    ],
+    "reviews": [
+      { "user": "Daniel C.", "comment": "Outstanding performance for editing and gaming.", "rating": 5 },
+      { "user": "Laura V.", "comment": "Handles heavy tasks with ease.", "rating": 5 },
+      { "user": "Andrés G.", "comment": "A beast of a processor, highly recommended.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 52,
+    "brand": "NZXT",
+    "name": "NZXT H7 Flow PC Case",
+    "price": "750.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The NZXT H7 Flow offers exceptional airflow and clean aesthetics for PC builders. Designed with optimized ventilation and a tool-free design, it makes assembly effortless. The tempered glass panel showcases components beautifully, while its minimal layout ensures efficient cooling. A perfect choice for enthusiasts who value both function and style.",
+    "detail": "H7 Flow — mid-tower case with optimized airflow and modern aesthetics.",
+    "sku": "CASE-NZXT-H7FLOW",
+    "category": "PC & Smartphones",
+    "tags": ["NZXT", "case", "PC"],
+    "colors": ["White", "Black"],
+    "images": [
+      "/img/PCSmartphones/NZXTTorre.jpg",
+      "/img/PCSmartphones/NZXTTorre2.jpg",
+      "/img/PCSmartphones/NZXTTorre3.jpg"
+    ],
+    "reviews": [
+      { "user": "Mateo F.", "comment": "Easy to build in and excellent airflow.", "rating": 5 },
+      { "user": "Luisa P.", "comment": "Very stylish and functional case.", "rating": 5 },
+      { "user": "Felipe S.", "comment": "Clean look with great cooling support.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 53,
+    "brand": "Cooler Master",
+    "name": "Cooler Master Cosmos C700P Tower",
+    "price": "1.200.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Cooler Master Cosmos C700P is a premium tower case designed for enthusiasts and professionals. It features curved tempered glass, modular components, and excellent airflow for top-tier builds. Its striking RGB lighting and aluminum handles add sophistication. Built for customization, it allows for both vertical and traditional motherboard layouts.",
+    "detail": "Cosmos C700P — full-tower case with modular design and RGB lighting.",
+    "sku": "CASE-COOLERMASTER-C700P",
+    "category": "PC & Smartphones",
+    "tags": ["Cooler Master", "case", "PC"],
+    "colors": ["Gray"],
+    "images": [
+      "/img/PCSmartphones/CoolerMaster.png",
+      "/img/PCSmartphones/CoolerMaster2.png",
+      "/img/PCSmartphones/CoolerMaster3.png"
+    ],
+    "reviews": [
+      { "user": "Ricardo J.", "comment": "Beautiful and massive case, great quality.", "rating": 5 },
+      { "user": "Natalia U.", "comment": "Premium materials and airflow.", "rating": 5 },
+      { "user": "Esteban C.", "comment": "Perfect for custom water cooling builds.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 54,
+    "brand": "Corsair",
+    "name": "Corsair iCUE 5000T RGB Tower",
+    "price": "1.500.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Corsair iCUE 5000T is a stunning mid-tower case with integrated RGB lighting and excellent cooling support. It accommodates high-end components and multiple radiators with ease. Its spacious interior and cable management make building simple and clean. Designed for enthusiasts, it combines elegance with top-tier performance.",
+    "detail": "iCUE 5000T — RGB tower case designed for premium cooling and style.",
+    "sku": "CASE-CORSAIR-5000T",
+    "category": "PC & Smartphones",
+    "tags": ["Corsair", "case", "PC"],
+    "colors": ["White", "Black"],
+    "images": [
+      "/img/PCSmartphones/CorsairTorre.jpg",
+      "/img/PCSmartphones/CorsairTorre2.jpg",
+      "/img/PCSmartphones/CorsairTorre3.jpg"
+    ],
+    "reviews": [
+      { "user": "Carolina P.", "comment": "Stunning lighting and airflow.", "rating": 5 },
+      { "user": "Iván G.", "comment": "Easy to build and manage cables.", "rating": 5 },
+      { "user": "Sofía R.", "comment": "Looks beautiful on my setup.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 55,
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Book3 Ultra Laptop",
+    "price": "7.800.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Samsung Galaxy Book3 Ultra delivers the perfect balance between performance and portability. Featuring Intel Core i7 processors, a stunning AMOLED display, and premium aluminum build, it’s crafted for professionals. Its lightweight design and long battery life make it ideal for productivity anywhere. A refined laptop built for those who demand style and power.",
+    "detail": "Galaxy Book3 Ultra — premium ultrabook with AMOLED display and i7 processor.",
+    "sku": "LPT-SAMSUNG-BOOK3U",
+    "category": "PC & Smartphones",
+    "tags": ["Samsung", "laptop", "ultrabook"],
+    "colors": ["Gray"],
+    "images": [
+      "/img/PCSmartphones/SamsungBook3.png",
+      "/img/PCSmartphones/SamsungBook32.png",
+      "/img/PCSmartphones/SamsungBook33.png"
+    ],
+    "reviews": [
+      { "user": "Camila S.", "comment": "Super light and elegant laptop.", "rating": 5 },
+      { "user": "Javier T.", "comment": "Beautiful display and fast performance.", "rating": 5 },
+      { "user": "Ana L.", "comment": "Perfect for design and everyday work.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 56,
+    "brand": "Apple",
+    "name": "Apple MacBook Pro 16'' M3 Pro",
+    "price": "12.000.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The MacBook Pro 16'' M3 Pro combines incredible power, battery efficiency, and premium craftsmanship. Equipped with Apple’s advanced M3 chip, it delivers unmatched speed for creative and professional workloads. The Liquid Retina XDR display provides breathtaking visuals, while the all-day battery ensures uninterrupted productivity. A true performance icon for creators and innovators.",
+    "detail": "MacBook Pro 16'' M3 Pro — professional laptop with Apple Silicon performance.",
+    "sku": "LPT-APPLE-MBP16M3",
+    "category": "PC & Smartphones",
+    "tags": ["Apple", "laptop", "MacBook"],
+    "colors": ["Silver", "Space Gray"],
+    "images": [
+      "/img/PCSmartphones/MacBookPro16.jpg",
+      "/img/PCSmartphones/MacBookPro162.jpg",
+      "/img/PCSmartphones/MacBookPro163.jpg"
+    ],
+    "reviews": [
+      { "user": "Santiago P.", "comment": "The best MacBook yet, super fast and silent.", "rating": 5 },
+      { "user": "Daniela R.", "comment": "Incredible screen and performance.", "rating": 5 },
+      { "user": "Felipe A.", "comment": "Perfect for video editing and creative work.", "rating": 5 }
+    ]
+  }, {
+    "id": 57,
+    "brand": "Microsoft",
+    "name": "Xbox Series X",
+    "price": "3.000.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Xbox Series X delivers next-gen speed and performance powered by the Xbox Velocity Architecture. Enjoy breathtaking visuals, faster load times, and a vast library of games with smooth 4K gameplay. Designed for power and silence, it’s the ultimate console for immersive gaming experiences.",
+    "detail": "Microsoft Xbox Series X — next-gen gaming console with 4K performance.",
+    "sku": "CONSOLE-XBOX-SERIESX",
+    "category": "Gaming",
+    "tags": ["Microsoft", "Xbox", "console"],
+    "colors": ["Black"],
+    "images": [
+      "/img/Gaming/XboxSeriesX.png",
+      "/img/Gaming/XboxSeriesX2.png",
+      "/img/Gaming/XboxSeriesX3.png"
+    ],
+    "reviews": [
+      { "user": "Laura M.", "comment": "Super fast and smooth gameplay.", "rating": 5 },
+      { "user": "Carlos V.", "comment": "Amazing graphics and quiet design.", "rating": 5 },
+      { "user": "Diana T.", "comment": "Best console I've owned.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 58,
+    "brand": "Nintendo",
+    "name": "Nintendo Switch OLED",
+    "price": "1.800.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Nintendo Switch OLED offers vibrant visuals with its 7-inch OLED display, providing richer colors and crisp contrast. It’s versatile for handheld or docked gaming, and ideal for players who value portability without compromising performance or fun.",
+    "detail": "Nintendo Switch OLED — handheld and docked gaming console with OLED display.",
+    "sku": "CONSOLE-NINTENDO-OLED",
+    "category": "Gaming",
+    "tags": ["Nintendo", "Switch", "console"],
+    "colors": ["White"],
+    "images": [
+      "/img/Gaming/SwitchOLED.png",
+      "/img/Gaming/SwitchOLED2.png",
+      "/img/Gaming/SwitchOLED3.png"
+    ],
+    "reviews": [
+      { "user": "Daniel P.", "comment": "Beautiful screen and very portable.", "rating": 5 },
+      { "user": "Sara L.", "comment": "Perfect for family gaming.", "rating": 5 },
+      { "user": "Tomás G.", "comment": "OLED screen makes a big difference.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 59,
+    "brand": "Microsoft",
+    "name": "Xbox Wireless Controller",
+    "price": "320.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Xbox Wireless Controller offers precise control and improved comfort with textured grips and responsive triggers. Its ergonomic design and Bluetooth connectivity make it perfect for gaming across Xbox, PC, and mobile devices.",
+    "detail": "Microsoft Xbox Wireless Controller — ergonomic design with precise control.",
+    "sku": "ACCESSORY-XBOX-WIRELESSCTRL",
+    "category": "Gaming",
+    "tags": ["Microsoft", "controller", "wireless"],
+    "colors": ["Purple"],
+    "images": [
+      "/img/Gaming/XboxController.jpg",
+      "/img/Gaming/XboxController2.jpg",
+      "/img/Gaming/XboxController3.jpg"
+    ],
+    "reviews": [
+      { "user": "Camilo R.", "comment": "Very comfortable and responsive.", "rating": 5 },
+      { "user": "Natalia F.", "comment": "Great battery life and design.", "rating": 4 },
+      { "user": "Felipe J.", "comment": "Works perfectly with my PC.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 60,
+    "brand": "Logitech",
+    "name": "Logitech G935 Headset",
+    "price": "250.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Logitech G935 delivers powerful 7.1 surround sound with rich bass and crystal-clear highs. Designed for comfort and durability, it features customizable RGB lighting and wireless performance for long gaming sessions.",
+    "detail": "Logitech G935 — wireless gaming headset with surround sound.",
+    "sku": "HEADSET-LOGITECH-G935",
+    "category": "Gaming",
+    "tags": ["Logitech", "headset", "audio"],
+    "colors": ["Black"],
+    "images": [
+      "/img/Gaming/LogitechHeadset.jpg",
+      "/img/Gaming/LogitechHeadset2.jpg",
+      "/img/Gaming/LogitechHeadset3.jpg"
+    ],
+    "reviews": [
+      { "user": "Andrés H.", "comment": "Excellent audio quality.", "rating": 5 },
+      { "user": "María V.", "comment": "Comfortable and immersive sound.", "rating": 5 },
+      { "user": "Oscar B.", "comment": "Best headset for gaming marathons.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 61,
+    "brand": "Nintendo",
+    "name": "Nintendo Joy-Con Pair",
+    "price": "400.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Nintendo Joy-Con controllers offer versatile play styles, working independently or together for multiplayer fun. Their motion sensors and HD rumble technology create an immersive and interactive gaming experience.",
+    "detail": "Nintendo Joy-Con Pair — versatile controllers for Switch console.",
+    "sku": "CONTROLLER-NINTENDO-JOYCON",
+    "category": "Gaming",
+    "tags": ["Nintendo", "controller", "Joy-Con"],
+    "colors": ["Neon Red", "Neon Green"],
+    "images": [
+      "/img/Gaming/NintendoJoyCon.jpg",
+      "/img/Gaming/NintendoJoyCon2.jpg",
+      "/img/Gaming/NintendoJoyCon3.jpg"
+    ],
+    "reviews": [
+      { "user": "Paula G.", "comment": "Vibrant colors and fun to use.", "rating": 5 },
+      { "user": "Jorge M.", "comment": "Great for multiplayer games.", "rating": 5 },
+      { "user": "Tatiana E.", "comment": "Responsive and ergonomic.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 62,
+    "brand": "Sony",
+    "name": "PS5 Pulse 3D Headset",
+    "price": "600.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The PS5 Pulse 3D Headset delivers immersive 3D audio powered by the PS5’s Tempest AudioTech. With noise-cancelling microphones and a sleek wireless design, it’s built for comfort and precision sound in every gaming session.",
+    "detail": "Sony PS5 Pulse 3D — wireless gaming headset with 3D audio.",
+    "sku": "HEADSET-SONY-PULSE3D",
+    "category": "Gaming",
+    "tags": ["Sony", "headset", "audio"],
+    "colors": ["White"],
+    "images": [
+      "/img/Gaming/SonyHeadset.png",
+      "/img/Gaming/SonyHeadset2.png",
+      "/img/Gaming/SonyHeadset3.png"
+    ],
+    "reviews": [
+      { "user": "Lucía P.", "comment": "Incredible sound quality.", "rating": 5 },
+      { "user": "Diego H.", "comment": "Super comfortable for long gaming.", "rating": 5 },
+      { "user": "Mateo L.", "comment": "Matches my PS5 perfectly.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 63,
+    "brand": "Thrustmaster",
+    "name": "T248 Racing Wheel",
+    "price": "1.800.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Thrustmaster T248 Racing Wheel offers precise force feedback, realistic resistance, and an adjustable pedal set. It’s compatible with PlayStation and PC, providing an authentic racing experience for both casual and professional drivers.",
+    "detail": "Thrustmaster T248 — force feedback racing wheel with pedals.",
+    "sku": "ACCESSORY-THRUSTMASTER-T248",
+    "category": "Gaming",
+    "tags": ["Thrustmaster", "racing", "wheel"],
+    "colors": ["Black"],
+    "images": [
+      "/img/Gaming/ThrustmasterWheel.png",
+      "/img/Gaming/ThrustmasterWheel2.png",
+      "/img/Gaming/ThrustmasterWheel3.png"
+    ],
+    "reviews": [
+      { "user": "Juan P.", "comment": "Amazing feel, like real driving.", "rating": 5 },
+      { "user": "Ricardo S.", "comment": "Solid build and responsive.", "rating": 5 },
+      { "user": "Esteban C.", "comment": "Perfect for racing simulators.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 64,
+    "brand": "Meta",
+    "name": "Meta Quest 3 VR",
+    "price": "2.600.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Meta Quest 3 brings immersive VR experiences with stunning clarity, improved performance, and full-color passthrough. It’s wireless, easy to set up, and offers an expansive library of games and experiences for virtual adventure lovers.",
+    "detail": "Meta Quest 3 — standalone VR headset with next-gen visuals.",
+    "sku": "VR-META-QUEST3",
+    "category": "Gaming",
+    "tags": ["Meta", "VR", "headset"],
+    "colors": ["White"],
+    "images": [
+      "/img/Gaming/MetaVR.png",
+      "/img/Gaming/MetaVR2.png",
+      "/img/Gaming/MetaVR3.png"
+    ],
+    "reviews": [
+      { "user": "Camila D.", "comment": "Incredible immersion and visuals.", "rating": 5 },
+      { "user": "Andrés O.", "comment": "Wireless freedom is a game changer.", "rating": 5 },
+      { "user": "Julián V.", "comment": "Love exploring in VR.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 65,
+    "brand": "Bandai Namco",
+    "name": "Tekken 8 (PS5)",
+    "price": "320.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Tekken 8 continues the legendary fighting saga with high-impact visuals and deep combat mechanics. Experience intense one-on-one battles powered by Unreal Engine 5, featuring iconic characters and cinematic storytelling.",
+    "detail": "Tekken 8 — next-gen fighting game for PS5.",
+    "sku": "GAME-TEKKEN8-PS5",
+    "category": "Gaming",
+    "tags": ["Bandai Namco", "Tekken", "fighting"],
+    "colors": [],
+    "images": [
+      "/img/Gaming/Tekken8.png",
+      "/img/Gaming/Tekken82.png",
+      "/img/Gaming/Tekken83.png"
+    ],
+    "reviews": [
+      { "user": "Sofía E.", "comment": "Epic fights and great graphics.", "rating": 5 },
+      { "user": "Daniel C.", "comment": "Tekken at its best!", "rating": 5 },
+      { "user": "Kevin R.", "comment": "Feels smooth and powerful.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 66,
+    "brand": "Nintendo",
+    "name": "Zelda: Tears of the Kingdom",
+    "price": "320.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "Zelda: Tears of the Kingdom expands the adventure above and below Hyrule with creative exploration and new mechanics. Build, fly, and fight across breathtaking landscapes in this epic continuation of the award-winning series.",
+    "detail": "Zelda: Tears of the Kingdom — open-world adventure game.",
+    "sku": "GAME-ZELDA-TEARSOFTHEKINGDOM",
+    "category": "Gaming",
+    "tags": ["Nintendo", "Zelda", "adventure"],
+    "colors": [],
+    "images": [
+      "/img/Gaming/Zelda.png",
+      "/img/Gaming/Zelda2.jpg",
+      "/img/Gaming/Zelda3.jpg"
+    ],
+    "reviews": [
+      { "user": "Laura J.", "comment": "One of the best games ever.", "rating": 5 },
+      { "user": "Felipe Z.", "comment": "So much to explore!", "rating": 5 },
+      { "user": "Ana C.", "comment": "Beautiful and emotional journey.", "rating": 5 }
+    ]
+  }, {
+    "id": 67,
+    "brand": "Sony",
+    "name": "PS5 DualSense Charging Station",
+    "price": "230.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The PS5 DualSense Charging Station allows you to charge up to two DualSense controllers simultaneously without connecting them to the console. Its sleek design matches the PS5 perfectly, providing quick and convenient charging for uninterrupted gameplay sessions.",
+    "detail": "Sony DualSense Charging Station — fast dual controller charger for PS5.",
+    "sku": "ACCESSORY-SONY-CHARGE",
+    "category": "Gaming",
+    "tags": ["Sony", "PS5", "accessory"],
+    "colors": ["White"],
+    "images": [
+      "/img/Gaming/SonyChargingStation.png",
+      "/img/Gaming/SonyChargingStation2.png",
+      "/img/Gaming/SonyChargingStation3.png"
+    ],
+    "reviews": [
+      { "user": "Andrés G.", "comment": "Very practical and stylish.", "rating": 5 },
+      { "user": "Laura V.", "comment": "Charges fast and keeps setup tidy.", "rating": 5 },
+      { "user": "Tomás N.", "comment": "Perfect match for my PS5.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 68,
+    "brand": "Sony",
+    "name": "PS5 Media Remote",
+    "price": "160.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The PS5 Media Remote makes streaming and navigation simple. Designed for effortless control of movies, apps, and volume, it integrates seamlessly with your console. Its minimalist layout ensures quick access to entertainment without using a controller.",
+    "detail": "Sony PS5 Media Remote — simple control for streaming and apps.",
+    "sku": "ACCESSORY-SONY-REMOTE",
+    "category": "Gaming",
+    "tags": ["Sony", "remote", "PS5"],
+    "colors": ["White"],
+    "images": [
+      "/img/Gaming/SonyRemote.png",
+      "/img/Gaming/SonyRemote2.jpg",
+      "/img/Gaming/SonyRemote3.jpg"
+    ],
+    "reviews": [
+      { "user": "Camila S.", "comment": "Very handy for streaming!", "rating": 5 },
+      { "user": "Diego T.", "comment": "Feels solid and works instantly.", "rating": 5 },
+      { "user": "María P.", "comment": "Looks great next to the PS5.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 69,
+    "brand": "Razer",
+    "name": "Razer Wolverine V2 Controller",
+    "price": "520.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Razer Wolverine V2 offers pro-level control with responsive mechanical buttons and ergonomic grips. Built for Xbox and PC gamers, it ensures precision, speed, and customization for every playstyle, combining comfort and high performance in one sleek package.",
+    "detail": "Razer Wolverine V2 — wired gaming controller with mechanical buttons.",
+    "sku": "CONTROLLER-RAZER-WOLVERINEV2",
+    "category": "Gaming",
+    "tags": ["Razer", "controller", "Xbox"],
+    "colors": ["Black"],
+    "images": [
+      "/img/Gaming/RazerController.jpg",
+      "/img/Gaming/RazerController2.jpg",
+      "/img/Gaming/RazerController3.jpg"
+    ],
+    "reviews": [
+      { "user": "Sebastián F.", "comment": "Super responsive buttons.", "rating": 5 },
+      { "user": "Laura D.", "comment": "Feels premium and comfortable.", "rating": 5 },
+      { "user": "Carlos J.", "comment": "Perfect for competitive gaming.", "rating": 5 }
+    ]
+  },
+  {
+  "id": 70,
+  "brand": "Activision",
+  "name": "Call of Duty: Modern Warfare III",
+  "price": "360.000 COP",
+  "oldPrice": "",
+  "discount": "",
+  "description": "Call of Duty: Modern Warfare III delivers an intense and cinematic experience with fast-paced combat and a gripping story. Featuring stunning visuals, new maps, and enhanced multiplayer modes, it redefines tactical action and player immersion across all platforms.",
+  "detail": "Call of Duty: Modern Warfare III — action-packed first-person shooter developed by Activision.",
+  "sku": "GAME-COD-MWIII",
+  "category": "Gaming",
+  "tags": ["Activision", "Call of Duty", "Shooter"],
+  "colors": [],
+  "images": [
+    "/img/Gaming/CallofDuty.png",
+    "/img/Gaming/CallofDuty2.jpg",
+    "/img/Gaming/CallofDuty3.jpg"
+  ],
+  "reviews": [
+    { "user": "Carlos M.", "comment": "Amazing graphics and gameplay.", "rating": 5 },
+    { "user": "Valeria P.", "comment": "Multiplayer feels smoother than ever.", "rating": 5 },
+    { "user": "David R.", "comment": "A great addition to the COD series.", "rating": 5 }
+  ]
+}
+,
+  {
+    "id": 71,
+    "brand": "Xbox",
+    "name": "Xbox Elite Series 2 Controller",
+    "price": "950.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The Xbox Elite Series 2 controller delivers pro-level precision with adjustable tension thumbsticks, shorter trigger locks, and a premium design. Built for elite players, it offers customization and unmatched control for Xbox and PC gaming.",
+    "detail": "Xbox Elite Series 2 — customizable pro controller for Xbox and PC.",
+    "sku": "CONTROLLER-XBOX-ELITE2",
+    "category": "Gaming",
+    "tags": ["Xbox", "controller", "elite"],
+    "colors": ["Black"],
+    "images": [
+      "/img/Gaming/XboxSeries2Controller.png",
+      "/img/Gaming/XboxSeriesXController2.jpg",
+      "/img/Gaming/XboxSeriesXController3.jpg"
+    ],
+    "reviews": [
+      { "user": "Nicolás J.", "comment": "Top-tier build quality.", "rating": 5 },
+      { "user": "Valentina E.", "comment": "Customizable and super smooth.", "rating": 5 },
+      { "user": "Santiago K.", "comment": "The best controller I’ve used.", "rating": 5 }
+    ]
+  },
+  {
+    "id": 72,
+    "brand": "8BitDo",
+    "name": "8BitDo Ultimate Controller",
+    "price": "420.000 COP",
+    "oldPrice": "",
+    "discount": "",
+    "description": "The 8BitDo Ultimate Controller combines a nostalgic retro design with modern performance. It supports wireless and wired play, offers customizable buttons, and includes a charging dock for convenience. Ideal for gamers who value versatility and comfort.",
+    "detail": "8BitDo Ultimate Controller — wireless and wired retro-style controller.",
+    "sku": "CONTROLLER-8BITDO-ULTIMATE",
+    "category": "Gaming",
+    "tags": ["8BitDo", "controller", "wireless"],
+    "colors": ["Gray"],
+    "images": [
+      "/img/Gaming/8BitDoController.png",
+      "/img/Gaming/8BitDoController2.png",
+      "/img/Gaming/8BitDoController3.png"
+    ],
+    "reviews": [
+      { "user": "Laura G.", "comment": "Classic design with modern feel.", "rating": 5 },
+      { "user": "Juan C.", "comment": "Great battery and smooth controls.", "rating": 5 },
+      { "user": "Camila F.", "comment": "Excellent for PC and Switch.", "rating": 5 }
+    ]
   }
 ]
+
+
+
+
+

@@ -4,7 +4,6 @@ import products from "../../data/product.json";
 function OurProducts() {
   const navigate = useNavigate();
 
-  // Filtrar solo los productos del 1 al 8
   const homeProducts = products.filter((p) => p.id >= 1 && p.id <= 8);
 
   return (

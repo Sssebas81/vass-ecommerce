@@ -3,8 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.tsx'
-import ShopPage from './pages/shoppage/ShopPage.tsx'
-import DetailProduct from './pages/detailproducts/DetailProduct.tsx'
+import { h2 } from 'framer-motion/client'
+import Peripherals from './components/Peripheralsproducts/Peripherals.tsx'
+import PeripheralsPage from './pages/Categories/PeripheralsPage.tsx'
+import DevicesPage from './pages/Categories/DevicesPage.tsx'
+import GamingPage from './pages/Categories/GamingPage.tsx'
+import DetailProduct from './pages/detailProduct/DetailProduct.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>,
@@ -33,13 +37,13 @@ path : '/',
   element:<h2>Blog Page</h2> 
 },{
   path:"/Peripherals",
-  element:<h2>Peripherals Page</h2> 
+  element: <PeripheralsPage />
 },{
   path:"/Devices",
-  element:<h2>Devices Page</h2> 
+  element:<DevicesPage />
 },{
   path:"/Gaming",
-  element:<h2>Gaming Page</h2> 
+  element:<GamingPage />
 },{
   path:"/Product/:id",
   element:<DetailProduct />
