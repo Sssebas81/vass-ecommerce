@@ -1080,8 +1080,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/BlueMicro.png",
-      "/img/PeripheralsAccessories/BlueMicro2.png",
-      "/img/PeripheralsAccessories/BlueMicro3.png"
+      "/img/PeripheralsAccessories/BlueMicro2.jpg",
+      "/img/PeripheralsAccessories/BlueMicro3.jpg",
+      "/img/PeripheralsAccessories/BlueMicro4.jpg"
+
     ],
     "reviews": [
       {
@@ -1122,8 +1124,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/Corsair.png",
-      "/img/PeripheralsAccessories/Corsair2.png",
-      "/img/PeripheralsAccessories/Corsair3.png"
+      "/img/PeripheralsAccessories/Corsair2.jpg",
+      "/img/PeripheralsAccessories/Corsair3.jpg",
+      "/img/PeripheralsAccessories/Corsair4.jpg"
+
     ],
     "reviews": [
       {
@@ -1164,8 +1168,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/CreativeParlantes.png",
-      "/img/PeripheralsAccessories/CreativeParlantes2.png",
-      "/img/PeripheralsAccessories/CreativeParlantes3.png"
+      "/img/PeripheralsAccessories/CreativeParlantes2.jpg",
+      "/img/PeripheralsAccessories/CreativeParlantes3.jpg",
+      "/img/PeripheralsAccessories/CreativeParlantes4.jpg"
+
     ],
     "reviews": [
       {
@@ -1206,8 +1212,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/ElgatoMicro.png",
-      "/img/PeripheralsAccessories/ElgatoMicro2.png",
-      "/img/PeripheralsAccessories/ElgatoMicro3.png"
+      "/img/PeripheralsAccessories/ElgatoMicro2.jpg",
+      "/img/PeripheralsAccessories/ElgatoMicro3.jpg",
+      "/img/PeripheralsAccessories/ElgatoMicro4.jpg"
+
     ],
     "reviews": [
       {
@@ -1249,8 +1257,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/HyperX.png",
-      "/img/PeripheralsAccessories/HyperX2.png",
-      "/img/PeripheralsAccessories/HyperX3.png"
+      "/img/PeripheralsAccessories/HyperX2.jpg",
+      "/img/PeripheralsAccessories/HyperX3.jpg",
+      "/img/PeripheralsAccessories/HyperX4.jpg"
+
     ],
     "reviews": [
       {
@@ -1291,8 +1301,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/LogitechAudifonos.png",
-      "/img/PeripheralsAccessories/LogitechAudifonos2.png",
-      "/img/PeripheralsAccessories/LogitechAudifonos3.png"
+      "/img/PeripheralsAccessories/LogitechAudifonos2.jpg",
+      "/img/PeripheralsAccessories/LogitechAudifonos3.jpg",
+      "/img/PeripheralsAccessories/LogitechAudifonos4.jpg"
+
     ],
     "reviews": [
       {
@@ -1333,8 +1345,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/LogitechCam.png",
-      "/img/PeripheralsAccessories/LogitechCam2.png",
-      "/img/PeripheralsAccessories/LogitechCam3.png"
+      "/img/PeripheralsAccessories/LogitechCam2.jpg",
+      "/img/PeripheralsAccessories/LogitechCam3.jpg",
+      "/img/PeripheralsAccessories/LogitechCam4.jpg"
+
     ],
     "reviews": [
       {
@@ -1376,7 +1390,9 @@
     "images": [
       "/img/PeripheralsAccessories/LogitechMouse.jpg",
       "/img/PeripheralsAccessories/LogitechMouse2.jpg",
-      "/img/PeripheralsAccessories/LogitechMouse3.jpg"
+      "/img/PeripheralsAccessories/LogitechMouse3.jpg",
+      "/img/PeripheralsAccessories/LogitechMouse4.jpg"
+
     ],
     "reviews": [
       {
@@ -1418,7 +1434,9 @@
     "images": [
       "/img/PeripheralsAccessories/LogitechParlantes.jpg",
       "/img/PeripheralsAccessories/LogitechParlantes2.jpg",
-      "/img/PeripheralsAccessories/LogitechParlantes3.jpg"
+      "/img/PeripheralsAccessories/LogitechParlantes3.jpg",
+      "/img/PeripheralsAccessories/LogitechParlantes4.jpg"
+
     ],
     "reviews": [
       {
@@ -1459,8 +1477,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/RazerMouse.png",
-      "/img/PeripheralsAccessories/RazerMouse2.png",
-      "/img/PeripheralsAccessories/RazerMouse3.png"
+      "/img/PeripheralsAccessories/RazerMouse2.jpg",
+      "/img/PeripheralsAccessories/RazerMouse3.jpg",
+      "/img/PeripheralsAccessories/RazerMouse4.jpg"
+
     ],
     "reviews": [
       {
@@ -1502,7 +1522,9 @@
     "images": [
       "/img/PeripheralsAccessories/RazerWebcam.jpg",
       "/img/PeripheralsAccessories/RazerWebcam2.jpg",
-      "/img/PeripheralsAccessories/RazerWebcam3.jpg"
+      "/img/PeripheralsAccessories/RazerWebcam3.jpg",
+      "/img/PeripheralsAccessories/RazerWebcam4.jpg"
+
     ],
     "reviews": [
       {
@@ -1543,8 +1565,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/SamsungDisco.png",
-      "/img/PeripheralsAccessories/SamsungDisco2.png",
-      "/img/PeripheralsAccessories/SamsungDisco3.png"
+      "/img/PeripheralsAccessories/SamsungDisco2.jpg",
+      "/img/PeripheralsAccessories/SamsungDisco3.jpg",
+      "/img/PeripheralsAccessories/SamsungDisco4.jpg"
+
     ],
     "reviews": [
       {
@@ -1585,8 +1609,10 @@
     ],
     "images": [
       "/img/PeripheralsAccessories/SegateDisco.png",
-      "/img/PeripheralsAccessories/SegateDisco2.png",
-      "/img/PeripheralsAccessories/SegateDisco3.png"
+      "/img/PeripheralsAccessories/SegateDisco2.jpg",
+      "/img/PeripheralsAccessories/SegateDisco3.jpg",
+      "/img/PeripheralsAccessories/SegateDisco4.webp"
+
     ],
     "reviews": [
       {
@@ -1628,7 +1654,9 @@
     "images": [
       "/img/PeripheralsAccessories/SteelSeries.jpg",
       "/img/PeripheralsAccessories/SteelSeries2.jpg",
-      "/img/PeripheralsAccessories/SteelSeries3.jpg"
+      "/img/PeripheralsAccessories/SteelSeries3.jpg",
+      "/img/PeripheralsAccessories/SteelSeries4.jpg"
+
     ],
     "reviews": [
       {
@@ -1670,7 +1698,9 @@
     "images": [
       "/img/PeripheralsAccessories/WacomTableta.jpg",
       "/img/PeripheralsAccessories/WacomTableta2.jpg",
-      "/img/PeripheralsAccessories/WacomTableta3.jpg"
+      "/img/PeripheralsAccessories/WacomTableta3.jpg",
+      "/img/PeripheralsAccessories/WacomTableta4.jpg"
+
     ],
     "reviews": [
       {
@@ -1712,7 +1742,9 @@
     "images": [
       "/img/PeripheralsAccessories/XP-PenTableta.jpg",
       "/img/PeripheralsAccessories/XP-PenTableta2.jpg",
-      "/img/PeripheralsAccessories/XP-PenTableta3.jpg"
+      "/img/PeripheralsAccessories/XP-PenTableta3.jpg",
+      "/img/PeripheralsAccessories/XP-PenTableta4.jpg"
+
     ],
     "reviews": [
       {
@@ -2130,7 +2162,7 @@
       "/img/Gaming/XboxSeriesX.png",
       "/img/Gaming/XboxSeriesX2.png",
       "/img/Gaming/XboxSeriesX3.png",
-      "/img/Gaming/XboxSeriesX4.png"
+      "/img/Gaming/XboxSeriesX4.jpg"
 
     ],
     "reviews": [
@@ -2258,9 +2290,9 @@
     "colors": ["White"],
     "images": [
       "/img/Gaming/SonyHeadset.png",
-      "/img/Gaming/SonyHeadset2.png",
-      "/img/Gaming/SonyHeadset3.png",
-      "/img/Gaming/SonyHeadset4.png"
+      "/img/Gaming/SonyHeadset2.jpg",
+      "/img/Gaming/SonyHeadset3.jpg",
+      "/img/Gaming/SonyHeadset4.jpg"
 
     ],
     "reviews": [
@@ -2284,9 +2316,9 @@
     "colors": ["Black"],
     "images": [
       "/img/Gaming/ThrustmasterWheel.png",
-      "/img/Gaming/ThrustmasterWheel2.png",
-      "/img/Gaming/ThrustmasterWheel3.png",
-      "/img/Gaming/ThrustmasterWheel3.png"
+      "/img/Gaming/ThrustmasterWheel2.jpg",
+      "/img/Gaming/ThrustmasterWheel3.jpg",
+      "/img/Gaming/ThrustmasterWheel3.jpg"
 
     ],
     "reviews": [
@@ -2310,9 +2342,9 @@
     "colors": ["White"],
     "images": [
       "/img/Gaming/MetaVR.png",
-      "/img/Gaming/MetaVR2.png",
-      "/img/Gaming/MetaVR3.png",
-      "/img/Gaming/MetaVR3.png"
+      "/img/Gaming/MetaVR2.jpg",
+      "/img/Gaming/MetaVR3.jpg",
+      "/img/Gaming/MetaVR3.jpg"
 
     ],
     "reviews": [
@@ -2336,9 +2368,9 @@
     "colors": [],
     "images": [
       "/img/Gaming/Tekken8.png",
-      "/img/Gaming/Tekken82.png",
-      "/img/Gaming/Tekken83.png",
-      "/img/Gaming/Tekken84.png"
+      "/img/Gaming/Tekken82.jpg",
+      "/img/Gaming/Tekken83.jpg",
+      "/img/Gaming/Tekken84.jpg"
 
     ],
     "reviews": [
@@ -2387,9 +2419,9 @@
     "colors": ["White"],
     "images": [
       "/img/Gaming/SonyChargingStation.png",
-      "/img/Gaming/SonyChargingStation2.png",
-      "/img/Gaming/SonyChargingStation3.png",
-      "/img/Gaming/SonyChargingStation4.png"
+      "/img/Gaming/SonyChargingStation2.jpg",
+      "/img/Gaming/SonyChargingStation3.jpg",
+      "/img/Gaming/SonyChargingStation4.jpg"
 
     ],
     "reviews": [
@@ -2518,9 +2550,9 @@
     "colors": ["Gray"],
     "images": [
       "/img/Gaming/8BitDoController.png",
-      "/img/Gaming/8BitDoController2.png",
-      "/img/Gaming/8BitDoController3.png",
-      "/img/Gaming/8BitDoController4.png"
+      "/img/Gaming/8BitDoController2.jpg",
+      "/img/Gaming/8BitDoController3.jpg",
+      "/img/Gaming/8BitDoController4.jpg"
 
     ],
     "reviews": [
