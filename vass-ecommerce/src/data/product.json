@@ -23,7 +23,8 @@
     "images": [
       "/img/smashbros.jpg",
       "/img/smashbros2.jpg",
-      "/img/smashbros3.jpg"
+      "/img/smashbros3.jpg",
+      "/img/smashbros4.jpg"
     ],
     "reviews": [
       {
@@ -68,7 +69,7 @@
       "/img/Logitech1.png",
       "/img/Logitech2.jpg",
       "/img/Logitech3.png",
-      "/img/Logitech4.png"
+      "/img/Logitech4.jpg"
     ],
     "reviews": [
       {
@@ -111,7 +112,9 @@
     "images": [
       "/img/ControlXbox.png",
       "/img/ControlXbox2.jpg",
-      "/img/ControlXbox3.jpg"
+      "/img/ControlXbox3.jpg",
+      "/img/ControlXbox4.jpg"
+
     ],
     "reviews": [
       {
@@ -154,7 +157,8 @@
     "images": [
       "/img/ControlNintendo.png",
       "/img/ControlNintendo2.jpg",
-      "/img/ControlNintendo3.jpg"
+      "/img/ControlNintendo3.jpg",
+      "/img/ControlNintendo4.jpg"
     ],
     "reviews": [
       {
@@ -198,7 +202,9 @@
     "images": [
       "/img/AudifonosJBL.png",
       "/img/AudifonosJBL2.jpg",
-      "/img/AudifonosJBL3.jpg"
+      "/img/AudifonosJBL3.jpg",
+      "/img/AudifonosJBL4.jpg"
+
     ],
     "reviews": [
       {
@@ -242,7 +248,9 @@
     "images": [
       "/img/NintendoSwitch2.png",
       "/img/NintendoSwitch2_2.jpg",
-      "/img/NintendoSwitch2_3.jpg"
+      "/img/NintendoSwitch2_3.jpg",
+      "/img/NintendoSwitch2_4.jpg"
+
     ],
     "reviews": [
       {
@@ -331,7 +339,9 @@
     "images": [
       "/img/GTA5.png",
       "/img/GTA5_2.jpg",
-      "/img/GTA5_3.jpg"
+      "/img/GTA5_3.jpg",
+      "/img/GTA5_4.jpg"
+
     ],
     "reviews": [
       {
@@ -373,7 +383,9 @@
     "images": [
       "/img/HyperxAudifonos.png",
       "/img/HyperxAudifonos2.jpg",
-      "/img/HyperxAudifonos3.jpg"
+      "/img/HyperxAudifonos3.jpg",
+      "/img/HyperxAudifonos4.jpg"
+
     ],
     "reviews": [
       {
@@ -415,7 +427,9 @@
     "images": [
       "/img/SanDisk.jpg",
       "/img/SanDisk2.jpg",
-      "/img/SanDisk3.jpg"
+      "/img/SanDisk3.jpg",
+      "/img/SanDisk4.jpg"
+
     ],
     "reviews": [
       {
@@ -456,7 +470,9 @@
     "images": [
       "/img/HPForroPortatil.png",
       "/img/HPForroPortatil2.jpg",
-      "/img/HPForroPortatil3.jpg"
+      "/img/HPForroPortatil3.jpg",
+      "/img/HPForroPortatil4.jpg"
+
     ],
     "reviews": [
       {
@@ -498,7 +514,9 @@
     "images": [
       "/img/CoolerMasterBase.png",
       "/img/CoolerMasterBase2.jpg",
-      "/img/CoolerMasterBase3.jpg"
+      "/img/CoolerMasterBase3.jpg",
+      "/img/CoolerMasterBase4.jpg"
+
     ],
     "reviews": [
       {
@@ -540,7 +558,9 @@
     "images": [
       "/img/CorsairTeclado.png",
       "/img/CorsairTeclado2.jpg",
-      "/img/CorsairTeclado3.jpg"
+      "/img/CorsairTeclado3.jpg",
+      "/img/CorsairTeclado4.jpg"
+
     ],
     "reviews": [
       {
@@ -582,7 +602,8 @@
     "images": [
       "/img/AudifonosXbox.jpg",
       "/img/AudifonosXbox2.jpg",
-      "/img/AudifonosXbox3.jpg"
+      "/img/AudifonosXbox3.jpg",
+      "/img/AudifonosXbox4.jpg"
     ],
     "reviews": [
       {
@@ -622,7 +643,9 @@
     "images": [
       "/img/GT7.png",
       "/img/GT72.png",
-      "/img/GT73.png"
+      "/img/GT73.png",
+      "/img/GT74.png"
+
     ],
     "reviews": [
       {
@@ -664,7 +687,9 @@
     "images": [
       "/img/NintendoFunda.png",
       "/img/NintendoFunda2.jpg",
-      "/img/NintendoFunda3.jpg"
+      "/img/NintendoFunda3.jpg",
+      "/img/NintendoFunda4.jpg"
+
     ],
     "reviews": [
       {
@@ -706,7 +731,9 @@
     "images": [
       "/img/SeagateDD.png",
       "/img/SeagateDD2.jpg",
-      "/img/SeagateDD3.jpg"
+      "/img/SeagateDD3.jpg",
+      "/img/SeagateDD4.jpg"
+
     ],
     "reviews": [
       {
@@ -748,7 +775,9 @@
     "images": [
       "/img/HyperxQuadcast.png",
       "/img/HyperxQuadcast2.jpg",
-      "/img/HyperxQuadcast3.jpg"
+      "/img/HyperxQuadcast3.jpg",
+      "/img/HyperxQuadcast4.jpg"
+
     ],
     "reviews": [
       {
@@ -790,7 +819,9 @@
     "images": [
       "/img/hpImpresora.png",
       "/img/hpImpresora2.jpg",
-      "/img/hpImpresora3.jpg"
+      "/img/hpImpresora3.jpg",
+      "/img/hpImpresora4.jpg"
+
     ],
     "reviews": [
       {
@@ -832,7 +863,9 @@
     "images": [
       "/img/MousePadSS.png",
       "/img/MousePadSS2.png",
-      "/img/MousePadSS3.jpg"
+      "/img/MousePadSS3.jpg",
+      "/img/MousePadSS4.jpg"
+
     ],
     "reviews": [
       {
@@ -872,7 +905,9 @@
     "images": [
       "/img/Spiderman2.png",
       "/img/Spiderman22.jpg",
-      "/img/Spiderman23.jpg"
+      "/img/Spiderman23.jpg",
+      "/img/Spiderman24.jpg"
+
     ],
     "reviews": [
       {
@@ -915,7 +950,9 @@
     "images": [
       "/img/SamsungSSD.png",
       "/img/SamsungSSD2.jpg",
-      "/img/SamsungSSD3.jpg"
+      "/img/SamsungSSD3.jpg",
+      "/img/SamsungSSD4.jpg"
+
     ],
     "reviews": [
       {
@@ -957,7 +994,9 @@
     "images": [
       "/img/ScanerCanon.jpg",
       "/img/ScanerCanon2.jpg",
-      "/img/ScanerCanon3.webp"
+      "/img/ScanerCanon3.webp",
+      "/img/ScanerCanon4.jpg"
+
     ],
     "reviews": [
       {
@@ -999,7 +1038,8 @@
     "images": [
       "/img/SuperNes.png",
       "/img/SuperNes2.jpg",
-      "/img/SuperNes3.jpg"
+      "/img/SuperNes3.jpg",
+      "/img/SuperNes4.jpg"
     ],
     "reviews": [
       {
