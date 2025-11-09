@@ -38,26 +38,31 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-[#1e1e2f] via-[#2a2a3b] to-[#1e1e2f]">
-      <div className="flex bg-white rounded-3xl shadow-2xl overflow-hidden max-w-5xl w-full">
+    <div
+      className="flex items-center justify-center min-h-screen bg-cover bg-center"
+      style={{ backgroundImage: "url('/img/LoginBackground.jpg')" }}
+    >
+      <div className="flex bg-white bg-opacity-95 rounded-3xl shadow-2xl overflow-hidden max-w-5xl w-full">
         {/* Lado izquierdo */}
         <div className="bg-black p-12 w-1/2 flex flex-col justify-center text-white rounded-l-3xl">
-          <img
-            src="/img/LogoVassBlanco.svg"
-            alt="Logo Vass"
-            className="h-10 w-auto mb-8"
-          />
-          <div className="h-1 w-full bg-cyan-500"></div>
-          <div className="h-1 w-full bg-[#E2F705]"></div>
-          <div className="h-1 w-full bg-pink-500"></div>
-          <div className="h-1 w-full bg-orange-500"></div>
+          <div className="flex flex-col items-start">
+            <img
+              src="/img/LogoVassBlanco.svg"
+              alt="Logo Vass"
+              className="h-10 w-auto mb-8"
+            />
+            <div className="h-1 w-full bg-cyan-500"></div>
+            <div className="h-1 w-full bg-[#E2F705]"></div>
+            <div className="h-1 w-full bg-pink-500"></div>
+            <div className="h-1 w-full bg-orange-500"></div>
 
-          <div className="mt-16">
-            <h2 className="text-5xl font-light">Hello,</h2>
-            <h2 className="text-6xl font-bold mt-2">Welcome!</h2>
-            <p className="text-lg text-gray-300 mt-10 leading-relaxed">
-              E-commerce that combines quality, trust, and the best prices in one place.
-            </p>
+            <div className="mt-16">
+              <h2 className="text-5xl font-light">Hello,</h2>
+              <h2 className="text-6xl font-bold mt-2">Welcome!</h2>
+              <p className="text-lg text-gray-300 mt-10 leading-relaxed">
+                E-commerce that combines quality, trust, and the best prices in one place.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -116,18 +121,27 @@ const Login = () => {
             </div>
 
             <div className="flex justify-center space-x-6">
-              <img src="/img/google.png" alt="Google" className="h-8 cursor-pointer" />
-              <img src="/img/apple.png" alt="Apple" className="h-8 cursor-pointer" />
-              <img src="/img/facebook.png" alt="Facebook" className="h-8 cursor-pointer" />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png"
+                alt="Google"
+                className="h-8 cursor-pointer"
+              />
+              <img
+                src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png"
+                alt="Apple"
+                className="h-8 cursor-pointer"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png"
+                alt="Facebook"
+                className="h-8 cursor-pointer"
+              />
             </div>
 
-            <div className="flex justify-between text-sm text-gray-600 mt-6">
+            <div className="flex justify-center text-sm text-gray-600 mt-6">
               <NavLink to="/signup" className="hover:underline">
                 Don’t have an account?
               </NavLink>
-              <a href="#" className="hover:underline">
-                Forgot your password?
-              </a>
             </div>
           </form>
         </div>
