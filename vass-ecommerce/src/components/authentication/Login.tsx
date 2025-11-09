@@ -37,12 +37,14 @@ const Login = () => {
     setError("Invalid email or password");
   };
 
-  return (
+  return ( //absolute inset-0 bg-[#000000aa] hidden transition-opacity group-hover:flex flex-col items-center justify-center gap-4
     <div
-      className="flex items-center justify-center min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('/img/LoginBackground.jpg')" }}
+      className="flex items-center justify-center min-h-screen bg-cover"
+      style={{ backgroundImage: "url('/img/LoginBackground.jpg')"}}
     >
-      <div className="flex bg-white bg-opacity-95 rounded-3xl shadow-2xl overflow-hidden max-w-5xl w-full">
+      <div className="absolute inset-0 bg-black/40"></div>
+      
+      <div className="relative z-10 flex bg-white rounded-3xl shadow-2xl overflow-hidden max-w-5xl w-full">
         {/* Lado izquierdo */}
         <div className="bg-black p-12 w-1/2 flex flex-col justify-center text-white rounded-l-3xl">
           <div className="flex flex-col items-start">
