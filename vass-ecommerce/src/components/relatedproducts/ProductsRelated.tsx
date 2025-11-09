@@ -1,15 +1,21 @@
 import { useNavigate } from "react-router-dom";
 import products from "../../data/product.json";
 
-function AllProducts() {
+function ProductsRelated() {
   const navigate = useNavigate();
 
-  // Filtrar los productos del 9 al 24
-  const shopProducts = products.filter((p) => p.id >= 9 && p.id <= 24);
+  // Seleccionar 4 productos aleatorios
+  const shopProducts = [...products].sort(() => Math.random() - 0.5).slice(0, 4);
 
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
+        {/* Título */}
+        <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
+          Related Products
+        </h2>
+
+        {/* Grid de productos */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {shopProducts.map((product) => (
             <div
@@ -33,7 +39,7 @@ function AllProducts() {
                 className="w-full h-56 object-contain p-4"
               />
 
-              {/* Información del producto */}
+              {/* Información */}
               <div className="px-4 pb-4">
                 <h3 className="text-lg font-semibold text-gray-900">
                   {product.brand}
@@ -81,4 +87,4 @@ function AllProducts() {
   );
 }
 
-export default AllProducts;
+export default ProductsRelated;
