@@ -2089,7 +2089,9 @@
     "images": [
       "/img/Gaming/XboxSeriesX.png",
       "/img/Gaming/XboxSeriesX2.png",
-      "/img/Gaming/XboxSeriesX3.png"
+      "/img/Gaming/XboxSeriesX3.png",
+      "/img/Gaming/XboxSeriesX4.png"
+
     ],
     "reviews": [
       { "user": "Laura M.", "comment": "Super fast and smooth gameplay.", "rating": 5 },
@@ -2113,7 +2115,9 @@
     "images": [
       "/img/Gaming/SwitchOLED.png",
       "/img/Gaming/SwitchOLED2.png",
-      "/img/Gaming/SwitchOLED3.png"
+      "/img/Gaming/SwitchOLED3.png",
+      "/img/Gaming/SwitchOLED4.png"
+
     ],
     "reviews": [
       { "user": "Daniel P.", "comment": "Beautiful screen and very portable.", "rating": 5 },
@@ -2137,7 +2141,9 @@
     "images": [
       "/img/Gaming/XboxController.jpg",
       "/img/Gaming/XboxController2.jpg",
-      "/img/Gaming/XboxController3.jpg"
+      "/img/Gaming/XboxController3.jpg",
+      "/img/Gaming/XboxController4.jpg"
+
     ],
     "reviews": [
       { "user": "Camilo R.", "comment": "Very comfortable and responsive.", "rating": 5 },
@@ -2161,7 +2167,9 @@
     "images": [
       "/img/Gaming/LogitechHeadset.jpg",
       "/img/Gaming/LogitechHeadset2.jpg",
-      "/img/Gaming/LogitechHeadset3.jpg"
+      "/img/Gaming/LogitechHeadset3.jpg",
+      "/img/Gaming/LogitechHeadset4.jpg"
+
     ],
     "reviews": [
       { "user": "Andrés H.", "comment": "Excellent audio quality.", "rating": 5 },
@@ -2185,7 +2193,9 @@
     "images": [
       "/img/Gaming/NintendoJoyCon.jpg",
       "/img/Gaming/NintendoJoyCon2.jpg",
-      "/img/Gaming/NintendoJoyCon3.jpg"
+      "/img/Gaming/NintendoJoyCon3.jpg",
+      "/img/Gaming/NintendoJoyCon4.jpg"
+
     ],
     "reviews": [
       { "user": "Paula G.", "comment": "Vibrant colors and fun to use.", "rating": 5 },
@@ -2209,7 +2219,9 @@
     "images": [
       "/img/Gaming/SonyHeadset.png",
       "/img/Gaming/SonyHeadset2.png",
-      "/img/Gaming/SonyHeadset3.png"
+      "/img/Gaming/SonyHeadset3.png",
+      "/img/Gaming/SonyHeadset4.png"
+
     ],
     "reviews": [
       { "user": "Lucía P.", "comment": "Incredible sound quality.", "rating": 5 },
@@ -2233,7 +2245,9 @@
     "images": [
       "/img/Gaming/ThrustmasterWheel.png",
       "/img/Gaming/ThrustmasterWheel2.png",
+      "/img/Gaming/ThrustmasterWheel3.png",
       "/img/Gaming/ThrustmasterWheel3.png"
+
     ],
     "reviews": [
       { "user": "Juan P.", "comment": "Amazing feel, like real driving.", "rating": 5 },
@@ -2257,7 +2271,9 @@
     "images": [
       "/img/Gaming/MetaVR.png",
       "/img/Gaming/MetaVR2.png",
+      "/img/Gaming/MetaVR3.png",
       "/img/Gaming/MetaVR3.png"
+
     ],
     "reviews": [
       { "user": "Camila D.", "comment": "Incredible immersion and visuals.", "rating": 5 },
@@ -2281,7 +2297,9 @@
     "images": [
       "/img/Gaming/Tekken8.png",
       "/img/Gaming/Tekken82.png",
-      "/img/Gaming/Tekken83.png"
+      "/img/Gaming/Tekken83.png",
+      "/img/Gaming/Tekken84.png"
+
     ],
     "reviews": [
       { "user": "Sofía E.", "comment": "Epic fights and great graphics.", "rating": 5 },
@@ -2305,7 +2323,9 @@
     "images": [
       "/img/Gaming/Zelda.png",
       "/img/Gaming/Zelda2.jpg",
-      "/img/Gaming/Zelda3.jpg"
+      "/img/Gaming/Zelda3.jpg",
+      "/img/Gaming/Zelda4.jpg"
+
     ],
     "reviews": [
       { "user": "Laura J.", "comment": "One of the best games ever.", "rating": 5 },
@@ -2328,7 +2348,9 @@
     "images": [
       "/img/Gaming/SonyChargingStation.png",
       "/img/Gaming/SonyChargingStation2.png",
-      "/img/Gaming/SonyChargingStation3.png"
+      "/img/Gaming/SonyChargingStation3.png",
+      "/img/Gaming/SonyChargingStation4.png"
+
     ],
     "reviews": [
       { "user": "Andrés G.", "comment": "Very practical and stylish.", "rating": 5 },
@@ -2352,7 +2374,9 @@
     "images": [
       "/img/Gaming/SonyRemote.png",
       "/img/Gaming/SonyRemote2.jpg",
-      "/img/Gaming/SonyRemote3.jpg"
+      "/img/Gaming/SonyRemote3.jpg",
+      "/img/Gaming/SonyRemote4.jpg"
+
     ],
     "reviews": [
       { "user": "Camila S.", "comment": "Very handy for streaming!", "rating": 5 },
@@ -2376,7 +2400,9 @@
     "images": [
       "/img/Gaming/RazerController.jpg",
       "/img/Gaming/RazerController2.jpg",
-      "/img/Gaming/RazerController3.jpg"
+      "/img/Gaming/RazerController3.jpg",
+      "/img/Gaming/RazerController4.jpg"
+
     ],
     "reviews": [
       { "user": "Sebastián F.", "comment": "Super responsive buttons.", "rating": 5 },
@@ -2400,7 +2426,9 @@
   "images": [
     "/img/Gaming/CallofDuty.png",
     "/img/Gaming/CallofDuty2.jpg",
-    "/img/Gaming/CallofDuty3.jpg"
+    "/img/Gaming/CallofDuty3.jpg",
+    "/img/Gaming/CallofDuty4.jpg"
+
   ],
   "reviews": [
     { "user": "Carlos M.", "comment": "Amazing graphics and gameplay.", "rating": 5 },
@@ -2425,7 +2453,9 @@
     "images": [
       "/img/Gaming/XboxSeries2Controller.png",
       "/img/Gaming/XboxSeriesXController2.jpg",
-      "/img/Gaming/XboxSeriesXController3.jpg"
+      "/img/Gaming/XboxSeriesXController3.jpg",
+      "/img/Gaming/XboxSeriesXController4.jpg"
+
     ],
     "reviews": [
       { "user": "Nicolás J.", "comment": "Top-tier build quality.", "rating": 5 },
@@ -2449,7 +2479,9 @@
     "images": [
       "/img/Gaming/8BitDoController.png",
       "/img/Gaming/8BitDoController2.png",
-      "/img/Gaming/8BitDoController3.png"
+      "/img/Gaming/8BitDoController3.png",
+      "/img/Gaming/8BitDoController4.png"
+
     ],
     "reviews": [
       { "user": "Laura G.", "comment": "Classic design with modern feel.", "rating": 5 },
