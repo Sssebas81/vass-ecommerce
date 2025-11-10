@@ -18,7 +18,7 @@ function OurProducts() {
             <div
               key={product.id}
               className="group bg-white rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all cursor-pointer"
-              onClick={() =>
+              onClick={() => 
                 navigate("/product/" + product.id, { state: product.id })
               }
             >

@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 interface productDetailProps {
     name: string;
     price: string;
