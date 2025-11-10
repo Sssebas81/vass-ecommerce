@@ -49,14 +49,14 @@ path : '/',
   element:<DevicesPage />
 },{
   path:"/Gaming",
-  element:<h2>Gaming Page</h2> 
+  element:<GamingPage />
 },{
   path:"/login",
   element: <LoginPage/>
 },{
   path:"/signup",
   element: <SignUp />
-  element:<GamingPage />
+  
 },{
   path:"/Product/:id",
   element:<DetailProduct />
