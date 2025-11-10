@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
-          <NavLink to="/Login">
+          <NavLink to="/">
             <div className="flex-shrink-0">
               <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
             </div>
