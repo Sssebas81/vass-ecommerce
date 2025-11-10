@@ -16,8 +16,6 @@ import ShopPage from './pages/shoppage/ShopPage.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>,
-  index:true
-
 },{
   path:"/Categories",
   element:<h2>Categories Page</h2>
@@ -50,7 +48,9 @@ path : '/',
   element:<GamingPage />
 },{
   path:"/login",
-  element: <LoginPage/>
+  element: <LoginPage/>,
+  index:true
+
 },{
   path:"/signup",
   element: <SignUp />
