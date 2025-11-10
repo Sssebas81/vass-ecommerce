@@ -5,6 +5,9 @@ import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router
 import Home from './pages/home/Home.tsx'
 import Contact from './pages/contact/Contact.tsx'
 import { h2 } from 'framer-motion/client'
+import LoginPage from './pages/login/LoginPage.tsx'
+import SignUp from './components/authentication/SignUp.tsx'
+
 import PersonalInfo from './pages/personalinfo/PersonalInfo.tsx'
 import Peripherals from './components/Peripheralsproducts/Peripherals.tsx'
 import PeripheralsPage from './pages/Categories/PeripheralsPage.tsx'
@@ -46,6 +49,13 @@ path : '/',
   element:<DevicesPage />
 },{
   path:"/Gaming",
+  element:<h2>Gaming Page</h2> 
+},{
+  path:"/login",
+  element: <LoginPage/>
+},{
+  path:"/signup",
+  element: <SignUp />
   element:<GamingPage />
 },{
   path:"/Product/:id",
