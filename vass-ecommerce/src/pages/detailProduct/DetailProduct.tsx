@@ -5,10 +5,10 @@ import Navbar from "../../components/navbar/Navbar";
 import products from "../../data/product.json"
 import { useEffect, useState } from "react";
 import type { Product } from "../../type/type";
-import FeaturesBar from "../../components/featuresbar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
 import ProductTabs from "../../components/producttabs/ProductTabs";
 import ProductsRelated from "../../components/relatedproducts/ProductsRelated";
+import FeaturesBar from "../../components/FeaturesBar/FeaturesBar";
 
 function DetailProduct() {
 
