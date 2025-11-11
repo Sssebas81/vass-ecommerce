@@ -8,8 +8,6 @@ const Cart = () => {
   const navigate = useNavigate();
   const cartItems = useSelector((state: RootState) => state.cart.items);
 
-  // Calcular subtotal correctamente limpiando los precios
-  // Extraer sólo dígitos para convertir "138.538 COP" -> 138538 (valor en COP)
   const subtotal = cartItems.reduce((acc, item) => {
     const priceSource = item.displayPrice ?? item.price;
     const numericPrice = Number(String(priceSource).replace(/\D/g, ""));
