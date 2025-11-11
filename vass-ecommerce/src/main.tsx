@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.tsx'
+import Blog from './pages/home/blog/Blog.tsx'
+import { h2 } from 'framer-motion/client'
+import Sell from './pages/home/blog/Sell.tsx'
 import Contact from './pages/contact/Contact.tsx'
 import LoginPage from './pages/login/LoginPage.tsx'
 import SignUp from './components/authentication/SignUp.tsx'
@@ -36,7 +39,7 @@ path : '/',
   element:<Contact/>
 },{
   path:"/Blog",
-  element:<h2>Blog Page</h2> 
+  element:<Blog/>
 },{
   path:"/Peripherals",
   element: <PeripheralsPage />
@@ -45,6 +48,10 @@ path : '/',
   element:<DevicesPage />
 },{
   path:"/Gaming",
+  element:<h2>Gaming Page</h2> 
+},{
+  path:"/sell",
+  element: <Sell/>
   element:<GamingPage />
 },{
   path:"/login",
