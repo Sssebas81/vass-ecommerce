@@ -23,7 +23,7 @@ function Footer() {
           </h3>
           <ul className="space-y-2 text-gray-800 text-sm">
             
-            <NavLink to="/">
+            <NavLink to="/Home">
             <li className="hover:text-gray-600 cursor-pointer">Home</li>
             </NavLink>
             <NavLink to="/Shop">

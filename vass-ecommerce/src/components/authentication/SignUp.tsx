@@ -126,7 +126,7 @@ const SignUp = () => {
               <p className="invisible text-sm text-center h-5">placeholder</p>
             )}
 
-            <NavLink to="/">
+            <NavLink to="/Home">
               <button
                 type="submit"
                 className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition"

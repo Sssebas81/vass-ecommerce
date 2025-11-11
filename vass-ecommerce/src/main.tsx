@@ -23,6 +23,14 @@ import FavoritesPage from './pages/favorites/FavoritesPage.tsx';
 const Routes = createBrowserRouter([
   {
     path: '/',
+    element: <LoginPage />,
+    index: true,
+  },
+  {
+    path: '/signup',
+    element: <SignUp />,
+  },{
+    path: '/Home',
     element: <Home />,
   },
   {
@@ -60,15 +68,6 @@ const Routes = createBrowserRouter([
   {
     path: '/Gaming',
     element: <GamingPage />,
-  },
-  {
-    path: '/login',
-    element: <LoginPage />,
-    index: true,
-  },
-  {
-    path: '/signup',
-    element: <SignUp />,
   },
   {
     path: '/Product/:id',

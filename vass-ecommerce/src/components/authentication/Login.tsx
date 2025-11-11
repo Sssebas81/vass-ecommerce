@@ -40,10 +40,10 @@ const Login = () => {
   return ( //absolute inset-0 bg-[#000000aa] hidden transition-opacity group-hover:flex flex-col items-center justify-center gap-4
     <div
       className="flex items-center justify-center min-h-screen bg-cover"
-      style={{ backgroundImage: "url('/img/LoginBackground.jpg')"}}
+      style={{ backgroundImage: "url('/img/LoginBackground.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/40"></div>
-      
+
       <div className="relative z-10 flex bg-white rounded-3xl shadow-2xl overflow-hidden max-w-5xl w-full">
         {/* Lado izquierdo */}
         <div className="bg-black p-12 w-1/2 flex flex-col justify-center text-white rounded-l-3xl">
@@ -109,12 +109,15 @@ const Login = () => {
               <p className="invisible text-sm text-center h-5">placeholder</p>
             )}
 
-            <button
-              type="submit"
-              className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
-            >
-              Submit
-            </button>
+            <NavLink to="/Home">
+              <button
+                type="submit"
+                className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
+              >
+                Submit
+              </button>
+            </NavLink>
+
 
             <div className="flex items-center my-4">
               <hr className="flex-grow border-gray-300" />
