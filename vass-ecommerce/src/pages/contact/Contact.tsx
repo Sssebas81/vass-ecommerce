@@ -2,7 +2,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from  "../../components/footer/Footer";
 import ContactHero from "../../components/contacthero/ContactHero";
 import ContactSection from "../../components/contactsection/ContactSection";
-import FeaturesBar from "../../components/FeaturesBar/FeaturesBar";
+import FeaturesBar from "../../components/featuresBar/FeaturesBar";
 
 function Contact() {
     return (

@@ -48,11 +48,11 @@ path : '/',
   element:<DevicesPage />
 },{
   path:"/Gaming",
-  element:<h2>Gaming Page</h2> 
+  element:<GamingPage /> 
 },{
   path:"/sell",
   element: <Sell/>
-  element:<GamingPage />
+  
 },{
   path:"/login",
   element: <LoginPage/>,

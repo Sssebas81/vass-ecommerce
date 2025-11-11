@@ -1,4 +1,4 @@
-import FeaturesBar from "../../components/featuresbar/FeaturesBar";
+import FeaturesBar from "../../components/featuresBar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
 import HeropageShop from "../../components/hero/HeroPageShop";
 import Navbar from "../../components/navbar/Navbar";
