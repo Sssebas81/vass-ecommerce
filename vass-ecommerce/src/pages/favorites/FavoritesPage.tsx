@@ -1,20 +1,21 @@
+import Favorites from "../../components/favorites/Favorites";
+import FavoritesHero from "../../components/favoriteshero/FavoritesHero";
 import FeaturesBar from "../../components/FeaturesBar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
-import GamingProducts from "../../components/Gamingproducts/Gaming";
-import HeropageGaming from "../../components/hero/HeroPageGaming";
 import Navbar from "../../components/navbar/Navbar";
 
-function GamingPage() {
+
+function FavoritesPage() {
   return (
     <div>
       <Navbar />
-      <HeropageGaming/>
-      <GamingProducts />
+      <FavoritesHero/>
+      <Favorites/>
       <FeaturesBar/>
       <Footer/>
     </div>
   );
 }
 
-export default GamingPage;
+export default FavoritesPage;
  
