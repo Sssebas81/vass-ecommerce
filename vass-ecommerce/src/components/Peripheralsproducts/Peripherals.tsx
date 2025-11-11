@@ -1,11 +1,11 @@
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/CartSlice";
 import { toggleLike } from "../../features/likes/LikesSlice";
 import type { RootState } from "../../app/store";
 import products from "../../data/product.json";
 
-function OurProducts() {
+function PeripheralsProducts() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const likedProducts = useSelector((state: RootState) => state.likes.items);
@@ -18,6 +18,10 @@ function OurProducts() {
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
+          Our Products
+        </h2>
+
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {peripheralsProducts.map((product) => (
             <div
@@ -47,12 +51,8 @@ function OurProducts() {
                   {product.brand}
                 </h3>
                 <p className="text-sm text-gray-500">{product.name}</p>
-                <p className="text-gray-900 font-bold mt-1">
-                  {Number(String(product.price).replace(/[^\d.-]/g, "")).toLocaleString("es-CO", {
-                    style: "currency",
-                    currency: "COP",
-                  })}
-                </p>
+                {/* Precio sin convertir */}
+                <p className="text-gray-900 font-bold mt-1">{product.price}</p>
               </div>
 
               {/* Hover Layer */}
@@ -61,12 +61,18 @@ function OurProducts() {
                   onClick={(e) => {
                     e.stopPropagation();
                     const numericPrice = Number(String(product.price).replace(/[^\d.-]/g, ""));
-                    dispatch(addToCart({ ...product, price: numericPrice, quantity: 1 }));
+                    dispatch(addToCart({
+                      ...product,
+                      price: numericPrice, // para cálculos
+                      displayPrice: product.price, // conserva el formato original “138.538 COP”
+                      quantity: 1
+                    }));
                   }}
                   className="bg-white text-black font-semibold px-6 py-2 rounded hover:bg-gray-200 transition z-20 cursor-pointer"
                 >
                   Add to cart
                 </button>
+
 
                 <div
                   onClick={(e) => {
@@ -95,9 +101,18 @@ function OurProducts() {
             </div>
           ))}
         </div>
+
+        {/* Botón See More */}
+        <div className="flex justify-center mt-12">
+          <NavLink to="/Shop">
+            <button className="border border-black px-6 py-2 rounded-md text-black hover:bg-black hover:text-white transition-all">
+              See more
+            </button>
+          </NavLink>
+        </div>
       </div>
     </section>
   );
 }
 
-export default OurProducts;
+export default PeripheralsProducts;
