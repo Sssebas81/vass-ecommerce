@@ -27,6 +27,9 @@ function OurProducts() {
             <div
               key={product.id}
               className="group bg-white rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all cursor-pointer"
+              onClick={() =>
+                navigate("/product/" + product.id, { state: product.id })
+              }
             >
               {/* Etiqueta de descuento */}
               {product.discount && (
@@ -40,9 +43,6 @@ function OurProducts() {
                 src={product.images[0]}
                 alt={product.name}
                 className="w-full h-56 object-contain p-4"
-                onClick={() =>
-                  navigate("/product/" + product.id, { state: product.id })
-                }
               />
 
               {/* Contenido */}
@@ -51,12 +51,8 @@ function OurProducts() {
                   {product.brand}
                 </h3>
                 <p className="text-sm text-gray-500">{product.name}</p>
-                <p className="text-gray-900 font-bold mt-1">
-                  {Number(String(product.price).replace(/[^\d.-]/g, "")).toLocaleString("es-CO", {
-                    style: "currency",
-                    currency: "COP",
-                  })}
-                </p>
+                {/* Precio sin convertir */}
+                <p className="text-gray-900 font-bold mt-1">{product.price}</p>
               </div>
 
               {/* Hover Layer */}
@@ -65,12 +61,18 @@ function OurProducts() {
                   onClick={(e) => {
                     e.stopPropagation();
                     const numericPrice = Number(String(product.price).replace(/[^\d.-]/g, ""));
-                    dispatch(addToCart({ ...product, price: numericPrice, quantity: 1 }));
+                    dispatch(addToCart({
+                      ...product,
+                      price: numericPrice, // para cálculos
+                      displayPrice: product.price, // conserva el formato original “138.538 COP”
+                      quantity: 1
+                    }));
                   }}
                   className="bg-white text-black font-semibold px-6 py-2 rounded hover:bg-gray-200 transition z-20 cursor-pointer"
                 >
                   Add to cart
                 </button>
+
 
                 <div
                   onClick={(e) => {

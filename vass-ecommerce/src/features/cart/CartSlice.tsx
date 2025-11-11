@@ -4,7 +4,8 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 interface Product {
   id: number;
   name: string;
-  price: number;
+  price: number | string;
+  displayPrice?: string; // opcional: formato legible (ej. "138.538 COP")
   images: string[];
   quantity: number;
 }

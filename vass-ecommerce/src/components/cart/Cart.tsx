@@ -8,10 +8,12 @@ const Cart = () => {
   const navigate = useNavigate();
   const cartItems = useSelector((state: RootState) => state.cart.items);
 
+  // Calcular subtotal correctamente limpiando los precios
+  // Extraer sólo dígitos para convertir "138.538 COP" -> 138538 (valor en COP)
   const subtotal = cartItems.reduce((acc, item) => {
-    const price = Number(item.price);
-    
-    return acc + price * item.quantity;
+    const priceSource = item.displayPrice ?? item.price;
+    const numericPrice = Number(String(priceSource).replace(/\D/g, ""));
+    return acc + numericPrice * item.quantity;
   }, 0);
 
   if (cartItems.length === 0) {
@@ -47,7 +49,11 @@ const Cart = () => {
               </thead>
               <tbody>
                 {cartItems.map((item) => {
-                  const price = Number(String(item.price).replace(/[^\d.-]/g, ""));
+                  // Precio numérico para cálculos (enteros COP)
+                  const priceSource = item.displayPrice ?? item.price;
+                  const numericPrice = Number(String(priceSource).replace(/\D/g, ""));
+                  const subtotalItem = numericPrice * item.quantity;
+
                   return (
                     <tr key={item.id} className="border-b">
                       <td className="px-4 py-4 flex items-center gap-4">
@@ -58,12 +64,15 @@ const Cart = () => {
                         />
                         <span className="font-medium text-gray-800">{item.name}</span>
                       </td>
+
+                      {/* Mostrar el precio original del JSON si existe */}
                       <td className="px-4 py-4 text-gray-700">
-                        {price.toLocaleString("es-CO", {
-                          style: "currency",
-                          currency: "COP",
-                        })}
+                        {item.displayPrice
+                          ? item.displayPrice
+                          : numericPrice.toLocaleString("es-CO") + " COP"}
                       </td>
+
+                      {/* Controles de cantidad */}
                       <td className="px-4 py-4">
                         <div className="flex items-center gap-2">
                           <button
@@ -90,18 +99,23 @@ const Cart = () => {
                           </button>
                         </div>
                       </td>
+
+                      {/* Subtotal por producto */}
                       <td className="px-4 py-4 text-gray-700">
-                        {(price * item.quantity).toLocaleString("es-CO", {
-                          style: "currency",
-                          currency: "COP",
-                        })}
+                        {(subtotalItem).toLocaleString("es-CO") + " COP"}
                       </td>
+
+                      {/* Botón eliminar */}
                       <td className="px-4 py-4">
                         <button
                           onClick={() => dispatch(removeFromCart(item.id))}
                           className="text-red-500 hover:text-red-700"
                         >
-                          🗑️
+                          <img
+                            src="/img/eliminar.png"
+                            alt="Logo de tarro de basura"
+                            className="h-6 w-6"
+                          />
                         </button>
                       </td>
                     </tr>
@@ -119,19 +133,17 @@ const Cart = () => {
             <div className="flex justify-between">
               <span>Subtotal</span>
               <span>
-                {subtotal.toLocaleString("es-CO", {
-                  style: "currency",
-                  currency: "COP",
-                })}
+                {cartItems.some(i => i.displayPrice)
+                  ? subtotal.toLocaleString("es-CO", { maximumFractionDigits: 0 }) + " COP"
+                  : subtotal.toLocaleString("es-CO", { style: "currency", currency: "COP" })}
               </span>
             </div>
             <div className="flex justify-between font-semibold text-lg">
               <span>Total</span>
               <span>
-                {subtotal.toLocaleString("es-CO", {
-                  style: "currency",
-                  currency: "COP",
-                })}
+                {cartItems.some(i => i.displayPrice)
+                  ? subtotal.toLocaleString("es-CO", { maximumFractionDigits: 0 }) + " COP"
+                  : subtotal.toLocaleString("es-CO", { style: "currency", currency: "COP" })}
               </span>
             </div>
           </div>
