@@ -1778,8 +1778,10 @@
     "colors": ["Gray", "Black"],
     "images": [
       "/img/PCSmartphones/SamsungS24.png",
-      "/img/PCSmartphones/SamsungS242.png",
-      "/img/PCSmartphones/SamsungS243.png"
+      "/img/PCSmartphones/SamsungS242.jpg",
+      "/img/PCSmartphones/SamsungS243.jpg",
+      "/img/PCSmartphones/SamsungS244.jpg"
+
     ],
     "reviews": [
       { "user": "Laura P.", "comment": "Amazing screen and camera quality!", "rating": 5 },
@@ -1802,8 +1804,10 @@
     "colors": ["Black", "Silver"],
     "images": [
       "/img/PCSmartphones/Asus7Ultimate.png",
-      "/img/PCSmartphones/Asus7Ultimate2.png",
-      "/img/PCSmartphones/Asus7Ultimate3.png"
+      "/img/PCSmartphones/Asus7Ultimate2.jpg",
+      "/img/PCSmartphones/Asus7Ultimate3.jpg",
+      "/img/PCSmartphones/Asus7Ultimate4.jpg"
+
     ],
     "reviews": [
       { "user": "Nicolás H.", "comment": "Perfect for gaming, smooth and powerful.", "rating": 5 },
@@ -1827,7 +1831,9 @@
     "images": [
       "/img/PCSmartphones/XiaomiRN13.png",
       "/img/PCSmartphones/XiaomiRN132.jpg",
-      "/img/PCSmartphones/XiaomiRN133.jpg"
+      "/img/PCSmartphones/XiaomiRN133.jpg",
+      "/img/PCSmartphones/XiaomiRN134.jpg"
+
     ],
     "reviews": [
       { "user": "Laura G.", "comment": "Excellent performance and camera for the price.", "rating": 5 },
@@ -1851,7 +1857,9 @@
     "images": [
       "/img/PCSmartphones/Lenovo5Pro.jpg",
       "/img/PCSmartphones/Lenovo5Pro2.jpg",
-      "/img/PCSmartphones/Lenovo5Pro3.jpg"
+      "/img/PCSmartphones/Lenovo5Pro3.jpg",
+      "/img/PCSmartphones/Lenovo5Pro4.jpg"
+
     ],
     "reviews": [
       { "user": "David R.", "comment": "Great gaming laptop, runs everything smoothly.", "rating": 5 },
@@ -1875,7 +1883,9 @@
     "images": [
       "/img/PCSmartphones/AsusG16.jpg",
       "/img/PCSmartphones/AsusG162.jpg",
-      "/img/PCSmartphones/AsusG163.jpg"
+      "/img/PCSmartphones/AsusG163.jpg",
+      "/img/PCSmartphones/AsusG164.jpg"
+
     ],
     "reviews": [
       { "user": "Paula N.", "comment": "Super fast and reliable laptop.", "rating": 5 },
@@ -1899,7 +1909,9 @@
     "images": [
       "/img/PCSmartphones/MSI15.jpg",
       "/img/PCSmartphones/MSI152.jpg",
-      "/img/PCSmartphones/MSI153.jpg"
+      "/img/PCSmartphones/MSI153.jpg",
+      "/img/PCSmartphones/MSI154.jpg"
+
     ],
     "reviews": [
       { "user": "Jorge B.", "comment": "Very powerful for its price.", "rating": 5 },
@@ -1922,8 +1934,10 @@
     "colors": ["Black"],
     "images": [
       "/img/PCSmartphones/AcerNeo16.png",
-      "/img/PCSmartphones/AcerNeo162.png",
-      "/img/PCSmartphones/AcerNeo163.png"
+      "/img/PCSmartphones/AcerNeo162.jpg",
+      "/img/PCSmartphones/AcerNeo163.jpg",
+      "/img/PCSmartphones/AcerNeo164.jpg"
+
     ],
     "reviews": [
       { "user": "Valentina R.", "comment": "Smooth visuals and excellent power.", "rating": 5 },
@@ -1947,7 +1961,9 @@
     "images": [
       "/img/PCSmartphones/DellXPS15.jpg",
       "/img/PCSmartphones/DellXPS152.jpg",
-      "/img/PCSmartphones/DellXPS153.jpg"
+      "/img/PCSmartphones/DellXPS153.jpg",
+      "/img/PCSmartphones/DellXPS154.jpg"
+
     ],
     "reviews": [
       { "user": "Julián M.", "comment": "Gorgeous display and great performance.", "rating": 5 },
@@ -1969,8 +1985,10 @@
     "colors": ["Black"],
     "images": [
       "/img/PCSmartphones/HPOmen16.png",
-      "/img/PCSmartphones/HPOmen162.png",
-      "/img/PCSmartphones/HPOmen163.png"
+      "/img/PCSmartphones/HPOmen162.jpg",
+      "/img/PCSmartphones/HPOmen163.jpg",
+      "/img/PCSmartphones/HPOmen164.jpg"
+
     ],
     "reviews": [
       { "user": "Camilo T.", "comment": "Runs all my games flawlessly.", "rating": 5 },
@@ -1994,7 +2012,9 @@
     "images": [
       "/img/PCSmartphones/IntelCPU.jpg",
       "/img/PCSmartphones/IntelCPU2.jpg",
-      "/img/PCSmartphones/IntelCPU3.jpg"
+      "/img/PCSmartphones/IntelCPU3.jpg",
+      "/img/PCSmartphones/IntelCPU4.jpg"
+
     ],
     "reviews": [
       { "user": "Carlos P.", "comment": "Blazing fast performance for everything.", "rating": 5 },
@@ -2018,7 +2038,9 @@
     "images": [
       "/img/PCSmartphones/AMDRyzen9.jpg",
       "/img/PCSmartphones/AMDRyzen92.jpg",
-      "/img/PCSmartphones/AMDRyzen93.jpg"
+      "/img/PCSmartphones/AMDRyzen93.jpg",
+      "/img/PCSmartphones/AMDRyzen94.jpg"
+
     ],
     "reviews": [
       { "user": "Daniel C.", "comment": "Outstanding performance for editing and gaming.", "rating": 5 },
@@ -2042,7 +2064,9 @@
     "images": [
       "/img/PCSmartphones/NZXTTorre.jpg",
       "/img/PCSmartphones/NZXTTorre2.jpg",
-      "/img/PCSmartphones/NZXTTorre3.jpg"
+      "/img/PCSmartphones/NZXTTorre3.jpg",
+      "/img/PCSmartphones/NZXTTorre4.jpg"
+
     ],
     "reviews": [
       { "user": "Mateo F.", "comment": "Easy to build in and excellent airflow.", "rating": 5 },
@@ -2065,8 +2089,10 @@
     "colors": ["Gray"],
     "images": [
       "/img/PCSmartphones/CoolerMaster.png",
-      "/img/PCSmartphones/CoolerMaster2.png",
-      "/img/PCSmartphones/CoolerMaster3.png"
+      "/img/PCSmartphones/CoolerMaster2.jpg",
+      "/img/PCSmartphones/CoolerMaster3.jpg",
+      "/img/PCSmartphones/CoolerMaster4.jpg"
+
     ],
     "reviews": [
       { "user": "Ricardo J.", "comment": "Beautiful and massive case, great quality.", "rating": 5 },
@@ -2090,7 +2116,9 @@
     "images": [
       "/img/PCSmartphones/CorsairTorre.jpg",
       "/img/PCSmartphones/CorsairTorre2.jpg",
-      "/img/PCSmartphones/CorsairTorre3.jpg"
+      "/img/PCSmartphones/CorsairTorre3.jpg",
+      "/img/PCSmartphones/CorsairTorre4.jpg"
+
     ],
     "reviews": [
       { "user": "Carolina P.", "comment": "Stunning lighting and airflow.", "rating": 5 },
@@ -2113,8 +2141,10 @@
     "colors": ["Gray"],
     "images": [
       "/img/PCSmartphones/SamsungBook3.png",
-      "/img/PCSmartphones/SamsungBook32.png",
-      "/img/PCSmartphones/SamsungBook33.png"
+      "/img/PCSmartphones/SamsungBook32.jpg",
+      "/img/PCSmartphones/SamsungBook33.jpg",
+      "/img/PCSmartphones/SamsungBook34.jpg"
+
     ],
     "reviews": [
       { "user": "Camila S.", "comment": "Super light and elegant laptop.", "rating": 5 },
@@ -2138,7 +2168,9 @@
     "images": [
       "/img/PCSmartphones/MacBookPro16.jpg",
       "/img/PCSmartphones/MacBookPro162.jpg",
-      "/img/PCSmartphones/MacBookPro163.jpg"
+      "/img/PCSmartphones/MacBookPro163.jpg",
+      "/img/PCSmartphones/MacBookPro164.jpg"
+
     ],
     "reviews": [
       { "user": "Santiago P.", "comment": "The best MacBook yet, super fast and silent.", "rating": 5 },

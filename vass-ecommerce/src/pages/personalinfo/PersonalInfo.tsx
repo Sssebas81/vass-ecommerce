@@ -1,4 +1,4 @@
-import FeaturesBar from "../../components/FeaturesBar/FeaturesBar";
+import FeaturesBar from "../../components/featuresBar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
 import FormPersonalInfo from "../../components/formpersonalinfo/formpersonalinfo";
 import Heropagepersonalinfo from "../../components/hero/Heropagepersonalinfo";

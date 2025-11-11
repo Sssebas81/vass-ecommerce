@@ -8,7 +8,7 @@ import type { Product } from "../../type/type";
 import Footer from "../../components/footer/Footer";
 import ProductTabs from "../../components/producttabs/ProductTabs";
 import ProductsRelated from "../../components/relatedproducts/ProductsRelated";
-import FeaturesBar from "../../components/FeaturesBar/FeaturesBar";
+import FeaturesBar from "../../components/featuresBar/FeaturesBar";
 
 function DetailProduct() {
 
