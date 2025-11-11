@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function BlogContent() {
   const posts = [
     {
@@ -72,50 +74,48 @@ export default function BlogContent() {
         ))}
       </div>
 
-<aside className="space-y-8">
-  <div className="space-y-2">
-    <button className="w-full border border-gray-300 text-gray-700 rounded-full px-5 py-2 text-sm hover:border-black transition">
-      Sell
-    </button>
+      <aside className="space-y-8">
+        <div className="space-y-2">
+          <NavLink to="/sell">
+            <button className="w-full border border-gray-300 text-gray-700 rounded-full px-5 py-2 text-sm hover:border-black transition">
+              Sell
+            </button>
+          </NavLink>
 
-    <button className="w-full border border-gray-300 text-gray-700 rounded-full px-5 py-2 text-sm flex items-center justify-between hover:border-black transition">
-      <span>Search</span>
-      <img src="/img/Lupa.svg" alt="search" className="w-4 h-4 ml-2" />
-    </button>
-  </div>
+        </div>
 
-  <div>
-    <h3 className="text-lg font-semibold mb-4">Categories</h3>
-    <ul className="space-y-6 text-gray-400 text-sm">
-      <li className="hover:text-black cursor-pointer">Gaming</li>
-      <li className="hover:text-black cursor-pointer">Smartphones</li>
-      <li className="hover:text-black cursor-pointer">PC & Hardware</li>
-      <li className="hover:text-black cursor-pointer">Consoles</li>
-      <li className="hover:text-black cursor-pointer">Accessories</li>
-    </ul>
-  </div>
+        <div>
+          <h3 className="text-lg font-semibold mb-4">Categories</h3>
+          <ul className="space-y-6 text-gray-400 text-sm">
+            <li className="hover:text-black cursor-pointer">Gaming</li>
+            <li className="hover:text-black cursor-pointer">Smartphones</li>
+            <li className="hover:text-black cursor-pointer">PC & Hardware</li>
+            <li className="hover:text-black cursor-pointer">Consoles</li>
+            <li className="hover:text-black cursor-pointer">Accessories</li>
+          </ul>
+        </div>
 
-  <div>
-    <h3 className="text-lg font-semibold mb-3">Recent Posts</h3>
-    <ul className="space-y-4">
-      {recentPosts.map((r) => (
-        <li key={r.id} className="flex items-center gap-3">
-          <img
-            src={r.img}
-            alt={r.title}
-            className="w-14 h-14 object-cover rounded-md"
-          />
-          <div>
-            <p className="text-sm font-medium text-gray-800 leading-tight">
-              {r.title}
-            </p>
-            <span className="text-xs text-gray-500">{r.date}</span>
-          </div>
-        </li>
-      ))}
-    </ul>
-  </div>
-</aside>
+        <div>
+          <h3 className="text-lg font-semibold mb-3">Recent Posts</h3>
+          <ul className="space-y-4">
+            {recentPosts.map((r) => (
+              <li key={r.id} className="flex items-center gap-3">
+                <img
+                  src={r.img}
+                  alt={r.title}
+                  className="w-14 h-14 object-cover rounded-md"
+                />
+                <div>
+                  <p className="text-sm font-medium text-gray-800 leading-tight">
+                    {r.title}
+                  </p>
+                  <span className="text-xs text-gray-500">{r.date}</span>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </aside>
     </section>
   );
 }

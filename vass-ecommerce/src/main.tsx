@@ -6,6 +6,7 @@ import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router
 import Home from './pages/home/Home.tsx'
 import Blog from './pages/home/blog/Blog.tsx'
 import { h2 } from 'framer-motion/client'
+import Sell from './pages/home/blog/Sell.tsx'
 const Routes=createBrowserRouter([{
 path : '/',
   element: <Home/>
@@ -40,6 +41,9 @@ path : '/',
 },{
   path:"/Gaming",
   element:<h2>Gaming Page</h2> 
+},{
+  path:"/sell",
+  element: <Sell/>
 }])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
