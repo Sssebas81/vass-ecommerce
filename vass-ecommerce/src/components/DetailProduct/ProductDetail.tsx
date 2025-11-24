@@ -1,7 +1,11 @@
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../features/cart/CartSlice"; // Ajusta la ruta según tu proyecto
+
 
 interface productDetailProps {
-    name: string;
+  id: number;  
+  name: string;
     price: string;
     description: string;
     detail:string;
@@ -11,7 +15,8 @@ interface productDetailProps {
     colors: string[];
     images: string[];
 }
-function ProductDetail({name, price, detail, sku, category, tags, colors, images} : productDetailProps) {
+function ProductDetail({id, name, price, detail, sku, category, tags, colors, images} : productDetailProps) {
+  const dispatch = useDispatch();
   const [quantity, setQuantity] = useState(1);
   const [selectedColor, setSelectedColor] = useState("gray");
   const [mainImage, setMainImage] = useState("/img/ps5-main.png");
@@ -98,7 +103,22 @@ function ProductDetail({name, price, detail, sku, category, tags, colors, images
             </button>
           </div>
 
-          <button className="px-6 py-2 border border-black rounded-md hover:bg-black hover:text-white transition">
+          {/* ADD TO CART */}
+          <button
+            onClick={() => {
+              const numericPrice = Number(String(price).replace(/[^\d.-]/g, ""));
+
+              dispatch(addToCart({
+                id, 
+                name,
+                price: numericPrice,
+                displayPrice: price,
+                quantity,
+                images,
+              }));
+            }}
+            className="px-6 py-2 border border-black rounded-md hover:bg-black hover:text-white transition"
+          >
             Add To Cart
           </button>
 

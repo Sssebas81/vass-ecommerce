@@ -30,7 +30,7 @@ function DetailProduct() {
     <div>
       <Navbar />
       <BarBlack />
-      <ProductDetail name={item?.name || ""} images={item?.images || []} description={item?.description || ""} detail={item?.detail || ""} price={item?.price || ""} sku={item?.sku || ""} category={item?.category || ""} tags={item?.tags || []} colors={item?.colors || []} />
+      <ProductDetail id={item?.id || 0} name={item?.name || ""} images={item?.images || []} description={item?.description || ""} detail={item?.detail || ""} price={item?.price || ""} sku={item?.sku || ""} category={item?.category || ""} tags={item?.tags || []} colors={item?.colors || []} />
       <ProductTabs
         description={item?.description || ""}
         reviews={item?.reviews || []}
