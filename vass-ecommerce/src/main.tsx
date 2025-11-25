@@ -22,6 +22,7 @@ import ShopPage from './pages/shoppage/ShopPage.tsx'
 import CartPage from './pages/cart/CartPage.tsx';
 import FavoritesPage from './pages/favorites/FavoritesPage.tsx';
 import { createRoot } from 'react-dom/client';
+import { BlogProvider } from './components/context/BlogContext.tsx';
 
 const Routes=createBrowserRouter([{
 path : '/',
@@ -105,7 +106,9 @@ path : '/',
 createRoot (document.getElementById('root')!).render(
   <StrictMode>
     <Provider store={store}>  {/* <- Aquí envolvemos toda la app con Redux */}
+      <BlogProvider>
       <RouterProvider router={Routes} />
+      </BlogProvider>
     </Provider>
   </StrictMode>
 );

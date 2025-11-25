@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import { useBlog } from "../context/BlogContext"; // 👈 IMPORTANTE
 
-function AddPhotoBlog() {
+function AddInfoBlog() {
   const [images, setImages] = useState<string[]>([]);
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
   const [category, setCategory] = useState("");
   const [condition, setCondition] = useState("");
 
+  const { addPost } = useBlog(); // 👈 conectar context
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
@@ -17,13 +19,28 @@ function AddPhotoBlog() {
   };
 
   const handlePublish = () => {
-    console.log({
+    if (!title || !price || !category || !condition || images.length === 0) {
+      alert("Please fill all fields and upload at least 1 image.");
+      return;
+    }
+
+    // 👈 Añadir post al contexto
+    addPost({
       title,
       price,
       category,
       condition,
       images,
     });
+
+    // Vaciar formulario después de publicar
+    setTitle("");
+    setPrice("");
+    setCategory("");
+    setCondition("");
+    setImages([]);
+
+    alert("Post published!");
   };
 
   return (
@@ -106,4 +123,4 @@ function AddPhotoBlog() {
   );
 }
 
-export default AddPhotoBlog;
+export default AddInfoBlog;
