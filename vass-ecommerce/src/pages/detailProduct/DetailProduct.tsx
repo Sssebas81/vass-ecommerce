@@ -14,6 +14,7 @@ function DetailProduct() {
 
   const location = useLocation()
   const [item, setitem] = useState<Product>()
+  
 
   useEffect(() => {
     function getitem() {
@@ -26,21 +27,36 @@ function DetailProduct() {
     getitem()
   })
 
-  return (
-    <div>
-      <Navbar />
-      <BarBlack />
-      <ProductDetail name={item?.name || ""} images={item?.images || []} description={item?.description || ""} detail={item?.detail || ""} price={item?.price || ""} sku={item?.sku || ""} category={item?.category || ""} tags={item?.tags || []} colors={item?.colors || []} />
+return (
+  <div>
+    <Navbar />
+    <BarBlack />
+    <ProductDetail
+      name={item?.name || ""}
+      images={item?.images || []}
+      description={item?.description || ""}
+      detail={item?.detail || ""}
+      price={item?.price || ""}
+      sku={item?.sku || ""}
+      category={item?.category || ""}
+      tags={item?.tags || []}
+      colors={item?.colors || []}
+    />
+
+    {item && (
       <ProductTabs
-        description={item?.description || ""}
-        reviews={item?.reviews || []}
-        images={item?.images || []}
-      />  
-      <ProductsRelated />
-      <FeaturesBar />
-      <Footer />
-    </div>
-  );
+        productId={item.id} 
+        description={item.description}
+        reviews={item.reviews || []}
+        images={item.images || []}
+      />
+    )}
+
+    <ProductsRelated />
+    <FeaturesBar />
+    <Footer />
+  </div>
+);
 }
 
 export default DetailProduct;
