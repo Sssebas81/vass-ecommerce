@@ -11,7 +11,7 @@ export type Product = {
   price: string;
   oldPrice: string;
   discount: string;
-  description: string;
+  description?: string;
   detail: string;
   sku: string;
   category: string;
