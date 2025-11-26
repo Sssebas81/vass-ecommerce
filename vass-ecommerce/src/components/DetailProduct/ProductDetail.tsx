@@ -121,25 +121,7 @@ function ProductDetail({id, name, price, detail, sku, category, tags, colors, im
           >
             Add To Cart
           </button>
-
-          <button className="px-6 py-2 border border-black rounded-md flex items-center gap-2 hover:bg-black hover:text-white transition">
-            {/* Icono chat SVG */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="1.5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M8 10h.01M12 10h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-            Chat with seller
-          </button>
+          
         </div>
 
         {/* Detalles */}
