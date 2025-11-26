@@ -1,5 +1,7 @@
+import supabase from "../../services/supabaseClient";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import { postUserData } from "../../services/Users";
 
 const SignUp = () => {
   const [email, setEmail] = useState("");
@@ -8,27 +10,48 @@ const SignUp = () => {
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-    if (!email.includes("@")) {
-      setError("Please enter a valid email address");
-      return;
-    }
+  // 1️⃣ VALIDACIONES PRIMERO (antes de signUp)
+  if (!email.includes("@")) {
+    setError("Please enter a valid email address");
+    return;
+  }
 
-    if (password.length < 5) {
-      setError("Password must be at least 5 characters");
-      return;
-    }
+  if (password.length < 5) {
+    setError("Password must be at least 5 characters");
+    return;
+  }
 
-    if (password !== confirmPassword) {
-      setError("Passwords do not match");
-      return;
-    }
+  if (password !== confirmPassword) {
+    setError("Passwords do not match");
+    return;
+  }
 
-    alert("Account created successfully!");
-    navigate("/Login");
-  };
+  // 2️⃣ SI TODO OK → SIGNUP
+  console.log("Ejecutando registro en Supabase...");
+
+  let { data, error } = await supabase.auth.signUp({
+    email: email,
+    password: password
+  });
+
+  console.log("Resultado Supabase:", data, error);
+
+  if (error) {
+    console.log("Error signing up:", error.message);
+    setError(error.message);
+    return;
+  }
+
+  await postUserData(
+    email,
+  )
+  alert("Account created successfully!");
+  navigate("/");
+};
+
 
   return (
     <div
@@ -126,14 +149,13 @@ const SignUp = () => {
               <p className="invisible text-sm text-center h-5">placeholder</p>
             )}
 
-            <NavLink to="/Home">
               <button
                 type="submit"
                 className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
               >
                 Create Account
               </button>
-            </NavLink>
+            
 
 
             <div className="flex items-center my-4">
