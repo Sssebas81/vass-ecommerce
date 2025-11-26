@@ -7,6 +7,7 @@ function AddInfoBlog() {
   const [price, setPrice] = useState("");
   const [category, setCategory] = useState("");
   const [condition, setCondition] = useState("");
+  const [description, setDescription] = useState("");
 
   const { addPost } = useBlog(); // 👈 conectar context
 
@@ -29,6 +30,7 @@ function AddInfoBlog() {
       title,
       price,
       category,
+      description,
       condition,
       images,
     });
@@ -45,8 +47,8 @@ function AddInfoBlog() {
 
   return (
     <section className="bg-white py-16 flex flex-col items-center px-4">
-      {/* Subir fotos */}
-      <label className="flex flex-col items-center justify-center w-40 h-40 border-2 border-dashed border-gray-400 rounded-lg cursor-pointer hover:bg-gray-50 transition">
+ 
+      <label className="flex flex-col items-center justify-center w-40 h-40  cursor-pointer hover:bg-gray-50 transition">
         <input
           type="file"
           accept="image/*"
@@ -55,12 +57,12 @@ function AddInfoBlog() {
           className="hidden"
         />
         <div className="text-center">
-          <div className="text-gray-600 text-4xl">📷</div>
-          <p className="text-sm text-gray-600 mt-2">Add photos</p>
+          <div className="text-gray-600 text-4xl">
+            <img src="https://cdn-icons-png.flaticon.com/512/3342/3342176.png" alt="Imagen" />
+          </div>
         </div>
       </label>
 
-      {/* Vista previa de imágenes */}
       {images.length > 0 && (
         <div className="grid grid-cols-3 gap-4 mt-6">
           {images.map((img, index) => (
@@ -74,7 +76,7 @@ function AddInfoBlog() {
         </div>
       )}
 
-      {/* Formulario */}
+ 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 w-full max-w-3xl">
         <input
           type="text"
@@ -102,6 +104,13 @@ function AddInfoBlog() {
           placeholder="Condition"
           value={condition}
           onChange={(e) => setCondition(e.target.value)}
+          className="border rounded-md p-3 w-full"
+        />
+        <input
+          type="text"
+          placeholder="Description"
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
           className="border rounded-md p-3 w-full"
         />
       </div>

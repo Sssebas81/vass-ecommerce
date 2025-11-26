@@ -1,15 +1,17 @@
 import { createContext, useContext, useState, useEffect } from "react";
 
-interface BlogPost {
+export interface BlogPost {
   title: string;
   price: string;
   category: string;
   condition: string;
+  description:string;
   images: string[];
 }
 
-interface BlogContextType {
+export interface BlogContextType {
   posts: BlogPost[];
+  initialCount: number;
   addPost: (post: BlogPost) => void;
   editPost: (index: number, updated: BlogPost) => void;
   deletePost: (index: number) => void;
@@ -23,6 +25,7 @@ const initialPosts: BlogPost[] = [
     price: "120.000",
     category: "Peripherals",
     condition: "New",
+    description:"The Logitech G Pro X Wireless Headset delivers professional-grade audio performance tailored for competitive gaming. Powered by LIGHTSPEED wireless technology, it ensures a fast, stable connection with up to 20 hours of battery life. Its PRO-G 50 mm drivers provide immersive DTS:X surround sound, enhancing clarity and precision in every match. The detachable microphone features Blue VO!CE filters, offering broadcast-quality voice communication. With a durable yet comfortable design, this headset combines freedom of movement with uncompromising sound quality for serious players.",
     images: ["/img/DiademaBlog.jpg"],
   },
   {
@@ -30,6 +33,7 @@ const initialPosts: BlogPost[] = [
     price: "80.000",
     category: "Gaming",
     condition: "Used - Like new",
+    description:"It features Razer Optical Switches, which deliver ultra-fast actuation with near-zero input latency, making it ideal for competitive esports. With a polling rate of 8000 Hz, every keystroke is registered almost instantly, ensuring maximum responsiveness. The keyboard includes doubleshot PBT keycaps for long-lasting durability, dedicated media controls with a multifunctional dial, and a plush wrist rest for comfort during extended sessions. Enhanced with Razer Chroma RGB lighting, the Huntsman V2 combines cutting-edge technology, ergonomic design, and immersive aesthetics to provide gamers with a superior typing and gaming experience",
     images: ["/img/TecladoBlog.jpg"],
   },
 ];
@@ -73,7 +77,7 @@ export function BlogProvider({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <BlogContext.Provider value={{ posts, addPost, editPost, deletePost }}>
+    <BlogContext.Provider value={{ posts, addPost, editPost, deletePost, initialCount: initialPosts.length }}>
       {children}
     </BlogContext.Provider>
   );

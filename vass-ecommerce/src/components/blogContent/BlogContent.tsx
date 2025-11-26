@@ -1,8 +1,15 @@
+import { useState } from "react";
+import type { BlogPost } from "../context/BlogContext";
 import { NavLink } from "react-router-dom";
 import { useBlog } from "../context/BlogContext";
+import EditPostModal from "../editpostmodal/EditPostModal";
 
 export default function BlogContent() {
-  const { posts } = useBlog(); // 👈 traer posts reales
+  const { posts, deletePost, initialCount, editPost } = useBlog();
+
+  // ➤ ESTADO DEL MODAL
+  const [editingPost, setEditingPost] = useState<BlogPost | null>(null);
+  const [editingIndex, setEditingIndex] = useState<number | null>(null);
 
   const recentPosts = [
     { id: 1, img: "/img/PS5Blog.jpg", title: "PlayStation 5 Slim: Next-Gen Power", date: "18 Sep 2025" },
@@ -22,41 +29,72 @@ export default function BlogContent() {
           <p className="text-gray-500">No posts yet. Publish something in Sell!</p>
         )}
 
-        {posts.map((post, index) => (
-          <article key={index}>
-            <img
-              src={post.images[0]}
-              alt={post.title}
-              className="w-full rounded-lg mb-6 shadow-lg"
-            />
+        {posts.map((post, index) => {
+          const isUserPost = index >= initialCount;
 
-            <div className="text-sm text-gray-500 flex items-center gap-6 mb-3">
-              <span className="flex items-center gap-1">
-                <img src="/img/UserBlog.png" alt="user" className="w-4 h-4" /> User
-              </span>
-              <span className="flex items-center gap-1">
-                <img src="/img/CalendarioBlog.png" alt="calendar" className="w-4 h-4" />
-                {new Date().toLocaleDateString()}
-              </span>
-              <span className="flex items-center gap-1">
-                <img src="/img/EtiquetaBlog.png" alt="tag" className="w-4 h-4" />
-                {post.category}
-              </span>
-            </div>
+          return (
+            <article key={index}>
+              <img
+                src={post.images[0]}
+                alt={post.title}
+                className="w-full rounded-lg mb-6 shadow-lg"
+              />
 
-            <h2 className="text-xl font-semibold text-gray-900 mb-2">
-              {post.title}
-            </h2>
+              <div className="text-sm text-gray-500 flex items-center gap-6 mb-3">
+                <span className="flex items-center gap-1">
+                  <img src="/img/UserBlog.png" alt="user" className="w-4 h-4" /> User
+                </span>
+                <span className="flex items-center gap-1">
+                  <img src="/img/CalendarioBlog.png" alt="calendar" className="w-4 h-4" />
+                  {new Date().toLocaleDateString()}
+                </span>
+                <span className="flex items-center gap-1">
+                  <img src="/img/EtiquetaBlog.png" alt="tag" className="w-4 h-4" />
+                  {post.category}
+                </span>
+              </div>
 
-            <p className="text-gray-600 text-sm mb-4">
-              Condition: {post.condition} — Price: ${post.price}
-            </p>
+              <h2 className="text-xl font-semibold text-gray-900 mb-2">
+                {post.title}
+              </h2>
 
-            <a href="#" className="text-blue-600 font-medium hover:underline text-sm">
-              Read more
-            </a>
-          </article>
-        ))}
+              <p className="text-gray-600 text-sm mb-4">
+                Condition: {post.condition} — Price: ${post.price}
+              </p>
+
+              <p className="text-gray-600 text-sm mb-4">
+                {post.description}
+              </p>
+
+              {/* BOTONES SOLO PARA POSTS DEL USUARIO */}
+              {isUserPost && (
+                <div className="flex gap-4 mt-4">
+
+                  {/* EDIT POST */}
+                  <button
+                    onClick={() => {
+                      setEditingPost(post);
+                      setEditingIndex(index);
+                    }}
+                    className="px-4 py-2 text-sm rounded-md bg-cyan-500 text-white hover:bg-white hover:text-cyan-500 border transition"
+                  >
+                    Edit
+                  </button>
+
+                  {/* DELETE POST */}
+                  <button
+                    onClick={() => deletePost(index)}
+                    className="px-4 py-2 text-sm rounded-md bg-red-600 text-white hover:bg-white hover:text-red-500 hover:border-red-500 border transition"
+                  >
+                    Delete
+                  </button>
+
+                </div>
+              )}
+
+            </article>
+          );
+        })}
 
       </div>
 
@@ -64,21 +102,10 @@ export default function BlogContent() {
       <aside className="space-y-8">
         <div className="space-y-2">
           <NavLink to="/sell">
-            <button className="w-full border border-gray-300 text-gray-700 rounded-full px-5 py-2 text-sm hover:border-black transition">
+            <button className="w-full border border-black text-black rounded-full px-5 py-2 text-sm hover:bg-black hover:text-white transition">
               Sell
             </button>
           </NavLink>
-        </div>
-
-        <div>
-          <h3 className="text-lg font-semibold mb-4">Categories</h3>
-          <ul className="space-y-6 text-gray-400 text-sm">
-            <li className="hover:text-black cursor-pointer">Gaming</li>
-            <li className="hover:text-black cursor-pointer">Smartphones</li>
-            <li className="hover:text-black cursor-pointer">PC & Hardware</li>
-            <li className="hover:text-black cursor-pointer">Consoles</li>
-            <li className="hover:text-black cursor-pointer">Accessories</li>
-          </ul>
         </div>
 
         <div>
@@ -96,6 +123,24 @@ export default function BlogContent() {
           </ul>
         </div>
       </aside>
+
+      {/* MODAL DE EDICIÓN */}
+      {editingPost && (
+        <EditPostModal
+          post={editingPost}
+          index={editingIndex!}
+          onClose={() => {
+            setEditingPost(null);
+            setEditingIndex(null);
+          }}
+          onSave={(idx, updated) => {
+            // Apply edit to the posts array (ctx)
+            editPost(idx, updated);
+            setEditingPost(null);
+            setEditingIndex(null);
+          }}
+        />
+      )}
 
     </section>
   );
