@@ -14,7 +14,7 @@ function ProductsRelated() {
 
   const isLiked = (id: number) =>
     likedProducts.some((product) => product.id === id);
-
+  
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
@@ -27,8 +27,14 @@ function ProductsRelated() {
             <div
               key={product.id}
               className="group bg-white rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all cursor-pointer"
-              onClick={() =>
-                navigate("/product/" + product.id, { state: product.id })
+              onClick={() =>{
+
+                navigate("/product/" + product.id, { state: product.id })  
+                location.reload()
+              
+              }
+
+
               }
             >
               {/* Etiqueta de descuento */}

@@ -1,7 +1,11 @@
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../features/cart/CartSlice"; // Ajusta la ruta según tu proyecto
+
 
 interface productDetailProps {
-    name: string;
+  id: number;  
+  name: string;
     price: string;
     description: string;
     detail:string;
@@ -11,7 +15,8 @@ interface productDetailProps {
     colors: string[];
     images: string[];
 }
-function ProductDetail({name, price, detail, sku, category, tags, colors, images} : productDetailProps) {
+function ProductDetail({id, name, price, detail, sku, category, tags, colors, images} : productDetailProps) {
+  const dispatch = useDispatch();
   const [quantity, setQuantity] = useState(1);
   const [selectedColor, setSelectedColor] = useState("gray");
   const [mainImage, setMainImage] = useState("/img/ps5-main.png");
@@ -98,28 +103,25 @@ function ProductDetail({name, price, detail, sku, category, tags, colors, images
             </button>
           </div>
 
-          <button className="px-6 py-2 border border-black rounded-md hover:bg-black hover:text-white transition">
+          {/* ADD TO CART */}
+          <button
+            onClick={() => {
+              const numericPrice = Number(String(price).replace(/[^\d.-]/g, ""));
+
+              dispatch(addToCart({
+                id, 
+                name,
+                price: numericPrice,
+                displayPrice: price,
+                quantity,
+                images,
+              }));
+            }}
+            className="px-6 py-2 border border-black rounded-md hover:bg-black hover:text-white transition"
+          >
             Add To Cart
           </button>
-
-          <button className="px-6 py-2 border border-black rounded-md flex items-center gap-2 hover:bg-black hover:text-white transition">
-            {/* Icono chat SVG */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="1.5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M8 10h.01M12 10h.01M16 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-            Chat with seller
-          </button>
+          
         </div>
 
         {/* Detalles */}
