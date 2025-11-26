@@ -40,8 +40,7 @@ return (
       sku={item?.sku || ""}
       category={item?.category || ""}
       tags={item?.tags || []}
-      colors={item?.colors || []}
-    />
+      colors={item?.colors || []} id={0}    />
 
     {item && (
       <ProductTabs
