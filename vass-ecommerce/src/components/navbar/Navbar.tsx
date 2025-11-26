@@ -1,21 +1,43 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+import products from "../../data/product.json"; // ✅ Importas tu JSON
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const navigate = useNavigate();
+
+  // Extrae solo los nombres
+  const suggestions = products.map((p) => p.name);
+
+  // Redirigir al seleccionar una opción
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!query.trim()) return;
+
+    // Buscar el producto exacto en el JSON
+    const product = products.find(
+      (p) => p.name.toLowerCase() === query.toLowerCase()
+    );
+
+    if (product) {
+      navigate(`/product/${product.id}`);
+    } else {
+      alert("Product not found");
+    }
+  };
 
   return (
     <nav className="bg-white border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-
+          
           {/* Logo */}
           <NavLink to="/Home">
-            <div className="flex-shrink-0">
-              <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
-            </div>
+            <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
           </NavLink>
-          
+
           {/* Links (desktop) */}
           <div className="hidden md:flex space-x-8 font-medium text-gray-700">
             <NavLink to="/Home" className="hover:text-black">Home</NavLink>
@@ -24,66 +46,61 @@ const Navbar = () => {
             <NavLink to="/Contact" className="hover:text-black">Contact</NavLink>
           </div>
 
-          {/* Icons + Login (desktop) */}
+          {/* Search + icons */}
           <div className="hidden md:flex items-center space-x-6">
-            <img src="/img/Lupa.svg" alt="Search" className="w-6 h-6 cursor-pointer" />
+
+            {/* 🔍 SEARCH WITH DATALIST */}
+            <form onSubmit={handleSearch} className="relative">
+              <input
+                list="productSuggestions"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                className="border border-gray-300 rounded-full px-4 py-1 text-sm focus:outline-none"
+                placeholder="Search..."
+              />
+
+              <datalist id="productSuggestions">
+                {suggestions.map((s, i) => (
+                  <option key={i} value={s} />
+                ))}
+              </datalist>
+
+              <button type="submit">
+                <img src="/img/Lupa.svg" className="w-6 h-6 absolute right-2 top-1 cursor-pointer" alt="search" />
+              </button>
+            </form>
+
             <NavLink to="/Favorites">
-              <img src="/img/Corazon.png" alt="Heart" className="w-6 h-6 cursor-pointer" />
+              <img src="/img/Corazon.png" className="w-6 h-6 cursor-pointer" />
             </NavLink>
+
             <NavLink to="/Cart">
-              <img src="/img/Carrito.png" alt="Cart" className="w-6 h-6 cursor-pointer" />
+              <img src="/img/Carrito.png" className="w-6 h-6 cursor-pointer" />
             </NavLink>
+
             <NavLink to="/Profile">
-              <img src="/img/Persona.svg" alt="User" className="w-6 h-6 cursor-pointer" />
+              <img src="/img/Persona.svg" className="w-6 h-6 cursor-pointer" />
             </NavLink>
- 
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
-              {isOpen ? (
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              ) : (
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              )}
-            </button>
-          </div>
+          {/* Mobile button */}
+          <button
+            className="md:hidden"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <img src="/img/Lupa.svg" className="w-6 h-6" />
+          </button>
+
         </div>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-white px-6 pb-4 space-y-3 font-medium text-gray-700">
-          <NavLink to="/" className="block hover:text-black">Home</NavLink>
+          <NavLink to="/Home" className="block hover:text-black">Home</NavLink>
           <NavLink to="/Shop" className="block hover:text-black">Shop</NavLink>
           <NavLink to="/Blog" className="block hover:text-black">Blog</NavLink>
           <NavLink to="/Contact" className="block hover:text-black">Contact</NavLink>
-
-          {/* Mobile icons */}
-          <div className="flex space-x-6 pt-4 border-t border-gray-200 items-center">
-            <img src="/img/Persona.svg" alt="User" className="w-6 h-6 cursor-pointer" />
-            <img src="/img/Lupa.svg" alt="Search" className="w-6 h-6 cursor-pointer" />
-            <img src="/img/Corazon.png" alt="Heart" className="w-6 h-6 cursor-pointer" />
-            <img src="/img/Carrito.png" alt="Cart" className="w-6 h-6 cursor-pointer" />
-
-          </div>
         </div>
       )}
     </nav>
