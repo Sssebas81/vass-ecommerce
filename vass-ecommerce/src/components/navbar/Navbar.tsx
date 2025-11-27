@@ -1,22 +1,39 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import products from "../../data/product.json";
+import supabase from "../../services/supabaseClient";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [products, setProducts] = useState<any[]>([]);
   const navigate = useNavigate();
 
-  // Extrae solo los nombres
+  // Cargar productos desde la base de datos
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const { data, error } = await supabase
+        .from("Products")
+        .select("id, name");
+
+      if (error) {
+        console.error("Error fetching products:", error);
+        return;
+      }
+
+      setProducts(data);
+    };
+
+    fetchProducts();
+  }, []);
+
+  // Sugerencias SOLO de nombres
   const suggestions = products.map((p) => p.name);
 
-  // Redirigir al seleccionar una opción
+  // Buscar producto al hacer submit
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-
     if (!query.trim()) return;
 
-    // Buscar el producto exacto en el JSON
     const product = products.find(
       (p) => p.name.toLowerCase() === query.toLowerCase()
     );
@@ -30,7 +47,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/* 🔧 ESTILO PARA QUITAR EL TRIÁNGULO DEL DATALIST */}
+      {/* Remove datalist icon */}
       <style>
         {`
           input::-webkit-calendar-picker-indicator {
@@ -48,7 +65,7 @@ const Navbar = () => {
               <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
             </NavLink>
 
-            {/* Links (desktop) */}
+            {/* Links desktop */}
             <div className="hidden md:flex space-x-8 font-medium text-gray-700">
               <NavLink to="/Home" className="hover:text-black">Home</NavLink>
               <NavLink to="/Shop" className="hover:text-black">Shop</NavLink>
@@ -59,7 +76,7 @@ const Navbar = () => {
             {/* Search + icons */}
             <div className="hidden md:flex items-center space-x-6">
 
-              {/* 🔍 SEARCH WITH DATALIST */}
+              {/* Search */}
               <form onSubmit={handleSearch} className="relative">
                 <input
                   list="productSuggestions"
