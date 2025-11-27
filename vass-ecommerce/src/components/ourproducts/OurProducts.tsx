@@ -3,14 +3,64 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/CartSlice";
 import { toggleLike } from "../../features/likes/LikesSlice";
 import type { RootState } from "../../app/store";
-import products from "../../data/product.json";
+import { useEffect, useState } from "react";
+import supabase from "../../services/supabaseClient";
 
 function OurProducts() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const likedProducts = useSelector((state: RootState) => state.likes.items);
 
-  const homeProducts = products.filter((p) => p.id >= 1 && p.id <= 8);
+  const [products, setProducts] = useState<any[]>([]);
+
+  useEffect(() => {
+  async function test() {
+    const res = await supabase.from("Products").select("*");
+    console.log("DATA TEST:", res.data);
+    console.log("ERROR TEST:", res.error);
+  }
+  test();
+}, []);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const { data, error } = await supabase
+        .from("Products")
+        .select("*");
+
+      if (error) {
+        console.error("Error fetching products:", error);
+        return;
+      }
+
+      // convertimos la estructura plana en una usable
+      const parsed = data.map((p) => ({
+        ...p,
+        images: [
+          p["images/0"],
+          p["images/1"],
+          p["images/2"],
+          p["images/3"],
+        ].filter(Boolean),
+        tags: [
+          p["tags/0"],
+          p["tags/1"],
+          p["tags/2"],
+        ].filter(Boolean),
+        colors: [
+          p["colors/0"],
+          p["colors/1"],
+          p["colors/2"],
+        ].filter(Boolean)
+      }));
+
+      setProducts(parsed);
+    };
+
+    fetchProducts();
+  }, []);
+
+  const homeProducts = products.slice(0, 8);
 
   const isLiked = (id: number) =>
     likedProducts.some((product) => product.id === id);
@@ -40,7 +90,7 @@ function OurProducts() {
 
               {/* Imagen */}
               <img
-                src={product.images[0]}
+                src={product.images?.[0]}
                 alt={product.name}
                 className="w-full h-56 object-contain p-4"
               />
@@ -51,28 +101,32 @@ function OurProducts() {
                   {product.brand}
                 </h3>
                 <p className="text-sm text-gray-500">{product.name}</p>
-                {/* Precio sin convertir */}
-                <p className="text-gray-900 font-bold mt-1">{product.price}</p>
+                <p className="text-gray-900 font-bold mt-1">
+                  {product.price}
+                </p>
               </div>
 
-              {/* Hover Layer */}
+              {/* Hover */}
               <div className="absolute inset-0 bg-[#000000aa] hidden group-hover:flex flex-col items-center justify-center gap-4 transition-opacity cursor-pointer">
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    const numericPrice = Number(String(product.price).replace(/[^\d.-]/g, ""));
-                    dispatch(addToCart({
-                      ...product,
-                      price: numericPrice, // para cálculos
-                      displayPrice: product.price, // conserva el formato original “138.538 COP”
-                      quantity: 1
-                    }));
+                    const numericPrice = Number(
+                      String(product.price).replace(/[^\d.-]/g, "")
+                    );
+                    dispatch(
+                      addToCart({
+                        ...product,
+                        price: numericPrice,
+                        displayPrice: product.price,
+                        quantity: 1,
+                      })
+                    );
                   }}
                   className="bg-white text-black font-semibold px-6 py-2 rounded hover:bg-gray-200 transition z-20 cursor-pointer"
                 >
                   Add to cart
                 </button>
-
 
                 <div
                   onClick={(e) => {
@@ -102,7 +156,6 @@ function OurProducts() {
           ))}
         </div>
 
-        {/* Botón See More */}
         <div className="flex justify-center mt-12">
           <NavLink to="/Shop">
             <button className="border border-black px-6 py-2 rounded-md text-black hover:bg-black hover:text-white transition-all">
