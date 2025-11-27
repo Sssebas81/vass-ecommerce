@@ -3,14 +3,55 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/CartSlice";
 import { toggleLike } from "../../features/likes/LikesSlice";
 import type { RootState } from "../../app/store";
-import products from "../../data/product.json";
+import { useEffect, useState } from "react";
+import supabase from "../../services/supabaseClient";
 
 function DevicesProducts() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const likedProducts = useSelector((state: RootState) => state.likes.items);
 
-  const DevicesProducts = products.filter((p) => p.id >= 41 && p.id <= 56);
+  const [products, setProducts] = useState<any[]>([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const { data, error } = await supabase
+        .from("Products")
+        .select("*")
+        .gte("id", 41)
+        .lte("id", 56);
+
+      if (error) {
+        console.error("Error fetching devices:", error);
+        return;
+      }
+
+      // Convertir estructura plana del Excel → formato usable
+      const parsed = data.map((p) => ({
+        ...p,
+        images: [
+          p["images/0"],
+          p["images/1"],
+          p["images/2"],
+          p["images/3"],
+        ].filter(Boolean),
+        tags: [
+          p["tags/0"],
+          p["tags/1"],
+          p["tags/2"],
+        ].filter(Boolean),
+        colors: [
+          p["colors/0"],
+          p["colors/1"],
+          p["colors/2"],
+        ].filter(Boolean),
+      }));
+
+      setProducts(parsed);
+    };
+
+    fetchProducts();
+  }, []);
 
   const isLiked = (id: number) =>
     likedProducts.some((product) => product.id === id);
@@ -23,7 +64,7 @@ function DevicesProducts() {
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
-          {DevicesProducts.map((product) => (
+          {products.map((product) => (
             <div
               key={product.id}
               className="group bg-white rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all cursor-pointer"
@@ -40,7 +81,7 @@ function DevicesProducts() {
 
               {/* Imagen */}
               <img
-                src={product.images[0]}
+                src={product.images?.[0]}
                 alt={product.name}
                 className="w-full h-56 object-contain p-4"
               />
@@ -51,8 +92,9 @@ function DevicesProducts() {
                   {product.brand}
                 </h3>
                 <p className="text-sm text-gray-500">{product.name}</p>
-                {/* Precio sin convertir */}
-                <p className="text-gray-900 font-bold mt-1">{product.price}</p>
+                <p className="text-gray-900 font-bold mt-1">
+                  {product.price}
+                </p>
               </div>
 
               {/* Hover Layer */}
@@ -60,19 +102,22 @@ function DevicesProducts() {
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    const numericPrice = Number(String(product.price).replace(/[^\d.-]/g, ""));
-                    dispatch(addToCart({
-                      ...product,
-                      price: numericPrice, // para cálculos
-                      displayPrice: product.price, // conserva el formato original “138.538 COP”
-                      quantity: 1
-                    }));
+                    const numericPrice = Number(
+                      String(product.price).replace(/[^\d.-]/g, "")
+                    );
+                    dispatch(
+                      addToCart({
+                        ...product,
+                        price: numericPrice,
+                        displayPrice: product.price,
+                        quantity: 1,
+                      })
+                    );
                   }}
                   className="bg-white text-black font-semibold px-6 py-2 rounded hover:bg-gray-200 transition z-20 cursor-pointer"
                 >
                   Add to cart
                 </button>
-
 
                 <div
                   onClick={(e) => {
