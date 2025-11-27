@@ -25,9 +25,7 @@ import { createRoot } from 'react-dom/client';
 import { BlogProvider } from './components/context/BlogContext.tsx';
 
 const Routes=createBrowserRouter([{
-path : '/',
-  element: <Home/>,
-},{
+
   path:"/Shop",
   element: <ShopPage />
 },{
