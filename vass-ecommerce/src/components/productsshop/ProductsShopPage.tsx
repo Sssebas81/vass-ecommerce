@@ -1,29 +1,64 @@
+import { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/CartSlice";
 import { toggleLike } from "../../features/likes/LikesSlice";
 import type { RootState } from "../../app/store";
-import products from "../../data/product.json";
+import supabase from "../../services/supabaseClient";
 
 function AllProducts() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const likedProducts = useSelector((state: RootState) => state.likes.items);
 
-  const shopProducts = products.filter((p) => p.id >= 9 && p.id <= 24);
+  const [products, setProducts] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
   const isLiked = (id: number) =>
     likedProducts.some((product) => product.id === id);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const { data, error } = await supabase
+        .from("Products")
+        .select("*");
+
+      if (error) {
+        console.error("Error fetching products:", error);
+        setLoading(false);
+        return;
+      }
+
+      const fixed = data.map((p) => ({
+        ...p,
+        images: [
+          p["images/0"],
+          p["images/1"],
+          p["images/2"],
+          p["images/3"],
+        ].filter(Boolean),
+      }));
+
+      setProducts(fixed);
+      setLoading(false);
+    };
+
+    fetchProducts();
+  }, []);
+
+  if (loading) {
+    return <p className="text-center py-20">Loading...</p>;
+  }
 
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-          Our Products
+          All Products
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
-          {shopProducts.map((product) => (
+          {products.map((product) => (
             <div
               key={product.id}
               className="group bg-white rounded-lg overflow-hidden relative shadow hover:shadow-md transition-all cursor-pointer"
@@ -40,7 +75,7 @@ function AllProducts() {
 
               {/* Imagen */}
               <img
-                src={product.images[0]}
+                src={product.images?.[0]}
                 alt={product.name}
                 className="w-full h-56 object-contain p-4"
               />
@@ -60,19 +95,22 @@ function AllProducts() {
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    const numericPrice = Number(String(product.price).replace(/[^\d.-]/g, ""));
-                    dispatch(addToCart({
-                      ...product,
-                      price: numericPrice, // para cálculos
-                      displayPrice: product.price, // conserva el formato original “138.538 COP”
-                      quantity: 1
-                    }));
+                    const numericPrice = Number(
+                      String(product.price).replace(/[^\d.-]/g, "")
+                    );
+                    dispatch(
+                      addToCart({
+                        ...product,
+                        price: numericPrice,
+                        displayPrice: product.price,
+                        quantity: 1,
+                      })
+                    );
                   }}
                   className="bg-white text-black font-semibold px-6 py-2 rounded hover:bg-gray-200 transition z-20 cursor-pointer"
                 >
                   Add to cart
                 </button>
-
 
                 <div
                   onClick={(e) => {
@@ -100,15 +138,6 @@ function AllProducts() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Botón See More */}
-        <div className="flex justify-center mt-12">
-          <NavLink to="/Shop">
-            <button className="border border-black px-6 py-2 rounded-md text-black hover:bg-black hover:text-white transition-all">
-              See more
-            </button>
-          </NavLink>
         </div>
       </div>
     </section>
