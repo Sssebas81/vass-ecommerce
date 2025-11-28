@@ -8,23 +8,26 @@ const Login = () => {
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-  e.preventDefault();
-  setError("");
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setError("");
 
-  try {
-    const { user } = await loginUser(email, password);
+    try {
+      console.log("🔐 Intentando login...");
+      const { user } = await loginUser(email, password);
 
-    if (!user.email_confirmed_at) {
-      setError("Debes verificar tu email antes de iniciar sesión.");
-      return;
+      if (!user.email_confirmed_at) {
+        setError("Debes verificar tu email antes de iniciar sesión.");
+        return;
+      }
+
+      console.log("✅ Login exitoso para:", user.email);
+      navigate("/Home");
+    } catch (err: any) {
+      console.error("❌ Error en login:", err);
+      setError(err.message || "Error inesperado. Intenta de nuevo.");
     }
-
-    navigate("/Home");
-  } catch (err: any) {
-    setError(err.message || "Error inesperado. Intenta de nuevo.");
-  }
-};
+  };
 
 
   return (

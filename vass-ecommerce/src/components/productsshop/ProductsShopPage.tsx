@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/CartSlice";
-import { toggleLike } from "../../features/likes/LikesSlice";
-import type { RootState } from "../../app/store";
+import { toggleLikeAsync } from "../../features/likes/LikesSlice";
+import type { RootState, AppDispatch } from "../../app/store";
 import supabase from "../../services/supabaseClient";
 
 function AllProducts() {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<AppDispatch>();
   const likedProducts = useSelector((state: RootState) => state.likes.items);
 
   const [products, setProducts] = useState<any[]>([]);
@@ -115,7 +115,7 @@ function AllProducts() {
                 <div
                   onClick={(e) => {
                     e.stopPropagation();
-                    dispatch(toggleLike(product));
+                    dispatch(toggleLikeAsync(product) as any);
                   }}
                   className="flex items-center gap-2 text-white text-sm cursor-pointer"
                 >

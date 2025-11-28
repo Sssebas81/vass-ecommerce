@@ -1,13 +1,13 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/CartSlice";
-import { toggleLike } from "../../features/likes/LikesSlice";
-import type { RootState } from "../../app/store";
+import { toggleLikeAsync } from "../../features/likes/LikesSlice";
+import type { RootState, AppDispatch } from "../../app/store";
 import products from "../../data/product.json";
 
 function ProductsRelated() {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<AppDispatch>();
   const likedProducts = useSelector((state: RootState) => state.likes.items);
 
   const ProductRelated = [...products].sort(() => Math.random() - 0.5).slice(0, 4);
@@ -83,7 +83,7 @@ function ProductsRelated() {
                 <div
                   onClick={(e) => {
                     e.stopPropagation();
-                    dispatch(toggleLike(product));
+                    dispatch(toggleLikeAsync(product) as any);
                   }}
                   className={`flex items-center gap-2 text-sm cursor-pointer ${
                     isLiked(product.id) ? "text-red-500" : "text-white"

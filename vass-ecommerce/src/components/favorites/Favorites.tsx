@@ -1,15 +1,15 @@
 import { useSelector, useDispatch } from "react-redux";
-import type { RootState } from "../../app/store";
-import { toggleLike } from "../../features/likes/LikesSlice";
+import type { RootState, AppDispatch } from "../../app/store";
+import { toggleLikeAsync } from "../../features/likes/LikesSlice";
 
 function Favorites() {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<AppDispatch>();
   const likedItems = useSelector((state: RootState) => state.likes.items);
 
   if (likedItems.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen text-gray-600">
-        <h2 className="text-2xl font-semibold mb-2">No favorites yet </h2>
+        <h2 className="text-2xl font-semibold mb-2">No favorites yet</h2>
         <p className="text-gray-500">Go back and like some products!</p>
       </div>
     );
@@ -30,7 +30,7 @@ function Favorites() {
             >
               {/* Imagen */}
               <img
-                src={product.images[0]}
+                src={product.images?.[0]}
                 alt={product.name}
                 className="w-full h-56 object-contain p-4"
               />
@@ -47,7 +47,7 @@ function Favorites() {
               {/* Botón quitar like */}
               <div className="absolute top-3 right-3">
                 <button
-                  onClick={() => dispatch(toggleLike(product))}
+                  onClick={() => dispatch(toggleLikeAsync(product) as any)}
                   className="text-red-500 hover:text-red-600"
                 >
                   <svg

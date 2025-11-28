@@ -5,6 +5,8 @@ import OurProducts from "./components/ourproducts/OurProducts";
 import SetupIdeas from "./components/setupideas/SetupIdeas";
 import CollageSection from "./components/collagesection/CollageSection";
 import Footer from "./components/footer/Footer";
+import { DebugFavorites } from "./components/debugFavorites/DebugFavorites";
+
 function App() {
   return (
     <div>
@@ -15,6 +17,7 @@ function App() {
       <SetupIdeas/>
       <CollageSection/>
       <Footer/>
+      <DebugFavorites />
     </div>
   );
 }
