@@ -1,34 +1,21 @@
-import { useEffect, useState } from "react";
-import { getBlogPosts } from "../../services/blogService";
+import BlogContent from "../../components/blogContent/BlogContent";
+import FeaturesBar from "../../components/featuresBar/FeaturesBar";
+import Footer from "../../components/footer/Footer";
+import Heropage from "../../components/hero/Heropage";
 
-const BlogContent = () => {
-  const [posts, setPosts] = useState<any[]>([]);
+import Navbar from "../../components/navbar/Navbar";
 
-  useEffect(() => {
-    const fetchPosts = async () => {
-      const data = await getBlogPosts();
-      setPosts(data || []);
-    };
 
-    fetchPosts();
-  }, []);
-
+function Blog() {
   return (
-    <section className="blog-section">
-      <h2>Latest Blog Posts</h2>
-
-      <div className="blog-grid">
-        {posts.map((post) => (
-          <div key={post.id} className="blog-card">
-            {post.image_url && <img src={post.image_url} alt={post.title} />}
-            <h3>{post.title}</h3>
-            <p>{post.content}</p>
-            <span>{new Date(post.created_at).toLocaleDateString()}</span>
-          </div>
-        ))}
-      </div>
-    </section>
+    <div>
+        <Navbar/>
+        < Heropage/>
+        <BlogContent/>
+        <FeaturesBar/>
+        <Footer/>
+    </div>
   );
-};
+}
 
-export default BlogContent;
+export default Blog;
