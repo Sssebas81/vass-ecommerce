@@ -1,133 +1,140 @@
-import React, { useState } from "react";
-import { useBlog } from "../context/BlogContext"; // 👈 IMPORTANTE
+import { useState } from "react";
+import { createClient } from "@supabase/supabase-js";
 
-function AddInfoBlog() {
-  const [images, setImages] = useState<string[]>([]);
+const supabaseUrl = "https://qmxycsmtzrbokdgdupyf.supabase.co";
+const supabaseKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFteHljc210enJib2tkZ2R1cHlmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxMTM0ODUsImV4cCI6MjA3OTY4OTQ4NX0.h2j8pMf9lvKi9Cstc1LQGAI-Ay9f4k8yUnWqXbC7kKQ";
+
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+const AddInfoBlog = () => {
+  const [imageFile, setImageFile] = useState<File | null>(null);
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
   const [category, setCategory] = useState("");
   const [condition, setCondition] = useState("");
   const [description, setDescription] = useState("");
 
-  const { addPost } = useBlog(); // 👈 conectar context
+  const handleUpload = async () => {
+    if (!imageFile) return alert("Sube una imagen");
 
-  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files) {
-      const files = Array.from(e.target.files);
-      const newImages = files.map((file) => URL.createObjectURL(file));
-      setImages((prevImages) => [...prevImages, ...newImages]);
+    // SUBIR LA IMAGEN AL BUCKET
+    const fileName = `${Date.now()}-${imageFile.name}`;
+
+    const { data: imgData, error: uploadError } = await supabase.storage
+      .from("blog-images")
+      .upload(fileName, imageFile);
+
+    if (uploadError) {
+      console.error(uploadError);
+      return alert("Error subiendo imagen");
     }
-  };
 
-  const handlePublish = () => {
-    if (!title || !price || !category || !condition || images.length === 0) {
-      alert("Please fill all fields and upload at least 1 image.");
-      return;
+    // OBTENER URL PÚBLICA
+    const { data: publicUrlData } = supabase.storage
+      .from("blog-images")
+      .getPublicUrl(fileName);
+
+    const imageUrl = publicUrlData.publicUrl;
+
+    // INSERTAR EN TABLA BlogPosts
+    const { error: insertError } = await supabase.from("BlogPosts").insert([
+      {
+        title,
+        price,
+        category,
+        condition,
+        description,
+        image_url: imageUrl,
+      },
+    ]);
+
+    if (insertError) {
+      console.error(insertError);
+      return alert("Error guardando en la base de datos");
     }
 
-    addPost({
-      title,
-      price,
-      category,
-      description,
-      condition,
-      images,
-    });
+    alert("Producto publicado con éxito 🎉");
 
+    // limpiar formulario
+    setImageFile(null);
     setTitle("");
     setPrice("");
     setCategory("");
     setCondition("");
-    setImages([]);
-
-    alert("Post published!");
+    setDescription("");
   };
 
   return (
-    <section className="bg-white py-16 flex flex-col items-center px-4">
- 
-      <label className="flex flex-col items-center justify-center w-40 h-40  cursor-pointer hover:bg-gray-50 transition">
+    <div style={{ textAlign: "center", padding: "40px" }}>
+      <h2 style={{ marginBottom: "30px" }}>Publicar un Producto</h2>
+
+      {/* Image Upload */}
+      <div style={{ marginBottom: "20px" }}>
         <input
           type="file"
           accept="image/*"
-          multiple
-          onChange={handleImageUpload}
-          className="hidden"
+          onChange={(e) => setImageFile(e.target.files?.[0] || null)}
         />
-        <div className="text-center">
-          <div className="text-gray-600 text-4xl">
-            <img src="https://cdn-icons-png.flaticon.com/512/3342/3342176.png" alt="Imagen" />
-          </div>
-        </div>
-      </label>
+      </div>
 
-      {images.length > 0 && (
-        <div className="grid grid-cols-3 gap-4 mt-6">
-          {images.map((img, index) => (
-            <img
-              key={index}
-              src={img}
-              alt={`Uploaded ${index + 1}`}
-              className="w-24 h-24 object-cover rounded-md border"
-            />
-          ))}
-        </div>
-      )}
+      {/* Fields */}
+      <div style={{ maxWidth: "700px", margin: "0 auto" }}>
+        <div style={{ display: "flex", gap: "20px" }}>
+          <input
+            placeholder="Título"
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            className="input"
+          />
 
- 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 w-full max-w-3xl">
-        <input
-          type="text"
-          placeholder="Title"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-          className="border rounded-md p-3 w-full"
-        />
-        <input
-          type="text"
-          placeholder="Price"
-          value={price}
-          onChange={(e) => setPrice(e.target.value)}
-          className="border rounded-md p-3 w-full"
-        />
-        <input
-          type="text"
-          placeholder="Category"
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
-          className="border rounded-md p-3 w-full"
-        />
-        <input
-          type="text"
-          placeholder="Condition"
-          value={condition}
-          onChange={(e) => setCondition(e.target.value)}
-          className="border rounded-md p-3 w-full"
-        />
-        <input
-          type="text"
-          placeholder="Description"
+          <input
+            placeholder="Precio"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
+            className="input"
+          />
+        </div>
+
+        <div style={{ display: "flex", gap: "20px", marginTop: "15px" }}>
+          <input
+            placeholder="Categoría"
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+            className="input"
+          />
+
+          <input
+            placeholder="Condición"
+            value={condition}
+            onChange={(e) => setCondition(e.target.value)}
+            className="input"
+          />
+        </div>
+
+        <textarea
+          placeholder="Descripción"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
-          className="border rounded-md p-3 w-full"
+          className="input"
+          style={{ width: "100%", marginTop: "15px", height: "100px" }}
         />
-      </div>
 
-      {/* Ubicación */}
-      <div className="mt-8 text-left w-full max-w-3xl">
-        <p className="font-semibold">Location</p>
-        <p className="text-gray-600 text-sm mt-1">Cali, Colombia 760010</p>
+        <button
+          onClick={handleUpload}
+          style={{
+            marginTop: "25px",
+            background: "black",
+            color: "white",
+            padding: "10px 20px",
+            borderRadius: "6px",
+          }}
+        >
+          Publicar
+        </button>
       </div>
-
-      {/* Botón */}
-      <button
-        onClick={handlePublish}
-        className="bg-black text-white px-6 py-2 rounded-md mt-8 hover:bg-gray-800 transition-all"
-      >
-        Publish
-      </button>
-    </section>
+    </div>
   );
-}
+};
 
 export default AddInfoBlog;
