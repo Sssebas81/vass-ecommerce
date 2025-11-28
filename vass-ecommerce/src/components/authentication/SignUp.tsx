@@ -44,10 +44,8 @@ const SignUp = () => {
 
       await postUserData(email);
 
-      // show a non-blocking success modal and let the user navigate or auto-redirect
-      setSuccessMessage("Cuenta creada con éxito. Por favor verifica tu correo electrónico.");
+      setSuccessMessage("Account created successfully. Please verify your email address..");
       setShowSuccess(true);
-      // auto redirect after 5 seconds if they don't click Aceptar
       setTimeout(() => navigate("/"), 5000);
     } catch (err: any) {
       setError(err.message);
@@ -159,7 +157,7 @@ const SignUp = () => {
                   navigate('/');
                 }}
               >
-                AcCE
+                Accept
               </button>
             </div>
           </div>

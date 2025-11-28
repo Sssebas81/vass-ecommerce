@@ -25,7 +25,6 @@ function AddInfoBlog() {
       return;
     }
 
-    // 👈 Añadir post al contexto
     addPost({
       title,
       price,
@@ -35,7 +34,6 @@ function AddInfoBlog() {
       images,
     });
 
-    // Vaciar formulario después de publicar
     setTitle("");
     setPrice("");
     setCategory("");
