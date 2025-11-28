@@ -8,7 +8,13 @@ const Navbar = () => {
   const [products, setProducts] = useState<any[]>([]);
   const navigate = useNavigate();
 
-  // Cargar productos desde la base de datos
+  // LOGOUT FUNCTION
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    navigate("/"); // Redirige al login
+  };
+
+  // Load products
   useEffect(() => {
     const fetchProducts = async () => {
       const { data, error } = await supabase
@@ -26,10 +32,8 @@ const Navbar = () => {
     fetchProducts();
   }, []);
 
-  // Sugerencias SOLO de nombres
   const suggestions = products.map((p) => p.name);
 
-  // Buscar producto al hacer submit
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
@@ -38,16 +42,12 @@ const Navbar = () => {
       (p) => p.name.toLowerCase() === query.toLowerCase()
     );
 
-    if (product) {
-      navigate(`/product/${product.id}`);
-    } else {
-      alert("Product not found");
-    }
+    if (product) navigate(`/product/${product.id}`);
+    else alert("Product not found");
   };
 
   return (
     <>
-      {/* Remove datalist icon */}
       <style>
         {`
           input::-webkit-calendar-picker-indicator {
@@ -65,7 +65,7 @@ const Navbar = () => {
               <img src="/img/LogoVass.svg" alt="VASS Logo" className="h-10 w-auto" />
             </NavLink>
 
-            {/* Links desktop */}
+            {/* Desktop links */}
             <div className="hidden md:flex space-x-8 font-medium text-gray-700">
               <NavLink to="/Home" className="hover:text-black">Home</NavLink>
               <NavLink to="/Shop" className="hover:text-black">Shop</NavLink>
@@ -73,7 +73,7 @@ const Navbar = () => {
               <NavLink to="/Contact" className="hover:text-black">Contact</NavLink>
             </div>
 
-            {/* Search + icons */}
+            {/* Search + Icons */}
             <div className="hidden md:flex items-center space-x-6">
 
               {/* Search */}
@@ -112,14 +112,21 @@ const Navbar = () => {
               <NavLink to="/Profile">
                 <img src="/img/Persona.svg" className="w-6 h-6 cursor-pointer" />
               </NavLink>
+
+              <button
+                onClick={handleLogout}
+                className="px-3 py-1 text-sm rounded-md bg-black text-white hover:bg-white hover:border hover:text-black transition"
+              >
+                Logout
+              </button>
+
+
+
             </div>
 
             {/* Mobile button */}
-            <button
-              className="md:hidden"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              <img src="/img/Lupa.svg" className="w-6 h-6" />
+            <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+              <img src="/img/menu.png" className="w-6 h-6" />
             </button>
 
           </div>
@@ -132,6 +139,11 @@ const Navbar = () => {
             <NavLink to="/Shop" className="block hover:text-black">Shop</NavLink>
             <NavLink to="/Blog" className="block hover:text-black">Blog</NavLink>
             <NavLink to="/Contact" className="block hover:text-black">Contact</NavLink>
+
+            {/* Logout mobile */}
+            <button onClick={handleLogout} className="text-left text-red-600 font-semibold">
+              Logout
+            </button>
           </div>
         )}
       </nav>

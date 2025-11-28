@@ -36,7 +36,6 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
       <div className="relative z-10 flex bg-white rounded-3xl shadow-2xl overflow-hidden max-w-5xl w-full">
 
-        {/* IZQUIERDA */}
         <div className="bg-black p-12 w-1/2 flex flex-col justify-center text-white rounded-l-3xl">
           <img src="/img/LogoVassBlanco.svg" alt="Logo" className="h-10 w-auto mb-8" />
           <div className="h-1 w-full bg-cyan-500"></div>
@@ -53,7 +52,6 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           </div>
         </div>
 
-        {/* DERECHA */}
         <div className="w-1/2 p-16 bg-white flex flex-col justify-center">
           <h2 className="text-4xl font-bold text-center mb-8">Login</h2>
 
@@ -92,25 +90,6 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
             >
               Submit
             </button>
-
-            {/* ICONOS SOCIALES */}
-            <div className="flex justify-center space-x-6 my-4">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png"
-                alt="Google"
-                className="h-8 cursor-pointer"
-              />
-              <img
-                src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png"
-                alt="Apple"
-                className="h-8 cursor-pointer"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png"
-                alt="Facebook"
-                className="h-8 cursor-pointer"
-              />
-            </div>
 
             <div className="flex justify-center text-sm text-gray-600 mt-6">
               <NavLink to="/signup" className="hover:underline">

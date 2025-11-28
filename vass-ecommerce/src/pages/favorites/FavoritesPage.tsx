@@ -1,6 +1,6 @@
 import Favorites from "../../components/favorites/Favorites";
 import FavoritesHero from "../../components/favoriteshero/FavoritesHero";
-import FeaturesBar from "../../components/FeaturesBar/FeaturesBar";
+import FeaturesBar from "../../components/featuresBar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 

@@ -1,30 +1,58 @@
-import { useState } from "react";
-import type { BlogPost } from "../context/BlogContext";
-import { NavLink } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useBlog } from "../context/BlogContext";
 import EditPostModal from "../editpostmodal/EditPostModal";
+import supabase from "../../services/supabaseClient";
+
+// Tipos mínimos para productos del Supabase
+type Product = {
+  id: number;
+  name: string;
+  price: number;
+  ["images/0"]?: string | null;
+  images?: string[];
+};
 
 export default function BlogContent() {
   const { posts, deletePost, initialCount, editPost } = useBlog();
-
-  // ➤ ESTADO DEL MODAL
-  const [editingPost, setEditingPost] = useState<BlogPost | null>(null);
+  const [editingPost, setEditingPost] = useState<any | null>(null);
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
 
-  const recentPosts = [
-    { id: 1, img: "/img/PS5Blog.jpg", title: "PlayStation 5 Slim: Next-Gen Power", date: "18 Sep 2025" },
-    { id: 2, img: "/img/TecladolucesBlog.jpg", title: "RGB Mechanical Keyboard: Style & Speed", date: "10 Aug 2025" },
-    { id: 3, img: "/img/IphoneBlog.jpg", title: "iPhone 15 Pro Max: Mobile Gaming Beast", date: "9 Sep 2025" },
-    { id: 4, img: "/img/AudifonosBlog.jpg", title: "Wireless Gaming Headset: Total Immersion", date: "3 Aug 2025" },
-    { id: 5, img: "/img/CompuBlog.jpg", title: "4K Curved Monitor: Gaming Redefined", date: "25 Jul 2025" },
-  ];
+  const [randomProducts, setRandomProducts] = useState<Product[]>([]);
+  const navigate = useNavigate();
+
+  // FETCH RANDOM PRODUCTS
+  useEffect(() => {
+    const fetchRandom = async () => {
+      const { data, error } = await supabase.from("Products").select("*");
+
+      if (error) {
+        console.error("Error loading products:", error);
+        return;
+      }
+      if (!data) return;
+
+      // Convertir imágenes "images/0" en un array real
+      const cleaned = data.map((p: any) => ({
+        ...p,
+        images: [
+          p["images/0"],
+        ].filter(Boolean),
+      }));
+
+      // Mezclar y tomar 5
+      const shuffled = cleaned.sort(() => Math.random() - 0.5).slice(0, 5);
+      setRandomProducts(shuffled);
+    };
+
+    fetchRandom();
+  }, []);
 
   return (
     <section className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-3 gap-10">
 
       {/* POSTS DINÁMICOS */}
       <div className="lg:col-span-2 space-y-16">
-
         {posts.length === 0 && (
           <p className="text-gray-500">No posts yet. Publish something in Sell!</p>
         )}
@@ -34,12 +62,14 @@ export default function BlogContent() {
 
           return (
             <article key={index}>
+              {/* IMAGEN DEL POST */}
               <img
                 src={post.images[0]}
                 alt={post.title}
                 className="w-full rounded-lg mb-6 shadow-lg"
               />
 
+              {/* Info */}
               <div className="text-sm text-gray-500 flex items-center gap-6 mb-3">
                 <span className="flex items-center gap-1">
                   <img src="/img/UserBlog.png" alt="user" className="w-4 h-4" /> User
@@ -88,18 +118,16 @@ export default function BlogContent() {
                   >
                     Delete
                   </button>
-
                 </div>
               )}
-
             </article>
           );
         })}
-
       </div>
 
       {/* SIDEBAR */}
       <aside className="space-y-8">
+
         <div className="space-y-2">
           <NavLink to="/sell">
             <button className="w-full border border-black text-black rounded-full px-5 py-2 text-sm hover:bg-black hover:text-white transition">
@@ -109,14 +137,29 @@ export default function BlogContent() {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-3">Recent Posts</h3>
+          <h3 className="text-lg font-semibold mb-3">Other Posts</h3>
+
           <ul className="space-y-4">
-            {recentPosts.map((r) => (
-              <li key={r.id} className="flex items-center gap-3">
-                <img src={r.img} alt={r.title} className="w-14 h-14 object-cover rounded-md" />
+            {randomProducts.map((prod) => (
+              <li
+                key={prod.id}
+                className="flex items-center gap-3 cursor-pointer"
+                onClick={() => navigate(`/product/${prod.id}`)}
+              >
+                <img
+                  src={prod.images?.[0] || "/img/placeholder.png"}
+                  alt={prod.name}
+                  className="w-14 h-14 object-cover rounded-md"
+                />
+
                 <div>
-                  <p className="text-sm font-medium text-gray-800 leading-tight">{r.title}</p>
-                  <span className="text-xs text-gray-500">{r.date}</span>
+                  <p className="text-sm font-medium text-gray-800 leading-tight">
+                    {prod.name}
+                  </p>
+
+                  <span className="text-xs text-gray-500">
+                    ${prod.price}
+                  </span>
                 </div>
               </li>
             ))}
@@ -134,7 +177,6 @@ export default function BlogContent() {
             setEditingIndex(null);
           }}
           onSave={(idx, updated) => {
-            // Apply edit to the posts array (ctx)
             editPost(idx, updated);
             setEditingPost(null);
             setEditingIndex(null);
