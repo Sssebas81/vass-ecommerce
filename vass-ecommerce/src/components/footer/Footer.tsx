@@ -53,23 +53,22 @@ function Footer() {
         </div>
 
         {/* Columna 4: Newsletter */}
-        <div>
-          <h3 className="text-gray-500 text-sm font-semibold uppercase mb-4">
-            Newsletter
-          </h3>
-          <form className="flex border-b border-gray-300 pb-1">
-            <input
-              type="email"
-              placeholder="Enter Your Email Address"
-              className="flex-1 text-sm outline-none text-gray-700 placeholder-gray-400"
-            />
-            <button
-              type="submit"
-              className="text-sm font-semibold uppercase text-gray-800 hover:text-black"
-            >
-              Subscribe
-            </button>
-          </form>
+        <div className="flex items-center gap-4 justify-start md:justify-end">
+          <img
+            src="/img/VisualStudio.png"
+            alt="Visual Studio logo"
+            className="h-12 w-auto opacity-80 hover:opacity-100 transition-all duration-200"
+          />
+          <img
+            src="/img/GitHub.png"
+            alt="GitHub logo"
+            className="h-12 w-auto opacity-80 hover:opacity-100 transition-all duration-200"
+          />
+          <img
+            src="/img/git.webp"
+            alt="Git logo"
+            className="h-14 w-auto opacity-80 hover:opacity-100 transition-all duration-200"
+          />
         </div>
       </div>
 
