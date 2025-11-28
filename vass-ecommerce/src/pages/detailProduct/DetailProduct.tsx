@@ -27,7 +27,63 @@ function DetailProduct() {
         return;
       }
 
-      setItem(data);
+      // CONVERTIR images/0, images/1, images/2 en un array
+      const imagesArray = [
+        data["images/0"],
+        data["images/1"],
+        data["images/2"],
+        data["images/3"],
+      ].filter(Boolean); // elimina nulls
+
+      // Convertir tags y colors
+      const tagsArray = [
+        data["tags/0"],
+        data["tags/1"],
+        data["tags/2"],
+      ].filter(Boolean);
+
+      const colorsArray = [
+        data["colors/0"],
+        data["colors/1"],
+        data["colors/2"],
+      ].filter(Boolean);
+
+      // esto se cambia cuando esté el supabase de las reseñas
+      const reviews = [];
+
+      if (data["reviews/0/user"]) {
+        reviews.push({
+          user: data["reviews/0/user"],
+          comment: data["reviews/0/comment"],
+          rating: data["reviews/0/rating"],
+        });
+      }
+
+      if (data["reviews/1/user"]) {
+        reviews.push({
+          user: data["reviews/1/user"],
+          comment: data["reviews/1/comment"],
+          rating: data["reviews/1/rating"],
+        });
+      }
+
+      if (data["reviews/2/user"]) {
+        reviews.push({
+          user: data["reviews/2/user"],
+          comment: data["reviews/2/comment"],
+          rating: data["reviews/2/rating"],
+        });
+      }
+
+      //Guardamos el producto con los arrays
+      setItem({
+        ...data,
+        images: imagesArray,
+        tags: tagsArray,
+        colors: colorsArray,
+        reviews: reviews,
+      });
+
       setLoading(false);
     };
 
@@ -45,21 +101,21 @@ function DetailProduct() {
       <ProductDetail
         id={item.id}
         name={item.name}
-        images={item.images || []}
+        images={item.images}
         description={item.description || ""}
         detail={item.detail || ""}
         price={item.price}
         sku={item.sku}
         category={item.category}
-        tags={item.tags || []}
-        colors={item.colors || []}
+        tags={item.tags}
+        colors={item.colors}
       />
 
       <ProductTabs
         productId={item.id}
         description={item.description || ""}
-        reviews={item.reviews || []}
-        images={item.images || []}
+        reviews={item.reviews}
+        images={item.images}
       />
 
       <ProductsRelated />

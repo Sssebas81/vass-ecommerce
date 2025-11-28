@@ -1,46 +1,83 @@
 import { useState, useEffect } from "react";
+import supabase from "../../services/supabaseClient";
 
 type Review = {
-    user: string;
-    comment: string;
+    id: string;
     rating: number;
+    comment: string;
+    created_at: string;
+    user_id: string;
+    user_email: string | null; 
+    product_id: number;
 };
 
 interface ProductTabsProps {
     productId: string | number;
     description: string;
-    reviews?: Review[];
     images?: string[];
 }
 
-function ProductTabs({ productId, description, reviews = [], images = [] }: ProductTabsProps) {
+function ProductTabs({ productId, description, images = [] }: ProductTabsProps) {
     const [activeTab, setActiveTab] = useState<"description" | "reviews">("description");
 
-    const [userName, setUserName] = useState("");
     const [comment, setComment] = useState("");
     const [rating, setRating] = useState(0);
     const [hoverRating, setHoverRating] = useState(0);
 
-    const [localReviews, setLocalReviews] = useState<Review[]>(() => {
-        const saved = localStorage.getItem(`reviews_${productId}`);
-        return saved ? JSON.parse(saved) : reviews;
-    });
+    const [reviews, setReviews] = useState<Review[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    // ===========================
+    // Cargar reviews desde Supabase
+    // ===========================
+    const loadReviews = async () => {
+    const { data, error } = await supabase
+        .from("reviews")
+        .select("*")
+        .eq("product_id", productId)
+        .order("created_at", { ascending: false });
+
+    if (error) console.error("Error cargando reviews:", error);
+    else setReviews(data);
+
+    setLoading(false);
+};
 
     useEffect(() => {
-        localStorage.setItem(`reviews_${productId}`, JSON.stringify(localReviews));
-    }, [localReviews]);
+        loadReviews();
+    }, [productId]);
 
-    const handleSubmit = () => {
-        if (!userName || !comment || rating === 0) return;
+    // ===========================
+    // Enviar review
+    // ===========================
+    const handleSubmit = async () => {
+        const {
+            data: { user },
+        } = await supabase.auth.getUser();
 
-        const newReview: Review = { user: userName, comment, rating };
+        if (!user) {
+            alert("Debes iniciar sesión para dejar una reseña");
+            return;
+        }
 
-        setLocalReviews([...localReviews, newReview]);
-        console.log(reviews);
-        
-        setUserName("");
-        setComment("");
-        setRating(0);
+        if (!comment || rating === 0) return;
+
+        const { error } = await supabase.from("reviews").insert({
+        user_id: user.id,
+        user_email: user.email, 
+        product_id: productId,
+        comment,
+        rating,
+        });
+
+
+        if (error) {
+            console.error("Error al enviar review:", error);
+        } else {
+            setComment("");
+            setRating(0);
+            loadReviews(); // refrescar lista
+        }
     };
 
     return (
@@ -66,7 +103,7 @@ function ProductTabs({ productId, description, reviews = [], images = [] }: Prod
                             : "text-gray-500 hover:text-black"
                     }`}
                 >
-                    Reviews [{localReviews.length}]
+                    Reviews [{reviews.length}]
                 </button>
             </div>
 
@@ -95,14 +132,6 @@ function ProductTabs({ productId, description, reviews = [], images = [] }: Prod
                         {/* FORMULARIO */}
                         <div className="mb-10 p-6 border rounded-lg shadow-sm bg-gray-50">
                             <h3 className="text-lg font-semibold mb-4">Write a Review</h3>
-
-                            <input
-                                type="text"
-                                placeholder="Your name"
-                                value={userName}
-                                onChange={(e) => setUserName(e.target.value)}
-                                className="w-full mb-3 p-2 border rounded-md"
-                            />
 
                             <textarea
                                 placeholder="Write a review..."
@@ -139,14 +168,19 @@ function ProductTabs({ productId, description, reviews = [], images = [] }: Prod
                         </div>
 
                         {/* LISTA DE RESEÑAS */}
-                        {localReviews.length === 0 ? (
-                            <p>No reviews yet. Be the first to review this product!</p>
+                        {loading ? (
+                            <p>Loading...</p>
+                        ) : reviews.length === 0 ? (
+                            <p>No reviews yet. Be the first!</p>
                         ) : (
                             <ul className="space-y-6">
-                                {localReviews.map((review, idx) => (
-                                    <li key={idx} className="border-b border-gray-200 pb-4">
+                                {reviews.map((review) => (
+                                    <li key={review.id} className="border-b border-gray-200 pb-4">
                                         <div className="flex items-center justify-between">
-                                            <span className="font-semibold">{review.user}</span>
+                                            <span className="font-semibold">
+                                                {review.user_email || "Unknown user"}
+
+                                            </span>
                                             <span className="text-yellow-500 text-lg">
                                                 {"★".repeat(review.rating)}
                                             </span>
