@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, type FormEvent } from "react";
+import supabase from "../../services/supabaseClient";
 
 const FormPersonalInfo: React.FC = () => {
   const [formData, setFormData] = useState({
-    fullName: "",
-    dateOfBirth: "",
+    full_name: "",
+    date_of_birth: "",
     email: "",
-    phone: "",
+    day_phone: "",
     country: "",
     city: "",
-    address: "",
-    postalCode: "",
+    adress: "",
+    postal_code: "",
   });
 
   const [profileImage, setProfileImage] = useState<string | null>(null);
@@ -29,10 +30,50 @@ const FormPersonalInfo: React.FC = () => {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    console.log(formData);
-    alert("Información guardada correctamente ");
+
+    // Obtener usuario logueado desde la sesión activa
+    const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
+
+    if (sessionError || !sessionData?.session?.user) {
+      alert("No hay usuario logueado.");
+      console.error(sessionError);
+      return;
+    }
+
+    const userId = sessionData.session.user.id;
+
+    try {
+      const { error } = await supabase
+        .from("Personal_Info")
+        .upsert(
+          [
+            {
+              user_id: userId,
+              full_name: formData.full_name,
+              date_of_birth: formData.date_of_birth,
+              email: formData.email,
+              day_phone: formData.day_phone,
+              country: formData.country,
+              city: formData.city,
+              adress: formData.adress,
+              postal_code: formData.postal_code,
+            },
+          ],
+        );
+
+      if (error) {
+        console.error("Error guardando info:", error);
+        alert("No se pudo guardar la información: " + error.message);
+        return;
+      }
+
+      alert("Información guardada correctamente!");
+    } catch (err) {
+      console.error("Error inesperado:", err);
+      alert("Error inesperado. Revisa la consola.");
+    }
   };
 
   return (
@@ -86,8 +127,8 @@ const FormPersonalInfo: React.FC = () => {
             </label>
             <input
               type="text"
-              name="fullName"
-              value={formData.fullName}
+              name="full_name"
+              value={formData.full_name}
               onChange={handleChange}
               placeholder="Name Last name"
               className="w-full border border-gray-300 rounded-md p-2 focus:ring focus:ring-gray-200"
@@ -100,8 +141,8 @@ const FormPersonalInfo: React.FC = () => {
             </label>
             <input
               type="date"
-              name="dateOfBirth"
-              value={formData.dateOfBirth}
+              name="date_of_birth"
+              value={formData.date_of_birth}
               onChange={handleChange}
               className="w-full border border-gray-300 rounded-md p-2 focus:ring focus:ring-gray-200"
             />
@@ -127,8 +168,8 @@ const FormPersonalInfo: React.FC = () => {
             </label>
             <input
               type="tel"
-              name="phone"
-              value={formData.phone}
+              name="day_phone"
+              value={formData.day_phone}
               onChange={handleChange}
               placeholder="##########"
               className="w-full border border-gray-300 rounded-md p-2 focus:ring focus:ring-gray-200"
@@ -172,8 +213,8 @@ const FormPersonalInfo: React.FC = () => {
             </label>
             <input
               type="text"
-              name="address"
-              value={formData.address}
+              name="adress"
+              value={formData.adress}
               onChange={handleChange}
               placeholder="Full address, Neighbourhood"
               className="w-full border border-gray-300 rounded-md p-2 focus:ring focus:ring-gray-200"
@@ -186,8 +227,8 @@ const FormPersonalInfo: React.FC = () => {
             </label>
             <input
               type="text"
-              name="postalCode"
-              value={formData.postalCode}
+              name="postal_code"
+              value={formData.postal_code}
               onChange={handleChange}
               placeholder="######"
               className="w-full border border-gray-300 rounded-md p-2 focus:ring focus:ring-gray-200"
