@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../../features/cart/CartSlice"; // Ajusta la ruta según tu proyecto
+import { addToCart } from "../../features/cart/CartSlice";
 
 
 interface productDetailProps {
