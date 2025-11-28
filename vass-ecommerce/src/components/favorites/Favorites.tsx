@@ -1,11 +1,46 @@
+import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState, AppDispatch } from "../../app/store";
-import { toggleLikeAsync } from "../../features/likes/LikesSlice";
+import { toggleLikeAsync, setLikes } from "../../features/likes/LikesSlice";
+import supabase from "../../services/supabaseClient";
 
 function Favorites() {
   const dispatch = useDispatch<AppDispatch>();
   const likedItems = useSelector((state: RootState) => state.likes.items);
 
+  // ---------------------------
+  // CARGAR FAVORITOS DE SUPABASE
+  // ---------------------------
+  useEffect(() => {
+    const loadFavorites = async () => {
+      const { data } = await supabase.auth.getUser();
+      const user = data.user;
+
+      if (!user) return; // si no está logueado, no hace nada
+
+      const { data: favs, error } = await supabase
+        .from("Favorites")
+        .select("product")
+        .eq("user_id", user.id);
+
+      if (error) {
+        console.error("Error cargando favoritos:", error);
+        return;
+      }
+
+      // Extrae solo los productos
+      const products = favs?.map((f) => f.product) || [];
+
+      // Cargar en Redux
+      dispatch(setLikes(products));
+    };
+
+    loadFavorites();
+  }, [dispatch]);
+
+  // ---------------------------
+  // UI si no hay favoritos
+  // ---------------------------
   if (likedItems.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen text-gray-600">
@@ -15,6 +50,9 @@ function Favorites() {
     );
   }
 
+  // ---------------------------
+  // UI NORMAL
+  // ---------------------------
   return (
     <section className="bg-white py-16 min-h-screen">
       <div className="max-w-7xl mx-auto px-6">

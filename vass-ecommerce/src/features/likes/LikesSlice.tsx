@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import supabase from "../../services/supabaseClient";
-import { addFavorite, removeFavorite } from "../../services/favoritesService";
 import type { AppDispatch } from "../../app/store";
 import type { Product } from "../../type/type";
 
@@ -12,7 +11,7 @@ interface LikesState {
 /**
  * Alterna un producto en favoritos
  * - Si no hay usuario logueado: solo localStorage
- * - Si hay usuario logueado: intenta guardar en Supabase + localStorage
+ * - Si hay usuario logueado: guarda/elimina en Supabase (tabla Favorites)
  */
 export const toggleLikeAsync =
   (product: Product) => async (dispatch: AppDispatch) => {
@@ -21,40 +20,50 @@ export const toggleLikeAsync =
       const user = data.user;
 
       if (user) {
-        // Usuario logueado - intenta sincronizar con Supabase
-        console.log("👤 Usuario logueado: sincronizando...");
+        console.log("👤 Usuario logueado: sincronizando con Supabase...");
 
-        // Chequear si ya existe
-        const { data: existingFavorite, error: checkError } = await supabase
+        // Verificar si ya existe en favoritos (comparando por product.id dentro del campo JSON)
+        const { data: existing, error: checkError } = await supabase
           .from("Favorites")
-          .select("id")
+          .select("*")
           .eq("user_id", user.id)
-          .eq("product_id", product.id)
+          .eq("product->>id", product.id) // <-- JSON Path
           .maybeSingle();
 
-        // Si la tabla no existe o hay otro error, simplemente continuar
         if (checkError) {
-          console.log("ℹ️ Tabla Favorites no disponible, guardando localmente");
-        } else if (existingFavorite) {
-          // Ya existe - eliminar
-          await removeFavorite(user.id, product.id);
+          console.error("⚠️ Error verificando favoritos:", checkError);
+        }
+
+        if (existing) {
+          // Eliminar favorito de Supabase
+          console.log("❌ Eliminando favorito de Supabase...");
+          await supabase
+            .from("Favorites")
+            .delete()
+            .eq("id", existing.id);
         } else {
-          // No existe - agregar
-          await addFavorite(user.id, product.id);
+          // Insertar favorito en Supabase (product completo en JSON)
+          console.log("✅ Guardando favorito en Supabase...");
+          await supabase.from("Favorites").insert({
+            user_id: user.id,
+            product: product,
+          });
         }
       } else {
         console.log("ℹ️ No hay usuario logueado, guardando solo localmente");
       }
 
-      // Actualizar Redux y localStorage SIEMPRE
+      // Actualiza redux + localstorage SIEMPRE
       dispatch(toggleLike(product));
     } catch (error) {
       console.error("❌ Error toggling like:", error);
-      // Aún así actualizar localmente
-      dispatch(toggleLike(product));
+      dispatch(toggleLike(product)); // fallback siempre local
     }
   };
 
+// ---------------------------
+//  LOCAL STORAGE
+// ---------------------------
 const storedLikes = localStorage.getItem("likedProducts");
 
 const initialState: LikesState = {
