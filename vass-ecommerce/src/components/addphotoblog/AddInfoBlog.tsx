@@ -96,7 +96,7 @@ const AddInfoBlog = () => {
     <div className="flex justify-center mt-16 p-4">
       <div className="max-w-3xl w-full bg-white p-6 rounded-xl shadow">
         <h2 className="text-2xl font-semibold mb-4 text-center">
-          Publicar un Producto
+          Post a Product
         </h2>
 
         {/* Caja grande para la imagen */}
@@ -113,7 +113,7 @@ const AddInfoBlog = () => {
           ) : (
             <>
               <span className="text-6xl text-gray-500">＋</span>
-              <p className="text-gray-500 mt-2">Haz clic para subir una imagen</p>
+              <p className="text-gray-500 mt-2">Click to upload an image</p>
             </>
           )}
 
@@ -128,28 +128,28 @@ const AddInfoBlog = () => {
         {/* Inputs */}
         <div className="grid grid-cols-2 gap-4 mt-6">
           <input
-            placeholder="Título"
+            placeholder="Title"
             className="border p-2 rounded-md"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
 
           <input
-            placeholder="Precio"
+            placeholder="Price"
             className="border p-2 rounded-md"
             value={price}
             onChange={(e) => setPrice(e.target.value)}
           />
 
           <input
-            placeholder="Categoría"
+            placeholder="Category"
             className="border p-2 rounded-md"
             value={category}
             onChange={(e) => setCategory(e.target.value)}
           />
 
           <input
-            placeholder="Condición"
+            placeholder="Condition"
             className="border p-2 rounded-md"
             value={condition}
             onChange={(e) => setCondition(e.target.value)}
@@ -157,7 +157,7 @@ const AddInfoBlog = () => {
         </div>
 
         <textarea
-          placeholder="Descripción"
+          placeholder="Description"
           className="border p-2 rounded-md w-full mt-4 h-24"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
@@ -167,7 +167,7 @@ const AddInfoBlog = () => {
           onClick={handleUpload}
           className="w-full mt-6 bg-black text-white py-3 rounded-lg text-lg hover:bg-gray-800 transition"
         >
-          Publicar
+          Post
         </button>
       </div>
     </div>
