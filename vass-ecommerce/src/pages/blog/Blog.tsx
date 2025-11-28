@@ -1,20 +1,34 @@
-import BlogContent from "../../components/blogContent/BlogContent";
-import FeaturesBar from "../../components/featuresBar/FeaturesBar";
-import Footer from "../../components/footer/Footer";
-import HeropageBlog from "../../components/heropageblog/HeropageBlog";
-import Navbar from "../../components/navbar/Navbar";
+import { useEffect, useState } from "react";
+import { getBlogPosts } from "../../services/blogService";
 
+const BlogContent = () => {
+  const [posts, setPosts] = useState<any[]>([]);
 
-function Blog() {
+  useEffect(() => {
+    const fetchPosts = async () => {
+      const data = await getBlogPosts();
+      setPosts(data || []);
+    };
+
+    fetchPosts();
+  }, []);
+
   return (
-    <div>
-        <Navbar/>
-        <HeropageBlog/>
-        <BlogContent/>
-        <FeaturesBar/>
-        <Footer/>
-    </div>
-  );
-}
+    <section className="blog-section">
+      <h2>Latest Blog Posts</h2>
 
-export default Blog;
+      <div className="blog-grid">
+        {posts.map((post) => (
+          <div key={post.id} className="blog-card">
+            {post.image_url && <img src={post.image_url} alt={post.title} />}
+            <h3>{post.title}</h3>
+            <p>{post.content}</p>
+            <span>{new Date(post.created_at).toLocaleDateString()}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default BlogContent;
