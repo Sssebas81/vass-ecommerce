@@ -1,17 +1,17 @@
 import { useState } from "react";
 import supabase from "../../services/supabaseClient";
 import { useBlog } from "../context/BlogContext";
-
+// Componente para agregar información del blog
 const AddInfoBlog = () => {
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
-
+// Estados para los campos del formulario
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
   const [category, setCategory] = useState("");
   const [condition, setCondition] = useState("");
   const [description, setDescription] = useState("");
-
+// Manejar el cambio de imagen y generar una vista previa
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0] || null;
     setImageFile(file);
@@ -21,14 +21,14 @@ const AddInfoBlog = () => {
       setPreview(url);
     }
   };
-
+// Manejar la subida de la imagen y los datos del formulario
   const { addPost } = useBlog();
-
+// Función para manejar la subida de la imagen y los datos del formulario
   const handleUpload = async () => {
     if (!imageFile) return alert("Sube una imagen");
 
     const fileName = `${Date.now()}-${imageFile.name}`;
-
+// Subir la imagen a Supabase Storage
     const { error: uploadError } = await supabase.storage
       .from("blog-images")
       .upload(fileName, imageFile);

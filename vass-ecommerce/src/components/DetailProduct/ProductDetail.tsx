@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../features/cart/CartSlice";
 
-
+// Componente de Detalle del Producto
 interface productDetailProps {
   id: number;  
   name: string;
@@ -14,7 +14,7 @@ interface productDetailProps {
     tags: string[];
     colors: string[];
     images: string[];
-}
+}// Componente de Detalle del Producto
 function ProductDetail({id, name, price, detail, sku, category, tags, colors, images} : productDetailProps) {
   const dispatch = useDispatch();
   const [quantity, setQuantity] = useState(1);
@@ -24,7 +24,7 @@ function ProductDetail({id, name, price, detail, sku, category, tags, colors, im
   const handleDecrease = () => {
     if (quantity > 1) setQuantity(quantity - 1);
   };
-
+// Aumentar cantidad
   const handleIncrease = () => {
     setQuantity(quantity + 1);
   };

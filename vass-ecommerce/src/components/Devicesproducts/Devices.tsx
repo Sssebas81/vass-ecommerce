@@ -5,14 +5,14 @@ import { toggleLikeAsync } from "../../features/likes/LikesSlice";
 import type { RootState, AppDispatch } from "../../app/store";
 import { useEffect, useState } from "react";
 import supabase from "../../services/supabaseClient";
-
+// Componente para mostrar productos de dispositivos
 function DevicesProducts() {
   const navigate = useNavigate();
   const dispatch = useDispatch<AppDispatch>();
   const likedProducts = useSelector((state: RootState) => state.likes.items);
-
+// Estado para almacenar productos
   const [products, setProducts] = useState<any[]>([]);
-
+// Fetch de productos al montar el componente
   useEffect(() => {
     const fetchProducts = async () => {
       const { data, error } = await supabase
@@ -55,7 +55,7 @@ function DevicesProducts() {
 
   const isLiked = (id: number) =>
     likedProducts.some((product) => product.id === id);
-
+// Render del componente
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-6">

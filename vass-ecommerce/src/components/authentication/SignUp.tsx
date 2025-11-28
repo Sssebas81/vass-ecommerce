@@ -2,7 +2,7 @@ import supabase from "../../services/supabaseClient";
 import { postUserData } from "../../services/Users";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-
+// Componente de Sign Up
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -11,7 +11,7 @@ const SignUp = () => {
   const [showSuccess, setShowSuccess] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const navigate = useNavigate();
-
+// Manejar el envío del formulario de registro
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError("");

@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import { loginUser } from "../../services/authService";
-
+// Componente de Login
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
-
+// Manejar el envío del formulario de login
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError("");
@@ -20,7 +20,7 @@ const Login = () => {
         setError("Debes verificar tu email antes de iniciar sesión.");
         return;
       }
-
+// Login exitoso
       console.log("✅ Login exitoso para:", user.email);
       navigate("/Home");
     } catch (err: any) {

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+// Componente de categorías
 function Categories() {
   return (
     <section className="bg-gray-50 py-16">

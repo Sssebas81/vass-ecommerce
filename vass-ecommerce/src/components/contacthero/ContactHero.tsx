@@ -1,4 +1,5 @@
-function ContactHero() {
+
+function ContactHero() {// Componente de héroe para la página de contacto
   return (
     <div
       className="relative flex items-center justify-center h-72 bg-cover bg-center"

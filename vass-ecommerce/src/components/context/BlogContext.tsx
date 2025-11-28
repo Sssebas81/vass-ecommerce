@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from "react";
-
+// Definición de la interfaz para un post del blog
 export interface BlogPost {
   title: string;
   price: string;
@@ -8,7 +8,7 @@ export interface BlogPost {
   description:string;
   images: string[];
 }
-
+// Definición de la interfaz para el contexto del blog
 export interface BlogContextType {
   posts: BlogPost[];
   initialCount: number;
@@ -16,7 +16,7 @@ export interface BlogContextType {
   editPost: (index: number, updated: BlogPost) => void;
   deletePost: (index: number) => void;
 }
-
+// Crear el contexto del blog
 const BlogContext = createContext<BlogContextType | null>(null);
 
 const initialPosts: BlogPost[] = [
@@ -37,7 +37,7 @@ const initialPosts: BlogPost[] = [
     images: ["/img/TecladoBlog.jpg"],
   },
 ];
-
+// Proveedor del contexto del blog
 export function BlogProvider({ children }: { children: React.ReactNode }) {
   // Carga inicial: posts base + posts guardados
   const [posts, setPosts] = useState<BlogPost[]>(() => {

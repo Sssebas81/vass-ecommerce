@@ -1,5 +1,5 @@
 import {motion} from "framer-motion";
-
+// Componente de sección de collage para mostrar configuraciones compartidas por usuarios
 const setups = [
   { id: 1, src: "/img/Collage1.jpg", ratio: "aspect-[3/4]" },
   { id: 2, src: "/img/Collage2.jpg", ratio: "aspect-[4/3]" },
@@ -11,7 +11,7 @@ const setups = [
   { id: 8, src: "/img/Collage8.jpg", ratio: "aspect-[4/3]" },
   { id: 9, src: "/img/Collage9.jpg", ratio: "aspect-[3/4]" },
 ];
-
+// Repetir las configuraciones para crear un efecto de desplazamiento infinito
 const repeatedSetups = [...setups, ...setups];
 
 export default function Collage() {

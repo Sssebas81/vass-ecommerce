@@ -5,19 +5,19 @@ import { addToCart } from "../../features/cart/CartSlice";
 import { toggleLikeAsync } from "../../features/likes/LikesSlice";
 import type { RootState, AppDispatch } from "../../app/store";
 import supabase from "../../services/supabaseClient";
-
+// Componente para mostrar todos los productos
 function AllProducts() {
   const navigate = useNavigate();
   const dispatch = useDispatch<AppDispatch>();
   const likedProducts = useSelector((state: RootState) => state.likes.items);
-
+// Estado para almacenar productos
   const [products, setProducts] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-
+// Fetch de productos al montar el componente
   const isLiked = (id: number) =>
     likedProducts.some((product) => product.id === id);
 
-  useEffect(() => {
+  useEffect(() => {// Función para obtener productos desde Supabase
     const fetchProducts = async () => {
       const { data, error } = await supabase
         .from("Products")
@@ -28,7 +28,7 @@ function AllProducts() {
         setLoading(false);
         return;
       }
-
+//
       const fixed = data.map((p) => ({
         ...p,
         images: [

@@ -2,12 +2,12 @@ import { useDispatch, useSelector } from "react-redux";
 import type { RootState } from "../../app/store";
 import { removeFromCart, clearCart, updateQuantity } from "../../features/cart/CartSlice";
 import { useNavigate } from "react-router-dom";
-
+// Componente del Carrito de Compras
 const Cart = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const cartItems = useSelector((state: RootState) => state.cart.items);
-
+// Calcular subtotal
   const subtotal = cartItems.reduce((acc, item) => {
     const priceSource = item.displayPrice ?? item.price;
     const numericPrice = Number(String(priceSource).replace(/\D/g, ""));

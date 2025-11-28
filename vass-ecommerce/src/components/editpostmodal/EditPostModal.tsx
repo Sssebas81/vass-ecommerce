@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { useBlog } from "../context/BlogContext";
 import type { BlogPost } from "../context/BlogContext";
-
+// Props del componente
 interface Props {
     post: BlogPost;
     index: number;
     onClose: () => void;
     onSave?: (index: number, updated: BlogPost) => void;
 }
-
+// Componente para editar un post del blog
 export default function EditPostModal({ post, index, onClose, onSave }: Props) {
     const { editPost } = useBlog();
 

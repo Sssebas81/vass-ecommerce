@@ -1,17 +1,17 @@
 import React, { type FormEvent } from "react";
 import supabase from "../../services/supabaseClient";
-
+// Componente de sección de contacto
 const ContactSection: React.FC = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const form = e.currentTarget;
-
+// Obtener los valores de los campos del formulario
     const name = (form.elements.namedItem("name") as HTMLInputElement).value;
     const email = (form.elements.namedItem("email") as HTMLInputElement).value;
     const subject = (form.elements.namedItem("subject") as HTMLInputElement).value;
     const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
-
+// Insertar los datos en la tabla "contact_messages" de Supabase
     try {
       const { error } = await supabase.from("contact_messages").insert([
         { name, email, subject, message }
@@ -26,7 +26,7 @@ const ContactSection: React.FC = () => {
         alert("Hubo un error enviando el mensaje:\n" + msg + hint);
         return;
       }
-
+// Éxito
       alert("Mensaje enviado correctamente!");
       form.reset();
     } catch (err) {
@@ -34,7 +34,7 @@ const ContactSection: React.FC = () => {
       alert("Error inesperado al enviar el mensaje. Revisa la consola.");
     }
   };
-
+// Renderizar la sección de contacto con el formulario
   return (
     <section className="bg-white py-20">
       <div className="max-w-6xl mx-auto px-6">
@@ -48,7 +48,7 @@ const ContactSection: React.FC = () => {
             An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!
           </p>
         </div>
-
+// Contenedor de dos columnas: información de contacto y formulario
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
           <div className="space-y-8">

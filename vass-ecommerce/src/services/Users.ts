@@ -1,5 +1,5 @@
 import supabase from './supabaseClient';
-
+// Servicio para manejar datos de usuarios en Supabase
 export interface Users {
     id: string;
     phone: string;
@@ -8,7 +8,7 @@ export interface Users {
     adress: string;
     postal_code: string;
 }
-
+// Función para insertar datos de usuario en la tabla 'Users'
 export async function postUserData(email: string) {
 
     const { data, error } = await supabase

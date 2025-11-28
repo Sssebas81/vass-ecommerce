@@ -1,10 +1,10 @@
-function FavoritesHero() {
+function FavoritesHero() {// Componente de héroe para la página de favoritos
   return (
     <div
       className="relative flex items-center justify-center h-72 bg-cover bg-center"
       style={{
         backgroundImage: "url('/img/FavoritesHero.jpg')",
-      }}
+      }}// Contenido centrado --
     >
       {/* Overlay con blur y fade de color */}
       <div className="absolute inset-0 bg-gray/10 backdrop-brightness-50"></div>

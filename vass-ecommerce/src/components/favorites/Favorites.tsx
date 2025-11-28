@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import type { RootState, AppDispatch } from "../../app/store";
 import { toggleLikeAsync, setLikes } from "../../features/likes/LikesSlice";
 import supabase from "../../services/supabaseClient";
-
+// Componente de Favoritos
 function Favorites() {
   const dispatch = useDispatch<AppDispatch>();
   const likedItems = useSelector((state: RootState) => state.likes.items);
@@ -95,7 +95,7 @@ function Favorites() {
                     strokeWidth="1.8"
                     stroke="red"
                     className="w-6 h-6"
-                  >
+                  >// Ícono de corazón lleno
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"

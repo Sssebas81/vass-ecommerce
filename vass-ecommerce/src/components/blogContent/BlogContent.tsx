@@ -12,7 +12,7 @@ type Product = {
   ["images/0"]?: string | null;
   images?: string[];
 };
-
+// Componente principal para mostrar el contenido del blog
 export default function BlogContent() {
   const { posts, deletePost, initialCount, editPost } = useBlog();
   const [editingPost, setEditingPost] = useState<any | null>(null);

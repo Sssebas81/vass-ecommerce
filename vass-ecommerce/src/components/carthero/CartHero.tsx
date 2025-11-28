@@ -1,3 +1,4 @@
+// Componente de héroe para la página del carrito
 function CartHero() {
   return (
     <div
