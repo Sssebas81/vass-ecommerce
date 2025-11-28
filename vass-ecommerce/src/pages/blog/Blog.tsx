@@ -1,7 +1,7 @@
-import BlogContent from "../../../components/blogContent/BlogContent";
+import BlogContent from "../../components/blogContent/BlogContent";
 import FeaturesBar from "../../components/featuresBar/FeaturesBar";
 import Footer from "../../components/footer/Footer";
-import HeropageBlog from "../../../components/heropageBlog/HeropageBlog";
+import HeropageBlog from "../../components/heropageblog/HeropageBlog";
 import Navbar from "../../components/navbar/Navbar";
 
 
