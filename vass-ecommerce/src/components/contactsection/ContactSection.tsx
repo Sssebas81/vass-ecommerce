@@ -1,9 +1,38 @@
 import React, { type FormEvent } from "react";
+import supabase from "../../services/supabaseClient";
 
 const ContactSection: React.FC = () => {
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Formulario enviado");
+
+    const form = e.currentTarget;
+
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const subject = (form.elements.namedItem("subject") as HTMLInputElement).value;
+    const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+
+    try {
+      const { error } = await supabase.from("contact_messages").insert([
+        { name, email, subject, message }
+      ]);
+
+      if (error) {
+        console.error("Error al enviar datos:", error);
+        const msg = error.message || JSON.stringify(error);
+        const hint = msg.includes("row-level security")
+          ? "\nNota: parece que la tabla usa Row Level Security. Puedes permitir INSERTs desde el cliente creando una policy en Supabase o enviar el formulario a tu backend para insertar usando la service role key (más seguro)."
+          : "";
+        alert("Hubo un error enviando el mensaje:\n" + msg + hint);
+        return;
+      }
+
+      alert("Mensaje enviado correctamente!");
+      form.reset();
+    } catch (err) {
+      console.error(err);
+      alert("Error inesperado al enviar el mensaje. Revisa la consola.");
+    }
   };
 
   return (
