@@ -9,7 +9,7 @@ function Favorites() {
   if (likedItems.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen text-gray-600">
-        <h2 className="text-2xl font-semibold mb-2">No favorites yet ❤️</h2>
+        <h2 className="text-2xl font-semibold mb-2">No favorites yet </h2>
         <p className="text-gray-500">Go back and like some products!</p>
       </div>
     );
