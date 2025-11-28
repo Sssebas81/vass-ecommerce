@@ -72,7 +72,7 @@ export function DebugFavorites() {
       console.log("➕ Intentando insertar favorito de prueba...");
       const { error } = await supabase.from("Favorites").insert({
         user_id: user.id,
-        product_id: 999, // Producto de prueba
+        product_id: 24, // Producto de prueba
       });
 
       if (error) {
