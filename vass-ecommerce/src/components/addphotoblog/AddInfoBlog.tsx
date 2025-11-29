@@ -69,9 +69,9 @@ const AddInfoBlog = () => {
       console.error(insertError);
       return alert("Error guardando en la base de datos");
     }
+      // add to BlogContext so it appears in the blog page with Edit/Delete
 
     if (!insertError) {
-      // add to BlogContext so it appears in the blog page with Edit/Delete
       addPost({
         title: title || "Untitled",
         price: price || "",
